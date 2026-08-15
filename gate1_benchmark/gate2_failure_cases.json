@@ -1,0 +1,1482 @@
+[
+  {
+    "id": "PHY_003",
+    "lang": "hi",
+    "config": "A",
+    "source": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "output": "प्रसिद्ध समीकरण E = mc2 ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_003",
+    "lang": "kn",
+    "config": "A",
+    "source": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc2 ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_004",
+    "lang": "hi",
+    "config": "A",
+    "source": "Gravity on Earth is approximately 9.8 m/s².",
+    "output": "पृथ्वी पर गुरुत्वाकर्षण लगभग 9.8 मीटर/सेकंड है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_004",
+    "lang": "kn",
+    "config": "A",
+    "source": "Gravity on Earth is approximately 9.8 m/s².",
+    "output": "ಭೂಮಿಯ ಮೇಲಿನ ಗುರುತ್ವಾಕರ್ಷಣೆಯು ಸುಮಾರು 9.8 ಮೀ/ಸೆ2 ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_005",
+    "lang": "hi",
+    "config": "A",
+    "source": "Momentum is equal to mass times velocity.",
+    "output": "गति द्रव्यमान गुणा वेग के बराबर होती है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_006",
+    "lang": "hi",
+    "config": "A",
+    "source": "According to Newton's second law, F = ma.",
+    "output": "न्यूटन के दूसरे नियम के अनुसार, F = Ma।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_006",
+    "lang": "kn",
+    "config": "A",
+    "source": "According to Newton's second law, F = ma.",
+    "output": "ನ್ಯೂಟನ್ನ ಎರಡನೇ ನಿಯಮದ ಪ್ರಕಾರ, ಎಫ್ = ಮಾ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_007",
+    "lang": "hi",
+    "config": "A",
+    "source": "Work is done when a force that is applied to an object moves that object. The work is calculated by multiplying the force by the amount of movement of an object (W = F * d).",
+    "output": "कार्य तब किया जाता है जब किसी वस्तु पर लगाया गया बल उस वस्तु को हिलाता है। कार्य की गणना किसी वस्तु की गति की मात्रा (डब्ल्यू = एफ * डी) से बल को गुणा करके की जाती है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_007",
+    "lang": "kn",
+    "config": "A",
+    "source": "Work is done when a force that is applied to an object moves that object. The work is calculated by multiplying the force by the amount of movement of an object (W = F * d).",
+    "output": "ಒಂದು ವಸ್ತುವಿಗೆ ಅನ್ವಯಿಸಲಾದ ಬಲವು ಆ ವಸ್ತುವನ್ನು ಚಲಿಸಿದಾಗ ಕೆಲಸವನ್ನು ಮಾಡಲಾಗುತ್ತದೆ. ಒಂದು ವಸ್ತುವಿನ ಚಲನೆಯ ಪ್ರಮಾಣದಿಂದ (W = F * d) ಬಲವನ್ನು ಗುಣಿಸುವ ಮೂಲಕ ಕೆಲಸವನ್ನು ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_008",
+    "lang": "hi",
+    "config": "A",
+    "source": "The unit of force is the Newton (N).",
+    "output": "बल की इकाई न्यूटन (एन) है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_008",
+    "lang": "kn",
+    "config": "A",
+    "source": "The unit of force is the Newton (N).",
+    "output": "ಬಲದ ಘಟಕವು ನ್ಯೂಟನ್ (ಎನ್) ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_010",
+    "lang": "hi",
+    "config": "A",
+    "source": "Potential energy is stored energy that depends upon the relative position of various parts of a system.",
+    "output": "संभावित ऊर्जा संग्रहीत ऊर्जा है जो किसी प्रणाली के विभिन्न हिस्सों की सापेक्ष स्थिति पर निर्भर करती है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_010",
+    "lang": "kn",
+    "config": "A",
+    "source": "Potential energy is stored energy that depends upon the relative position of various parts of a system.",
+    "output": "ಸಂಭಾವ್ಯ ಶಕ್ತಿಯು ವ್ಯವಸ್ಥೆಯ ವಿವಿಧ ಭಾಗಗಳ ಸಾಪೇಕ್ಷ ಸ್ಥಾನವನ್ನು ಅವಲಂಬಿಸಿರುವ ಸಂಗ್ರಹಿತ ಶಕ್ತಿಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_011",
+    "lang": "hi",
+    "config": "A",
+    "source": "When a car accelerates, its velocity increases over time.",
+    "output": "जब एक कार तेजी से चलती है, तो समय के साथ इसका वेग बढ़ जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_011",
+    "lang": "kn",
+    "config": "A",
+    "source": "When a car accelerates, its velocity increases over time.",
+    "output": "ಒಂದು ಕಾರು ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಿದಾಗ, ಅದರ ವೇಗವು ಕಾಲಾನಂತರದಲ್ಲಿ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_012",
+    "lang": "hi",
+    "config": "A",
+    "source": "The speed of light in a vacuum is 3 × 10⁸ m/s.",
+    "output": "निर्वात में प्रकाश की गति 3 × 108 मी/से है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_012",
+    "lang": "kn",
+    "config": "A",
+    "source": "The speed of light in a vacuum is 3 × 10⁸ m/s.",
+    "output": "ನಿರ್ವಾತದಲ್ಲಿ ಬೆಳಕಿನ ವೇಗವು 3x108 ಮೀ/ಸೆ ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_013",
+    "lang": "kn",
+    "config": "A",
+    "source": "Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.",
+    "output": "ಘರ್ಷಣೆ ಎಂದರೆ ಘನ ಮೇಲ್ಮೈಗಳು, ದ್ರವದ ಪದರಗಳು ಮತ್ತು ವಸ್ತು ಅಂಶಗಳ ಪರಸ್ಪರ ವಿರುದ್ಧವಾಗಿ ಜಾರುವ ಸಾಪೇಕ್ಷ ಚಲನೆಯನ್ನು ವಿರೋಧಿಸುವ ಬಲ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_014",
+    "lang": "kn",
+    "config": "A",
+    "source": "Power is the rate at which work is done.",
+    "output": "ಅಧಿಕಾರವು ಕೆಲಸವನ್ನು ಮಾಡುವ ದರವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_015",
+    "lang": "hi",
+    "config": "A",
+    "source": "The formula for power is P = W / t, where W is work and t is time.",
+    "output": "शक्ति का सूत्र पी = डब्ल्यू/टी है, जहाँ डब्ल्यू कार्य है और टी समय है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_015",
+    "lang": "kn",
+    "config": "A",
+    "source": "The formula for power is P = W / t, where W is work and t is time.",
+    "output": "ಶಕ್ತಿಯ ಸೂತ್ರವು P = W/t ಆಗಿದೆ, ಇಲ್ಲಿ W ಎಂದರೆ ಕೆಲಸ ಮತ್ತು t ಎಂದರೆ ಸಮಯ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_016",
+    "lang": "kn",
+    "config": "A",
+    "source": "Thermodynamics is the branch of physics that deals with heat, work, and temperature, and their relation to energy, radiation, and properties of matter.",
+    "output": "ಉಷ್ಣಬಲವಿಜ್ಞಾನವು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_017",
+    "lang": "hi",
+    "config": "A",
+    "source": "A vector quantity has both magnitude and direction, whereas a scalar quantity has only magnitude.",
+    "output": "एक सदिश मात्रा में परिमाण और दिशा दोनों होते हैं, जबकि एक स्केलर मात्रा में केवल परिमाण होता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_017",
+    "lang": "kn",
+    "config": "A",
+    "source": "A vector quantity has both magnitude and direction, whereas a scalar quantity has only magnitude.",
+    "output": "ವಾಹಕದ ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿರುತ್ತದೆ, ಆದರೆ ಸ್ಕೇಲಾರ್ ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_018",
+    "lang": "kn",
+    "config": "A",
+    "source": "Voltage is the difference in electric potential between two points.",
+    "output": "ವೋಲ್ಟೇಜ್ ಎಂದರೆ ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ವಿದ್ಯುತ್ ಸಾಮರ್ಥ್ಯದಲ್ಲಿನ ವ್ಯತ್ಯಾಸ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_020",
+    "lang": "kn",
+    "config": "A",
+    "source": "Magnetic fields are produced by moving electric charges and the intrinsic magnetic moments of elementary particles.",
+    "output": "ವಿದ್ಯುತ್ ಚಾರ್ಜ್ಗಳನ್ನು ಚಲಿಸುವ ಮೂಲಕ ಮತ್ತು ಪ್ರಾಥಮಿಕ ಕಣಗಳ ಆಂತರಿಕ ಕಾಂತೀಯ ಕ್ಷಣಗಳಿಂದ ಆಯಸ್ಕಾಂತೀಯ ಕ್ಷೇತ್ರಗಳು ಉತ್ಪತ್ತಿಯಾಗುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_021",
+    "lang": "hi",
+    "config": "A",
+    "source": "The standard unit of electrical resistance is the ohm (Ω).",
+    "output": "विद्युत प्रतिरोध की मानक इकाई ओम (ω) है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_021",
+    "lang": "kn",
+    "config": "A",
+    "source": "The standard unit of electrical resistance is the ohm (Ω).",
+    "output": "ವಿದ್ಯುತ್ ಪ್ರತಿರೋಧದ ಪ್ರಮಾಣಿತ ಘಟಕವೆಂದರೆ ಓಂ (ω).",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_022",
+    "lang": "kn",
+    "config": "A",
+    "source": "Density is defined as mass per unit volume.",
+    "output": "ಸಾಂದ್ರತೆಯನ್ನು ಪ್ರತಿ ಘಟಕ ಪರಿಮಾಣಕ್ಕೆ ದ್ರವ್ಯರಾಶಿ ಎಂದು ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_023",
+    "lang": "kn",
+    "config": "A",
+    "source": "If the net force on an object is zero, its acceleration is also zero.",
+    "output": "ಒಂದು ವಸ್ತುವಿನ ಮೇಲಿನ ನಿವ್ವಳ ಬಲವು ಶೂನ್ಯವಾಗಿದ್ದರೆ, ಅದರ ವೇಗವರ್ಧನೆಯೂ ಸಹ ಶೂನ್ಯವಾಗಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_024",
+    "lang": "hi",
+    "config": "A",
+    "source": "The wavelength of the wave is inversely proportional to its frequency.",
+    "output": "तरंग की तरंग दैर्ध्य इसकी आवृत्ति के विपरीत आनुपातिक है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_024",
+    "lang": "kn",
+    "config": "A",
+    "source": "The wavelength of the wave is inversely proportional to its frequency.",
+    "output": "ಅಲೆಯ ತರಂಗಾಂತರವು ಅದರ ಆವರ್ತನಕ್ಕೆ ವಿಲೋಮ ಅನುಪಾತದಲ್ಲಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_025",
+    "lang": "hi",
+    "config": "A",
+    "source": "An object in free fall experiences an acceleration of 9.8 m/s².",
+    "output": "मुक्त पतन में एक वस्तु 9.8 मीटर/सेकंड 2 के त्वरण का अनुभव करती है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "PHY_025",
+    "lang": "kn",
+    "config": "A",
+    "source": "An object in free fall experiences an acceleration of 9.8 m/s².",
+    "output": "ಮುಕ್ತ ಪತನದಲ್ಲಿರುವ ವಸ್ತುವು 9.8 ಮೀ/ಸೆ 2 ವೇಗವರ್ಧನೆಯನ್ನು ಅನುಭವಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_001",
+    "lang": "kn",
+    "config": "A",
+    "source": "The quadratic equation can be solved using the quadratic formula.",
+    "output": "ಚತುರ್ಭುಜ ಸೂತ್ರವನ್ನು ಬಳಸಿಕೊಂಡು ಚತುರ್ಭುಜ ಸಮೀಕರಣವನ್ನು ಪರಿಹರಿಸಬಹುದು.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_002",
+    "lang": "hi",
+    "config": "A",
+    "source": "A polynomial is an algebraic expression consisting of variables and coefficients.",
+    "output": "बहुपद एक बीजगणितीय अभिव्यक्ति है जिसमें चर और गुणांक होते हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_003",
+    "lang": "hi",
+    "config": "A",
+    "source": "The derivative of a function represents its rate of change.",
+    "output": "किसी फलन का व्युत्पन्न उसके परिवर्तन की दर को दर्शाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_004",
+    "lang": "hi",
+    "config": "A",
+    "source": "Integration is used to calculate area under a curve.",
+    "output": "एकीकरण का उपयोग वक्र के नीचे क्षेत्र की गणना करने के लिए किया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_004",
+    "lang": "kn",
+    "config": "A",
+    "source": "Integration is used to calculate area under a curve.",
+    "output": "ಒಂದು ವಕ್ರರೇಖೆಯ ಕೆಳಗಿರುವ ಪ್ರದೇಶವನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಏಕೀಕರಣವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_005",
+    "lang": "hi",
+    "config": "A",
+    "source": "A matrix is a rectangular arrangement of numbers.",
+    "output": "एक मैट्रिक्स संख्याओं की एक आयताकार व्यवस्था है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_005",
+    "lang": "kn",
+    "config": "A",
+    "source": "A matrix is a rectangular arrangement of numbers.",
+    "output": "ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_007",
+    "lang": "hi",
+    "config": "A",
+    "source": "To find the roots of the equation x² - 5x + 6 = 0, we can factorize it.",
+    "output": "समीकरण x2-5x + 6 = 0 के मूल का पता लगाने के लिए, हम इसे गुणनखंडित कर सकते हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_007",
+    "lang": "kn",
+    "config": "A",
+    "source": "To find the roots of the equation x² - 5x + 6 = 0, we can factorize it.",
+    "output": "x2-5x + 6 = 0 ಸಮೀಕರಣದ ಮೂಲಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು, ನಾವು ಅದನ್ನು ಅಪವರ್ತನೀಯಗೊಳಿಸಬಹುದು.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_008",
+    "lang": "hi",
+    "config": "A",
+    "source": "The Pythagorean theorem states that a² + b² = c².",
+    "output": "पायथागोरियन प्रमेय बताता है कि a2 + b2 = c2।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_008",
+    "lang": "kn",
+    "config": "A",
+    "source": "The Pythagorean theorem states that a² + b² = c².",
+    "output": "ಪೈಥಾಗರಿಯನ್ ಪ್ರಮೇಯವು a2 + b2 = c2 ಎಂದು ಹೇಳುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_009",
+    "lang": "hi",
+    "config": "A",
+    "source": "In a right-angled triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse.",
+    "output": "एक समकोण त्रिभुज में, एक कोण का साइन हाइपोटेन्यूज के विपरीत पक्ष का अनुपात है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_009",
+    "lang": "kn",
+    "config": "A",
+    "source": "In a right-angled triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse.",
+    "output": "ಬಲ-ಕೋನದ ತ್ರಿಕೋನದಲ್ಲಿ, ಕೋನದ ಸೈನ್ ಎಂಬುದು ಹೈಪೊಟೆನ್ಯೂಸ್ಗೆ ವಿರುದ್ಧ ಬದಿಯ ಅನುಪಾತವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_010",
+    "lang": "hi",
+    "config": "A",
+    "source": "The probability of an impossible event is 0, and the probability of a certain event is 1.",
+    "output": "एक असंभव घटना की संभावना 0 है, और एक निश्चित घटना की संभावना 1 है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_010",
+    "lang": "kn",
+    "config": "A",
+    "source": "The probability of an impossible event is 0, and the probability of a certain event is 1.",
+    "output": "ಒಂದು ಅಸಾಧ್ಯ ಘಟನೆಯ ಸಂಭವನೀಯತೆಯು 0 ಆಗಿರುತ್ತದೆ ಮತ್ತು ಒಂದು ನಿರ್ದಿಷ್ಟ ಘಟನೆಯ ಸಂಭವನೀಯತೆಯು 1 ಆಗಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_011",
+    "lang": "hi",
+    "config": "A",
+    "source": "A linear equation in two variables describes a line on a Cartesian coordinate plane. The standard form is Ax + By = C, where A, B, and C are constants, and x and y are variables.",
+    "output": "दो चरों में एक रैखिक समीकरण एक कार्टेशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + by = C है, जहाँ A, B और C स्थिरांक हैं, और x और y चर हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_011",
+    "lang": "kn",
+    "config": "A",
+    "source": "A linear equation in two variables describes a line on a Cartesian coordinate plane. The standard form is Ax + By = C, where A, B, and C are constants, and x and y are variables.",
+    "output": "ಎರಡು ಅಸ್ಥಿರಗಳಲ್ಲಿನ ರೇಖೀಯ ಸಮೀಕರಣವು ಕಾರ್ಟೇಶಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + by = C ಆಗಿದೆ, ಅಲ್ಲಿ A, B, ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y ಅಸ್ಥಿರಗಳಾಗಿವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_013",
+    "lang": "hi",
+    "config": "A",
+    "source": "Two lines are parallel if their slopes are equal, meaning m₁ = m₂.",
+    "output": "दो रेखाएँ समानांतर हैं यदि उनकी ढलानें बराबर हैं, जिसका अर्थ है m1 = m2।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_013",
+    "lang": "kn",
+    "config": "A",
+    "source": "Two lines are parallel if their slopes are equal, meaning m₁ = m₂.",
+    "output": "ಎರಡು ರೇಖೆಗಳು ಅವುಗಳ ಇಳಿಜಾರುಗಳು ಸಮಾನವಾಗಿದ್ದರೆ ಸಮಾನಾಂತರವಾಗಿರುತ್ತವೆ, ಅಂದರೆ m1 = m2.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_014",
+    "lang": "kn",
+    "config": "A",
+    "source": "A logarithm answers the question: to what power must the base be raised to produce a given number?",
+    "output": "ಲಾಗರಿದಮ್ ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರಿಸುತ್ತದೆಃ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ಪಾದಿಸಲು ಬೇಸ್ ಅನ್ನು ಯಾವ ಶಕ್ತಿಗೆ ಏರಿಸಬೇಕು?",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_015",
+    "lang": "hi",
+    "config": "A",
+    "source": "The area of a circle is given by A = πr².",
+    "output": "वृत्त का क्षेत्रफल A = πr2 द्वारा दिया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_015",
+    "lang": "kn",
+    "config": "A",
+    "source": "The area of a circle is given by A = πr².",
+    "output": "ವೃತ್ತದ ವಿಸ್ತೀರ್ಣವನ್ನು A = πr2 ನಿಂದ ನೀಡಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_016",
+    "lang": "hi",
+    "config": "A",
+    "source": "The perimeter of a rectangle is P = 2(l + w).",
+    "output": "एक आयत की परिधि पी = 2 (एल + डब्ल्यू) है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_016",
+    "lang": "kn",
+    "config": "A",
+    "source": "The perimeter of a rectangle is P = 2(l + w).",
+    "output": "ಒಂದು ಆಯತದ ಪರಿಧಿಯು ಪಿ = 2 (ಎಲ್ + ಡಬ್ಲ್ಯೂ) ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_017",
+    "lang": "kn",
+    "config": "A",
+    "source": "An integer is a whole number that can be positive, negative, or zero.",
+    "output": "ಪೂರ್ಣಾಂಕವು ಧನಾತ್ಮಕ, ಋಣಾತ್ಮಕ ಅಥವಾ ಶೂನ್ಯವಾಗಬಹುದಾದ ಒಂದು ಪೂರ್ಣ ಸಂಖ್ಯೆಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_018",
+    "lang": "kn",
+    "config": "A",
+    "source": "Prime numbers are numbers that have only two distinct positive divisors: 1 and themselves.",
+    "output": "ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು ಕೇವಲ ಎರಡು ವಿಭಿನ್ನ ಧನಾತ್ಮಕ ಭಾಜಕಗಳನ್ನು ಹೊಂದಿರುವ ಸಂಖ್ಯೆಗಳಾಗಿವೆಃ 1 ಮತ್ತು ಸ್ವತಃ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_019",
+    "lang": "hi",
+    "config": "A",
+    "source": "The sequence 2, 4, 6, 8 is an arithmetic progression.",
+    "output": "अनुक्रम 2,4,6,8 एक अंकगणितीय प्रगति है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_019",
+    "lang": "kn",
+    "config": "A",
+    "source": "The sequence 2, 4, 6, 8 is an arithmetic progression.",
+    "output": "ಅನುಕ್ರಮ 2,4,6,8 ಒಂದು ಅಂಕಗಣಿತದ ಪ್ರಗತಿಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_020",
+    "lang": "hi",
+    "config": "A",
+    "source": "The union of two sets A and B is denoted by A ∪ B.",
+    "output": "दो समुच्चय ए और बी के मिलन को ए ≤ बी द्वारा दर्शाया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_020",
+    "lang": "kn",
+    "config": "A",
+    "source": "The union of two sets A and B is denoted by A ∪ B.",
+    "output": "ಎ ಮತ್ತು ಬಿ ಎಂಬ ಎರಡು ಸಮೂಹಗಳ ಸಂಯೋಜನೆಯನ್ನು ಎ ≤ ಬಿ ಎಂದು ಸೂಚಿಸಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_021",
+    "lang": "hi",
+    "config": "A",
+    "source": "A geometric progression is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.",
+    "output": "ज्यामितीय प्रगति संख्याओं का एक क्रम है जहाँ पहले के बाद प्रत्येक पद को एक निश्चित, गैर-शून्य संख्या से गुणा करके पाया जाता है जिसे सामान्य अनुपात कहा जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_021",
+    "lang": "kn",
+    "config": "A",
+    "source": "A geometric progression is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.",
+    "output": "ಜ್ಯಾಮಿತೀಯ ಪ್ರಗತಿಯು ಮೊದಲನೆಯದರ ನಂತರದ ಪ್ರತಿಯೊಂದು ಪದವನ್ನು ಹಿಂದಿನದನ್ನು ಸಾಮಾನ್ಯ ಅನುಪಾತ ಎಂದು ಕರೆಯಲಾಗುವ ಸ್ಥಿರ, ಶೂನ್ಯವಲ್ಲದ ಸಂಖ್ಯೆಯಿಂದ ಗುಣಿಸುವ ಮೂಲಕ ಕಂಡುಬರುವ ಸಂಖ್ಯೆಗಳ ಅನುಕ್ರಮವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_022",
+    "lang": "hi",
+    "config": "A",
+    "source": "The volume of a sphere is (4/3)πr³.",
+    "output": "एक गोले का आयतन (4/3) πr3 है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_022",
+    "lang": "kn",
+    "config": "A",
+    "source": "The volume of a sphere is (4/3)πr³.",
+    "output": "ಒಂದು ಗೋಳದ ಪರಿಮಾಣವು (4/3) πr3 ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_023",
+    "lang": "kn",
+    "config": "A",
+    "source": "In statistics, the median is the middle value in a given list of numbers when they are ordered.",
+    "output": "ಅಂಕಿಅಂಶಗಳಲ್ಲಿ, ಮೀಡಿಯನ್ ಎಂದರೆ ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಯ ಪಟ್ಟಿಯಲ್ಲಿ ಅವುಗಳನ್ನು ಆದೇಶಿಸಿದಾಗ ಮಧ್ಯದ ಮೌಲ್ಯವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_024",
+    "lang": "kn",
+    "config": "A",
+    "source": "Standard deviation measures the amount of variation or dispersion of a set of values.",
+    "output": "ಪ್ರಮಾಣಿತ ವಿಚಲನವು ಮೌಲ್ಯಗಳ ಗುಂಪಿನ ವ್ಯತ್ಯಾಸ ಅಥವಾ ಪ್ರಸರಣದ ಪ್ರಮಾಣವನ್ನು ಅಳೆಯುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_025",
+    "lang": "hi",
+    "config": "A",
+    "source": "If f(x) = x², then the first derivative f'(x) is 2x.",
+    "output": "यदि f (x) = x2 है, तो पहला व्युत्पन्न f'(x) 2x है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_025",
+    "lang": "kn",
+    "config": "A",
+    "source": "If f(x) = x², then the first derivative f'(x) is 2x.",
+    "output": "f (x) = x2 ಆಗಿದ್ದರೆ, ಮೊದಲ ವ್ಯುತ್ಪನ್ನ f'(x) 2x ಆಗಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_026",
+    "lang": "hi",
+    "config": "A",
+    "source": "An acute angle is an angle that measures less than 90 degrees.",
+    "output": "एक तीव्र कोण एक ऐसा कोण है जो 90 डिग्री से कम मापता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_026",
+    "lang": "kn",
+    "config": "A",
+    "source": "An acute angle is an angle that measures less than 90 degrees.",
+    "output": "ತೀಕ್ಷ್ಣವಾದ ಕೋನವು 90 ಡಿಗ್ರಿಗಳಿಗಿಂತ ಕಡಿಮೆ ಅಳತೆಯ ಕೋನವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_027",
+    "lang": "hi",
+    "config": "A",
+    "source": "A vector space is a set that is closed under finite vector addition and scalar multiplication.",
+    "output": "वेक्टर स्पेस एक ऐसा समूह है जो परिमित वेक्टर जोड़ और स्केलर गुणन के तहत बंद होता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_027",
+    "lang": "kn",
+    "config": "A",
+    "source": "A vector space is a set that is closed under finite vector addition and scalar multiplication.",
+    "output": "ವೆಕ್ಟರ್ ಸ್ಪೇಸ್ ಎಂಬುದು ಸೀಮಿತ ವೆಕ್ಟರ್ ಸೇರ್ಪಡೆ ಮತ್ತು ಸ್ಕೇಲಾರ್ ಗುಣಾಕಾರದ ಅಡಿಯಲ್ಲಿ ಮುಚ್ಚಲ್ಪಟ್ಟಿರುವ ಒಂದು ಸೆಟ್ ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_028",
+    "lang": "hi",
+    "config": "A",
+    "source": "The limits of integration are from a to b.",
+    "output": "एकीकरण की सीमाएँ a से b तक हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_028",
+    "lang": "hi",
+    "config": "B",
+    "source": "The limits of integration are from a to b.",
+    "output": "समाकलन a की सीमा a से b तक है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_028",
+    "lang": "hi",
+    "config": "C",
+    "source": "The limits of integration are from a to b.",
+    "output": "समाकलन a की सीमा a से b तक है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_028",
+    "lang": "kn",
+    "config": "A",
+    "source": "The limits of integration are from a to b.",
+    "output": "ಏಕೀಕರಣದ ಮಿತಿಗಳು a ಯಿಂದ b ವರೆಗೆ ಇರುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_028",
+    "lang": "kn",
+    "config": "B",
+    "source": "The limits of integration are from a to b.",
+    "output": "a ರಿಂದ a ರವರೆಗಿನ ಏಕೀಕರಣದ ಮಿತಿಗಳು a ರಿಂದ b ಕ್ಕೆ ಹಿಂತಿರುಗುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_028",
+    "lang": "kn",
+    "config": "C",
+    "source": "The limits of integration are from a to b.",
+    "output": "a ರಿಂದ a ರವರೆಗಿನ ಏಕೀಕರಣದ ಮಿತಿಗಳು a ರಿಂದ bಕ್ಕೆ ಹಿಂತಿರುಗುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_029",
+    "lang": "kn",
+    "config": "A",
+    "source": "Let x and y be real numbers.",
+    "output": "x ಮತ್ತು y ನೈಜ ಸಂಖ್ಯೆಗಳಾಗಿರಲಿ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_030",
+    "lang": "hi",
+    "config": "A",
+    "source": "The determinant of a 2x2 matrix can be calculated as ad - bc.",
+    "output": "2x2 मैट्रिक्स के निर्धारक की गणना ad-bc के रूप में की जा सकती है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "MAT_030",
+    "lang": "kn",
+    "config": "A",
+    "source": "The determinant of a 2x2 matrix can be calculated as ad - bc.",
+    "output": "2x2 ಮ್ಯಾಟ್ರಿಕ್ಸ್ನ ನಿರ್ಣಾಯಕವನ್ನು AD-BC ಎಂದು ಲೆಕ್ಕ ಹಾಕಬಹುದು.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_001",
+    "lang": "hi",
+    "config": "A",
+    "source": "The chemical formula for water is H₂O.",
+    "output": "जल का रासायनिक सूत्र H2O है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_001",
+    "lang": "kn",
+    "config": "A",
+    "source": "The chemical formula for water is H₂O.",
+    "output": "ನೀರಿನ ರಾಸಾಯನಿಕ ಸೂತ್ರವು H2O ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_002",
+    "lang": "hi",
+    "config": "A",
+    "source": "Carbon dioxide is represented by CO₂.",
+    "output": "कार्बन डाइऑक्साइड को CO2 द्वारा दर्शाया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_002",
+    "lang": "kn",
+    "config": "A",
+    "source": "Carbon dioxide is represented by CO₂.",
+    "output": "ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಅನ್ನು CO2 ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_004",
+    "lang": "kn",
+    "config": "A",
+    "source": "An atom consists of a nucleus surrounded by electrons.",
+    "output": "ಪರಮಾಣು ಎಲೆಕ್ಟ್ರಾನ್ಗಳಿಂದ ಸುತ್ತುವರೆದಿರುವ ನ್ಯೂಕ್ಲಿಯಸ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_005",
+    "lang": "kn",
+    "config": "A",
+    "source": "In a covalent bond, pairs of electrons are shared between atoms.",
+    "output": "ಕೋವೆಲೆಂಟ್ ಬಂಧದಲ್ಲಿ, ಪರಮಾಣುಗಳ ನಡುವೆ ಜೋಡಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_006",
+    "lang": "hi",
+    "config": "A",
+    "source": "Sodium chloride is commonly known as table salt (NaCl).",
+    "output": "सोडियम क्लोराइड को आमतौर पर टेबल साल्ट (एन. ए. सी. एल.) के रूप में जाना जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_006",
+    "lang": "kn",
+    "config": "A",
+    "source": "Sodium chloride is commonly known as table salt (NaCl).",
+    "output": "ಸೋಡಿಯಂ ಕ್ಲೋರೈಡ್ ಅನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಟೇಬಲ್ ಸಾಲ್ಟ್ (ಎನ್ಎಸಿಎಲ್) ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_007",
+    "lang": "hi",
+    "config": "A",
+    "source": "A chemical reaction is a process that leads to the chemical transformation of one set of chemical substances to another. Classically, chemical reactions encompass changes that only involve the positions of electrons in the forming and breaking of chemical bonds between atoms.",
+    "output": "एक रासायनिक प्रतिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_007",
+    "lang": "kn",
+    "config": "A",
+    "source": "A chemical reaction is a process that leads to the chemical transformation of one set of chemical substances to another. Classically, chemical reactions encompass changes that only involve the positions of electrons in the forming and breaking of chemical bonds between atoms.",
+    "output": "ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಯು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಿಕೆಯಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_008",
+    "lang": "hi",
+    "config": "A",
+    "source": "Acids are substances that can donate a proton (H⁺) to another substance.",
+    "output": "एसिड वे पदार्थ हैं जो एक प्रोटॉन (एच +) को दूसरे पदार्थ में दान कर सकते हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_008",
+    "lang": "kn",
+    "config": "A",
+    "source": "Acids are substances that can donate a proton (H⁺) to another substance.",
+    "output": "ಆಮ್ಲಗಳು ಪ್ರೋಟಾನ್ (ಎಚ್ +) ಅನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡುವ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_009",
+    "lang": "hi",
+    "config": "A",
+    "source": "The pH scale ranges from 0 to 14.",
+    "output": "पी. एच. पैमाना 0 से 14 तक होता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_009",
+    "lang": "kn",
+    "config": "A",
+    "source": "The pH scale ranges from 0 to 14.",
+    "output": "ಪಿ. ಎಚ್ ಪ್ರಮಾಣವು 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_010",
+    "lang": "hi",
+    "config": "A",
+    "source": "Exothermic reactions release energy in the form of heat or light.",
+    "output": "ऊष्मीय प्रतिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ती हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_010",
+    "lang": "kn",
+    "config": "A",
+    "source": "Exothermic reactions release energy in the form of heat or light.",
+    "output": "ಎಕ್ಸೋಥರ್ಮಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_011",
+    "lang": "hi",
+    "config": "A",
+    "source": "Endothermic reactions absorb energy from their surroundings.",
+    "output": "एंडोथर्मिक प्रतिक्रियाएँ अपने आसपास की ऊर्जा को अवशोषित करती हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_011",
+    "lang": "kn",
+    "config": "A",
+    "source": "Endothermic reactions absorb energy from their surroundings.",
+    "output": "ಎಂಡೋಥರ್ಮಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ತಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಶಕ್ತಿಯನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_012",
+    "lang": "hi",
+    "config": "A",
+    "source": "Avogadro's number is approximately 6.022 × 10²³.",
+    "output": "एवोगाड्रो की संख्या लगभग 6.022 × 1023 है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_012",
+    "lang": "kn",
+    "config": "A",
+    "source": "Avogadro's number is approximately 6.022 × 10²³.",
+    "output": "ಅವಗಾಡ್ರೊನ ಸಂಖ್ಯೆಯು ಸರಿಸುಮಾರು 6.022 × 1023 ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_013",
+    "lang": "kn",
+    "config": "A",
+    "source": "Isotopes are variants of a particular chemical element which differ in neutron number.",
+    "output": "ಐಸೋಟೋಪ್ಗಳು ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುವ ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_014",
+    "lang": "kn",
+    "config": "A",
+    "source": "A catalyst is a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "output": "ವೇಗವರ್ಧಕವು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_015",
+    "lang": "hi",
+    "config": "A",
+    "source": "The periodic table organizes elements based on their atomic number.",
+    "output": "आवर्त सारणी तत्वों को उनकी परमाणु संख्या के आधार पर व्यवस्थित करती है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_015",
+    "lang": "kn",
+    "config": "A",
+    "source": "The periodic table organizes elements based on their atomic number.",
+    "output": "ಆವರ್ತಕ ಕೋಷ್ಟಕವು ಅಂಶಗಳನ್ನು ಅವುಗಳ ಪರಮಾಣು ಸಂಖ್ಯೆಯ ಆಧಾರದ ಮೇಲೆ ಸಂಘಟಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_016",
+    "lang": "kn",
+    "config": "A",
+    "source": "Oxidation is the loss of electrons during a reaction by a molecule, atom or ion.",
+    "output": "ಆಕ್ಸಿಡೀಕರಣವು ಅಣು, ಪರಮಾಣು ಅಥವಾ ಅಯಾನುಗಳ ಪ್ರತಿಕ್ರಿಯೆಯ ಸಮಯದಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ನಷ್ಟವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_017",
+    "lang": "hi",
+    "config": "A",
+    "source": "Reduction is the gain of electrons.",
+    "output": "कम करना इलेक्ट्रॉनों का लाभ है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_017",
+    "lang": "kn",
+    "config": "A",
+    "source": "Reduction is the gain of electrons.",
+    "output": "ಕಡಿತ ಎಂದರೆ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಲಾಭ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_018",
+    "lang": "hi",
+    "config": "A",
+    "source": "A mole is defined as the amount of substance that contains as many elementary entities as there are atoms in 12 grams of carbon-12.",
+    "output": "एक तिल को उस पदार्थ की मात्रा के रूप में परिभाषित किया जाता है जिसमें उतनी ही प्राथमिक इकाइयाँ होती हैं जितनी 12 ग्राम कार्बन-12 में परमाणु होते हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_018",
+    "lang": "kn",
+    "config": "A",
+    "source": "A mole is defined as the amount of substance that contains as many elementary entities as there are atoms in 12 grams of carbon-12.",
+    "output": "12 ಗ್ರಾಂ ಇಂಗಾಲ-12 ರಲ್ಲಿ ಪರಮಾಣುಗಳಿರುವಷ್ಟು ಪ್ರಾಥಮಿಕ ಘಟಕಗಳನ್ನು ಹೊಂದಿರುವ ಪದಾರ್ಥದ ಪ್ರಮಾಣವನ್ನು ಮೋಲ್ ಎಂದು ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_019",
+    "lang": "kn",
+    "config": "A",
+    "source": "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation of carbon-containing compounds.",
+    "output": "ಸಾವಯವ ರಸಾಯನಶಾಸ್ತ್ರವು ಇಂಗಾಲವನ್ನು ಹೊಂದಿರುವ ಸಂಯುಕ್ತಗಳ ರಚನೆ, ಗುಣಲಕ್ಷಣಗಳು, ಸಂಯೋಜನೆ, ಪ್ರತಿಕ್ರಿಯೆಗಳು ಮತ್ತು ತಯಾರಿಕೆಯ ಅಧ್ಯಯನವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_020",
+    "lang": "hi",
+    "config": "A",
+    "source": "The molar mass of water is approximately 18.015 g/mol.",
+    "output": "पानी का दाढ़ द्रव्यमान लगभग 18.015 g/mol है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CHE_020",
+    "lang": "kn",
+    "config": "A",
+    "source": "The molar mass of water is approximately 18.015 g/mol.",
+    "output": "ನೀರಿನ ಮೋಲಾರ್ ದ್ರವ್ಯರಾಶಿಯು ಸರಿಸುಮಾರು 18.015 g/mol ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_002",
+    "lang": "kn",
+    "config": "A",
+    "source": "The cell is the basic structural and functional unit of all living organisms.",
+    "output": "ಜೀವಕೋಶವು ಎಲ್ಲಾ ಜೀವಿಗಳ ಮೂಲಭೂತ ರಚನಾತ್ಮಕ ಮತ್ತು ಕ್ರಿಯಾತ್ಮಕ ಘಟಕವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_003",
+    "lang": "hi",
+    "config": "A",
+    "source": "DNA (Deoxyribonucleic acid) carries the genetic instructions used in growth, development, functioning, and reproduction.",
+    "output": "डी. एन. ए. (डीऑक्सीराइबोन्यूक्लिक एसिड) वृद्धि, विकास, कार्य और प्रजनन में उपयोग किए जाने वाले आनुवंशिक निर्देशों को वहन करता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_003",
+    "lang": "kn",
+    "config": "A",
+    "source": "DNA (Deoxyribonucleic acid) carries the genetic instructions used in growth, development, functioning, and reproduction.",
+    "output": "ಡಿಎನ್ಎ (ಡಿಯೋಕ್ಸಿರೈಬೊನ್ಯೂಕ್ಲಿಕ್ ಆಮ್ಲ) ಬೆಳವಣಿಗೆ, ಅಭಿವೃದ್ಧಿ, ಕಾರ್ಯಚಟುವಟಿಕೆ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಬಳಸುವ ಆನುವಂಶಿಕ ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_004",
+    "lang": "hi",
+    "config": "A",
+    "source": "Mitochondria are known as the powerhouses of the cell because they generate most of the cell's supply of ATP.",
+    "output": "माइटोकॉन्ड्रिया को कोशिका के पावरहाउस के रूप में जाना जाता है क्योंकि वे कोशिका की ए. टी. पी. की अधिकांश आपूर्ति उत्पन्न करते हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_004",
+    "lang": "kn",
+    "config": "A",
+    "source": "Mitochondria are known as the powerhouses of the cell because they generate most of the cell's supply of ATP.",
+    "output": "ಮೈಟೊಕಾಂಡ್ರಿಯವನ್ನು ಜೀವಕೋಶದ ಪವರ್ಹೌಸ್ಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಅವು ಜೀವಕೋಶದ ಹೆಚ್ಚಿನ ಎಟಿಪಿ ಪೂರೈಕೆಯನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_005",
+    "lang": "hi",
+    "config": "A",
+    "source": "Osmosis is the spontaneous net movement of solvent molecules through a selectively permeable membrane.",
+    "output": "ऑस्मोसिस एक चुनिंदा पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_005",
+    "lang": "kn",
+    "config": "A",
+    "source": "Osmosis is the spontaneous net movement of solvent molecules through a selectively permeable membrane.",
+    "output": "ಓಸ್ಮೋಸಿಸ್ ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_006",
+    "lang": "hi",
+    "config": "A",
+    "source": "Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",
+    "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (एटीपी) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_006",
+    "lang": "kn",
+    "config": "A",
+    "source": "Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",
+    "output": "ಜೀವಕೋಶದ ಉಸಿರಾಟವು ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದ್ದು, ಪೋಷಕಾಂಶಗಳಿಂದ ಜೀವರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ಎಟಿಪಿ) ಆಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_007",
+    "lang": "kn",
+    "config": "A",
+    "source": "Enzymes are proteins that act as biological catalysts by accelerating chemical reactions.",
+    "output": "ಕಿಣ್ವಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಪ್ರೋಟೀನ್ಗಳಾಗಿವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_008",
+    "lang": "hi",
+    "config": "A",
+    "source": "Mitosis is a part of the cell cycle in which replicated chromosomes are separated into two new nuclei.",
+    "output": "माइटोसिस कोशिका चक्र का एक हिस्सा है जिसमें प्रतिकृति गुणसूत्रों को दो नए नाभिकों में अलग किया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_008",
+    "lang": "kn",
+    "config": "A",
+    "source": "Mitosis is a part of the cell cycle in which replicated chromosomes are separated into two new nuclei.",
+    "output": "ಮಿಟೋಸಿಸ್ ಜೀವಕೋಶದ ಚಕ್ರದ ಒಂದು ಭಾಗವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಪುನರಾವರ್ತಿತ ವರ್ಣತಂತುಗಳನ್ನು ಎರಡು ಹೊಸ ನ್ಯೂಕ್ಲಿಯಸ್ಗಳಾಗಿ ಬೇರ್ಪಡಿಸಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_009",
+    "lang": "hi",
+    "config": "A",
+    "source": "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms.",
+    "output": "अर्धसूत्री विच्छेदन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_009",
+    "lang": "kn",
+    "config": "A",
+    "source": "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms.",
+    "output": "ಅರೆವಿದಳನವು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_010",
+    "lang": "hi",
+    "config": "A",
+    "source": "A gene is a sequence of nucleotides in DNA or RNA that encodes the synthesis of a gene product, either RNA or protein.",
+    "output": "एक जीन डी. एन. ए. या आर. एन. ए. में न्यूक्लियोटाइड्स का एक अनुक्रम है जो एक जीन उत्पाद, या तो आर. एन. ए. या प्रोटीन के संश्लेषण को कूटबद्ध करता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_010",
+    "lang": "kn",
+    "config": "A",
+    "source": "A gene is a sequence of nucleotides in DNA or RNA that encodes the synthesis of a gene product, either RNA or protein.",
+    "output": "ಜೀನ್ ಎಂದರೆ ಡಿಎನ್ಎ ಅಥವಾ ಆರ್ಎನ್ಎಯಲ್ಲಿನ ನ್ಯೂಕ್ಲಿಯೋಟೈಡ್ಗಳ ಅನುಕ್ರಮವಾಗಿದ್ದು, ಇದು ಆರ್ಎನ್ಎ ಅಥವಾ ಪ್ರೋಟೀನ್ನ ಜೀನ್ ಉತ್ಪನ್ನದ ಸಂಶ್ಲೇಷಣೆಯನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_011",
+    "lang": "kn",
+    "config": "A",
+    "source": "Natural selection is the differential survival and reproduction of individuals due to differences in phenotype.",
+    "output": "ನೈಸರ್ಗಿಕ ಆಯ್ಕೆಯು ಫಿನೋಟೈಪ್ಗಳಲ್ಲಿನ ವ್ಯತ್ಯಾಸಗಳಿಂದಾಗಿ ವ್ಯಕ್ತಿಗಳ ವಿಭಿನ್ನ ಬದುಕುಳಿಯುವಿಕೆ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_012",
+    "lang": "kn",
+    "config": "A",
+    "source": "Ecology is the scientific study of interactions among organisms and their biophysical environment.",
+    "output": "ಪರಿಸರಶಾಸ್ತ್ರವು ಜೀವಿಗಳು ಮತ್ತು ಅವುಗಳ ಜೈವಿಕ ಭೌತ ಪರಿಸರದ ನಡುವಿನ ಪರಸ್ಪರ ಕ್ರಿಯೆಗಳ ವೈಜ್ಞಾನಿಕ ಅಧ್ಯಯನವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_013",
+    "lang": "kn",
+    "config": "A",
+    "source": "Pathogens are infectious agents such as viruses, bacteria, prions, or fungi that can cause disease in their host.",
+    "output": "ರೋಗಕಾರಕಗಳು ವೈರಸ್ಗಳು, ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು, ಪ್ರಿಯಾನ್ಗಳು ಅಥವಾ ಶಿಲೀಂಧ್ರಗಳಂತಹ ಸಾಂಕ್ರಾಮಿಕ ಏಜೆಂಟ್ಗಳಾಗಿದ್ದು ಅವು ತಮ್ಮ ಅತಿಥೇಯದಲ್ಲಿ ರೋಗವನ್ನು ಉಂಟುಮಾಡಬಹುದು.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_014",
+    "lang": "kn",
+    "config": "A",
+    "source": "The nervous system coordinates the actions of an animal and transmits signals to and from different parts of its body.",
+    "output": "ನರಮಂಡಲವು ಪ್ರಾಣಿಯ ಕ್ರಿಯೆಗಳನ್ನು ಸಂಯೋಜಿಸುತ್ತದೆ ಮತ್ತು ಅದರ ದೇಹದ ವಿವಿಧ ಭಾಗಗಳಿಗೆ ಮತ್ತು ಅವುಗಳಿಂದ ಸಂಕೇತಗಳನ್ನು ರವಾನಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_015",
+    "lang": "kn",
+    "config": "A",
+    "source": "Hemoglobin is the iron-containing oxygen-transport metalloprotein in the red blood cells.",
+    "output": "ಹಿಮೋಗ್ಲೋಬಿನ್ ಕೆಂಪು ರಕ್ತ ಕಣಗಳಲ್ಲಿ ಕಬ್ಬಿಣವನ್ನು ಹೊಂದಿರುವ ಆಮ್ಲಜನಕವನ್ನು ಸಾಗಿಸುವ ಮೆಟಾಲೋಪ್ರೋಟೀನ್ ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_016",
+    "lang": "kn",
+    "config": "A",
+    "source": "Antibodies are large, Y-shaped proteins used by the immune system to identify and neutralize foreign objects like pathogenic bacteria and viruses.",
+    "output": "ಪ್ರತಿಕಾಯಗಳು ರೋಗಕಾರಕ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ವೈರಸ್ಗಳಂತಹ ವಿದೇಶಿ ವಸ್ತುಗಳನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ತಟಸ್ಥಗೊಳಿಸಲು ಪ್ರತಿರಕ್ಷಣಾ ವ್ಯವಸ್ಥೆಯು ಬಳಸುವ ದೊಡ್ಡ, ವೈ-ಆಕಾರದ ಪ್ರೋಟೀನ್ಗಳಾಗಿವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_017",
+    "lang": "hi",
+    "config": "A",
+    "source": "Homeostasis is the state of steady internal, physical, and chemical conditions maintained by living systems.",
+    "output": "होम्योस्टेसिस जीवित प्रणालियों द्वारा बनाए रखी गई स्थिर आंतरिक, भौतिक और रासायनिक स्थितियों की स्थिति है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_017",
+    "lang": "kn",
+    "config": "A",
+    "source": "Homeostasis is the state of steady internal, physical, and chemical conditions maintained by living systems.",
+    "output": "ಹೋಮಿಯೋಸ್ಟಾಸಿಸ್ ಎಂದರೆ ಜೀವಂತ ವ್ಯವಸ್ಥೆಗಳು ನಿರ್ವಹಿಸುವ ಸ್ಥಿರವಾದ ಆಂತರಿಕ, ಭೌತಿಕ ಮತ್ತು ರಾಸಾಯನಿಕ ಪರಿಸ್ಥಿತಿಗಳ ಸ್ಥಿತಿ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_018",
+    "lang": "hi",
+    "config": "A",
+    "source": "Chloroplasts are organelles that conduct photosynthesis.",
+    "output": "क्लोरोप्लास्ट ऑर्गेनेल्स हैं जो प्रकाश संश्लेषण करते हैं।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_018",
+    "lang": "kn",
+    "config": "A",
+    "source": "Chloroplasts are organelles that conduct photosynthesis.",
+    "output": "ಕ್ಲೋರೋಪ್ಲಾಸ್ಟ್ಗಳು ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯನ್ನು ನಡೆಸುವ ಅಂಗಕಗಳಾಗಿವೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_019",
+    "lang": "kn",
+    "config": "A",
+    "source": "Mutations are changes in the genetic sequence, and they are a main cause of diversity among organisms.",
+    "output": "ರೂಪಾಂತರಗಳು ಆನುವಂಶಿಕ ಅನುಕ್ರಮದಲ್ಲಿನ ಬದಲಾವಣೆಗಳಾಗಿವೆ, ಮತ್ತು ಅವು ಜೀವಿಗಳ ನಡುವಿನ ವೈವಿಧ್ಯತೆಗೆ ಮುಖ್ಯ ಕಾರಣವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "BIO_020",
+    "lang": "kn",
+    "config": "A",
+    "source": "The food chain describes the linear sequence of organisms through which nutrients and energy pass as one organism eats another.",
+    "output": "ಆಹಾರ ಸರಪಳಿಯು ಒಂದು ಜೀವಿಯು ಇನ್ನೊಂದನ್ನು ತಿನ್ನುವಾಗ ಪೋಷಕಾಂಶಗಳು ಮತ್ತು ಶಕ್ತಿಯು ಹಾದುಹೋಗುವ ಜೀವಿಗಳ ರೇಖೀಯ ಅನುಕ್ರಮವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_001",
+    "lang": "hi",
+    "config": "A",
+    "source": "An algorithm is a step-by-step procedure for solving a problem.",
+    "output": "एक एल्गोरिथ्म एक समस्या को हल करने के लिए एक चरण-दर-चरण प्रक्रिया है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_002",
+    "lang": "hi",
+    "config": "A",
+    "source": "Python and NumPy are used for matrix multiplication.",
+    "output": "पायथन और नुमपाई का उपयोग मैट्रिक्स गुणन के लिए किया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_002",
+    "lang": "kn",
+    "config": "A",
+    "source": "Python and NumPy are used for matrix multiplication.",
+    "output": "ಪೈಥಾನ್ ಮತ್ತು ನಮ್ಪೈಗಳನ್ನು ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಗುಣಾಕಾರಕ್ಕಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_003",
+    "lang": "hi",
+    "config": "A",
+    "source": "TensorFlow is an open-source machine learning framework.",
+    "output": "टेंसरफ्लो एक ओपन-सोर्स मशीन लर्निंग फ्रेमवर्क है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_003",
+    "lang": "kn",
+    "config": "A",
+    "source": "TensorFlow is an open-source machine learning framework.",
+    "output": "ಟೆನ್ಸಾರ್ಫ್ಲೋ ಒಂದು ಮುಕ್ತ-ಮೂಲ ಯಂತ್ರ ಕಲಿಕೆಯ ಚೌಕಟ್ಟಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_004",
+    "lang": "hi",
+    "config": "A",
+    "source": "The web page is styled using HTML and CSS.",
+    "output": "वेब पेज को एच. टी. एम. एल. और सी. एस. एस. का उपयोग करके स्टाइल किया गया है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_004",
+    "lang": "kn",
+    "config": "A",
+    "source": "The web page is styled using HTML and CSS.",
+    "output": "ವೆಬ್ ಪುಟವನ್ನು ಎಚ್. ಟಿ. ಎಂ. ಎಲ್ ಮತ್ತು ಸಿ. ಎಸ್. ಎಸ್ ಬಳಸಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_006",
+    "lang": "hi",
+    "config": "A",
+    "source": "An API acts as an intermediary between two software applications.",
+    "output": "एक एपीआई दो सॉफ्टवेयर अनुप्रयोगों के बीच एक मध्यस्थ के रूप में कार्य करता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_006",
+    "lang": "kn",
+    "config": "A",
+    "source": "An API acts as an intermediary between two software applications.",
+    "output": "ಒಂದು ಎಪಿಐ ಎರಡು ಸಾಫ್ಟ್ವೇರ್ ಅಪ್ಲಿಕೇಶನ್ಗಳ ನಡುವೆ ಮಧ್ಯವರ್ತಿಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_007",
+    "lang": "kn",
+    "config": "A",
+    "source": "A variable is a storage location paired with an associated symbolic name, which contains some known or unknown quantity of information.",
+    "output": "ವೇರಿಯೇಬಲ್ ಎನ್ನುವುದು ಸಂಬಂಧಿತ ಸಾಂಕೇತಿಕ ಹೆಸರಿನೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ಶೇಖರಣಾ ಸ್ಥಳವಾಗಿದೆ, ಇದು ಕೆಲವು ತಿಳಿದಿರುವ ಅಥವಾ ಅಜ್ಞಾತ ಪ್ರಮಾಣದ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_008",
+    "lang": "hi",
+    "config": "A",
+    "source": "A function is a sequence of program instructions that performs a specific task, packaged as a unit.",
+    "output": "एक कार्य कार्यक्रम निर्देशों का एक क्रम है जो एक विशिष्ट कार्य करता है, जिसे एक इकाई के रूप में पैक किया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_008",
+    "lang": "kn",
+    "config": "A",
+    "source": "A function is a sequence of program instructions that performs a specific task, packaged as a unit.",
+    "output": "ಒಂದು ಕಾರ್ಯವು ಒಂದು ಘಟಕವಾಗಿ ಪ್ಯಾಕೇಜ್ ಮಾಡಲಾದ ನಿರ್ದಿಷ್ಟ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸುವ ಪ್ರೋಗ್ರಾಂ ಸೂಚನೆಗಳ ಅನುಕ್ರಮವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_009",
+    "lang": "hi",
+    "config": "A",
+    "source": "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+    "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (ओ. ओ. पी.) \"ऑब्जेक्ट्स\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_009",
+    "lang": "kn",
+    "config": "A",
+    "source": "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+    "output": "ಆಬ್ಜೆಕ್ಟ್-ಓರಿಯೆಂಟೆಡ್ ಪ್ರೋಗ್ರಾಮಿಂಗ್ (ಒಒಪಿ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ಡೇಟಾ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ಡೇಟಾ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_010",
+    "lang": "hi",
+    "config": "A",
+    "source": "Recursion occurs when a function calls itself directly or indirectly in its definition.",
+    "output": "पुनरावृत्ति तब होती है जब कोई कार्य अपनी परिभाषा में प्रत्यक्ष या अप्रत्यक्ष रूप से खुद को बुलाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_010",
+    "lang": "kn",
+    "config": "A",
+    "source": "Recursion occurs when a function calls itself directly or indirectly in its definition.",
+    "output": "ಒಂದು ಕಾರ್ಯವು ತನ್ನ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ನೇರವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ ತನ್ನನ್ನು ತಾನು ಕರೆದುಕೊಂಡಾಗ ಪುನರಾವರ್ತನೆ ಸಂಭವಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_011",
+    "lang": "hi",
+    "config": "A",
+    "source": "A compiler is a computer program that translates computer code written in one programming language into another language.",
+    "output": "संकलक एक कंप्यूटर प्रोग्राम है जो एक प्रोग्रामिंग भाषा में लिखे गए कंप्यूटर कोड का दूसरी भाषा में अनुवाद करता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_011",
+    "lang": "kn",
+    "config": "A",
+    "source": "A compiler is a computer program that translates computer code written in one programming language into another language.",
+    "output": "ಕಂಪೈಲರ್ ಎಂಬುದು ಒಂದು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಬರೆಯಲಾದ ಕಂಪ್ಯೂಟರ್ ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಂದು ಭಾಷೆಗೆ ಭಾಷಾಂತರಿಸುವ ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂ ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_012",
+    "lang": "hi",
+    "config": "A",
+    "source": "Binary search runs in O(log n) time.",
+    "output": "द्विआधारी खोज ओ (लॉग एन) समय में चलती है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_012",
+    "lang": "kn",
+    "config": "A",
+    "source": "Binary search runs in O(log n) time.",
+    "output": "ಬೈನರಿ ಹುಡುಕಾಟವು ಓ (ಲಾಗ್ ಎನ್) ಸಮಯದಲ್ಲಿ ನಡೆಯುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_013",
+    "lang": "kn",
+    "config": "A",
+    "source": "An operating system manages computer hardware, software resources, and provides common services for computer programs.",
+    "output": "ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್ ಕಂಪ್ಯೂಟರ್ ಹಾರ್ಡ್ವೇರ್, ಸಾಫ್ಟ್ವೇರ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂಗಳಿಗೆ ಸಾಮಾನ್ಯ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_014",
+    "lang": "kn",
+    "config": "A",
+    "source": "Machine learning is a subset of artificial intelligence that focuses on building systems that learn based on the data they consume.",
+    "output": "ಯಂತ್ರ ಕಲಿಕೆ ಎಂಬುದು ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆಯ ಒಂದು ಉಪವಿಭಾಗವಾಗಿದ್ದು, ಅದು ಅವರು ಬಳಸುವ ದತ್ತಾಂಶದ ಆಧಾರದ ಮೇಲೆ ಕಲಿಯುವ ವ್ಯವಸ್ಥೆಗಳನ್ನು ನಿರ್ಮಿಸುವುದರ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_015",
+    "lang": "hi",
+    "config": "A",
+    "source": "A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.",
+    "output": "एक जुड़ी हुई सूची डेटा तत्वों का एक रैखिक संग्रह है जिसका क्रम स्मृति में उनके भौतिक स्थान द्वारा नहीं दिया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_015",
+    "lang": "kn",
+    "config": "A",
+    "source": "A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.",
+    "output": "ಲಿಂಕ್ ಮಾಡಲಾದ ಪಟ್ಟಿಯು ದತ್ತಾಂಶ ಅಂಶಗಳ ರೇಖೀಯ ಸಂಗ್ರಹವಾಗಿದ್ದು, ಅವುಗಳ ಕ್ರಮವನ್ನು ಮೆಮೊರಿಯಲ್ಲಿ ಅವುಗಳ ಭೌತಿಕ ನಿಯೋಜನೆಯಿಂದ ನೀಡಲಾಗುವುದಿಲ್ಲ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_016",
+    "lang": "hi",
+    "config": "A",
+    "source": "The CPU (Central Processing Unit) is the primary component of a computer that acts as its brain.",
+    "output": "सीपीयू (केंद्रीय प्रसंस्करण इकाई) एक कंप्यूटर का प्राथमिक घटक है जो इसके मस्तिष्क के रूप में कार्य करता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_016",
+    "lang": "kn",
+    "config": "A",
+    "source": "The CPU (Central Processing Unit) is the primary component of a computer that acts as its brain.",
+    "output": "ಸಿಪಿಯು (ಸೆಂಟ್ರಲ್ ಪ್ರೊಸೆಸಿಂಗ್ ಯುನಿಟ್) ಅದರ ಮೆದುಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಕಂಪ್ಯೂಟರ್ನ ಪ್ರಾಥಮಿಕ ಅಂಶವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_017",
+    "lang": "kn",
+    "config": "A",
+    "source": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior.",
+    "output": "ಕ್ರಿಪ್ಟೋಗ್ರಫಿಯು ಪ್ರತಿಕೂಲ ನಡವಳಿಕೆಯ ಉಪಸ್ಥಿತಿಯಲ್ಲಿ ಸುರಕ್ಷಿತ ಸಂವಹನದ ತಂತ್ರಗಳ ಅಭ್ಯಾಸ ಮತ್ತು ಅಧ್ಯಯನವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_018",
+    "lang": "kn",
+    "config": "A",
+    "source": "A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.",
+    "output": "ಹ್ಯಾಶ್ ಟೇಬಲ್ ಸೂಚ್ಯಂಕವನ್ನು ಬಕೆಟ್ಗಳು ಅಥವಾ ಸ್ಲಾಟ್ಗಳ ಶ್ರೇಣಿಯಲ್ಲಿ ಲೆಕ್ಕ ಹಾಕಲು ಹ್ಯಾಶ್ ಕಾರ್ಯವನ್ನು ಬಳಸುತ್ತದೆ, ಅದರಿಂದ ಅಪೇಕ್ಷಿತ ಮೌಲ್ಯವನ್ನು ಕಾಣಬಹುದು.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_019",
+    "lang": "kn",
+    "config": "A",
+    "source": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power.",
+    "output": "ಕ್ಲೌಡ್ ಕಂಪ್ಯೂಟಿಂಗ್ ಎಂದರೆ ಕಂಪ್ಯೂಟರ್ ಸಿಸ್ಟಮ್ ಸಂಪನ್ಮೂಲಗಳ, ವಿಶೇಷವಾಗಿ ದತ್ತಾಂಶ ಸಂಗ್ರಹಣೆ ಮತ್ತು ಕಂಪ್ಯೂಟಿಂಗ್ ಶಕ್ತಿಯ ಬೇಡಿಕೆಯ ಲಭ್ಯತೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_020",
+    "lang": "hi",
+    "config": "A",
+    "source": "A boolean data type can only take one of two possible values: true or false.",
+    "output": "एक बूलियन डेटा प्रकार दो संभावित मूल्यों में से केवल एक ले सकता हैः सही या गलत।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_020",
+    "lang": "kn",
+    "config": "A",
+    "source": "A boolean data type can only take one of two possible values: true or false.",
+    "output": "ಬೂಲಿಯನ್ ದತ್ತಾಂಶ ಪ್ರಕಾರವು ಎರಡು ಸಂಭವನೀಯ ಮೌಲ್ಯಗಳಲ್ಲಿ ಒಂದನ್ನು ಮಾತ್ರ ತೆಗೆದುಕೊಳ್ಳಬಹುದುಃ ಸರಿ ಅಥವಾ ತಪ್ಪು.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_021",
+    "lang": "hi",
+    "config": "A",
+    "source": "Garbage collection is a form of automatic memory management used by some programming languages.",
+    "output": "कचरा संग्रह स्वचालित स्मृति प्रबंधन का एक रूप है जिसका उपयोग कुछ प्रोग्रामिंग भाषाओं द्वारा किया जाता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_021",
+    "lang": "kn",
+    "config": "A",
+    "source": "Garbage collection is a form of automatic memory management used by some programming languages.",
+    "output": "ಕಸದ ಸಂಗ್ರಹವು ಕೆಲವು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಗಳು ಬಳಸುವ ಸ್ವಯಂಚಾಲಿತ ಮೆಮೊರಿ ನಿರ್ವಹಣೆಯ ಒಂದು ರೂಪವಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_022",
+    "lang": "kn",
+    "config": "A",
+    "source": "Polymorphism is the provision of a single interface to entities of different types.",
+    "output": "ಬಹುರೂಪತೆಯು ವಿವಿಧ ರೀತಿಯ ಘಟಕಗಳಿಗೆ ಒಂದೇ ಇಂಟರ್ಫೇಸ್ ಅನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_023",
+    "lang": "hi",
+    "config": "A",
+    "source": "An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol.",
+    "output": "आई. पी. पता एक संख्यात्मक लेबल है जो एक कंप्यूटर नेटवर्क से जुड़े प्रत्येक उपकरण को सौंपा जाता है जो इंटरनेट प्रोटोकॉल का उपयोग करता है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_023",
+    "lang": "kn",
+    "config": "A",
+    "source": "An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol.",
+    "output": "ಐಪಿ ವಿಳಾಸವು ಇಂಟರ್ನೆಟ್ ಪ್ರೊಟೊಕಾಲ್ ಅನ್ನು ಬಳಸುವ ಕಂಪ್ಯೂಟರ್ ನೆಟ್ವರ್ಕ್ಗೆ ಸಂಪರ್ಕ ಹೊಂದಿದ ಪ್ರತಿಯೊಂದು ಸಾಧನಕ್ಕೂ ನಿಗದಿಪಡಿಸಲಾದ ಸಂಖ್ಯಾತ್ಮಕ ಲೇಬಲ್ ಆಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_024",
+    "lang": "hi",
+    "config": "A",
+    "source": "Deep learning architectures such as deep neural networks have been applied to fields including computer vision and natural language processing.",
+    "output": "गहन तंत्रिका तंत्र जैसे गहन शिक्षण संरचनाओं को कंप्यूटर दृष्टि और प्राकृतिक भाषा प्रसंस्करण सहित क्षेत्रों में लागू किया गया है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_024",
+    "lang": "kn",
+    "config": "A",
+    "source": "Deep learning architectures such as deep neural networks have been applied to fields including computer vision and natural language processing.",
+    "output": "ಡೀಪ್ ನ್ಯೂರಲ್ ನೆಟ್ವರ್ಕ್ಗಳಂತಹ ಡೀಪ್ ಲರ್ನಿಂಗ್ ಆರ್ಕಿಟೆಕ್ಚರ್ಗಳನ್ನು ಕಂಪ್ಯೂಟರ್ ದೃಷ್ಟಿ ಮತ್ತು ನೈಸರ್ಗಿಕ ಭಾಷಾ ಸಂಸ್ಕರಣೆ ಸೇರಿದಂತೆ ಕ್ಷೇತ್ರಗಳಿಗೆ ಅನ್ವಯಿಸಲಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_025",
+    "lang": "hi",
+    "config": "A",
+    "source": "Git is a distributed version-control system for tracking changes in source code.",
+    "output": "गिट स्रोत कोड में परिवर्तनों पर नज़र रखने के लिए एक वितरित संस्करण-नियंत्रण प्रणाली है।",
+    "reason": "Token preservation failed"
+  },
+  {
+    "id": "CS_025",
+    "lang": "kn",
+    "config": "A",
+    "source": "Git is a distributed version-control system for tracking changes in source code.",
+    "output": "ಗಿಟ್ ಎಂಬುದು ಸೋರ್ಸ್ ಕೋಡ್ನಲ್ಲಿನ ಬದಲಾವಣೆಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ವಿತರಿಸಲಾದ ಆವೃತ್ತಿ-ನಿಯಂತ್ರಣ ವ್ಯವಸ್ಥೆಯಾಗಿದೆ.",
+    "reason": "Token preservation failed"
+  }
+]

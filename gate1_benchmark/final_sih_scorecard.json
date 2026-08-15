@@ -1,0 +1,49 @@
+{
+  "project": "SIH Educational Translation Pipeline",
+  "status": "FROZEN AND VALIDATED",
+  "model": "ai4bharat/indictrans2-en-indic-dist-200M",
+  "hardware": {
+    "gpu": "RTX 3050 Laptop GPU",
+    "vram_limit_mb": 4096,
+    "peak_vram_mb": 475.4,
+    "average_latency_sec": 1.14
+  },
+  "metrics": {
+    "automated_formula_preservation": {
+      "score": "100%",
+      "cases": "240/240",
+      "evidence_source": "gate4e_post_migration_results.json"
+    },
+    "automated_technical_identifier_preservation": {
+      "score": "100%",
+      "cases": "240/240",
+      "evidence_source": "gate4e_post_migration_results.json"
+    },
+    "automated_terminology_preservation": {
+      "score": "100%",
+      "cases": "240/240",
+      "evidence_source": "gate4e_post_migration_results.json"
+    },
+    "automated_kannada_morphology_safety": {
+      "score": "100%",
+      "cases": "120/120",
+      "evidence_source": "gate4e_post_migration_results.json"
+    },
+    "human_validation_semantic_correctness": {
+      "score": "PASS",
+      "cases": "48/48",
+      "evidence_source": "gate3_human_validation_results.json"
+    },
+    "human_validation_fluency_and_grammar": {
+      "score": "PASS",
+      "cases": "48/48",
+      "evidence_source": "gate3_human_validation_results.json"
+    }
+  },
+  "limitations": [
+    "Human validation covers a 48-case critical subset, not the full dataset.",
+    "Automated metrics prove token preservation, not necessarily perfect natural phrasing.",
+    "Kannada morphology heuristics cover 11 high-frequency suffixes; edge cases remain possible.",
+    "Protection relies strictly on accurate metadata tagging in the source dataset."
+  ]
+}

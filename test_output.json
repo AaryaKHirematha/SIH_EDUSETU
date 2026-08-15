@@ -1,0 +1,34 @@
+[
+  {
+    "translated_text": "समाकलन की सीमाएँ a से b तक के हैं।",
+    "language": "hi",
+    "formula_preserved": true,
+    "terminology_preserved": true,
+    "technical_identifiers_preserved": true,
+    "morphology_preserved": null
+  },
+  {
+    "translated_text": "limits of integration ಗಳು a ರಿಂದ b ರವರೆಗಿನವು.",
+    "language": "kn",
+    "formula_preserved": true,
+    "terminology_preserved": true,
+    "technical_identifiers_preserved": true,
+    "morphology_preserved": true
+  },
+  {
+    "translated_text": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+    "language": "hi",
+    "formula_preserved": true,
+    "terminology_preserved": true,
+    "technical_identifiers_preserved": true,
+    "morphology_preserved": null
+  },
+  {
+    "translated_text": "Python और NumPy का व्यापक रूप से डेटा साइंस में उपयोग किया जाता है।",
+    "language": "hi",
+    "formula_preserved": true,
+    "terminology_preserved": true,
+    "technical_identifiers_preserved": true,
+    "morphology_preserved": null
+  }
+]

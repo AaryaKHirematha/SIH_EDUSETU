@@ -1,0 +1,46 @@
+{
+  "candidate": "A_200M_GPU",
+  "review_type": "human_qualitative_review",
+  "overall_runtime": "PASS",
+  "overall_quality": "PASS_WITH_OBSERVATIONS",
+  "total_languages": 2,
+  "translations_reviewed": 80,
+  "observations": [
+    {
+      "id": "STR-005",
+      "language": "kan_Knda",
+      "category": "number_unit_preservation",
+      "severity": "HIGH",
+      "finding": "Squared unit in 9.8 metres per second squared was not preserved correctly."
+    },
+    {
+      "id": "STR-010",
+      "language": "hin_Deva",
+      "category": "numeric_preservation",
+      "severity": "HIGH",
+      "finding": "3.2 billion was translated as 3.2 crore, causing a numerical magnitude error."
+    },
+    {
+      "id": "BIO-004",
+      "language": "kan_Knda",
+      "category": "terminology",
+      "severity": "MEDIUM",
+      "finding": "Trachea and bronchi are not clearly distinguished in the translation."
+    },
+    {
+      "id": "MAT-001",
+      "language": "kan_Knda",
+      "category": "mathematical_expression",
+      "severity": "MEDIUM",
+      "finding": "Verbal quadratic expression is rendered awkwardly."
+    },
+    {
+      "id": "MAT-001",
+      "language": "hin_Deva",
+      "category": "mathematical_expression",
+      "severity": "MEDIUM",
+      "finding": "Verbal quadratic expression is rendered awkwardly."
+    }
+  ],
+  "conclusion": "The IndicTrans2 200M GPU configuration is operationally viable for Gate 1 feasibility. Translation quality is generally usable for educational content, but numeric/unit preservation and mathematical-expression handling require additional validation and safeguards in Gate 2."
+}

@@ -1,0 +1,6 @@
+{
+  "vram_limit_mb": 4096,
+  "peak_vram_mb": 475.3935546875,
+  "oom_occurred": false,
+  "cases_run": 245
+}

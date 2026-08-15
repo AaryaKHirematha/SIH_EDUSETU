@@ -1,0 +1,555 @@
+[
+  {
+    "id": "PHY_003",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: True, Tech: True",
+    "output": "प्रसिद्ध समीकरण E = mc2 ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।"
+  },
+  {
+    "id": "PHY_003",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc2 ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ."
+  },
+  {
+    "id": "MAT_001",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಚತುರ್ಭುಜ ಸೂತ್ರವನ್ನು ಬಳಸಿಕೊಂಡು ಚತುರ್ಭುಜ ಸಮೀಕರಣವನ್ನು ಪರಿಹರಿಸಬಹುದು."
+  },
+  {
+    "id": "CHE_004",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಪರಮಾಣು ಎಲೆಕ್ಟ್ರಾನ್ಗಳಿಂದ ಸುತ್ತುವರೆದಿರುವ ನ್ಯೂಕ್ಲಿಯಸ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ."
+  },
+  {
+    "id": "BIO_002",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಜೀವಕೋಶವು ಎಲ್ಲಾ ಜೀವಿಗಳ ಮೂಲಭೂತ ರಚನಾತ್ಮಕ ಮತ್ತು ಕ್ರಿಯಾತ್ಮಕ ಘಟಕವಾಗಿದೆ."
+  },
+  {
+    "id": "CS_001",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एक एल्गोरिथ्म एक समस्या को हल करने के लिए एक चरण-दर-चरण प्रक्रिया है।"
+  },
+  {
+    "id": "PHY_005",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "गति द्रव्यमान गुणा वेग के बराबर होती है।"
+  },
+  {
+    "id": "MAT_002",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "बहुपद एक बीजगणितीय अभिव्यक्ति है जिसमें चर और गुणांक होते हैं।"
+  },
+  {
+    "id": "CHE_005",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಕೋವೆಲೆಂಟ್ ಬಂಧದಲ್ಲಿ, ಪರಮಾಣುಗಳ ನಡುವೆ ಜೋಡಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ."
+  },
+  {
+    "id": "BIO_003",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: True, Tech: False",
+    "output": "डी. एन. ए. (डीऑक्सीराइबोन्यूक्लिक एसिड) वृद्धि, विकास, कार्य और प्रजनन में उपयोग किए जाने वाले आनुवंशिक निर्देशों को वहन करता है।"
+  },
+  {
+    "id": "BIO_003",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: False",
+    "output": "ಡಿಎನ್ಎ (ಡಿಯೋಕ್ಸಿರೈಬೊನ್ಯೂಕ್ಲಿಕ್ ಆಮ್ಲ) ಬೆಳವಣಿಗೆ, ಅಭಿವೃದ್ಧಿ, ಕಾರ್ಯಚಟುವಟಿಕೆ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಬಳಸುವ ಆನುವಂಶಿಕ ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ."
+  },
+  {
+    "id": "CS_003",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: True, Tech: False",
+    "output": "टेंसरफ्लो एक ओपन-सोर्स मशीन लर्निंग फ्रेमवर्क है।"
+  },
+  {
+    "id": "CS_003",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: False",
+    "output": "ಟೆನ್ಸಾರ್ಫ್ಲೋ ಒಂದು ಮುಕ್ತ-ಮೂಲ ಯಂತ್ರ ಕಲಿಕೆಯ ಚೌಕಟ್ಟಾಗಿದೆ."
+  },
+  {
+    "id": "PHY_007",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: True, Tech: True",
+    "output": "कार्य तब किया जाता है जब किसी वस्तु पर लगाया गया बल उस वस्तु को हिलाता है। कार्य की गणना किसी वस्तु की गति की मात्रा (डब्ल्यू = एफ * डी) से बल को गुणा करके की जाती है।"
+  },
+  {
+    "id": "PHY_007",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಒಂದು ವಸ್ತುವಿಗೆ ಅನ್ವಯಿಸಲಾದ ಬಲವು ಆ ವಸ್ತುವನ್ನು ಚಲಿಸಿದಾಗ ಕೆಲಸವನ್ನು ಮಾಡಲಾಗುತ್ತದೆ. ಒಂದು ವಸ್ತುವಿನ ಚಲನೆಯ ಪ್ರಮಾಣದಿಂದ (W = F * d) ಬಲವನ್ನು ಗುಣಿಸುವ ಮೂಲಕ ಕೆಲಸವನ್ನು ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ."
+  },
+  {
+    "id": "MAT_003",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "किसी फलन का व्युत्पन्न उसके परिवर्तन की दर को दर्शाता है।"
+  },
+  {
+    "id": "CHE_007",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एक रासायनिक प्रतिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।"
+  },
+  {
+    "id": "CHE_007",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಯು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಿಕೆಯಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ."
+  },
+  {
+    "id": "BIO_004",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: True, Tech: False",
+    "output": "माइटोकॉन्ड्रिया को कोशिका के पावरहाउस के रूप में जाना जाता है क्योंकि वे कोशिका की ए. टी. पी. की अधिकांश आपूर्ति उत्पन्न करते हैं।"
+  },
+  {
+    "id": "BIO_004",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: False",
+    "output": "ಮೈಟೊಕಾಂಡ್ರಿಯವನ್ನು ಜೀವಕೋಶದ ಪವರ್ಹೌಸ್ಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಅವು ಜೀವಕೋಶದ ಹೆಚ್ಚಿನ ಎಟಿಪಿ ಪೂರೈಕೆಯನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ."
+  },
+  {
+    "id": "CS_007",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ವೇರಿಯೇಬಲ್ ಎನ್ನುವುದು ಸಂಬಂಧಿತ ಸಾಂಕೇತಿಕ ಹೆಸರಿನೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ಶೇಖರಣಾ ಸ್ಥಳವಾಗಿದೆ, ಇದು ಕೆಲವು ತಿಳಿದಿರುವ ಅಥವಾ ಅಜ್ಞಾತ ಪ್ರಮಾಣದ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತದೆ."
+  },
+  {
+    "id": "PHY_010",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "संभावित ऊर्जा संग्रहीत ऊर्जा है जो किसी प्रणाली के विभिन्न हिस्सों की सापेक्ष स्थिति पर निर्भर करती है।"
+  },
+  {
+    "id": "PHY_010",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಸಂಭಾವ್ಯ ಶಕ್ತಿಯು ವ್ಯವಸ್ಥೆಯ ವಿವಿಧ ಭಾಗಗಳ ಸಾಪೇಕ್ಷ ಸ್ಥಾನವನ್ನು ಅವಲಂಬಿಸಿರುವ ಸಂಗ್ರಹಿತ ಶಕ್ತಿಯಾಗಿದೆ."
+  },
+  {
+    "id": "MAT_004",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एकीकरण का उपयोग वक्र के नीचे क्षेत्र की गणना करने के लिए किया जाता है।"
+  },
+  {
+    "id": "MAT_004",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಒಂದು ವಕ್ರರೇಖೆಯ ಕೆಳಗಿರುವ ಪ್ರದೇಶವನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಏಕೀಕರಣವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ."
+  },
+  {
+    "id": "CHE_008",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "एसिड वे पदार्थ हैं जो एक प्रोटॉन (एच +) को दूसरे पदार्थ में दान कर सकते हैं।"
+  },
+  {
+    "id": "CHE_008",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "ಆಮ್ಲಗಳು ಪ್ರೋಟಾನ್ (ಎಚ್ +) ಅನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡುವ ಪದಾರ್ಥಗಳಾಗಿವೆ."
+  },
+  {
+    "id": "BIO_005",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ऑस्मोसिस एक चुनिंदा पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।"
+  },
+  {
+    "id": "BIO_005",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಓಸ್ಮೋಸಿಸ್ ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ."
+  },
+  {
+    "id": "CS_008",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एक कार्य कार्यक्रम निर्देशों का एक क्रम है जो एक विशिष्ट कार्य करता है, जिसे एक इकाई के रूप में पैक किया जाता है।"
+  },
+  {
+    "id": "CS_008",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಒಂದು ಕಾರ್ಯವು ಒಂದು ಘಟಕವಾಗಿ ಪ್ಯಾಕೇಜ್ ಮಾಡಲಾದ ನಿರ್ದಿಷ್ಟ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸುವ ಪ್ರೋಗ್ರಾಂ ಸೂಚನೆಗಳ ಅನುಕ್ರಮವಾಗಿದೆ."
+  },
+  {
+    "id": "PHY_011",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "जब एक कार तेजी से चलती है, तो समय के साथ इसका वेग बढ़ जाता है।"
+  },
+  {
+    "id": "PHY_011",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಒಂದು ಕಾರು ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಿದಾಗ, ಅದರ ವೇಗವು ಕಾಲಾನಂತರದಲ್ಲಿ ಹೆಚ್ಚಾಗುತ್ತದೆ."
+  },
+  {
+    "id": "MAT_005",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एक मैट्रिक्स संख्याओं की एक आयताकार व्यवस्था है।"
+  },
+  {
+    "id": "MAT_005",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ."
+  },
+  {
+    "id": "CHE_009",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "पी. एच. पैमाना 0 से 14 तक होता है।"
+  },
+  {
+    "id": "CHE_009",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಪಿ. ಎಚ್ ಪ್ರಮಾಣವು 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ."
+  },
+  {
+    "id": "BIO_006",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: True, Tech: False",
+    "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (एटीपी) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।"
+  },
+  {
+    "id": "BIO_006",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: False",
+    "output": "ಜೀವಕೋಶದ ಉಸಿರಾಟವು ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದ್ದು, ಪೋಷಕಾಂಶಗಳಿಂದ ಜೀವರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ಎಟಿಪಿ) ಆಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ."
+  },
+  {
+    "id": "CS_009",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: True, Tech: False",
+    "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (ओ. ओ. पी.) \"ऑब्जेक्ट्स\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।"
+  },
+  {
+    "id": "CS_009",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: False",
+    "output": "ಆಬ್ಜೆಕ್ಟ್-ಓರಿಯೆಂಟೆಡ್ ಪ್ರೋಗ್ರಾಮಿಂಗ್ (ಒಒಪಿ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ಡೇಟಾ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ಡೇಟಾ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ)."
+  },
+  {
+    "id": "PHY_013",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಘರ್ಷಣೆ ಎಂದರೆ ಘನ ಮೇಲ್ಮೈಗಳು, ದ್ರವದ ಪದರಗಳು ಮತ್ತು ವಸ್ತು ಅಂಶಗಳ ಪರಸ್ಪರ ವಿರುದ್ಧವಾಗಿ ಜಾರುವ ಸಾಪೇಕ್ಷ ಚಲನೆಯನ್ನು ವಿರೋಧಿಸುವ ಬಲ."
+  },
+  {
+    "id": "MAT_007",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: True, Tech: True",
+    "output": "समीकरण x2-5x + 6 = 0 के मूल का पता लगाने के लिए, हम इसे गुणनखंडित कर सकते हैं।"
+  },
+  {
+    "id": "MAT_007",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "x2-5x + 6 = 0 ಸಮೀಕರಣದ ಮೂಲಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು, ನಾವು ಅದನ್ನು ಅಪವರ್ತನೀಯಗೊಳಿಸಬಹುದು."
+  },
+  {
+    "id": "CHE_010",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ऊष्मीय प्रतिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ती हैं।"
+  },
+  {
+    "id": "CHE_010",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಎಕ್ಸೋಥರ್ಮಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ."
+  },
+  {
+    "id": "BIO_007",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಕಿಣ್ವಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಪ್ರೋಟೀನ್ಗಳಾಗಿವೆ."
+  },
+  {
+    "id": "CS_010",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "पुनरावृत्ति तब होती है जब कोई कार्य अपनी परिभाषा में प्रत्यक्ष या अप्रत्यक्ष रूप से खुद को बुलाता है।"
+  },
+  {
+    "id": "CS_010",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಒಂದು ಕಾರ್ಯವು ತನ್ನ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ನೇರವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ ತನ್ನನ್ನು ತಾನು ಕರೆದುಕೊಂಡಾಗ ಪುನರಾವರ್ತನೆ ಸಂಭವಿಸುತ್ತದೆ."
+  },
+  {
+    "id": "PHY_014",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಅಧಿಕಾರವು ಕೆಲಸವನ್ನು ಮಾಡುವ ದರವಾಗಿದೆ."
+  },
+  {
+    "id": "MAT_009",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एक समकोण त्रिभुज में, एक कोण का साइन हाइपोटेन्यूज के विपरीत पक्ष का अनुपात है।"
+  },
+  {
+    "id": "MAT_009",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಬಲ-ಕೋನದ ತ್ರಿಕೋನದಲ್ಲಿ, ಕೋನದ ಸೈನ್ ಎಂಬುದು ಹೈಪೊಟೆನ್ಯೂಸ್ಗೆ ವಿರುದ್ಧ ಬದಿಯ ಅನುಪಾತವಾಗಿದೆ."
+  },
+  {
+    "id": "CHE_011",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एंडोथर्मिक प्रतिक्रियाएँ अपने आसपास की ऊर्जा को अवशोषित करती हैं।"
+  },
+  {
+    "id": "CHE_011",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಎಂಡೋಥರ್ಮಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ತಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಶಕ್ತಿಯನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ."
+  },
+  {
+    "id": "BIO_008",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "माइटोसिस कोशिका चक्र का एक हिस्सा है जिसमें प्रतिकृति गुणसूत्रों को दो नए नाभिकों में अलग किया जाता है।"
+  },
+  {
+    "id": "BIO_008",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಮಿಟೋಸಿಸ್ ಜೀವಕೋಶದ ಚಕ್ರದ ಒಂದು ಭಾಗವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಪುನರಾವರ್ತಿತ ವರ್ಣತಂತುಗಳನ್ನು ಎರಡು ಹೊಸ ನ್ಯೂಕ್ಲಿಯಸ್ಗಳಾಗಿ ಬೇರ್ಪಡಿಸಲಾಗುತ್ತದೆ."
+  },
+  {
+    "id": "CS_011",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "संकलक एक कंप्यूटर प्रोग्राम है जो एक प्रोग्रामिंग भाषा में लिखे गए कंप्यूटर कोड का दूसरी भाषा में अनुवाद करता है।"
+  },
+  {
+    "id": "CS_011",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಕಂಪೈಲರ್ ಎಂಬುದು ಒಂದು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಬರೆಯಲಾದ ಕಂಪ್ಯೂಟರ್ ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಂದು ಭಾಷೆಗೆ ಭಾಷಾಂತರಿಸುವ ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂ ಆಗಿದೆ."
+  },
+  {
+    "id": "PHY_016",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಉಷ್ಣಬಲವಿಜ್ಞಾನವು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ."
+  },
+  {
+    "id": "MAT_010",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एक असंभव घटना की संभावना 0 है, और एक निश्चित घटना की संभावना 1 है।"
+  },
+  {
+    "id": "MAT_010",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಒಂದು ಅಸಾಧ್ಯ ಘಟನೆಯ ಸಂಭವನೀಯತೆಯು 0 ಆಗಿರುತ್ತದೆ ಮತ್ತು ಒಂದು ನಿರ್ದಿಷ್ಟ ಘಟನೆಯ ಸಂಭವನೀಯತೆಯು 1 ಆಗಿರುತ್ತದೆ."
+  },
+  {
+    "id": "CHE_013",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಐಸೋಟೋಪ್ಗಳು ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುವ ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿವೆ."
+  },
+  {
+    "id": "BIO_009",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "अर्धसूत्री विच्छेदन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।"
+  },
+  {
+    "id": "BIO_009",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಅರೆವಿದಳನವು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ."
+  },
+  {
+    "id": "CS_012",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "द्विआधारी खोज ओ (लॉग एन) समय में चलती है।"
+  },
+  {
+    "id": "CS_012",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "ಬೈನರಿ ಹುಡುಕಾಟವು ಓ (ಲಾಗ್ ಎನ್) ಸಮಯದಲ್ಲಿ ನಡೆಯುತ್ತದೆ."
+  },
+  {
+    "id": "PHY_017",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "एक सदिश मात्रा में परिमाण और दिशा दोनों होते हैं, जबकि एक स्केलर मात्रा में केवल परिमाण होता है।"
+  },
+  {
+    "id": "PHY_017",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ವಾಹಕದ ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿರುತ್ತದೆ, ಆದರೆ ಸ್ಕೇಲಾರ್ ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ."
+  },
+  {
+    "id": "MAT_011",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: True, Tech: True",
+    "output": "दो चरों में एक रैखिक समीकरण एक कार्टेशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + by = C है, जहाँ A, B और C स्थिरांक हैं, और x और y चर हैं।"
+  },
+  {
+    "id": "MAT_011",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "ಎರಡು ಅಸ್ಥಿರಗಳಲ್ಲಿನ ರೇಖೀಯ ಸಮೀಕರಣವು ಕಾರ್ಟೇಶಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + by = C ಆಗಿದೆ, ಅಲ್ಲಿ A, B, ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y ಅಸ್ಥಿರಗಳಾಗಿವೆ."
+  },
+  {
+    "id": "CHE_014",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ವೇಗವರ್ಧಕವು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ."
+  },
+  {
+    "id": "BIO_010",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: True, Tech: False",
+    "output": "एक जीन डी. एन. ए. या आर. एन. ए. में न्यूक्लियोटाइड्स का एक अनुक्रम है जो एक जीन उत्पाद, या तो आर. एन. ए. या प्रोटीन के संश्लेषण को कूटबद्ध करता है।"
+  },
+  {
+    "id": "BIO_010",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: False",
+    "output": "ಜೀನ್ ಎಂದರೆ ಡಿಎನ್ಎ ಅಥವಾ ಆರ್ಎನ್ಎಯಲ್ಲಿನ ನ್ಯೂಕ್ಲಿಯೋಟೈಡ್ಗಳ ಅನುಕ್ರಮವಾಗಿದ್ದು, ಇದು ಆರ್ಎನ್ಎ ಅಥವಾ ಪ್ರೋಟೀನ್ನ ಜೀನ್ ಉತ್ಪನ್ನದ ಸಂಶ್ಲೇಷಣೆಯನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ."
+  },
+  {
+    "id": "CS_013",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್ ಕಂಪ್ಯೂಟರ್ ಹಾರ್ಡ್ವೇರ್, ಸಾಫ್ಟ್ವೇರ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂಗಳಿಗೆ ಸಾಮಾನ್ಯ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ."
+  },
+  {
+    "id": "PHY_018",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ವೋಲ್ಟೇಜ್ ಎಂದರೆ ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ವಿದ್ಯುತ್ ಸಾಮರ್ಥ್ಯದಲ್ಲಿನ ವ್ಯತ್ಯಾಸ."
+  },
+  {
+    "id": "MAT_013",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: True, Tech: True",
+    "output": "दो रेखाएँ समानांतर हैं यदि उनकी ढलानें बराबर हैं, जिसका अर्थ है m1 = m2।"
+  },
+  {
+    "id": "MAT_013",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: False, Term: False, Tech: True",
+    "output": "ಎರಡು ರೇಖೆಗಳು ಅವುಗಳ ಇಳಿಜಾರುಗಳು ಸಮಾನವಾಗಿದ್ದರೆ ಸಮಾನಾಂತರವಾಗಿರುತ್ತವೆ, ಅಂದರೆ m1 = m2."
+  },
+  {
+    "id": "CHE_015",
+    "lang": "hi",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "आवर्त सारणी तत्वों को उनकी परमाणु संख्या के आधार पर व्यवस्थित करती है।"
+  },
+  {
+    "id": "CHE_015",
+    "lang": "kn",
+    "config": "A",
+    "reason": "Critical AI_REVIEW Failure - Formula: True, Term: False, Tech: True",
+    "output": "ಆವರ್ತಕ ಕೋಷ್ಟಕವು ಅಂಶಗಳನ್ನು ಅವುಗಳ ಪರಮಾಣು ಸಂಖ್ಯೆಯ ಆಧಾರದ ಮೇಲೆ ಸಂಘಟಿಸುತ್ತದೆ."
+  }
+]

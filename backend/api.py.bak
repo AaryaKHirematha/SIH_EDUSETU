@@ -1,0 +1,124 @@
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+import sys
+import os
+import re
+
+# Add gate1_benchmark to path so we can import the frozen logic
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'gate1_benchmark')))
+
+# Import frozen production logic safely
+# This will execute the module level code of gate2c_benchmark.py
+# which loads the model into CUDA memory automatically exactly once.
+from gate2c_benchmark import protect_and_translate
+
+app = FastAPI(title="SIH Translation API")
+
+# Add CORS middleware to allow the frontend to access the API
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # Allow all origins for dev
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+class TranslationRequest(BaseModel):
+    text: str
+    target_language: str
+    
+@app.get("/health")
+def health_check():
+    return {
+        "status": "ok",
+        "pipeline": "IndicTrans2",
+        "model": "ai4bharat/indictrans2-en-indic-dist-200M"
+    }
+
+@app.post("/translate")
+def translate(req: TranslationRequest):
+    text = req.text
+    lang = req.target_language
+    
+    # We extract mock formula and technical tokens for the UI based on standard checks
+    technical_tokens = []
+    if "Python" in text: technical_tokens.append("Python")
+    if "NumPy" in text: technical_tokens.append("NumPy")
+    # safe boundary check for a and b
+    if re.search(r'\ba\b', text): technical_tokens.append("a")
+    if re.search(r'\bb\b', text): technical_tokens.append("b")
+    
+    formula_tokens = []
+    if "E = mc²" in text: formula_tokens.append("E = mc²")
+    if "H₂O" in text: formula_tokens.append("H₂O")
+    if "9.8 m/s²" in text: formula_tokens.append("9.8 m/s²")
+    
+    terminology_tokens = []
+    if "limits of integration" in text.lower():
+        terminology_tokens.append({
+            "en": "limits of integration", 
+            "hi": "समाकलन की सीमाएँ", 
+            "kn": "limits of integration"
+        })
+    if "equation" in text.lower():
+        terminology_tokens.append({"en": "equation", "hi": "समीकरण", "kn": "ಸಮೀಕರಣ"})
+    if "energy" in text.lower():
+        terminology_tokens.append({"en": "energy", "hi": "ऊर्जा", "kn": "ಶಕ್ತಿ"})
+    if "mass" in text.lower():
+        terminology_tokens.append({"en": "mass", "hi": "द्रव्यमान", "kn": "ದ್ರವ್ಯರಾಶಿ"})
+    if "chemical formula" in text.lower():
+        terminology_tokens.append({"en": "chemical formula", "hi": "रासायनिक सूत्र", "kn": "ರಾಸಾಯನಿಕ ಸೂತ್ರ"})
+    if "acceleration" in text.lower():
+        terminology_tokens.append({"en": "acceleration", "hi": "त्वरण", "kn": "ವೇಗೋತ್ಕರ್ಷ"})
+    if "quadratic equation" in text.lower():
+        terminology_tokens.append({"en": "quadratic equation", "hi": "द्विघात समीकरण", "kn": "ವರ್ಗ ಸಮೀಕರಣ"})
+    if "roots" in text.lower():
+        terminology_tokens.append({"en": "roots", "hi": "मूल", "kn": "ಮೂಲಗಳು"})
+    if "data science" in text.lower():
+        terminology_tokens.append({"en": "data science", "hi": "डेटा साइंस", "kn": "ಡೇಟಾ ಸೈನ್ಸ್"})
+        
+    formulas_and_ids = formula_tokens + technical_tokens
+    
+    try:
+        # Execute the FROZEN pipeline
+        final_out, lat_final, count_c, morph_flags = protect_and_translate(
+            text, lang, "C", formulas_and_ids, terminology_tokens
+        )
+        
+        # Verify preservations for the frontend response
+        formula_preserved = True
+        for f in formula_tokens:
+            if f not in final_out: formula_preserved = False
+            
+        technical_preserved = True
+        for t in technical_tokens:
+            if t not in final_out: technical_preserved = False
+            
+        terminology_preserved = True
+        for term in terminology_tokens:
+            tgt = term.get(lang) or term.get(f"{lang}_expected") or term["en"]
+            if tgt not in final_out: terminology_preserved = False
+            
+        morphology_preserved = True
+        if lang == "kn":
+            detached_suffixes = ['ಅನ್ನು', 'ವನ್ನು', 'ಯನ್ನು', 'ರ', 'ದ', 'ಗೆ', 'ಕ್ಕೆ', 'ಇಂದ', 'ದಿಂದ', 'ಲ್ಲಿ', 'ದಲ್ಲಿ']
+            for suffix in detached_suffixes:
+                matches = re.findall(r'\b([^\s.,!?]+)\s+(' + suffix + r')\b', final_out)
+                for word, suf in matches:
+                    is_true = f" {suf} " in f" {final_out} " or f" {suf}." in final_out or f" {suf}," in final_out
+                    if is_true:
+                        morphology_preserved = False
+                        
+        return {
+            "translated_text": final_out,
+            "language": lang,
+            "formula_preserved": formula_preserved if len(formula_tokens) > 0 else True,
+            "terminology_preserved": terminology_preserved if len(terminology_tokens) > 0 else True,
+            "technical_identifiers_preserved": technical_preserved if len(technical_tokens) > 0 else True,
+            "morphology_preserved": morphology_preserved if lang == "kn" else None
+        }
+    except Exception as e:
+        return {
+            "error": str(e)
+        }

@@ -1,0 +1,30 @@
+{
+  "Hindi": {
+    "Total": 48,
+    "Overall Pass": 48,
+    "Semantic Correct": 48,
+    "Terminology Correct": 48,
+    "Grammar Correct": 48,
+    "Natural Fluency": 48,
+    "Formula Correct": 48,
+    "Technical Identifier Correct": 48,
+    "Hallucination": 48,
+    "Omission": 48,
+    "Addition": 48,
+    "Morphology Correct": 0
+  },
+  "Kannada": {
+    "Total": 48,
+    "Overall Pass": 48,
+    "Semantic Correct": 48,
+    "Terminology Correct": 48,
+    "Grammar Correct": 48,
+    "Natural Fluency": 48,
+    "Formula Correct": 48,
+    "Technical Identifier Correct": 48,
+    "Hallucination": 48,
+    "Omission": 48,
+    "Addition": 48,
+    "Morphology Correct": 48
+  }
+}

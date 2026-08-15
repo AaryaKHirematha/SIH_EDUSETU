@@ -1,0 +1,36 @@
+--- WARM-UP ---
+
+--- SEQUENTIAL BENCHMARK (20 requests) ---
+Req 1: 2.09s | Success: True
+Req 2: 0.97s | Success: True
+Req 3: 1.04s | Success: True
+Req 4: 1.48s | Success: True
+Req 5: 1.54s | Success: True
+Req 6: 0.99s | Success: True
+Req 7: 1.28s | Success: True
+Req 8: 1.41s | Success: True
+Req 9: 1.48s | Success: True
+Req 10: 0.83s | Success: True
+Req 11: 1.26s | Success: True
+Req 12: 1.00s | Success: True
+Req 13: 1.45s | Success: True
+Req 14: 0.96s | Success: True
+Req 15: 1.31s | Success: True
+Req 16: 1.20s | Success: True
+Req 17: 1.05s | Success: True
+Req 18: 0.75s | Success: True
+Req 19: 1.15s | Success: True
+Req 20: 1.18s | Success: True
+
+Sequential Stats:
+Average: 1.22s
+Median: 1.19s
+p95: 2.06s
+Success: 20/20
+
+--- CONCURRENCY TEST (4 simultaneous requests) ---
+Total time for 4 concurrent requests: 1.55s
+Thread 0 Latency: 0.38s | Success: True
+Thread 1 Latency: 0.74s | Success: True
+Thread 2 Latency: 1.14s | Success: True
+Thread 3 Latency: 1.53s | Success: True

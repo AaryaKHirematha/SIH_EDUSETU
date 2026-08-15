@@ -1,0 +1,199 @@
+[
+  {
+    "id": 1,
+    "en": "Solve the quadratic equation using the quadratic formula.",
+    "raw_kannada": "ಚತುರ್ಭುಜ ಸೂತ್ರವನ್ನು ಬಳಸಿಕೊಂಡು ಚತುರ್ಭುಜ ಸಮೀಕರಣವನ್ನು ಪರಿಹರಿಸಿ.",
+    "strategy_A": {
+      "protected_input": "Solve the 99901 using the 99902 .",
+      "translated_output": "99902 ಅನ್ನು ಬಳಸಿಕೊಂಡು 99901 ಅನ್ನು ಪರಿಹರಿಸಿ.",
+      "final_output": "ವರ್ಗ ಸೂತ್ರ ಅನ್ನು ಬಳಸಿಕೊಂಡು ವರ್ಗ ಸಮೀಕರಣ ಅನ್ನು ಪರಿಹರಿಸಿ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "Solve the \"99901\" using the \"99902\" .",
+      "translated_output": "\"99902\" ಅನ್ನು ಬಳಸಿಕೊಂಡು \"99901\" ಅನ್ನು ಪರಿಹರಿಸಿ.",
+      "final_output": "ವರ್ಗ ಸೂತ್ರ ಅನ್ನು ಬಳಸಿಕೊಂಡು ವರ್ಗ ಸಮೀಕರಣ ಅನ್ನು ಪರಿಹರಿಸಿ.",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "Solve the 99901 using the 99902 .",
+      "translated_output": "99902 ಅನ್ನು ಬಳಸಿಕೊಂಡು 99901 ಅನ್ನು ಪರಿಹರಿಸಿ.",
+      "final_output": "ವರ್ಗ ಸೂತ್ರವನ್ನು ಬಳಸಿಕೊಂಡು ವರ್ಗ ಸಮೀಕರಣವನ್ನು ಪರಿಹರಿಸಿ.",
+      "morph_log": [
+        "Detached: ಅನ್ನು -> ವರ್ಗ ಸಮೀಕರಣವನ್ನು",
+        "Detached: ಅನ್ನು -> ವರ್ಗ ಸೂತ್ರವನ್ನು"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "en": "The coefficient of x in the equation is 5.",
+    "raw_kannada": "ಸಮೀಕರಣದಲ್ಲಿ x ನ ಗುಣಾಂಕವು 5 ಆಗಿದೆ.",
+    "strategy_A": {
+      "protected_input": "The 99902 of 99901 in the 99903 is 5.",
+      "translated_output": "99903ರಲ್ಲಿ 99901ರ 99902 5 ಆಗಿದೆ.",
+      "final_output": "ಸಮೀಕರಣ ರಲ್ಲಿ x ರ ಗುಣಾಂಕ 5 ಆಗಿದೆ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "The \"99902\" of \"99901\" in the \"99903\" is 5.",
+      "translated_output": "\"99903\" ನಲ್ಲಿ \"99901\" ನ \"99902\" 5 ಆಗಿದೆ.",
+      "final_output": "ಸಮೀಕರಣ ನಲ್ಲಿ x ನ ಗುಣಾಂಕ 5 ಆಗಿದೆ.",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "The 99902 of 99901 in the 99903 is 5.",
+      "translated_output": "99903ರಲ್ಲಿ 99901ರ 99902 5 ಆಗಿದೆ.",
+      "final_output": "ಸಮೀಕರಣ ರಲ್ಲಿ xದ ಗುಣಾಂಕ 5 ಆಗಿದೆ.",
+      "morph_log": [
+        "Attached: ರ -> xದ",
+        "Attached: ರಲ್ಲಿ -> ಸಮೀಕರಣ ರಲ್ಲಿ"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "en": "The derivative of the function is positive.",
+    "raw_kannada": "ಕಾರ್ಯದ ವ್ಯುತ್ಪನ್ನವು ಧನಾತ್ಮಕವಾಗಿರುತ್ತದೆ.",
+    "strategy_A": {
+      "protected_input": "The 99901 of the 99902 is positive.",
+      "translated_output": "99902ರ 99901 ಧನಾತ್ಮಕವಾಗಿದೆ.",
+      "final_output": "ಕಾರ್ಯ ರ ವ್ಯುತ್ಪನ್ನ ಧನಾತ್ಮಕವಾಗಿದೆ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "The \"99901\" of the \"99902\" is positive.",
+      "translated_output": "\"99902\" ನ \"99901\" ಧನಾತ್ಮಕವಾಗಿದೆ.",
+      "final_output": "ಕಾರ್ಯ ನ ವ್ಯುತ್ಪನ್ನ ಧನಾತ್ಮಕವಾಗಿದೆ.",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "The 99901 of the 99902 is positive.",
+      "translated_output": "99902ರ 99901 ಧನಾತ್ಮಕವಾಗಿದೆ.",
+      "final_output": "ಕಾರ್ಯದ ವ್ಯುತ್ಪನ್ನ ಧನಾತ್ಮಕವಾಗಿದೆ.",
+      "morph_log": [
+        "Attached: ರ -> ಕಾರ್ಯದ"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "en": "The mass of the object is exactly 5 kg.",
+    "raw_kannada": "ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿಯು ನಿಖರವಾಗಿ 5 ಕೆ. ಜಿ. ಆಗಿದೆ.",
+    "strategy_A": {
+      "protected_input": "The 99902 of the object is e 99901 actly 5 kg.",
+      "translated_output": "ವಸ್ತುವಿನ 99902 e 99901 ವಾಸ್ತವವಾಗಿ 5 ಕೆ. ಜಿ. ಆಗಿದೆ.",
+      "final_output": "ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿ e x ವಾಸ್ತವವಾಗಿ 5 ಕೆ. ಜಿ. ಆಗಿದೆ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "The \"99902\" of the object is e \"99901\" actly 5 kg.",
+      "translated_output": "ವಸ್ತುವಿನ \"99902\" e \"99901\" ವಾಸ್ತವವಾಗಿ 5 ಕೆ. ಜಿ. ಆಗಿದೆ.",
+      "final_output": "ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿ e x ವಾಸ್ತವವಾಗಿ 5 ಕೆ. ಜಿ. ಆಗಿದೆ.",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "The 99902 of the object is e 99901 actly 5 kg.",
+      "translated_output": "ವಸ್ತುವಿನ 99902 e 99901 ವಾಸ್ತವವಾಗಿ 5 ಕೆ. ಜಿ. ಆಗಿದೆ.",
+      "final_output": "ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿ e x ವಾಸ್ತವವಾಗಿ 5 ಕೆ. ಜಿ. ಆಗಿದೆ.",
+      "morph_log": []
+    }
+  },
+  {
+    "id": 5,
+    "en": "The force acting on the object is constant.",
+    "raw_kannada": "ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲವು ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+    "strategy_A": {
+      "protected_input": "The 99901 acting on the object is constant.",
+      "translated_output": "ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ 99901 ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+      "final_output": "ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲ ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "The \"99901\" acting on the object is constant.",
+      "translated_output": "ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ \"99901\" ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+      "final_output": "ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲ ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "The 99901 acting on the object is constant.",
+      "translated_output": "ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ 99901 ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+      "final_output": "ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲ ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.",
+      "morph_log": []
+    }
+  },
+  {
+    "id": 6,
+    "en": "The value of the matrix is calculated using the algorithm.",
+    "raw_kannada": "ಮ್ಯಾಟ್ರಿಕ್ಸ್ನ ಮೌಲ್ಯವನ್ನು ಅಲ್ಗಾರಿದಮ್ ಬಳಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+    "strategy_A": {
+      "protected_input": "The value of the matri 99901 is calculated using the 99902 .",
+      "translated_output": "ಮಾತೃ 99901ರ ಮೌಲ್ಯವನ್ನು 99902 ಬಳಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+      "final_output": "ಮಾತೃ x ರ ಮೌಲ್ಯವನ್ನು ಅಲ್ಗಾರಿದಮ್ ಬಳಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "The value of the matri \"99901\" is calculated using the \"99902\" .",
+      "translated_output": "ಮಾತೃ \"99901\" ನ ಮೌಲ್ಯವನ್ನು \"99902\" ಬಳಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+      "final_output": "ಮಾತೃ x ನ ಮೌಲ್ಯವನ್ನು ಅಲ್ಗಾರಿದಮ್ ಬಳಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "The value of the matri 99901 is calculated using the 99902 .",
+      "translated_output": "ಮಾತೃ 99901ರ ಮೌಲ್ಯವನ್ನು 99902 ಬಳಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+      "final_output": "ಮಾತೃ xದ ಮೌಲ್ಯವನ್ನು ಅಲ್ಗಾರಿದಮ್ ಬಳಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+      "morph_log": [
+        "Attached: ರ -> xದ"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "en": "The chemical formula of water is H₂O.",
+    "raw_kannada": "ನೀರಿನ ರಾಸಾಯನಿಕ ಸೂತ್ರವು H2O ಆಗಿದೆ.",
+    "strategy_A": {
+      "protected_input": "The 99902 of water is 99901 .",
+      "translated_output": "99902 ನೀರು 99901 ಆಗಿದೆ.",
+      "final_output": "ರಾಸಾಯನಿಕ ಸೂತ್ರ ನೀರು H₂O ಆಗಿದೆ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "The \"99902\" of water is \"99901\" .",
+      "translated_output": "ನೀರಿನ \"99902\" ಎಂದರೆ \"99901\".",
+      "final_output": "ನೀರಿನ ರಾಸಾಯನಿಕ ಸೂತ್ರ ಎಂದರೆ H₂O.",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "The 99902 of water is 99901 .",
+      "translated_output": "99902 ನೀರು 99901 ಆಗಿದೆ.",
+      "final_output": "ರಾಸಾಯನಿಕ ಸೂತ್ರ ನೀರು H₂O ಆಗಿದೆ.",
+      "morph_log": []
+    }
+  },
+  {
+    "id": 8,
+    "en": "The equation E = mc² describes the relationship between energy and mass.",
+    "raw_kannada": "E = mc2 ಸಮೀಕರಣವು ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "strategy_A": {
+      "protected_input": "The 99903 99901 describes the 99902 between 99904 and 99905 .",
+      "translated_output": "99903 99901 99904 ಮತ್ತು 99905ರ ನಡುವಿನ 99902 ಅನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+      "final_output": "ಸಮೀಕರಣ E = mc² ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿ ರ ನಡುವಿನ ಸಂಬಂಧ ಅನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+      "morph_log": []
+    },
+    "strategy_B": {
+      "protected_input": "The \"99903\" \"99901\" describes the \"99902\" between \"99904\" and \"99905\" .",
+      "translated_output": "\"99903\" \"99901\" \"\" \"99904\" \"ಮತ್ತು\" \"99905\" \"ನಡುವಿನ\" \"99902\" \"ಅನ್ನು ವಿವರಿಸುತ್ತದೆ\".",
+      "final_output": "ಸಮೀಕರಣ E = mc² \"\" ಶಕ್ತಿ \"ಮತ್ತು\" ದ್ರವ್ಯರಾಶಿ \"ನಡುವಿನ\" ಸಂಬಂಧ \"ಅನ್ನು ವಿವರಿಸುತ್ತದೆ\".",
+      "morph_log": []
+    },
+    "strategy_C": {
+      "protected_input": "The 99903 99901 describes the 99902 between 99904 and 99905 .",
+      "translated_output": "99903 99901 99904 ಮತ್ತು 99905ರ ನಡುವಿನ 99902 ಅನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+      "final_output": "ಸಮೀಕರಣ E = mc² ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+      "morph_log": [
+        "Detached: ಅನ್ನು -> ಸಂಬಂಧವನ್ನು",
+        "Attached: ರ -> ದ್ರವ್ಯರಾಶಿಯ"
+      ]
+    }
+  }
+]

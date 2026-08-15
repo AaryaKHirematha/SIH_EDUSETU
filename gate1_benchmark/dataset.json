@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "name": "EduSetu Gate 1 Benchmark Dataset",
+    "version": "1.0",
+    "purpose": "Gate 1 model evaluation — NOT production ground truth",
+    "reference_status": "none — no validated human references available",
+    "created": "2026-08-12"
+  },
+  "engineering_dataset": [
+    {
+      "id": "PHY-001",
+      "domain": "Physics",
+      "text": "Acceleration is the rate of change of velocity with respect to time.",
+      "length_class": "short"
+    },
+    {
+      "id": "PHY-002",
+      "domain": "Physics",
+      "text": "Newton's second law of motion states that the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+      "length_class": "medium"
+    },
+    {
+      "id": "PHY-003",
+      "domain": "Physics",
+      "text": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another.",
+      "length_class": "medium"
+    },
+    {
+      "id": "PHY-004",
+      "domain": "Physics",
+      "text": "In an electric circuit, the current flowing through a conductor is directly proportional to the voltage applied across its ends, provided the temperature remains constant. This relationship is known as Ohm's law.",
+      "length_class": "long"
+    },
+    {
+      "id": "PHY-005",
+      "domain": "Physics",
+      "text": "The refractive index of a medium determines how much light bends when it passes from one medium to another.",
+      "length_class": "short"
+    },
+    {
+      "id": "PHY-006",
+      "domain": "Physics",
+      "text": "Electromagnetic waves are transverse waves that consist of oscillating electric and magnetic fields perpendicular to each other and to the direction of wave propagation.",
+      "length_class": "medium"
+    },
+    {
+      "id": "MAT-001",
+      "domain": "Mathematics",
+      "text": "The quadratic formula is used to find the roots of a quadratic equation of the form ax squared plus bx plus c equals zero.",
+      "length_class": "short"
+    },
+    {
+      "id": "MAT-002",
+      "domain": "Mathematics",
+      "text": "A function is said to be continuous at a point if the limit of the function as x approaches that point equals the value of the function at that point.",
+      "length_class": "medium"
+    },
+    {
+      "id": "MAT-003",
+      "domain": "Mathematics",
+      "text": "The derivative of a function represents the instantaneous rate of change of the function with respect to its independent variable.",
+      "length_class": "short"
+    },
+    {
+      "id": "MAT-004",
+      "domain": "Mathematics",
+      "text": "In probability theory, the expected value of a discrete random variable is the sum of each possible value multiplied by its probability of occurrence.",
+      "length_class": "medium"
+    },
+    {
+      "id": "MAT-005",
+      "domain": "Mathematics",
+      "text": "A matrix is a rectangular array of numbers arranged in rows and columns that can be used to represent linear transformations.",
+      "length_class": "short"
+    },
+    {
+      "id": "MAT-006",
+      "domain": "Mathematics",
+      "text": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+      "length_class": "medium"
+    },
+    {
+      "id": "BIO-001",
+      "domain": "Biology",
+      "text": "Photosynthesis is the process by which green plants convert carbon dioxide and water into glucose and oxygen in the presence of sunlight.",
+      "length_class": "short"
+    },
+    {
+      "id": "BIO-002",
+      "domain": "Biology",
+      "text": "DNA replication is a semi-conservative process in which each strand of the original double helix serves as a template for the synthesis of a new complementary strand.",
+      "length_class": "medium"
+    },
+    {
+      "id": "BIO-003",
+      "domain": "Biology",
+      "text": "Mitosis is a type of cell division that results in two daughter cells, each having the same number and kind of chromosomes as the parent cell.",
+      "length_class": "medium"
+    },
+    {
+      "id": "BIO-004",
+      "domain": "Biology",
+      "text": "The human respiratory system consists of the nose, pharynx, larynx, trachea, bronchi, and lungs, which work together to facilitate the exchange of oxygen and carbon dioxide.",
+      "length_class": "long"
+    },
+    {
+      "id": "BIO-005",
+      "domain": "Biology",
+      "text": "Enzymes are biological catalysts that speed up chemical reactions in living organisms without being consumed in the process.",
+      "length_class": "short"
+    },
+    {
+      "id": "BIO-006",
+      "domain": "Biology",
+      "text": "Natural selection is the process through which organisms with favorable traits are more likely to survive and reproduce in a given environment.",
+      "length_class": "short"
+    },
+    {
+      "id": "CHE-001",
+      "domain": "Chemistry",
+      "text": "An atom consists of a nucleus containing protons and neutrons, surrounded by electrons that orbit in specific energy levels.",
+      "length_class": "short"
+    },
+    {
+      "id": "CHE-002",
+      "domain": "Chemistry",
+      "text": "The periodic table arranges chemical elements in order of increasing atomic number and groups them according to their chemical properties.",
+      "length_class": "short"
+    },
+    {
+      "id": "CHE-003",
+      "domain": "Chemistry",
+      "text": "In a chemical reaction, the total mass of the reactants is always equal to the total mass of the products. This is known as the law of conservation of mass.",
+      "length_class": "medium"
+    },
+    {
+      "id": "CHE-004",
+      "domain": "Chemistry",
+      "text": "Covalent bonds are formed when two atoms share one or more pairs of electrons to achieve a stable electron configuration.",
+      "length_class": "short"
+    },
+    {
+      "id": "CHE-005",
+      "domain": "Chemistry",
+      "text": "The pH scale measures the concentration of hydrogen ions in a solution, ranging from 0 for strongly acidic to 14 for strongly alkaline, with 7 being neutral.",
+      "length_class": "medium"
+    },
+    {
+      "id": "CHE-006",
+      "domain": "Chemistry",
+      "text": "Oxidation is the loss of electrons by a substance, while reduction is the gain of electrons. Together, these processes are called redox reactions.",
+      "length_class": "medium"
+    },
+    {
+      "id": "CSC-001",
+      "domain": "Computer Science",
+      "text": "An algorithm is a step-by-step procedure for solving a problem or performing a computation.",
+      "length_class": "short"
+    },
+    {
+      "id": "CSC-002",
+      "domain": "Computer Science",
+      "text": "A binary search algorithm works by repeatedly dividing the search interval in half to efficiently locate a target value in a sorted array.",
+      "length_class": "medium"
+    },
+    {
+      "id": "CSC-003",
+      "domain": "Computer Science",
+      "text": "Object-oriented programming is a paradigm that organizes software design around objects, which contain both data and the methods that operate on that data.",
+      "length_class": "medium"
+    },
+    {
+      "id": "CSC-004",
+      "domain": "Computer Science",
+      "text": "A database management system is software that provides an interface for storing, retrieving, and managing data in a structured and efficient manner.",
+      "length_class": "short"
+    },
+    {
+      "id": "CSC-005",
+      "domain": "Computer Science",
+      "text": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.",
+      "length_class": "short"
+    },
+    {
+      "id": "CSC-006",
+      "domain": "Computer Science",
+      "text": "The time complexity of an algorithm describes how the execution time grows as a function of the input size, commonly expressed using Big O notation.",
+      "length_class": "medium"
+    }
+  ],
+  "stress_test": [
+    {
+      "id": "STR-001",
+      "category": "technical_terms",
+      "text": "Students should install Python and NumPy before starting the machine learning course.",
+      "preserve": ["Python", "NumPy"]
+    },
+    {
+      "id": "STR-002",
+      "category": "technical_terms",
+      "text": "The TensorFlow library is commonly used for building neural network models in deep learning applications.",
+      "preserve": ["TensorFlow"]
+    },
+    {
+      "id": "STR-003",
+      "category": "scientific_notation",
+      "text": "Water has the chemical formula H2O and carbon dioxide is represented as CO2.",
+      "preserve": ["H2O", "CO2"]
+    },
+    {
+      "id": "STR-004",
+      "category": "mathematics",
+      "text": "According to Einstein's famous equation E equals mc squared, energy and mass are interchangeable.",
+      "preserve": ["E", "mc"]
+    },
+    {
+      "id": "STR-005",
+      "category": "units_numbers",
+      "text": "The acceleration due to gravity on Earth is approximately 9.8 metres per second squared.",
+      "preserve": ["9.8"]
+    },
+    {
+      "id": "STR-006",
+      "category": "units_numbers",
+      "text": "Water boils at 100 degrees Celsius at standard atmospheric pressure of 1 atm.",
+      "preserve": ["100", "1 atm"]
+    },
+    {
+      "id": "STR-007",
+      "category": "mixed_technical",
+      "text": "In Java and C++, variables must be declared with a data type before they can be used in the program.",
+      "preserve": ["Java", "C++"]
+    },
+    {
+      "id": "STR-008",
+      "category": "mixed_technical",
+      "text": "The HTML document structure includes elements like head, body, and div tags styled using CSS properties.",
+      "preserve": ["HTML", "CSS"]
+    },
+    {
+      "id": "STR-009",
+      "category": "long_paragraph",
+      "text": "Photosynthesis is a complex biological process that occurs in the chloroplasts of green plants. During this process, light energy from the sun is absorbed by chlorophyll and used to convert carbon dioxide and water into glucose and oxygen. The overall chemical equation for photosynthesis can be written as six molecules of carbon dioxide plus six molecules of water producing one molecule of glucose and six molecules of oxygen. This process is essential for life on Earth as it provides the primary source of organic compounds and oxygen for most living organisms. The rate of photosynthesis is influenced by several factors including light intensity, carbon dioxide concentration, and temperature.",
+      "preserve": []
+    },
+    {
+      "id": "STR-010",
+      "category": "long_paragraph",
+      "text": "The central processing unit, commonly known as the CPU, is the primary component of a computer that performs most of the processing inside the computer. It executes instructions from programs by performing basic arithmetic, logic, controlling, and input/output operations. Modern CPUs contain multiple cores, allowing them to process several instructions simultaneously. The performance of a CPU is measured in gigahertz, which indicates the number of clock cycles it can execute per second. A CPU with a clock speed of 3.2 gigahertz can perform approximately 3.2 billion cycles per second.",
+      "preserve": ["CPU", "3.2"]
+    }
+  ]
+}

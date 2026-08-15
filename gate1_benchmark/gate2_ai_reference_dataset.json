@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "PHY_001",
+    "source_en": "Force is equal to mass times acceleration.",
+    "reference_hi": "बल द्रव्यमान गुणा त्वरण के बराबर होता है।",
+    "reference_kn": "ಬಲವು ದ್ರವ್ಯರಾಶಿ ಮತ್ತು ವೇಗವರ್ಧನೆಯ ಗುಣಲಬ್ಧಕ್ಕೆ ಸಮಾನವಾಗಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_002",
+    "source_en": "The mass of the object is exactly 5 kg.",
+    "reference_hi": "वस्तु का द्रव्यमान ठीक 5 kg है।",
+    "reference_kn": "ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿಯು ನಿಖರವಾಗಿ 5 kg ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_003",
+    "source_en": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "reference_hi": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच संबंध का वर्णन करता है।",
+    "reference_kn": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc² ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_004",
+    "source_en": "Gravity on Earth is approximately 9.8 m/s².",
+    "reference_hi": "पृथ्वी पर गुरुत्वाकर्षण लगभग 9.8 m/s² है।",
+    "reference_kn": "ಭೂಮಿಯ ಮೇಲಿನ ಗುರುತ್ವಾಕರ್ಷಣೆಯು ಸರಿಸುಮಾರು 9.8 m/s² ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_005",
+    "source_en": "Momentum is equal to mass times velocity.",
+    "reference_hi": "संवेग द्रव्यमान गुणा वेग के बराबर होता है।",
+    "reference_kn": "ಆವೇಗವು ದ್ರವ್ಯರಾಶಿ ಗುಣಿಸು ವೇಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_006",
+    "source_en": "According to Newton's second law, F = ma.",
+    "reference_hi": "न्यूटन के दूसरे नियम के अनुसार, F = ma.",
+    "reference_kn": "ನ್ಯೂಟನ್‌ನ ಎರಡನೇ ನಿಯಮದ ಪ್ರಕಾರ, F = ma.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_007",
+    "source_en": "Work is done when a force that is applied to an object moves that object. The work is calculated by multiplying the force by the amount of movement of an object (W = F * d).",
+    "reference_hi": "जब किसी वस्तु पर लगाया गया बल उस वस्तु को विस्थापित करता है, तो कार्य होता है। कार्य की गणना बल को वस्तु की गति की मात्रा से गुणा करके की जाती है (W = F * d)।",
+    "reference_kn": "ವಸ್ತುವಿನ ಮೇಲೆ ಅನ್ವಯಿಸಲಾದ ಬಲವು ಆ ವಸ್ತುವನ್ನು ಚಲಿಸುವಂತೆ ಮಾಡಿದಾಗ ಕೆಲಸ ಮಾಡಲಾಗುತ್ತದೆ. ಬಲವನ್ನು ವಸ್ತುವಿನ ಚಲನೆಯ ಪ್ರಮಾಣದಿಂದ ಗುಣಿಸುವ ಮೂಲಕ ಕೆಲಸವನ್ನು ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ (W = F * d).",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_008",
+    "source_en": "The unit of force is the Newton (N).",
+    "reference_hi": "बल की इकाई न्यूटन (N) है।",
+    "reference_kn": "ಬಲದ ಘಟಕವು ನ್ಯೂಟನ್ (N) ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_009",
+    "source_en": "Kinetic energy is the energy that an object possesses due to its motion.",
+    "reference_hi": "गतिज ऊर्जा वह ऊर्जा है जो किसी वस्तु में उसकी गति के कारण होती है।",
+    "reference_kn": "ಚಲನ ಶಕ್ತಿಯು ವಸ್ತುವು ತನ್ನ ಚಲನೆಯ ಕಾರಣದಿಂದ ಹೊಂದಿರುವ ಶಕ್ತಿಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_010",
+    "source_en": "Potential energy is stored energy that depends upon the relative position of various parts of a system.",
+    "reference_hi": "स्थितिज ऊर्जा एक संचित ऊर्जा है जो किसी प्रणाली के विभिन्न भागों की सापेक्ष स्थिति पर निर्भर करती है।",
+    "reference_kn": "ಸ್ಥಿತಿ ಶಕ್ತಿಯು ಸಂಗ್ರಹವಾದ ಶಕ್ತಿಯಾಗಿದ್ದು, ಇದು ವ್ಯವಸ್ಥೆಯ ವಿವಿಧ ಭಾಗಗಳ ಸಾಪೇಕ್ಷ ಸ್ಥಾನವನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_011",
+    "source_en": "When a car accelerates, its velocity increases over time.",
+    "reference_hi": "जब कोई कार त्वरित होती है, तो समय के साथ उसका वेग बढ़ता है।",
+    "reference_kn": "ಕಾರು ವೇಗವರ್ಧಿಸಿದಾಗ, ಕಾಲಾನಂತರದಲ್ಲಿ ಅದರ ವೇಗವು ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_012",
+    "source_en": "The speed of light in a vacuum is 3 × 10⁸ m/s.",
+    "reference_hi": "निर्वात में प्रकाश की गति 3 × 10⁸ m/s है।",
+    "reference_kn": "ನಿರ್ವಾತದಲ್ಲಿ ಬೆಳಕಿನ ವೇಗವು 3 × 10⁸ m/s ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_013",
+    "source_en": "Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.",
+    "reference_hi": "घर्षण वह बल है जो ठोस सतहों, द्रव परतों और भौतिक तत्वों की एक-दूसरे पर फिसलने की सापेक्ष गति का विरोध करता है।",
+    "reference_kn": "ಘರ್ಷಣೆಯು ಘನ ಮೇಲ್ಮೈಗಳು, ದ್ರವದ ಪದರಗಳು ಮತ್ತು ಭೌತಿಕ ಅಂಶಗಳು ಪರಸ್ಪರ ಜಾರುವಾಗ ಅವುಗಳ ಸಾಪೇಕ್ಷ ಚಲನೆಯನ್ನು ವಿರೋಧಿಸುವ ಬಲವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_014",
+    "source_en": "Power is the rate at which work is done.",
+    "reference_hi": "शक्ति वह दर है जिस पर कार्य किया जाता है।",
+    "reference_kn": "ಶಕ್ತಿಯು ಕೆಲಸ ಮಾಡುವ ದರವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_015",
+    "source_en": "The formula for power is P = W / t, where W is work and t is time.",
+    "reference_hi": "शक्ति का सूत्र P = W / t है, जहाँ W कार्य है और t समय है।",
+    "reference_kn": "ಶಕ್ತಿಯ ಸೂತ್ರವು P = W / t ಆಗಿದೆ, ಇಲ್ಲಿ W ಎಂಬುದು ಕೆಲಸ ಮತ್ತು t ಎಂಬುದು ಸಮಯ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_016",
+    "source_en": "Thermodynamics is the branch of physics that deals with heat, work, and temperature, and their relation to energy, radiation, and properties of matter.",
+    "reference_hi": "ऊष्मागतिकी भौतिकी की वह शाखा है जो ऊष्मा, कार्य और तापमान, और ऊर्जा, विकिरण और पदार्थ के गुणों के साथ उनके संबंध से संबंधित है।",
+    "reference_kn": "ಉಷ್ಣಬಲ ವಿಜ್ಞಾನವು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಹಾಗೂ ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ವಸ್ತುವಿನ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧವನ್ನು ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_017",
+    "source_en": "A vector quantity has both magnitude and direction, whereas a scalar quantity has only magnitude.",
+    "reference_hi": "एक सदिश राशि में परिमाण और दिशा दोनों होते हैं, जबकि एक अदिश राशि में केवल परिमाण होता है।",
+    "reference_kn": "ಸದಿಶ ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿರುತ್ತದೆ, ಆದರೆ ಅದಿಶ ಪ್ರಮಾಣವು ಕೇವಲ ಪರಿಮಾಣವನ್ನು ಮಾತ್ರ ಹೊಂದಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_018",
+    "source_en": "Voltage is the difference in electric potential between two points.",
+    "reference_hi": "वोल्टेज दो बिंदुओं के बीच विद्युत विभव में अंतर है।",
+    "reference_kn": "ವೋಲ್ಟೇಜ್ ಎನ್ನುವುದು ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ವಿದ್ಯುತ್ ವಿಭವದ ವ್ಯತ್ಯಾಸವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_019",
+    "source_en": "Ohm's law states that V = IR.",
+    "reference_hi": "ओम का नियम बताता है कि V = IR.",
+    "reference_kn": "ಓಮ್‌ನ ನಿಯಮವು V = IR ಎಂದು ಹೇಳುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_020",
+    "source_en": "Magnetic fields are produced by moving electric charges and the intrinsic magnetic moments of elementary particles.",
+    "reference_hi": "चुंबकीय क्षेत्र गतिमान विद्युत आवेशों और मूल कणों के आंतरिक चुंबकीय आघूर्णों द्वारा निर्मित होते हैं।",
+    "reference_kn": "ಕಾಂತಕ್ಷೇತ್ರಗಳು ಚಲಿಸುವ ವಿದ್ಯುತ್ ಆವೇಶಗಳು ಮತ್ತು ಮೂಲಭೂತ ಕಣಗಳ ಆಂತರಿಕ ಕಾಂತೀಯ ಆವೇಗಗಳಿಂದ ಉತ್ಪತ್ತಿಯಾಗುತ್ತವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_021",
+    "source_en": "The standard unit of electrical resistance is the ohm (Ω).",
+    "reference_hi": "विद्युत प्रतिरोध की मानक इकाई ओम (Ω) है।",
+    "reference_kn": "ವಿದ್ಯುತ್ ರೋಧದ ಪ್ರಮಾಣಿತ ಘಟಕವು ಓಮ್ (Ω) ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_022",
+    "source_en": "Density is defined as mass per unit volume.",
+    "reference_hi": "घनत्व को प्रति इकाई आयतन द्रव्यमान के रूप में परिभाषित किया जाता है।",
+    "reference_kn": "ಸಾಂದ್ರತೆಯನ್ನು ಪ್ರತಿ ಘಟಕ ಗಾತ್ರದ ದ್ರವ್ಯರಾಶಿ ಎಂದು ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_023",
+    "source_en": "If the net force on an object is zero, its acceleration is also zero.",
+    "reference_hi": "यदि किसी वस्तु पर शुद्ध बल शून्य है, तो उसका त्वरण भी शून्य होता है।",
+    "reference_kn": "ವಸ್ತುವಿನ ಮೇಲಿನ ನಿವ್ವಳ ಬಲವು ಶೂನ್ಯವಾಗಿದ್ದರೆ, ಅದರ ವೇಗವರ್ಧನೆಯು ಸಹ ಶೂನ್ಯವಾಗಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_024",
+    "source_en": "The wavelength of the wave is inversely proportional to its frequency.",
+    "reference_hi": "तरंग का तरंगदैर्ध्य उसकी आवृत्ति के व्युत्क्रमानुपाती होता है।",
+    "reference_kn": "ತರಂಗದ ತರಂಗಾಂತರವು ಅದರ ಆವರ್ತನಕ್ಕೆ ವಿಲೋಮ ಅನುಪಾತದಲ್ಲಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "PHY_025",
+    "source_en": "An object in free fall experiences an acceleration of 9.8 m/s².",
+    "reference_hi": "मुक्त पतन में कोई वस्तु 9.8 m/s² के त्वरण का अनुभव करती है।",
+    "reference_kn": "ಮುಕ್ತ ಪತನದಲ್ಲಿರುವ ವಸ್ತುವು 9.8 m/s² ನ ವೇಗವರ್ಧನೆಯನ್ನು ಅನುಭವಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_001",
+    "source_en": "The quadratic equation can be solved using the quadratic formula.",
+    "reference_hi": "द्विघात समीकरण को द्विघात सूत्र का उपयोग करके हल किया जा सकता है।",
+    "reference_kn": "ವರ್ಗ ಸಮೀಕರಣವನ್ನು ವರ್ಗ ಸೂತ್ರವನ್ನು ಬಳಸಿಕೊಂಡು ಪರಿಹರಿಸಬಹುದು.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_002",
+    "source_en": "A polynomial is an algebraic expression consisting of variables and coefficients.",
+    "reference_hi": "बहुपद एक बीजगणितीय व्यंजक है जिसमें चर और गुणांक होते हैं।",
+    "reference_kn": "ಬಹುಪದವು ಚರಗಳು ಮತ್ತು ಗುಣಾಂಕಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_003",
+    "source_en": "The derivative of a function represents its rate of change.",
+    "reference_hi": "किसी फलन का अवकलज उसके परिवर्तन की दर को दर्शाता है।",
+    "reference_kn": "ಒಂದು ಕಾರ್ಯದ ಅವಕಲನವು ಅದರ ಬದಲಾವಣೆಯ ದರವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_004",
+    "source_en": "Integration is used to calculate area under a curve.",
+    "reference_hi": "समाकलन का उपयोग वक्र के नीचे के क्षेत्रफल की गणना करने के लिए किया जाता है।",
+    "reference_kn": "ವಕ್ರರೇಖೆಯ ಕೆಳಗಿನ ವಿಸ್ತೀರ್ಣವನ್ನು ಲೆಕ್ಕಹಾಕಲು ಸಮಾಕಲನವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_005",
+    "source_en": "A matrix is a rectangular arrangement of numbers.",
+    "reference_hi": "आव्यूह संख्याओं की एक आयताकार व्यवस्था है।",
+    "reference_kn": "ಮಾತೃಕೆಯು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_006",
+    "source_en": "The coefficient of x in the equation is 5.",
+    "reference_hi": "समीकरण में x का गुणांक 5 है।",
+    "reference_kn": "ಸಮೀಕರಣದಲ್ಲಿ x ನ ಗುಣಾಂಕ 5 ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_007",
+    "source_en": "To find the roots of the equation x² - 5x + 6 = 0, we can factorize it.",
+    "reference_hi": "समीकरण x² - 5x + 6 = 0 के मूल ज्ञात करने के लिए, हम इसका गुणनखंडन कर सकते हैं।",
+    "reference_kn": "x² - 5x + 6 = 0 ಸಮೀಕರಣದ ಮೂಲಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು, ನಾವು ಅದನ್ನು ಅಪವರ್ತಿಸಬಹುದು.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_008",
+    "source_en": "The Pythagorean theorem states that a² + b² = c².",
+    "reference_hi": "पाइथागोरस प्रमेय बताता है कि a² + b² = c².",
+    "reference_kn": "ಪೈಥಾಗರಸ್ ಪ್ರಮೇಯವು a² + b² = c² ಎಂದು ಹೇಳುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_009",
+    "source_en": "In a right-angled triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse.",
+    "reference_hi": "समकोण त्रिभुज में, किसी कोण की ज्या (sine) सम्मुख भुजा और कर्ण का अनुपात होती है।",
+    "reference_kn": "ಲಂಬಕೋನ ತ್ರಿಕೋನದಲ್ಲಿ, ಒಂದು ಕೋನದ ಸೈನ್ (sine) ಎದುರು ಭಾಗ ಮತ್ತು ಕರ್ಣದ ಅನುಪಾತವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_010",
+    "source_en": "The probability of an impossible event is 0, and the probability of a certain event is 1.",
+    "reference_hi": "एक असंभव घटना की प्रायिकता 0 होती है, और एक निश्चित घटना की प्रायिकता 1 होती है।",
+    "reference_kn": "ಅಸಾಧ್ಯವಾದ ಘಟನೆಯ ಸಂಭವನೀಯತೆ 0, ಮತ್ತು ನಿಶ್ಚಿತ ಘಟನೆಯ ಸಂಭವನೀಯತೆ 1 ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_011",
+    "source_en": "A linear equation in two variables describes a line on a Cartesian coordinate plane. The standard form is Ax + By = C, where A, B, and C are constants, and x and y are variables.",
+    "reference_hi": "दो चरों वाला रैखिक समीकरण एक कार्तीय निर्देशांक तल पर एक रेखा का वर्णन करता है। इसका मानक रूप Ax + By = C है, जहाँ A, B, और C स्थिरांक हैं, और x और y चर हैं।",
+    "reference_kn": "ಎರಡು ಚರಗಳಿರುವ ರೇಖಾತ್ಮಕ ಸಮೀಕರಣವು ಕಾರ್ಟೀಸಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದಲ್ಲಿ ಒಂದು ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಇದರ ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇಲ್ಲಿ A, B, ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳಾಗಿವೆ, ಮತ್ತು x ಮತ್ತು y ಚರಗಳಾಗಿವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_012",
+    "source_en": "The sum of the interior angles of a triangle is always 180°.",
+    "reference_hi": "त्रिभुज के आंतरिक कोणों का योग हमेशा 180° होता है।",
+    "reference_kn": "ತ್ರಿಕೋನದ ಒಳಕೋನಗಳ ಮೊತ್ತವು ಯಾವಾಗಲೂ 180° ಆಗಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_013",
+    "source_en": "Two lines are parallel if their slopes are equal, meaning m₁ = m₂.",
+    "reference_hi": "दो रेखाएँ समानांतर होती हैं यदि उनकी ढलान समान हो, जिसका अर्थ है m₁ = m₂.",
+    "reference_kn": "ಎರಡು ರೇಖೆಗಳ ಇಳಿಜಾರುಗಳು ಸಮಾನವಾಗಿದ್ದರೆ ಅವು ಸಮಾನಾಂತರವಾಗಿರುತ್ತವೆ, ಅಂದರೆ m₁ = m₂.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_014",
+    "source_en": "A logarithm answers the question: to what power must the base be raised to produce a given number?",
+    "reference_hi": "लघुगणक इस प्रश्न का उत्तर देता है: दी गई संख्या प्राप्त करने के लिए आधार को किस घात तक बढ़ाया जाना चाहिए?",
+    "reference_kn": "ಲಾಗರಿಥಮ್ ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರಿಸುತ್ತದೆ: ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಯನ್ನು ಉತ್ಪಾದಿಸಲು ಆಧಾರವನ್ನು ಯಾವ ಘಾತಕ್ಕೆ ಏರಿಸಬೇಕು?",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_015",
+    "source_en": "The area of a circle is given by A = πr².",
+    "reference_hi": "वृत्त का क्षेत्रफल A = πr² द्वारा दिया जाता है।",
+    "reference_kn": "ವೃತ್ತದ ವಿಸ್ತೀರ್ಣವನ್ನು A = πr² ನಿಂದ ನೀಡಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_016",
+    "source_en": "The perimeter of a rectangle is P = 2(l + w).",
+    "reference_hi": "आयत का परिमाप P = 2(l + w) है।",
+    "reference_kn": "ಆಯತದ ಸುತ್ತಳತೆ P = 2(l + w).",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_017",
+    "source_en": "An integer is a whole number that can be positive, negative, or zero.",
+    "reference_hi": "पूर्णांक एक पूर्ण संख्या है जो धनात्मक, ऋणात्मक या शून्य हो सकती है।",
+    "reference_kn": "ಪೂರ್ಣಾಂಕವು ಧನಾತ್ಮಕ, ಋಣಾತ್ಮಕ ಅಥವಾ ಶೂನ್ಯವಾಗಿರಬಹುದಾದ ಪೂರ್ಣ ಸಂಖ್ಯೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_018",
+    "source_en": "Prime numbers are numbers that have only two distinct positive divisors: 1 and themselves.",
+    "reference_hi": "अभाज्य संख्याएँ वे संख्याएँ हैं जिनके केवल दो भिन्न धनात्मक भाजक होते हैं: 1 और वे स्वयं।",
+    "reference_kn": "ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು ಕೇವಲ ಎರಡು ವಿಭಿನ್ನ ಧನಾತ್ಮಕ ಭಾಜಕಗಳನ್ನು ಹೊಂದಿರುವ ಸಂಖ್ಯೆಗಳಾಗಿವೆ: 1 ಮತ್ತು ಅದೇ ಸಂಖ್ಯೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_019",
+    "source_en": "The sequence 2, 4, 6, 8 is an arithmetic progression.",
+    "reference_hi": "अनुक्रम 2, 4, 6, 8 एक समांतर श्रेढ़ी है।",
+    "reference_kn": "2, 4, 6, 8 ಅನುಕ್ರಮವು ಒಂದು ಸಮಾಂತರ ಶ್ರೇಢಿಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_020",
+    "source_en": "The union of two sets A and B is denoted by A ∪ B.",
+    "reference_hi": "दो समुच्चयों A और B के सम्मिलन को A ∪ B द्वारा दर्शाया जाता है।",
+    "reference_kn": "ಎರಡು ಗಣಗಳಾದ A ಮತ್ತು B ಗಳ ಸಂಯೋಗವನ್ನು A ∪ B ನಿಂದ ಸೂಚಿಸಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_021",
+    "source_en": "A geometric progression is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.",
+    "reference_hi": "गुणोत्तर श्रेढ़ी संख्याओं का एक ऐसा अनुक्रम है जहाँ पहले पद के बाद प्रत्येक पद को पिछले पद को एक निश्चित, गैर-शून्य संख्या से गुणा करके प्राप्त किया जाता है जिसे सार्व अनुपात कहा जाता है।",
+    "reference_kn": "ಗುಣೋತ್ತರ ಶ್ರೇಢಿಯು ಸಂಖ್ಯೆಗಳ ಒಂದು ಅನುಕ್ರಮವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಮೊದಲನೇ ಪದದ ನಂತರದ ಪ್ರತಿಯೊಂದು ಪದವನ್ನು ಹಿಂದಿನ ಪದದೊಂದಿಗೆ ಸಾಮಾನ್ಯ ಅನುಪಾತ ಎಂದು ಕರೆಯಲಾಗುವ ನಿರ್ದಿಷ್ಟ, ಶೂನ್ಯವಲ್ಲದ ಸಂಖ್ಯೆಯಿಂದ ಗುಣಿಸುವ ಮೂಲಕ ಪಡೆಯಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_022",
+    "source_en": "The volume of a sphere is (4/3)πr³.",
+    "reference_hi": "गोले का आयतन (4/3)πr³ है।",
+    "reference_kn": "ಗೋಳದ ಗಾತ್ರವು (4/3)πr³ ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_023",
+    "source_en": "In statistics, the median is the middle value in a given list of numbers when they are ordered.",
+    "reference_hi": "सांख्यिकी में, माध्यिका संख्याओं की दी गई सूची में मध्य मान होता है जब उन्हें क्रमबद्ध किया जाता है।",
+    "reference_kn": "ಸಂಖ್ಯಾಶಾಸ್ತ್ರದಲ್ಲಿ, ಮಧ್ಯಾಂಕವು ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಗಳ ಪಟ್ಟಿಯನ್ನು ಕ್ರಮವಾಗಿ ಜೋಡಿಸಿದಾಗ ಬರುವ ಮಧ್ಯದ ಮೌಲ್ಯವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_024",
+    "source_en": "Standard deviation measures the amount of variation or dispersion of a set of values.",
+    "reference_hi": "मानक विचलन मानों के एक समूह की भिन्नता या फैलाव की मात्रा को मापता है।",
+    "reference_kn": "ಮಾನಕ ವಿಚಲನವು ಮೌಲ್ಯಗಳ ಗುಂಪಿನ ಬದಲಾವಣೆ ಅಥವಾ ಪ್ರಸರಣದ ಪ್ರಮಾಣವನ್ನು ಅಳೆಯುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_025",
+    "source_en": "If f(x) = x², then the first derivative f'(x) is 2x.",
+    "reference_hi": "यदि f(x) = x², तो प्रथम अवकलज f'(x) 2x है।",
+    "reference_kn": "f(x) = x² ಆಗಿದ್ದರೆ, ಮೊದಲನೇ ಅವಕಲನ f'(x) 2x ಆಗಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_026",
+    "source_en": "An acute angle is an angle that measures less than 90 degrees.",
+    "reference_hi": "न्यून कोण वह कोण है जिसकी माप 90 डिग्री से कम होती है।",
+    "reference_kn": "ಲಘುಕೋನವು 90 ಡಿಗ್ರಿಗಿಂತ ಕಡಿಮೆ ಅಳತೆಯ ಕೋನವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_027",
+    "source_en": "A vector space is a set that is closed under finite vector addition and scalar multiplication.",
+    "reference_hi": "एक सदिश समष्टि एक ऐसा समुच्चय है जो परिमित सदिश योग और अदिश गुणन के अंतर्गत संवृत होता है।",
+    "reference_kn": "ಸದಿಶ ಅವಕಾಶವು ಸೀಮಿತ ಸದಿಶ ಸಂಕಲನ ಮತ್ತು ಅದಿಶ ಗುಣಾಕಾರದ ಅಡಿಯಲ್ಲಿ ಮುಚ್ಚಲ್ಪಟ್ಟಿರುವ ಗಣವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_028",
+    "source_en": "The limits of integration are from a to b.",
+    "reference_hi": "समाकलन की सीमाएँ a से b तक हैं।",
+    "reference_kn": "ಸಮಾಕಲನದ ಮಿತಿಗಳು a ನಿಂದ b ವರೆಗೆ ಇವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_029",
+    "source_en": "Let x and y be real numbers.",
+    "reference_hi": "मान लीजिए कि x और y वास्तविक संख्याएँ हैं।",
+    "reference_kn": "x ಮತ್ತು y ವಾಸ್ತವ ಸಂಖ್ಯೆಗಳಾಗಿರಲಿ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "MAT_030",
+    "source_en": "The determinant of a 2x2 matrix can be calculated as ad - bc.",
+    "reference_hi": "एक 2x2 आव्यूह के सारणिक की गणना ad - bc के रूप में की जा सकती है।",
+    "reference_kn": "2x2 ಮಾತೃಕೆಯ ನಿರ್ಧಾರಕವನ್ನು ad - bc ಎಂದು ಲೆಕ್ಕಹಾಕಬಹುದು.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_001",
+    "source_en": "The chemical formula for water is H₂O.",
+    "reference_hi": "जल का रासायनिक सूत्र H₂O है।",
+    "reference_kn": "ನೀರಿನ ರಾಸಾಯನಿಕ ಸೂತ್ರವು H₂O ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_002",
+    "source_en": "Carbon dioxide is represented by CO₂.",
+    "reference_hi": "कार्बन डाइऑक्साइड को CO₂ द्वारा दर्शाया जाता है।",
+    "reference_kn": "ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ಅನ್ನು CO₂ ನಿಂದ ಪ್ರತಿನಿಧಿಸಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_003",
+    "source_en": "A molecule of water is formed by two hydrogen atoms and one oxygen atom.",
+    "reference_hi": "जल का एक अणु हाइड्रोजन के दो परमाणुओं और ऑक्सीजन के एक परमाणु से बनता है।",
+    "reference_kn": "ನೀರಿನ ಒಂದು ಅಣುವು ಎರಡು ಹೈಡ್ರೋಜನ್ ಪರಮಾಣುಗಳು ಮತ್ತು ಒಂದು ಆಮ್ಲಜನಕ ಪರಮಾಣುವಿನಿಂದ ರೂಪುಗೊಳ್ಳುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_004",
+    "source_en": "An atom consists of a nucleus surrounded by electrons.",
+    "reference_hi": "एक परमाणु में एक नाभिक होता है जो इलेक्ट्रॉनों से घिरा होता है।",
+    "reference_kn": "ಪರಮಾಣುವು ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿಂದ ಸುತ್ತುವರೆದಿರುವ ನ್ಯೂಕ್ಲಿಯಸ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_005",
+    "source_en": "In a covalent bond, pairs of electrons are shared between atoms.",
+    "reference_hi": "सहसंयोजक बंधन में, परमाणुओं के बीच इलेक्ट्रॉनों के जोड़े साझा किए जाते हैं।",
+    "reference_kn": "ಸಹವೇಲೆನ್ಸೀಯ ಬಂಧದಲ್ಲಿ, ಪರಮಾಣುಗಳ ನಡುವೆ ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳ ಜೋಡಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_006",
+    "source_en": "Sodium chloride is commonly known as table salt (NaCl).",
+    "reference_hi": "सोडियम क्लोराइड को आमतौर पर साधारण नमक (NaCl) के रूप में जाना जाता है।",
+    "reference_kn": "ಸೋಡಿಯಂ ಕ್ಲೋರೈಡ್ ಅನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಸಾಮಾನ್ಯ ಉಪ್ಪು (NaCl) ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_007",
+    "source_en": "A chemical reaction is a process that leads to the chemical transformation of one set of chemical substances to another. Classically, chemical reactions encompass changes that only involve the positions of electrons in the forming and breaking of chemical bonds between atoms.",
+    "reference_hi": "रासायनिक अभिक्रिया एक ऐसी प्रक्रिया है जिसके परिणामस्वरूप रासायनिक पदार्थों के एक समूह का दूसरे में रासायनिक परिवर्तन होता है। पारंपरिक रूप से, रासायनिक अभिक्रियाओं में वे परिवर्तन शामिल होते हैं जिनमें केवल परमाणुओं के बीच रासायनिक बंधनों के बनने और टूटने में इलेक्ट्रॉनों की स्थिति शामिल होती है।",
+    "reference_kn": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯು ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ವಸ್ತುಗಳನ್ನು ಮತ್ತೊಂದು ಗುಂಪಿಗೆ ರಾಸಾಯನಿಕವಾಗಿ ಪರಿವರ್ತಿಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಸಾಂಪ್ರದಾಯಿಕವಾಗಿ, ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಿಕೆಯಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳ ಸ್ಥಾನವನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಳ್ಳುತ್ತವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_008",
+    "source_en": "Acids are substances that can donate a proton (H⁺) to another substance.",
+    "reference_hi": "अम्ल वे पदार्थ हैं जो किसी अन्य पदार्थ को प्रोटॉन (H⁺) दान कर सकते हैं।",
+    "reference_kn": "ಆಮ್ಲಗಳೆಂದರೆ ಮತ್ತೊಂದು ವಸ್ತುವಿಗೆ ಪ್ರೋಟಾನ್ (H⁺) ಅನ್ನು ದಾನ ಮಾಡಬಲ್ಲ ವಸ್ತುಗಳು.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_009",
+    "source_en": "The pH scale ranges from 0 to 14.",
+    "reference_hi": "पीएच पैमाना 0 से 14 तक होता है।",
+    "reference_kn": "pH ಮಾಪಕವು 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_010",
+    "source_en": "Exothermic reactions release energy in the form of heat or light.",
+    "reference_hi": "ऊष्माक्षेपी अभिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा मुक्त करती हैं।",
+    "reference_kn": "ಉಷ್ಣಬಹಿರ್ಸೂಸಕ ಕ್ರಿಯೆಗಳು ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_011",
+    "source_en": "Endothermic reactions absorb energy from their surroundings.",
+    "reference_hi": "ऊष्माशोषी अभिक्रियाएँ अपने परिवेश से ऊर्जा को अवशोषित करती हैं।",
+    "reference_kn": "ಉಷ್ಣಗ್ರಾಹಕ ಕ್ರಿಯೆಗಳು ತಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಪರಿಸರದಿಂದ ಶಕ್ತಿಯನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_012",
+    "source_en": "Avogadro's number is approximately 6.022 × 10²³.",
+    "reference_hi": "एवोगैड्रो संख्या लगभग 6.022 × 10²³ है।",
+    "reference_kn": "ಅವಗಾಡ್ರೊ ಸಂಖ್ಯೆಯು ಸರಿಸುಮಾರು 6.022 × 10²³ ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_013",
+    "source_en": "Isotopes are variants of a particular chemical element which differ in neutron number.",
+    "reference_hi": "समस्थानिक किसी विशेष रासायनिक तत्व के ऐसे प्रकार हैं जिनमें न्यूट्रॉन की संख्या भिन्न होती है।",
+    "reference_kn": "ಐಸೋಟೋಪ್‌ಗಳು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಮೂಲವಸ್ತುವಿನ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಇವುಗಳಲ್ಲಿ ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆ ಭಿನ್ನವಾಗಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_014",
+    "source_en": "A catalyst is a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "reference_hi": "उत्प्रेरक वह पदार्थ है जो स्वयं किसी स्थायी रासायनिक परिवर्तन से गुजरे बिना किसी रासायनिक अभिक्रिया की दर को बढ़ा देता है।",
+    "reference_kn": "ವೇಗವರ್ಧಕವು ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ದರವನ್ನು ಹೆಚ್ಚಿಸುವ ವಸ್ತುವಾಗಿದ್ದು, ಅದು ತಾನೇ ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗುವುದಿಲ್ಲ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_015",
+    "source_en": "The periodic table organizes elements based on their atomic number.",
+    "reference_hi": "आवर्त सारणी तत्वों को उनके परमाणु क्रमांक के आधार पर व्यवस्थित करती है।",
+    "reference_kn": "ಆವರ್ತಕ ಕೋಷ್ಟಕವು ಮೂಲವಸ್ತುಗಳನ್ನು ಅವುಗಳ ಪರಮಾಣು ಸಂಖ್ಯೆಯ ಆಧಾರದ ಮೇಲೆ ಆಯೋಜಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_016",
+    "source_en": "Oxidation is the loss of electrons during a reaction by a molecule, atom or ion.",
+    "reference_hi": "ऑक्सीकरण किसी अभिक्रिया के दौरान किसी अणु, परमाणु या आयन द्वारा इलेक्ट्रॉनों की हानि है।",
+    "reference_kn": "ಉತ್ಕರ್ಷಣೆಯು ಒಂದು ಕ್ರಿಯೆಯ ಸಮಯದಲ್ಲಿ ಅಣು, ಪರಮಾಣು ಅಥವಾ ಅಯಾನಿನಿಂದ ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳ ನಷ್ಟವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_017",
+    "source_en": "Reduction is the gain of electrons.",
+    "reference_hi": "अपचयन इलेक्ट्रॉनों की प्राप्ति है।",
+    "reference_kn": "ಅಪಕರ್ಷಣೆಯು ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳನ್ನು ಪಡೆಯುವುದಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_018",
+    "source_en": "A mole is defined as the amount of substance that contains as many elementary entities as there are atoms in 12 grams of carbon-12.",
+    "reference_hi": "एक मोल को पदार्थ की उस मात्रा के रूप में परिभाषित किया जाता है जिसमें उतने ही मूल कण होते हैं जितने 12 ग्राम कार्बन-12 में परमाणु होते हैं।",
+    "reference_kn": "ಒಂದು ಮೋಲ್ ಅನ್ನು 12 ಗ್ರಾಂ ಕಾರ್ಬನ್-12 ರಲ್ಲಿರುವ ಪರಮಾಣುಗಳಷ್ಟೇ ಮೂಲಭೂತ ಘಟಕಗಳನ್ನು ಹೊಂದಿರುವ ವಸ್ತುವಿನ ಪ್ರಮಾಣ ಎಂದು ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_019",
+    "source_en": "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation of carbon-containing compounds.",
+    "reference_hi": "कार्बनिक रसायन कार्बन युक्त यौगिकों की संरचना, गुणों, संरचना, अभिक्रियाओं और निर्माण का अध्ययन है।",
+    "reference_kn": "ಸಾವಯವ ರಸಾಯನಶಾಸ್ತ್ರವು ಇಂಗಾಲವನ್ನು ಹೊಂದಿರುವ ಸಂಯುಕ್ತಗಳ ರಚನೆ, ಗುಣಲಕ್ಷಣಗಳು, ಸಂಯೋಜನೆ, ಕ್ರಿಯೆಗಳು ಮತ್ತು ತಯಾರಿಕೆಯ ಅಧ್ಯಯನವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CHE_020",
+    "source_en": "The molar mass of water is approximately 18.015 g/mol.",
+    "reference_hi": "जल का मोलर द्रव्यमान लगभग 18.015 g/mol है।",
+    "reference_kn": "ನೀರಿನ ಮೋಲಾರ್ ದ್ರವ್ಯರಾಶಿಯು ಸರಿಸುಮಾರು 18.015 g/mol ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_001",
+    "source_en": "Photosynthesis is the process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water.",
+    "reference_hi": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे कार्बन डाइऑक्साइड और जल से पोषक तत्वों को संश्लेषित करने के लिए सूर्य के प्रकाश का उपयोग करते हैं।",
+    "reference_kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯು ಹಸಿರು ಸಸ್ಯಗಳು ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು ನೀರಿನಿಂದ ಪೋಷಕಾಂಶಗಳನ್ನು ಸಂಶ್ಲೇಷಿಸಲು ಸೂರ್ಯನ ಬೆಳಕನ್ನು ಬಳಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_002",
+    "source_en": "The cell is the basic structural and functional unit of all living organisms.",
+    "reference_hi": "कोशिका सभी जीवित जीवों की मूल संरचनात्मक और कार्यात्मक इकाई है।",
+    "reference_kn": "ಜೀವಕೋಶವು ಎಲ್ಲಾ ಜೀವಿಗಳ ಮೂಲಭೂತ ರಚನಾತ್ಮಕ ಮತ್ತು ಕ್ರಿಯಾತ್ಮಕ ಘಟಕವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_003",
+    "source_en": "DNA (Deoxyribonucleic acid) carries the genetic instructions used in growth, development, functioning, and reproduction.",
+    "reference_hi": "DNA (डीऑक्सीराइबोन्यूक्लिक एसिड) वृद्धि, विकास, कार्यप्रणाली और प्रजनन में उपयोग किए जाने वाले आनुवंशिक निर्देशों को वहन करता है।",
+    "reference_kn": "DNA (ಡಿಆಕ್ಸಿರೈಬೋನ್ಯೂಕ್ಲಿಯಿಕ್ ಆಮ್ಲ) ಬೆಳವಣಿಗೆ, ಅಭಿವೃದ್ಧಿ, ಕಾರ್ಯನಿರ್ವಹಣೆ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಯಲ್ಲಿ ಬಳಸುವ ಆನುವಂಶಿಕ ಸೂಚನೆಗಳನ್ನು ಒಯ್ಯುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_004",
+    "source_en": "Mitochondria are known as the powerhouses of the cell because they generate most of the cell's supply of ATP.",
+    "reference_hi": "माइटोकॉन्ड्रिया को कोशिका का पावरहाउस कहा जाता है क्योंकि वे कोशिका की अधिकांश ATP की आपूर्ति उत्पन्न करते हैं।",
+    "reference_kn": "ಮೈಟೊಕಾಂಡ್ರಿಯಾವನ್ನು ಜೀವಕೋಶದ ಶಕ್ತಿ ಕೇಂದ್ರ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಅದು ಜೀವಕೋಶದ ಬಹುಪಾಲು ATP ಯನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_005",
+    "source_en": "Osmosis is the spontaneous net movement of solvent molecules through a selectively permeable membrane.",
+    "reference_hi": "परासरण एक अर्ध-पारगम्य झिल्ली के माध्यम से विलायक अणुओं की स्वतःस्फूर्त शुद्ध गति है।",
+    "reference_kn": "ಆಸ್ಮೋಸಿಸ್ ಎನ್ನುವುದು ಅರೆ-ಪ್ರವೇಶ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_006",
+    "source_en": "Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",
+    "reference_hi": "कोशिकीय श्वसन चयापचय अभिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसाइन ट्राइफॉस्फेट (ATP) में बदलने और फिर अपशिष्ट उत्पादों को मुक्त करने के लिए होता है।",
+    "reference_kn": "ಕೋಶೀಯ ಉಸಿರಾಟವು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ಪೋಷಕಾಂಶಗಳಿಂದ ಜೀವರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_007",
+    "source_en": "Enzymes are proteins that act as biological catalysts by accelerating chemical reactions.",
+    "reference_hi": "एंजाइम वे प्रोटीन हैं जो रासायनिक अभिक्रियाओं को तेज करके जैविक उत्प्रेरक के रूप में कार्य करते हैं।",
+    "reference_kn": "ಕಿಣ್ವಗಳು ಪ್ರೋಟೀನ್‌ಗಳಾಗಿದ್ದು, ಅವು ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_008",
+    "source_en": "Mitosis is a part of the cell cycle in which replicated chromosomes are separated into two new nuclei.",
+    "reference_hi": "समसूत्री विभाजन कोशिका चक्र का एक हिस्सा है जिसमें प्रतिकृति किए गए गुणसूत्र दो नए नाभिकों में अलग हो जाते हैं।",
+    "reference_kn": "ಮೈಟೋಸಿಸ್ ಎಂಬುದು ಕೋಶ ಚಕ್ರದ ಒಂದು ಭಾಗವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಪುನರಾವರ್ತಿತ ವರ್ಣತಂತುಗಳನ್ನು ಎರಡು ಹೊಸ ನ್ಯೂಕ್ಲಿಯಸ್‌ಗಳಾಗಿ ವಿಂಗಡಿಸಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_009",
+    "source_en": "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms.",
+    "reference_hi": "अर्धसूत्री विभाजन यौन प्रजनन करने वाले जीवों में जनन कोशिकाओं के कोशिका विभाजन का एक विशेष प्रकार है।",
+    "reference_kn": "ಮಿಯೋಸಿಸ್ ಎನ್ನುವುದು ಲೈಂಗಿಕವಾಗಿ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುವ ಜೀವಿಗಳಲ್ಲಿನ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ಒಂದು ವಿಶೇಷ ರೀತಿಯ ಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_010",
+    "source_en": "A gene is a sequence of nucleotides in DNA or RNA that encodes the synthesis of a gene product, either RNA or protein.",
+    "reference_hi": "जीन DNA या RNA में न्यूक्लियोटाइड्स का एक अनुक्रम है जो किसी जीन उत्पाद, या तो RNA या प्रोटीन के संश्लेषण को कूटबद्ध करता है।",
+    "reference_kn": "ಜೀನ್ ಎನ್ನುವುದು DNA ಅಥವಾ RNA ನಲ್ಲಿರುವ ನ್ಯೂಕ್ಲಿಯೋಟೈಡ್‌ಗಳ ಅನುಕ್ರಮವಾಗಿದ್ದು, ಇದು RNA ಅಥವಾ ಪ್ರೋಟೀನ್ ಎಂಬ ಜೀನ್ ಉತ್ಪನ್ನದ ಸಂಶ್ಲೇಷಣೆಯನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_011",
+    "source_en": "Natural selection is the differential survival and reproduction of individuals due to differences in phenotype.",
+    "reference_hi": "प्राकृतिक चयन फेनोटाइप में अंतर के कारण व्यक्तियों का विभेदक अस्तित्व और प्रजनन है।",
+    "reference_kn": "ನೈಸರ್ಗಿಕ ಆಯ್ಕೆಯು ಫಿನೋಟೈಪ್‌ನಲ್ಲಿನ ವ್ಯತ್ಯಾಸಗಳಿಂದಾಗಿ ವ್ಯಕ್ತಿಗಳ ವಿಭಿನ್ನ ಉಳಿವು ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_012",
+    "source_en": "Ecology is the scientific study of interactions among organisms and their biophysical environment.",
+    "reference_hi": "पारिस्थितिकी जीवों और उनके जैव-भौतिक पर्यावरण के बीच अंतःक्रियाओं का वैज्ञानिक अध्ययन है।",
+    "reference_kn": "ಪರಿಸರ ವಿಜ್ಞಾನವು ಜೀವಿಗಳು ಮತ್ತು ಅವುಗಳ ಜೈವಿಕ-ಭೌತಿಕ ಪರಿಸರದ ನಡುವಿನ ಪರಸ್ಪರ ಕ್ರಿಯೆಗಳ ವೈಜ್ಞಾನಿಕ ಅಧ್ಯಯನವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_013",
+    "source_en": "Pathogens are infectious agents such as viruses, bacteria, prions, or fungi that can cause disease in their host.",
+    "reference_hi": "रोगजनक ऐसे संक्रामक कारक हैं जैसे कि वायरस, बैक्टीरिया, प्रियन या कवक जो अपने मेजबान में बीमारी पैदा कर सकते हैं।",
+    "reference_kn": "ರೋಗಕಾರಕಗಳು ವೈರಸ್‌ಗಳು, ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು, ಪ್ರಿಯಾನ್‌ಗಳು ಅಥವಾ ಶಿಲೀಂಧ್ರಗಳಂತಹ ಸಾಂಕ್ರಾಮಿಕ ಏಜೆಂಟ್‌ಗಳಾಗಿದ್ದು, ಅವು ತಮ್ಮ ಅತಿಥೇಯದಲ್ಲಿ ರೋಗವನ್ನು ಉಂಟುಮಾಡಬಹುದು.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_014",
+    "source_en": "The nervous system coordinates the actions of an animal and transmits signals to and from different parts of its body.",
+    "reference_hi": "तंत्रिका तंत्र किसी जानवर की क्रियाओं का समन्वय करता है और उसके शरीर के विभिन्न हिस्सों से संकेत प्रसारित करता है।",
+    "reference_kn": "ನರಮಂಡಲವು ಪ್ರಾಣಿಯ ಕ್ರಿಯೆಗಳನ್ನು ಸಂಯೋಜಿಸುತ್ತದೆ ಮತ್ತು ಅದರ ದೇಹದ ವಿವಿಧ ಭಾಗಗಳಿಗೆ ಮತ್ತು ಅಲ್ಲಿಂದ ಸಂಕೇತಗಳನ್ನು ರವಾನಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_015",
+    "source_en": "Hemoglobin is the iron-containing oxygen-transport metalloprotein in the red blood cells.",
+    "reference_hi": "हीमोग्लोबिन लाल रक्त कोशिकाओं में पाया जाने वाला लौह युक्त ऑक्सीजन-परिवहन धातु-प्रोटीन है।",
+    "reference_kn": "ಹಿಮೋಗ್ಲೋಬಿನ್ ಎಂಬುದು ಕೆಂಪು ರಕ್ತ ಕಣಗಳಲ್ಲಿರುವ ಕಬ್ಬಿಣವನ್ನು ಒಳಗೊಂಡಿರುವ ಆಮ್ಲಜನಕ-ಸಾಗಣೆ ಮೆಟಾಲೋಪ್ರೋಟೀನ್ ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_016",
+    "source_en": "Antibodies are large, Y-shaped proteins used by the immune system to identify and neutralize foreign objects like pathogenic bacteria and viruses.",
+    "reference_hi": "एंटीबॉडी बड़े, Y-आकार के प्रोटीन होते हैं जिनका उपयोग प्रतिरक्षा प्रणाली द्वारा रोगजनक बैक्टीरिया और वायरस जैसी विदेशी वस्तुओं की पहचान करने और उन्हें बेअसर करने के लिए किया जाता है।",
+    "reference_kn": "ಆಂಟಿಬಾಡಿಗಳು ದೊಡ್ಡ, Y-ಆಕಾರದ ಪ್ರೋಟೀನ್‌ಗಳಾಗಿದ್ದು, ರೋಗಕಾರಕ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ವೈರಸ್‌ಗಳಂತಹ ವಿದೇಶಿ ವಸ್ತುಗಳನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ತಟಸ್ಥಗೊಳಿಸಲು ರೋಗನಿರೋಧಕ ವ್ಯವಸ್ಥೆಯು ಇವುಗಳನ್ನು ಬಳಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_017",
+    "source_en": "Homeostasis is the state of steady internal, physical, and chemical conditions maintained by living systems.",
+    "reference_hi": "समस्थिति जीवित प्रणालियों द्वारा बनाए रखी जाने वाली स्थिर आंतरिक, भौतिक और रासायनिक स्थितियों की अवस्था है।",
+    "reference_kn": "ಹೋಮಿಯೋಸ್ಟಾಸಿಸ್ ಎನ್ನುವುದು ಜೀವಂತ ವ್ಯವಸ್ಥೆಗಳಿಂದ ನಿರ್ವಹಿಸಲ್ಪಡುವ ಸ್ಥಿರವಾದ ಆಂತರಿಕ, ಭೌತಿಕ ಮತ್ತು ರಾಸಾಯನಿಕ ಪರಿಸ್ಥಿತಿಗಳ ಸ್ಥಿತಿಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_018",
+    "source_en": "Chloroplasts are organelles that conduct photosynthesis.",
+    "reference_hi": "क्लोरोप्लास्ट (हरितलवक) वे अंगक हैं जो प्रकाश संश्लेषण का संचालन करते हैं।",
+    "reference_kn": "ಕ್ಲೋರೊಪ್ಲಾಸ್ಟ್‌ಗಳು ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯನ್ನು ನಡೆಸುವ ಅಂಗಗಳಾಗಿವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_019",
+    "source_en": "Mutations are changes in the genetic sequence, and they are a main cause of diversity among organisms.",
+    "reference_hi": "उत्परिवर्तन आनुवंशिक अनुक्रम में होने वाले परिवर्तन हैं, और ये जीवों के बीच विविधता का एक मुख्य कारण हैं।",
+    "reference_kn": "ಉತ್ಪರಿವರ್ತನೆಗಳು ಆನುವಂಶಿಕ ಅನುಕ್ರಮದಲ್ಲಿನ ಬದಲಾವಣೆಗಳಾಗಿವೆ, ಮತ್ತು ಅವು ಜೀವಿಗಳ ನಡುವಿನ ವೈವಿಧ್ಯತೆಗೆ ಮುಖ್ಯ ಕಾರಣವಾಗಿವೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "BIO_020",
+    "source_en": "The food chain describes the linear sequence of organisms through which nutrients and energy pass as one organism eats another.",
+    "reference_hi": "खाद्य श्रृंखला जीवों के उस रैखिक अनुक्रम का वर्णन करती है जिसके माध्यम से पोषक तत्व और ऊर्जा गुजरते हैं जब एक जीव दूसरे जीव को खाता है।",
+    "reference_kn": "ಆಹಾರ ಸರಪಳಿಯು ಜೀವಿಗಳ ರೇಖಾತ್ಮಕ ಅನುಕ್ರಮವನ್ನು ವಿವರಿಸುತ್ತದೆ, ಇದರ ಮೂಲಕ ಒಂದು ಜೀವಿಯು ಮತ್ತೊಂದನ್ನು ತಿಂದಾಗ ಪೋಷಕಾಂಶಗಳು ಮತ್ತು ಶಕ್ತಿಯು ಹಾದುಹೋಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_001",
+    "source_en": "An algorithm is a step-by-step procedure for solving a problem.",
+    "reference_hi": "एल्गोरिदम किसी समस्या को हल करने के लिए एक चरण-दर-चरण प्रक्रिया है।",
+    "reference_kn": "ಅಲ್ಗಾರಿದಮ್ ಎನ್ನುವುದು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸುವ ಹಂತ-ಹಂತದ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_002",
+    "source_en": "Python and NumPy are used for matrix multiplication.",
+    "reference_hi": "मैट्रिक्स गुणन के लिए Python और NumPy का उपयोग किया जाता है।",
+    "reference_kn": "ಮಾತೃಕೆ ಗುಣಾಕಾರಕ್ಕಾಗಿ Python ಮತ್ತು NumPy ಅನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_003",
+    "source_en": "TensorFlow is an open-source machine learning framework.",
+    "reference_hi": "TensorFlow एक ओपन-सोर्स मशीन लर्निंग फ्रेमवर्क है।",
+    "reference_kn": "TensorFlow ಒಂದು ಮುಕ್ತ-ಮೂಲ ಯಂತ್ರ ಕಲಿಕೆಯ ಚೌಕಟ್ಟಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_004",
+    "source_en": "The web page is styled using HTML and CSS.",
+    "reference_hi": "वेब पेज को HTML और CSS का उपयोग करके स्टाइल किया जाता है।",
+    "reference_kn": "ವೆಬ್ ಪುಟವನ್ನು HTML ಮತ್ತು CSS ಬಳಸಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_005",
+    "source_en": "A database stores and retrieves structured information.",
+    "reference_hi": "एक डेटाबेस संरचित जानकारी को संग्रहीत और पुनर्प्राप्त करता है।",
+    "reference_kn": "ದತ್ತಸಂಚಯವು ರಚನಾತ್ಮಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುತ್ತದೆ ಮತ್ತು ಹಿಂಪಡೆಯುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_006",
+    "source_en": "An API acts as an intermediary between two software applications.",
+    "reference_hi": "एक API दो सॉफ्टवेयर अनुप्रयोगों के बीच एक मध्यस्थ के रूप में कार्य करता है।",
+    "reference_kn": "API ಎರಡು ಸಾಫ್ಟ್‌ವೇರ್ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ನಡುವೆ ಮಧ್ಯವರ್ತಿಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_007",
+    "source_en": "A variable is a storage location paired with an associated symbolic name, which contains some known or unknown quantity of information.",
+    "reference_hi": "एक चर एक संबद्ध प्रतीकात्मक नाम के साथ जोड़ा गया एक भंडारण स्थान है, जिसमें कुछ ज्ञात या अज्ञात मात्रा की जानकारी होती है।",
+    "reference_kn": "ಚರವು ಸಂಬಂಧಿತ ಸಾಂಕೇತಿಕ ಹೆಸರಿನೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ಶೇಖರಣಾ ಸ್ಥಳವಾಗಿದೆ, ಇದು ಕೆಲವು ತಿಳಿದಿರುವ ಅಥವಾ ತಿಳಿದಿಲ್ಲದ ಮಾಹಿತಿಯ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_008",
+    "source_en": "A function is a sequence of program instructions that performs a specific task, packaged as a unit.",
+    "reference_hi": "एक फ़ंक्शन प्रोग्राम निर्देशों का एक अनुक्रम है जो एक विशिष्ट कार्य करता है, जिसे एक इकाई के रूप में पैक किया जाता है।",
+    "reference_kn": "ಕಾರ್ಯವು ಒಂದು ನಿರ್ದಿಷ್ಟ ಕೆಲಸವನ್ನು ನಿರ್ವಹಿಸುವ, ಒಂದು ಘಟಕವಾಗಿ ಪ್ಯಾಕ್ ಮಾಡಲಾದ ಪ್ರೋಗ್ರಾಂ ಸೂಚನೆಗಳ ಅನುಕ್ರಮವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_009",
+    "source_en": "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+    "reference_hi": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (OOP) \"ऑब्जेक्ट्स\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैं: फ़ील्ड (जिन्हें अक्सर गुण या विशेषताएँ कहा जाता है) के रूप में डेटा, और प्रक्रियाओं (जिन्हें अक्सर विधियाँ कहा जाता है) के रूप में कोड।",
+    "reference_kn": "ಆಬ್ಜೆಕ್ಟ್-ಓರಿಯೆಂಟೆಡ್ ಪ್ರೋಗ್ರಾಮಿಂಗ್ (OOP) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್‌ಗಳ\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ಡೇಟಾ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದು: ಡೇಟಾವು ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್ ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ) ಇರುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_010",
+    "source_en": "Recursion occurs when a function calls itself directly or indirectly in its definition.",
+    "reference_hi": "पुनरावर्तन (र recursion) तब होता है जब कोई फ़ंक्शन अपनी परिभाषा में प्रत्यक्ष या अप्रत्यक्ष रूप से स्वयं को कॉल करता है।",
+    "reference_kn": "ಒಂದು ಕಾರ್ಯವು ತನ್ನ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ನೇರವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ ತನ್ನನ್ನೇ ಕರೆದುಕೊಂಡಾಗ ರಿಕರ್ಶನ್ (ಪುನರಾವರ್ತನೆ) ಸಂಭವಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_011",
+    "source_en": "A compiler is a computer program that translates computer code written in one programming language into another language.",
+    "reference_hi": "कंपाइलर एक कंप्यूटर प्रोग्राम है जो एक प्रोग्रामिंग भाषा में लिखे गए कंप्यूटर कोड का दूसरी भाषा में अनुवाद करता है।",
+    "reference_kn": "ಕಂಪೈಲರ್ ಎನ್ನುವುದು ಒಂದು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಬರೆಯಲಾದ ಕಂಪ್ಯೂಟರ್ ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಂದು ಭಾಷೆಗೆ ಭಾಷಾಂತರಿಸುವ ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂ ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_012",
+    "source_en": "Binary search runs in O(log n) time.",
+    "reference_hi": "बाइनरी सर्च O(log n) समय में निष्पादित होता है।",
+    "reference_kn": "ಬೈನರಿ ಸರ್ಚ್ O(log n) ಸಮಯದಲ್ಲಿ ಕಾರ್ಯಗತಗೊಳ್ಳುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_013",
+    "source_en": "An operating system manages computer hardware, software resources, and provides common services for computer programs.",
+    "reference_hi": "एक ऑपरेटिंग सिस्टम कंप्यूटर हार्डवेयर, सॉफ्टवेयर संसाधनों का प्रबंधन करता है और कंप्यूटर प्रोग्रामों के लिए सामान्य सेवाएँ प्रदान करता है।",
+    "reference_kn": "ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್ ಕಂಪ್ಯೂಟರ್ ಹಾರ್ಡ್‌ವೇರ್, ಸಾಫ್ಟ್‌ವೇರ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂಗಳಿಗೆ ಸಾಮಾನ್ಯ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_014",
+    "source_en": "Machine learning is a subset of artificial intelligence that focuses on building systems that learn based on the data they consume.",
+    "reference_hi": "मशीन लर्निंग आर्टिफिशियल इंटेलिजेंस का एक उपसमूह है जो उन प्रणालियों के निर्माण पर केंद्रित है जो उनके द्वारा उपयोग किए जाने वाले डेटा के आधार पर सीखते हैं।",
+    "reference_kn": "ಮಷಿನ್ ಲರ್ನಿಂಗ್ ಎನ್ನುವುದು ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆಯ ಒಂದು ಉಪವಿಭಾಗವಾಗಿದ್ದು, ಇದು ತಾನು ಬಳಸುವ ಡೇಟಾದ ಆಧಾರದ ಮೇಲೆ ಕಲಿಯುವ ವ್ಯವಸ್ಥೆಗಳನ್ನು ನಿರ್ಮಿಸುವತ್ತ ಗಮನಹರಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_015",
+    "source_en": "A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.",
+    "reference_hi": "लिंक्ड लिस्ट डेटा तत्वों का एक रैखिक संग्रह है जिसका क्रम मेमोरी में उनके भौतिक स्थान द्वारा नहीं दिया जाता है।",
+    "reference_kn": "ಲಿಂಕ್ಡ್ ಲಿಸ್ಟ್ ಎನ್ನುವುದು ಡೇಟಾ ಅಂಶಗಳ ರೇಖೀಯ ಸಂಗ್ರಹವಾಗಿದ್ದು, ಅದರ ಕ್ರಮವನ್ನು ಮೆಮೊರಿಯಲ್ಲಿನ ಅವುಗಳ ಭೌತಿಕ ನಿಯೋಜನೆಯಿಂದ ನೀಡಲಾಗುವುದಿಲ್ಲ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_016",
+    "source_en": "The CPU (Central Processing Unit) is the primary component of a computer that acts as its brain.",
+    "reference_hi": "CPU (सेंट्रल प्रोसेसिंग यूनिट) किसी कंप्यूटर का प्राथमिक घटक है जो उसके मस्तिष्क के रूप में कार्य करता है।",
+    "reference_kn": "CPU (ಸೆಂಟ್ರಲ್ ಪ್ರೊಸೆಸಿಂಗ್ ಯೂನಿಟ್) ಎನ್ನುವುದು ಕಂಪ್ಯೂಟರ್‌ನ ಪ್ರಾಥಮಿಕ ಘಟಕವಾಗಿದ್ದು ಅದು ಅದರ ಮೆದುಳಿನಂತೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_017",
+    "source_en": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior.",
+    "reference_hi": "क्रिप्टोग्राफी प्रतिकूल व्यवहार की उपस्थिति में सुरक्षित संचार के लिए तकनीकों का अभ्यास और अध्ययन है।",
+    "reference_kn": "ಕ್ರಿಪ್ಟೋಗ್ರಫಿಯು ಪ್ರತಿಕೂಲ ನಡವಳಿಕೆಯ ಉಪಸ್ಥಿತಿಯಲ್ಲಿ ಸುರಕ್ಷಿತ ಸಂವಹನಕ್ಕಾಗಿ ತಂತ್ರಗಳ ಅಭ್ಯಾಸ ಮತ್ತು ಅಧ್ಯಯನವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_018",
+    "source_en": "A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.",
+    "reference_hi": "एक हैश टेबल बकेट या स्लॉट की एक सरणी में एक इंडेक्स की गणना करने के लिए हैश फ़ंक्शन का उपयोग करती है, जिससे वांछित मान पाया जा सकता है।",
+    "reference_kn": "ಹ್ಯಾಶ್ ಟೇಬಲ್ ಬಕೆಟ್‌ಗಳು ಅಥವಾ ಸ್ಲಾಟ್‌ಗಳ ಅರೇಯೊಳಗೆ ಸೂಚ್ಯಂಕವನ್ನು ಲೆಕ್ಕಹಾಕಲು ಹ್ಯಾಶ್ ಕಾರ್ಯವನ್ನು ಬಳಸುತ್ತದೆ, ಇದರಿಂದ ಅಪೇಕ್ಷಿತ ಮೌಲ್ಯವನ್ನು ಕಂಡುಹಿಡಿಯಬಹುದು.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_019",
+    "source_en": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power.",
+    "reference_hi": "क्लाउड कंप्यूटिंग कंप्यूटर सिस्टम संसाधनों, विशेष रूप से डेटा भंडारण और कंप्यूटिंग शक्ति की ऑन-डिमांड उपलब्धता है।",
+    "reference_kn": "ಕ್ಲೌಡ್ ಕಂಪ್ಯೂಟಿಂಗ್ ಎನ್ನುವುದು ಕಂಪ್ಯೂಟರ್ ಸಿಸ್ಟಮ್ ಸಂಪನ್ಮೂಲಗಳ, ವಿಶೇಷವಾಗಿ ಡೇಟಾ ಸಂಗ್ರಹಣೆ ಮತ್ತು ಕಂಪ್ಯೂಟಿಂಗ್ ಶಕ್ತಿಯ ಆನ್-ಡಿಮ್ಯಾಂಡ್ ಲಭ್ಯತೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_020",
+    "source_en": "A boolean data type can only take one of two possible values: true or false.",
+    "reference_hi": "एक बूलियन डेटा प्रकार केवल दो संभावित मानों में से एक ले सकता है: true या false।",
+    "reference_kn": "ಬೂಲಿಯನ್ ಡೇಟಾ ಪ್ರಕಾರವು ಕೇವಲ ಎರಡು ಸಂಭಾವ್ಯ ಮೌಲ್ಯಗಳಲ್ಲಿ ಒಂದನ್ನು ಮಾತ್ರ ತೆಗೆದುಕೊಳ್ಳಬಹುದು: true ಅಥವಾ false.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_021",
+    "source_en": "Garbage collection is a form of automatic memory management used by some programming languages.",
+    "reference_hi": "गार्बेज कलेक्शन कुछ प्रोग्रामिंग भाषाओं द्वारा उपयोग किए जाने वाले स्वचालित मेमोरी प्रबंधन का एक रूप है।",
+    "reference_kn": "ಗಾರ್ಬೇಜ್ ಕಲೆಕ್ಷನ್ ಎನ್ನುವುದು ಕೆಲವು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಗಳು ಬಳಸುವ ಸ್ವಯಂಚಾಲಿತ ಮೆಮೊರಿ ನಿರ್ವಹಣೆಯ ಒಂದು ರೂಪವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_022",
+    "source_en": "Polymorphism is the provision of a single interface to entities of different types.",
+    "reference_hi": "बहुरूपता (Polymorphism) विभिन्न प्रकार की संस्थाओं को एक ही इंटरफ़ेस प्रदान करने की सुविधा है।",
+    "reference_kn": "ಪಾಲಿಮಾರ್ಫಿಸಂ (Polymorphism) ಎನ್ನುವುದು ವಿಭಿನ್ನ ಪ್ರಕಾರದ ಘಟಕಗಳಿಗೆ ಒಂದೇ ಇಂಟರ್ಫೇಸ್ ಅನ್ನು ಒದಗಿಸುವ ಸೌಲಭ್ಯವಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_023",
+    "source_en": "An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol.",
+    "reference_hi": "IP पता इंटरनेट प्रोटोकॉल का उपयोग करने वाले कंप्यूटर नेटवर्क से जुड़े प्रत्येक डिवाइस को असाइन किया गया एक संख्यात्मक लेबल है।",
+    "reference_kn": "IP ವಿಳಾಸವು ಇಂಟರ್ನೆಟ್ ಪ್ರೋಟೋಕಾಲ್ ಬಳಸುವ ಕಂಪ್ಯೂಟರ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಪ್ರತಿಯೊಂದು ಸಾಧನಕ್ಕೂ ನಿಯೋಜಿಸಲಾದ ಸಂಖ್ಯಾತ್ಮಕ ಲೇಬಲ್ ಆಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_024",
+    "source_en": "Deep learning architectures such as deep neural networks have been applied to fields including computer vision and natural language processing.",
+    "reference_hi": "डीप न्यूरल नेटवर्क जैसे डीप लर्निंग आर्किटेक्चर को कंप्यूटर विजन और प्राकृतिक भाषा प्रसंस्करण सहित कई क्षेत्रों में लागू किया गया है।",
+    "reference_kn": "ಡೀಪ್ ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳಂತಹ ಡೀಪ್ ಲರ್ನಿಂಗ್ ಆರ್ಕಿಟೆಕ್ಚರ್‌ಗಳನ್ನು ಕಂಪ್ಯೂಟರ್ ದೃಷ್ಟಿ ಮತ್ತು ನೈಸರ್ಗಿಕ ಭಾಷಾ ಸಂಸ್ಕರಣೆ ಸೇರಿದಂತೆ ಹಲವು ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಅನ್ವಯಿಸಲಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  },
+  {
+    "id": "CS_025",
+    "source_en": "Git is a distributed version-control system for tracking changes in source code.",
+    "reference_hi": "Git स्रोत कोड में परिवर्तनों को ट्रैक करने के लिए एक वितरित संस्करण-नियंत्रण प्रणाली है।",
+    "reference_kn": "Git ಎಂಬುದು ಮೂಲ ಕೋಡ್‌ನಲ್ಲಿನ ಬದಲಾವಣೆಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಬಳಸುವ ವಿತರಿತ ಆವೃತ್ತಿ-ನಿಯಂತ್ರಣ ವ್ಯವಸ್ಥೆಯಾಗಿದೆ.",
+    "reference_type": "AI_GENERATED",
+    "reference_hi_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "reference_kn_status": "AI_GENERATED_NOT_HUMAN_VALIDATED",
+    "terminology_notes_hi": [],
+    "terminology_notes_kn": [],
+    "formula_validation": {
+      "status": "CHECKED",
+      "notes": "Verified formulas and units manually in generation."
+    },
+    "technical_identifier_validation": {
+      "status": "CHECKED",
+      "notes": "Verified code identifiers manually in generation."
+    },
+    "reviewer_hi": null,
+    "reviewer_kn": null,
+    "review_status": "AI_GENERATED_PENDING_HUMAN_VALIDATION"
+  }
+]

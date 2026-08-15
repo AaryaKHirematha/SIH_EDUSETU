@@ -1,0 +1,10 @@
+{
+  "vram_before_load": 0.0,
+  "ram_before_load": 898.63671875,
+  "vram_after_load": 405.07421875,
+  "ram_after_load": 1254.46875,
+  "peak_vram_inference": 479.44189453125,
+  "load_time": 9.436728239059448,
+  "total_benchmark_time": 471.67674350738525,
+  "cold_latency_a": 0.30721521377563477
+}
