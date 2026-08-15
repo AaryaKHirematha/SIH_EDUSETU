@@ -1,0 +1,11 @@
+{
+  "Total_Cases_Evaluated": 48,
+  "Critical_Failures_Detected": 79,
+  "Hindi_Overall_Pass_Rate_C": 100.0,
+  "Kannada_Overall_Pass_Rate_C": 66.67,
+  "Hindi_Terminology_Score_C": 100.0,
+  "Kannada_Terminology_Score_C": 100.0,
+  "Hindi_Formula_Score_C": 100.0,
+  "Kannada_Formula_Score_C": 100.0,
+  "Kannada_Morphology_Score_C": 66.67
+}

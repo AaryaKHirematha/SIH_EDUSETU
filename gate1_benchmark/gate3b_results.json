@@ -1,0 +1,510 @@
+[
+  {
+    "id": "PHY_003",
+    "source_en": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "B": {
+      "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿ ರ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+      "morphology_pass": false,
+      "detached_matches": [
+        "ರ"
+      ],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "PHY_005",
+    "source_en": "Momentum is equal to mass times velocity.",
+    "B": {
+      "output": "ಆವೇಗ ಎಂಬುದು ದ್ರವ್ಯರಾಶಿಯ ವೇಗ ಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+      "morphology_pass": false,
+      "detached_matches": [
+        "ಕ್ಕೆ"
+      ],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "ಆವೇಗ ಎಂಬುದು ದ್ರವ್ಯರಾಶಿಯ ವೇಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "ಆವೇಗ ಎಂಬುದು ದ್ರವ್ಯರಾಶಿಯ ವೇಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "CHE_007",
+    "source_en": "A chemical reaction is a process that leads to the chemical transformation of one set of chemical substances to another. Classically, chemical reactions encompass changes that only involve the positions of electrons in the forming and breaking of chemical bonds between atoms.",
+    "B": {
+      "output": "chemical reaction ಎಂಬುದು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "chemical reaction ಎಂಬುದು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "chemical reaction ಎಂಬುದು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "CHE_008",
+    "source_en": "Acids are substances that can donate a proton (H⁺) to another substance.",
+    "B": {
+      "output": "acids ಎಂಬುದು proton (H⁺) ಅನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡಬಲ್ಲ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+      "morphology_pass": false,
+      "detached_matches": [
+        "ಅನ್ನು"
+      ],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "acids ಎಂಬುದು proton (H⁺)ವನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡಬಲ್ಲ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "acids ಎಂಬುದು proton (H⁺)ವನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡಬಲ್ಲ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "BIO_005",
+    "source_en": "Osmosis is the spontaneous net movement of solvent molecules through a selectively permeable membrane.",
+    "B": {
+      "output": "osmosis ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "osmosis ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "osmosis ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "CHE_009",
+    "source_en": "The pH scale ranges from 0 to 14.",
+    "B": {
+      "output": "pH scale 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "pH scale 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "pH scale 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "BIO_006",
+    "source_en": "Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",
+    "B": {
+      "output": "cellular respiration ಎಂಬುದು ಜೈವಿಕ ರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಪೋಷಕಾಂಶಗಳಿಂದ ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP ) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "cellular respiration ಎಂಬುದು ಜೈವಿಕ ರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಪೋಷಕಾಂಶಗಳಿಂದ ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP ) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "cellular respiration ಎಂಬುದು ಜೈವಿಕ ರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಪೋಷಕಾಂಶಗಳಿಂದ ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP ) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "CS_009",
+    "source_en": "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+    "B": {
+      "output": "Object-oriented programming (OOP ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ದತ್ತಾಂಶ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ದತ್ತಾಂಶ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+      "morphology_pass": false,
+      "detached_matches": [
+        "ಅನ್ನು"
+      ],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "Object-oriented programming (OOP ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ದತ್ತಾಂಶ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ದತ್ತಾಂಶ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+      "morphology_pass": false,
+      "detached_matches": [
+        "ಅನ್ನು"
+      ],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "Object-oriented programming (OOP ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ದತ್ತಾಂಶ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ದತ್ತಾಂಶ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+      "morphology_pass": false,
+      "detached_matches": [
+        "ಅನ್ನು"
+      ],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "CHE_010",
+    "source_en": "Exothermic reactions release energy in the form of heat or light.",
+    "B": {
+      "output": "exothermic reactions ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "exothermic reactions ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "exothermic reactions ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "BIO_007",
+    "source_en": "Enzymes are proteins that act as biological catalysts by accelerating chemical reactions.",
+    "B": {
+      "output": "enzymes ಪ್ರೋಟೀನ್ಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "enzymes ಪ್ರೋಟೀನ್ಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "enzymes ಪ್ರೋಟೀನ್ಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "PHY_016",
+    "source_en": "Thermodynamics is the branch of physics that deals with heat, work, and temperature, and their relation to energy, radiation, and properties of matter.",
+    "B": {
+      "output": "thermodynamics ಎಂಬುದು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "thermodynamics ಎಂಬುದು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "thermodynamics ಎಂಬುದು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "CHE_013",
+    "source_en": "Isotopes are variants of a particular chemical element which differ in neutron number.",
+    "B": {
+      "output": "isotopes ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಅವು neutron ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "isotopes ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಅವು neutron ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "isotopes ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಅವು neutron ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುತ್ತವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "BIO_009",
+    "source_en": "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms.",
+    "B": {
+      "output": "meiosis ಎಂಬುದು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "meiosis ಎಂಬುದು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "meiosis ಎಂಬುದು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "PHY_017",
+    "source_en": "A vector quantity has both magnitude and direction, whereas a scalar quantity has only magnitude.",
+    "B": {
+      "output": "vector ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿದ್ದರೆ, scalar ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "vector ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿದ್ದರೆ, scalar ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "vector ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿದ್ದರೆ, scalar ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "MAT_011",
+    "source_en": "A linear equation in two variables describes a line on a Cartesian coordinate plane. The standard form is Ax + By = C, where A, B, and C are constants, and x and y are variables.",
+    "B": {
+      "output": "ಎರಡು variables ರಲ್ಲಿ A ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ ಒಂದು C ಆರ್ಟೀಷಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇದರಲ್ಲಿ A,B ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y variables ಆಗಿವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "ಎರಡು variables ರಲ್ಲಿ A ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ ಒಂದು C ಆರ್ಟೀಷಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇದರಲ್ಲಿ A,B ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y variables ಆಗಿವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "ಎರಡು variables ರಲ್ಲಿ A ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ ಒಂದು C ಆರ್ಟೀಷಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇದರಲ್ಲಿ A,B ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y variables ಆಗಿವೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  },
+  {
+    "id": "CHE_014",
+    "source_en": "A catalyst is a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "B": {
+      "output": "catalyst ಎಂಬುದು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C": {
+      "output": "catalyst ಎಂಬುದು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    },
+    "C_PLUS": {
+      "output": "catalyst ಎಂಬುದು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+      "morphology_pass": true,
+      "detached_matches": [],
+      "formula_pass": true,
+      "tech_pass": true,
+      "term_pass": true,
+      "semantic_safety": true
+    }
+  }
+]

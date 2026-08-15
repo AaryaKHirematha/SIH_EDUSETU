@@ -1,0 +1,5090 @@
+[
+  {
+    "id": "PHY_003",
+    "domain": "Physics",
+    "source_en": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "प्रसिद्ध समीकरण E = mc2 ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc2 ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿ ರ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_001",
+    "domain": "Mathematics",
+    "source_en": "The quadratic equation can be solved using the quadratic formula.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "द्विघात समीकरण को द्विघात सूत्र का उपयोग करके हल किया जा सकता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "द्विघात समीकरण को द्विघात सूत्र का उपयोग करके हल किया जा सकता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "द्विघात समीकरण को द्विघात सूत्र का उपयोग करके हल किया जा सकता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಚತುರ್ಭುಜ ಸೂತ್ರವನ್ನು ಬಳಸಿಕೊಂಡು ಚತುರ್ಭುಜ ಸಮೀಕರಣವನ್ನು ಪರಿಹರಿಸಬಹುದು.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ವರ್ಗ ಸಮೀಕರಣ ಅನ್ನು ವರ್ಗ ಸೂತ್ರ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಪರಿಹರಿಸಬಹುದು.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ವರ್ಗ ಸಮೀಕರಣವನ್ನು ವರ್ಗ ಸೂತ್ರವನ್ನು ಬಳಸಿಕೊಂಡು ಪರಿಹರಿಸಬಹುದು.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_004",
+    "domain": "Chemistry",
+    "source_en": "An atom consists of a nucleus surrounded by electrons.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "परमाणु में एक नाभिक होता है जो इलेक्ट्रॉनों से घिरा होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "एक परमाणु में नाभिक होता है जो इलेक्ट्रॉन से घिरा होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "एक परमाणु में नाभिक होता है जो इलेक्ट्रॉन से घिरा होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಪರಮಾಣು ಎಲೆಕ್ಟ್ರಾನ್ಗಳಿಂದ ಸುತ್ತುವರೆದಿರುವ ನ್ಯೂಕ್ಲಿಯಸ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಒಂದು ಪರಮಾಣು nucleus ಅನ್ನು ಹೊಂದಿದ್ದು, ಅದರ ಸುತ್ತಲೂ electrons ಇದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಒಂದು ಪರಮಾಣು nucleusವನ್ನು ಹೊಂದಿದ್ದು, ಅದರ ಸುತ್ತಲೂ electrons ಇದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_002",
+    "domain": "Biology",
+    "source_en": "The cell is the basic structural and functional unit of all living organisms.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "कोशिका सभी जीवित जीवों की मूल संरचनात्मक और कार्यात्मक इकाई है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "कोशिका सभी जीवित जीवों की मूल संरचनात्मक और कार्यात्मक इकाई है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "कोशिका सभी जीवित जीवों की मूल संरचनात्मक और कार्यात्मक इकाई है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಜೀವಕೋಶವು ಎಲ್ಲಾ ಜೀವಿಗಳ ಮೂಲಭೂತ ರಚನಾತ್ಮಕ ಮತ್ತು ಕ್ರಿಯಾತ್ಮಕ ಘಟಕವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "cell ಎಲ್ಲಾ ಜೀವಿಗಳ ಮೂಲ ರಚನಾತ್ಮಕ ಮತ್ತು ಕ್ರಿಯಾತ್ಮಕ ಘಟಕವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "cell ಎಲ್ಲಾ ಜೀವಿಗಳ ಮೂಲ ರಚನಾತ್ಮಕ ಮತ್ತು ಕ್ರಿಯಾತ್ಮಕ ಘಟಕವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_001",
+    "domain": "Computer Science",
+    "source_en": "An algorithm is a step-by-step procedure for solving a problem.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक एल्गोरिथ्म एक समस्या को हल करने के लिए एक चरण-दर-चरण प्रक्रिया है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "एल्गोरिदम एक समस्या को हल करने के लिए एक चरण-दर-चरण प्रक्रिया है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "एल्गोरिदम एक समस्या को हल करने के लिए एक चरण-दर-चरण प्रक्रिया है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಅಲ್ಗಾರಿದಮ್ ಎನ್ನುವುದು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸುವ ಹಂತ-ಹಂತದ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "ಅಲ್ಗಾರಿದಮ್ ಎಂಬುದು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸುವ ಹಂತ-ಹಂತದ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಅಲ್ಗಾರಿದಮ್ ಎಂಬುದು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸುವ ಹಂತ-ಹಂತದ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_005",
+    "domain": "Physics",
+    "source_en": "Momentum is equal to mass times velocity.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "गति द्रव्यमान गुणा वेग के बराबर होती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "संवेग द्रव्यमान गुना वेग के बराबर है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "संवेग द्रव्यमान गुना वेग के बराबर है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆವೇಗವು ದ್ರವ್ಯರಾಶಿಯ ವೇಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಆವೇಗ ಎಂಬುದು ದ್ರವ್ಯರಾಶಿಯ ವೇಗ ಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "ಆವೇಗ ಎಂಬುದು ದ್ರವ್ಯರಾಶಿಯ ವೇಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_002",
+    "domain": "Mathematics",
+    "source_en": "A polynomial is an algebraic expression consisting of variables and coefficients.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "बहुपद एक बीजगणितीय अभिव्यक्ति है जिसमें चर और गुणांक होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ए बहुपद एक बीजगणितीय व्यंजक है जिसमें चर और गुणांक होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ए बहुपद एक बीजगणितीय व्यंजक है जिसमें चर और गुणांक होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಬಹುಪದವು ಅಸ್ಥಿರಗಳು ಮತ್ತು ಗುಣಾಂಕಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "ಬಹುಪದ ಎಂಬುದು ಅಸ್ಥಿರಗಳು ಮತ್ತು ಗುಣಾಂಕಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿ ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಬಹುಪದ ಎಂಬುದು ಅಸ್ಥಿರಗಳು ಮತ್ತು ಗುಣಾಂಕಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿ ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_005",
+    "domain": "Chemistry",
+    "source_en": "In a covalent bond, pairs of electrons are shared between atoms.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक सहसंयोजक बंधन में, परमाणुओं के बीच इलेक्ट्रॉनों के जोड़े साझा किए जाते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "सहसंयोजक बंधन में, परमाणुओं के बीच इलेक्ट्रॉनों के जोड़े साझा किए जाते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "सहसंयोजक बंधन में, परमाणुओं के बीच इलेक्ट्रॉनों के जोड़े साझा किए जाते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಕೋವೆಲೆಂಟ್ ಬಂಧದಲ್ಲಿ, ಪರಮಾಣುಗಳ ನಡುವೆ ಜೋಡಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "covalent bond ರಲ್ಲಿ, ಪರಮಾಣುಗಳ ನಡುವೆ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಜೋಡಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "covalent bond ರಲ್ಲಿ, ಪರಮಾಣುಗಳ ನಡುವೆ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಜೋಡಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_003",
+    "domain": "Biology",
+    "source_en": "DNA (Deoxyribonucleic acid) carries the genetic instructions used in growth, development, functioning, and reproduction.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "डी. एन. ए. (डीऑक्सीराइबोन्यूक्लिक एसिड) वृद्धि, विकास, कार्य और प्रजनन में उपयोग किए जाने वाले आनुवंशिक निर्देशों को वहन करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "DNA (डीऑक्सीराइबोन्यूक्लिक एसिड) में वृद्धि, विकास, कार्य और प्रजनन में उपयोग किए जाने वाले आनुवंशिक निर्देश होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "DNA (डीऑक्सीराइबोन्यूक्लिक एसिड) में वृद्धि, विकास, कार्य और प्रजनन में उपयोग किए जाने वाले आनुवंशिक निर्देश होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಡಿಎನ್ಎ (ಡಿಯೋಕ್ಸಿರೈಬೊನ್ಯೂಕ್ಲಿಕ್ ಆಮ್ಲ) ಬೆಳವಣಿಗೆ, ಅಭಿವೃದ್ಧಿ, ಕಾರ್ಯಚಟುವಟಿಕೆ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಬಳಸುವ ಆನುವಂಶಿಕ ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "DNA (ಡಿಯೋಕ್ಸಿರಿಬೋನ್ಯೂಕ್ಲಿಕ್ ಆಮ್ಲ) ಬೆಳವಣಿಗೆ, ಅಭಿವೃದ್ಧಿ, ಕಾರ್ಯಚಟುವಟಿಕೆ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಬಳಸುವ genetic ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "DNA (ಡಿಯೋಕ್ಸಿರಿಬೋನ್ಯೂಕ್ಲಿಕ್ ಆಮ್ಲ) ಬೆಳವಣಿಗೆ, ಅಭಿವೃದ್ಧಿ, ಕಾರ್ಯಚಟುವಟಿಕೆ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಬಳಸುವ genetic ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_003",
+    "domain": "Computer Science",
+    "source_en": "TensorFlow is an open-source machine learning framework.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "टेंसरफ्लो एक ओपन-सोर्स मशीन लर्निंग फ्रेमवर्क है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "TensorFlow एक ओपन-सोर्स मशीन लर्निंग फ्रेमवर्क है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "TensorFlow एक ओपन-सोर्स मशीन लर्निंग फ्रेमवर्क है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಟೆನ್ಸಾರ್ಫ್ಲೋ ಒಂದು ಮುಕ್ತ-ಮೂಲ ಯಂತ್ರ ಕಲಿಕೆಯ ಚೌಕಟ್ಟಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "TensorFlow ಎಂಬುದು ಓಪನ್ ಸೋರ್ಸ್ ಮೆಷಿನ್ ಲರ್ನಿಂಗ್ ಚೌಕಟ್ಟು ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "TensorFlow ಎಂಬುದು ಓಪನ್ ಸೋರ್ಸ್ ಮೆಷಿನ್ ಲರ್ನಿಂಗ್ ಚೌಕಟ್ಟು ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_007",
+    "domain": "Physics",
+    "source_en": "Work is done when a force that is applied to an object moves that object. The work is calculated by multiplying the force by the amount of movement of an object (W = F * d).",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "कार्य तब किया जाता है जब किसी वस्तु पर लगाया गया बल उस वस्तु को हिलाता है। कार्य की गणना किसी वस्तु की गति की मात्रा (डब्ल्यू = एफ * डी) से बल को गुणा करके की जाती है।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "कार्य तब किया जाता है जब किसी वस्तु पर लगाया गया बल उस वस्तु को हिलाता है। कार्य की गणना बल को किसी वस्तु की गति की मात्रा (W = F * d ) से गुणा करके की जाती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "कार्य तब किया जाता है जब किसी वस्तु पर लगाया गया बल उस वस्तु को हिलाता है। कार्य की गणना बल को किसी वस्तु की गति की मात्रा (W = F * d ) से गुणा करके की जाती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಒಂದು ವಸ್ತುವಿಗೆ ಅನ್ವಯಿಸಲಾದ ಬಲವು ಆ ವಸ್ತುವನ್ನು ಚಲಿಸಿದಾಗ ಕೆಲಸವನ್ನು ಮಾಡಲಾಗುತ್ತದೆ. ಒಂದು ವಸ್ತುವಿನ ಚಲನೆಯ ಪ್ರಮಾಣದಿಂದ (W = F * d) ಬಲವನ್ನು ಗುಣಿಸುವ ಮೂಲಕ ಕೆಲಸವನ್ನು ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "work ಅನ್ನು ಒಂದು ವಸ್ತುವಿಗೆ ಅನ್ವಯಿಸಲಾದ ಬಲ ಆ ವಸ್ತುವನ್ನು ಚಲಿಸಿದಾಗ ಮಾಡಲಾಗುತ್ತದೆ. work ಅನ್ನು ಬಲ ಅನ್ನು ಒಂದು ವಸ್ತುವಿನ ಚಲನೆಯ ಪ್ರಮಾಣದಿಂದ (W = F * d ) ಗುಣಿಸುವ ಮೂಲಕ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "workವನ್ನು ಒಂದು ವಸ್ತುವಿಗೆ ಅನ್ವಯಿಸಲಾದ ಬಲ ಆ ವಸ್ತುವನ್ನು ಚಲಿಸಿದಾಗ ಮಾಡಲಾಗುತ್ತದೆ. workವನ್ನು ಬಲವನ್ನು ಒಂದು ವಸ್ತುವಿನ ಚಲನೆಯ ಪ್ರಮಾಣದಿಂದ (W = F * d ) ಗುಣಿಸುವ ಮೂಲಕ ಲೆಕ್ಕ ಹಾಕಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_003",
+    "domain": "Mathematics",
+    "source_en": "The derivative of a function represents its rate of change.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "किसी फलन का व्युत्पन्न उसके परिवर्तन की दर को दर्शाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "फलन का अवकलज इसकी परिवर्तन दर का प्रतिनिधित्व करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "फलन का अवकलज इसकी परिवर्तन दर का प्रतिनिधित्व करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಒಂದು ಕಾರ್ಯದ ವ್ಯುತ್ಪನ್ನವು ಅದರ ಬದಲಾವಣೆಯ ದರವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "ಕಾರ್ಯ ರ ವ್ಯುತ್ಪನ್ನ ಅದರ ಬದಲಾವಣೆಯ ದರವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "ಕಾರ್ಯದ ವ್ಯುತ್ಪನ್ನ ಅದರ ಬದಲಾವಣೆಯ ದರವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_007",
+    "domain": "Chemistry",
+    "source_en": "A chemical reaction is a process that leads to the chemical transformation of one set of chemical substances to another. Classically, chemical reactions encompass changes that only involve the positions of electrons in the forming and breaking of chemical bonds between atoms.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक रासायनिक प्रतिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "रासायनिक अभिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "रासायनिक अभिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಯು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಿಕೆಯಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "chemical reaction ಎಂಬುದು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "chemical reaction ಎಂಬುದು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_004",
+    "domain": "Biology",
+    "source_en": "Mitochondria are known as the powerhouses of the cell because they generate most of the cell's supply of ATP.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "माइटोकॉन्ड्रिया को कोशिका के पावरहाउस के रूप में जाना जाता है क्योंकि वे कोशिका की ए. टी. पी. की अधिकांश आपूर्ति उत्पन्न करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "माइटोकॉन्ड्रिया को कोशिका के पावरहाउस के रूप में जाना जाता है क्योंकि वे ATP की कोशिका की अधिकांश आपूर्ति उत्पन्न करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "माइटोकॉन्ड्रिया को कोशिका के पावरहाउस के रूप में जाना जाता है क्योंकि वे ATP की कोशिका की अधिकांश आपूर्ति उत्पन्न करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಮೈಟೊಕಾಂಡ್ರಿಯವನ್ನು ಜೀವಕೋಶದ ಪವರ್ಹೌಸ್ಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಅವು ಜೀವಕೋಶದ ಹೆಚ್ಚಿನ ಎಟಿಪಿ ಪೂರೈಕೆಯನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "mitochondria ಅನ್ನು ಜೀವಕೋಶದ ಪವರ್ಹೌಸ್ಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಅವು ಜೀವಕೋಶದ ATP ರ ಹೆಚ್ಚಿನ ಪೂರೈಕೆಯನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "mitochondriaವನ್ನು ಜೀವಕೋಶದ ಪವರ್ಹೌಸ್ಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ ಏಕೆಂದರೆ ಅವು ಜೀವಕೋಶದ ATPದ ಹೆಚ್ಚಿನ ಪೂರೈಕೆಯನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_007",
+    "domain": "Computer Science",
+    "source_en": "A variable is a storage location paired with an associated symbolic name, which contains some known or unknown quantity of information.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक चर एक भंडारण स्थान है जिसे एक संबंधित प्रतीकात्मक नाम के साथ जोड़ा जाता है, जिसमें कुछ ज्ञात या अज्ञात मात्रा में जानकारी होती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "चर एक भंडारण स्थान है जिसे एक संबंधित प्रतीकात्मक नाम के साथ जोड़ा गया है, जिसमें कुछ ज्ञात या अज्ञात मात्रा में जानकारी होती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "चर एक भंडारण स्थान है जिसे एक संबंधित प्रतीकात्मक नाम के साथ जोड़ा गया है, जिसमें कुछ ज्ञात या अज्ञात मात्रा में जानकारी होती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ವೇರಿಯೇಬಲ್ ಎನ್ನುವುದು ಸಂಬಂಧಿತ ಸಾಂಕೇತಿಕ ಹೆಸರಿನೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ಶೇಖರಣಾ ಸ್ಥಳವಾಗಿದೆ, ಇದು ಕೆಲವು ತಿಳಿದಿರುವ ಅಥವಾ ಅಜ್ಞಾತ ಪ್ರಮಾಣದ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "variable ಒಂದು ಸಂಬಂಧಿತ ಸಾಂಕೇತಿಕ ಹೆಸರಿನೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ಶೇಖರಣಾ ಸ್ಥಳವಾಗಿದೆ, ಇದು ಕೆಲವು ತಿಳಿದಿರುವ ಅಥವಾ ಅಪರಿಚಿತ ಪ್ರಮಾಣದ ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಂಡಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "variable ಒಂದು ಸಂಬಂಧಿತ ಸಾಂಕೇತಿಕ ಹೆಸರಿನೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ಶೇಖರಣಾ ಸ್ಥಳವಾಗಿದೆ, ಇದು ಕೆಲವು ತಿಳಿದಿರುವ ಅಥವಾ ಅಪರಿಚಿತ ಪ್ರಮಾಣದ ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಂಡಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_010",
+    "domain": "Physics",
+    "source_en": "Potential energy is stored energy that depends upon the relative position of various parts of a system.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "संभावित ऊर्जा संग्रहीत ऊर्जा है जो किसी प्रणाली के विभिन्न हिस्सों की सापेक्ष स्थिति पर निर्भर करती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "स्थितिज ऊर्जा संग्रहीत ऊर्जा है जो किसी प्रणाली के विभिन्न हिस्सों की सापेक्ष स्थिति पर निर्भर करती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "स्थितिज ऊर्जा संग्रहीत ऊर्जा है जो किसी प्रणाली के विभिन्न हिस्सों की सापेक्ष स्थिति पर निर्भर करती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಸಂಭಾವ್ಯ ಶಕ್ತಿಯು ವ್ಯವಸ್ಥೆಯ ವಿವಿಧ ಭಾಗಗಳ ಸಾಪೇಕ್ಷ ಸ್ಥಾನವನ್ನು ಅವಲಂಬಿಸಿರುವ ಸಂಗ್ರಹಿತ ಶಕ್ತಿಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಸ್ಥಿತಿ ಶಕ್ತಿ ಎಂಬುದು ವ್ಯವಸ್ಥೆಯ ವಿವಿಧ ಭಾಗಗಳ ಸಾಪೇಕ್ಷ ಸ್ಥಾನವನ್ನು ಅವಲಂಬಿಸಿರುವ ಸಂಗ್ರಹಿತ ಶಕ್ತಿಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಸ್ಥಿತಿ ಶಕ್ತಿ ಎಂಬುದು ವ್ಯವಸ್ಥೆಯ ವಿವಿಧ ಭಾಗಗಳ ಸಾಪೇಕ್ಷ ಸ್ಥಾನವನ್ನು ಅವಲಂಬಿಸಿರುವ ಸಂಗ್ರಹಿತ ಶಕ್ತಿಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_004",
+    "domain": "Mathematics",
+    "source_en": "Integration is used to calculate area under a curve.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एकीकरण का उपयोग वक्र के नीचे क्षेत्र की गणना करने के लिए किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "समाकलन का उपयोग वक्र के नीचे क्षेत्र की गणना करने के लिए किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "समाकलन का उपयोग वक्र के नीचे क्षेत्र की गणना करने के लिए किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಒಂದು ವಕ್ರರೇಖೆಯ ಕೆಳಗಿರುವ ಪ್ರದೇಶವನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಏಕೀಕರಣವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಅನುಕಲನ ಅನ್ನು ವಕ್ರರೇಖೆಯ ಕೆಳಗಿರುವ ಪ್ರದೇಶವನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಅನುಕಲನವನ್ನು ವಕ್ರರೇಖೆಯ ಕೆಳಗಿರುವ ಪ್ರದೇಶವನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_008",
+    "domain": "Chemistry",
+    "source_en": "Acids are substances that can donate a proton (H⁺) to another substance.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एसिड वे पदार्थ हैं जो एक प्रोटॉन (एच +) को दूसरे पदार्थ में दान कर सकते हैं।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "अम्ल ऐसे पदार्थ हैं जो प्रोटॉन (H⁺) को किसी अन्य पदार्थ को दान कर सकते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "अम्ल ऐसे पदार्थ हैं जो प्रोटॉन (H⁺) को किसी अन्य पदार्थ को दान कर सकते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆಮ್ಲಗಳು ಪ್ರೋಟಾನ್ (ಎಚ್ +) ಅನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡುವ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "acids ಎಂಬುದು proton (H⁺) ಅನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡಬಲ್ಲ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "acids ಎಂಬುದು proton (H⁺)ವನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡಬಲ್ಲ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_005",
+    "domain": "Biology",
+    "source_en": "Osmosis is the spontaneous net movement of solvent molecules through a selectively permeable membrane.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऑस्मोसिस एक चुनिंदा पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "परासरण एक चयनात्मक पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "परासरण एक चयनात्मक पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಓಸ್ಮೋಸಿಸ್ ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "osmosis ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "osmosis ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_008",
+    "domain": "Computer Science",
+    "source_en": "A function is a sequence of program instructions that performs a specific task, packaged as a unit.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक कार्य कार्यक्रम निर्देशों का एक क्रम है जो एक विशिष्ट कार्य करता है, जिसे एक इकाई के रूप में पैक किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "फ़ंक्शन कार्यक्रम निर्देशों का एक क्रम है जो एक इकाई के रूप में पैक किए गए एक विशिष्ट कार्य को करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "फ़ंक्शन कार्यक्रम निर्देशों का एक क्रम है जो एक इकाई के रूप में पैक किए गए एक विशिष्ट कार्य को करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಒಂದು ಕಾರ್ಯವು ಒಂದು ಘಟಕವಾಗಿ ಪ್ಯಾಕೇಜ್ ಮಾಡಲಾದ ನಿರ್ದಿಷ್ಟ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸುವ ಪ್ರೋಗ್ರಾಂ ಸೂಚನೆಗಳ ಅನುಕ್ರಮವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "function ಎಂಬುದು ಒಂದು ಘಟಕವಾಗಿ ಪ್ಯಾಕೇಜ್ ಮಾಡಲಾದ ನಿರ್ದಿಷ್ಟ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸುವ ಪ್ರೋಗ್ರಾಂ ಸೂಚನೆಗಳ ಅನುಕ್ರಮವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "function ಎಂಬುದು ಒಂದು ಘಟಕವಾಗಿ ಪ್ಯಾಕೇಜ್ ಮಾಡಲಾದ ನಿರ್ದಿಷ್ಟ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸುವ ಪ್ರೋಗ್ರಾಂ ಸೂಚನೆಗಳ ಅನುಕ್ರಮವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_011",
+    "domain": "Physics",
+    "source_en": "When a car accelerates, its velocity increases over time.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "जब एक कार तेजी से चलती है, तो समय के साथ इसका वेग बढ़ जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "जब एक कार त्वरित होती है, तो समय के साथ इसकी वेग बढ़ती जाती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "जब एक कार त्वरित होती है, तो समय के साथ इसकी वेग बढ़ती जाती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಒಂದು ಕಾರು ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಿದಾಗ, ಅದರ ವೇಗವು ಕಾಲಾನಂತರದಲ್ಲಿ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಒಂದು ಕಾರು accelerates ಆಗಿದ್ದರೆ, ಅದರ velocity ಕಾಲಾನಂತರದಲ್ಲಿ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಒಂದು ಕಾರು accelerates ಆಗಿದ್ದರೆ, ಅದರ velocity ಕಾಲಾನಂತರದಲ್ಲಿ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_005",
+    "domain": "Mathematics",
+    "source_en": "A matrix is a rectangular arrangement of numbers.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक मैट्रिक्स संख्याओं की एक आयताकार व्यवस्था है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "आव्यूह संख्याओं की एक आयताकार व्यवस्था है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "आव्यूह संख्याओं की एक आयताकार व्यवस्था है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಮಾತೃಕೆ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಮಾತೃಕೆ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_009",
+    "domain": "Chemistry",
+    "source_en": "The pH scale ranges from 0 to 14.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "पी. एच. पैमाना 0 से 14 तक होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "पीएच पैमाना की सीमा 0 से 14 तक है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "पीएच पैमाना की सीमा 0 से 14 तक है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಪಿ. ಎಚ್ ಪ್ರಮಾಣವು 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "pH scale 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "pH scale 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_006",
+    "domain": "Biology",
+    "source_en": "Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (एटीपी) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (ATP ) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (ATP ) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಜೀವಕೋಶದ ಉಸಿರಾಟವು ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದ್ದು, ಪೋಷಕಾಂಶಗಳಿಂದ ಜೀವರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ಎಟಿಪಿ) ಆಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "cellular respiration ಎಂಬುದು ಜೈವಿಕ ರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಪೋಷಕಾಂಶಗಳಿಂದ ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP ) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "cellular respiration ಎಂಬುದು ಜೈವಿಕ ರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಪೋಷಕಾಂಶಗಳಿಂದ ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP ) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_009",
+    "domain": "Computer Science",
+    "source_en": "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (ओ. ओ. पी.) \"ऑब्जेक्ट्स\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (OOP ) \"ऑब्जेक्ट\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (OOP ) \"ऑब्जेक्ट\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆಬ್ಜೆಕ್ಟ್-ಓರಿಯೆಂಟೆಡ್ ಪ್ರೋಗ್ರಾಮಿಂಗ್ (ಒಒಪಿ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ಡೇಟಾ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ಡೇಟಾ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "Object-oriented programming (OOP ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ದತ್ತಾಂಶ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ದತ್ತಾಂಶ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "Object-oriented programming (OOP ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ದತ್ತಾಂಶ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ದತ್ತಾಂಶ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_013",
+    "domain": "Physics",
+    "source_en": "Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "घर्षण वह बल है जो ठोस सतहों, द्रव परतों और एक दूसरे के खिलाफ फिसलने वाले भौतिक तत्वों की सापेक्ष गति का प्रतिरोध करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "घर्षण ठोस सतहों, द्रव परतों और एक दूसरे के खिलाफ फिसलने वाले भौतिक तत्वों की सापेक्ष गति का प्रतिरोध करने वाला बल है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "घर्षण ठोस सतहों, द्रव परतों और एक दूसरे के खिलाफ फिसलने वाले भौतिक तत्वों की सापेक्ष गति का प्रतिरोध करने वाला बल है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಘರ್ಷಣೆ ಎಂದರೆ ಘನ ಮೇಲ್ಮೈಗಳು, ದ್ರವದ ಪದರಗಳು ಮತ್ತು ವಸ್ತು ಅಂಶಗಳ ಪರಸ್ಪರ ವಿರುದ್ಧವಾಗಿ ಜಾರುವ ಸಾಪೇಕ್ಷ ಚಲನೆಯನ್ನು ವಿರೋಧಿಸುವ ಬಲ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "friction ಎಂಬುದು ಘನ ಮೇಲ್ಮೈಗಳು, ದ್ರವದ ಪದರಗಳು ಮತ್ತು ವಸ್ತು ಅಂಶಗಳ ಪರಸ್ಪರ ವಿರುದ್ಧವಾಗಿ ಜಾರುವ ಸಾಪೇಕ್ಷ ಚಲನೆಯನ್ನು ವಿರೋಧಿಸುವ ಬಲವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "friction ಎಂಬುದು ಘನ ಮೇಲ್ಮೈಗಳು, ದ್ರವದ ಪದರಗಳು ಮತ್ತು ವಸ್ತು ಅಂಶಗಳ ಪರಸ್ಪರ ವಿರುದ್ಧವಾಗಿ ಜಾರುವ ಸಾಪೇಕ್ಷ ಚಲನೆಯನ್ನು ವಿರೋಧಿಸುವ ಬಲವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_007",
+    "domain": "Mathematics",
+    "source_en": "To find the roots of the equation x² - 5x + 6 = 0, we can factorize it.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "समीकरण x2-5x + 6 = 0 के मूल का पता लगाने के लिए, हम इसे गुणनखंडित कर सकते हैं।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "समीकरण x² - 5x + 6 = 0 के मूल को खोजने के लिए, हम इसे गुणनखंडित कर सकते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "समीकरण x² - 5x + 6 = 0 के मूल को खोजने के लिए, हम इसे गुणनखंडित कर सकते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "x2-5x + 6 = 0 ಸಮೀಕರಣದ ಮೂಲಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು, ನಾವು ಅದನ್ನು ಅಪವರ್ತನೀಯಗೊಳಿಸಬಹುದು.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "x² - 5x + 6 = 0 ಸಮೀಕರಣದ roots ಅನ್ನು ಕಂಡುಹಿಡಿಯಲು, ನಾವು ಅದನ್ನು ಅಪವರ್ತನೀಯಗೊಳಿಸಬಹುದು.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "x² - 5x + 6 = 0 ಸಮೀಕರಣದ rootsವನ್ನು ಕಂಡುಹಿಡಿಯಲು, ನಾವು ಅದನ್ನು ಅಪವರ್ತನೀಯಗೊಳಿಸಬಹುದು.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_010",
+    "domain": "Chemistry",
+    "source_en": "Exothermic reactions release energy in the form of heat or light.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऊष्मीय प्रतिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ती हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ऊष्माक्षेपी अभिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऊष्माक्षेपी अभिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಎಕ್ಸೋಥರ್ಮಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "exothermic reactions ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "exothermic reactions ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_007",
+    "domain": "Biology",
+    "source_en": "Enzymes are proteins that act as biological catalysts by accelerating chemical reactions.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एंजाइम प्रोटीन होते हैं जो रासायनिक प्रतिक्रियाओं को तेज करके जैविक उत्प्रेरक के रूप में कार्य करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "एंजाइम प्रोटीन हैं जो रासायनिक प्रतिक्रियाओं को तेज करके जैविक उत्प्रेरक के रूप में कार्य करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "एंजाइम प्रोटीन हैं जो रासायनिक प्रतिक्रियाओं को तेज करके जैविक उत्प्रेरक के रूप में कार्य करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಕಿಣ್ವಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಪ್ರೋಟೀನ್ಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "enzymes ಪ್ರೋಟೀನ್ಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "enzymes ಪ್ರೋಟೀನ್ಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_010",
+    "domain": "Computer Science",
+    "source_en": "Recursion occurs when a function calls itself directly or indirectly in its definition.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "पुनरावृत्ति तब होती है जब कोई कार्य अपनी परिभाषा में प्रत्यक्ष या अप्रत्यक्ष रूप से खुद को बुलाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "पुनरावर्तन तब होता है जब कोई फ़ंक्शन अपनी परिभाषा में प्रत्यक्ष या अप्रत्यक्ष रूप से खुद को बुलाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "पुनरावर्तन तब होता है जब कोई फ़ंक्शन अपनी परिभाषा में प्रत्यक्ष या अप्रत्यक्ष रूप से खुद को बुलाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಒಂದು ಕಾರ್ಯವು ತನ್ನ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ನೇರವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ ತನ್ನನ್ನು ತಾನು ಕರೆದುಕೊಂಡಾಗ ಪುನರಾವರ್ತನೆ ಸಂಭವಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಒಂದು ಕಾರ್ಯವು ತನ್ನ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ನೇರವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ ತನ್ನನ್ನು ತಾನು ಕರೆದುಕೊಂಡಾಗ recursion ಸಂಭವಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಒಂದು ಕಾರ್ಯವು ತನ್ನ ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ ನೇರವಾಗಿ ಅಥವಾ ಪರೋಕ್ಷವಾಗಿ ತನ್ನನ್ನು ತಾನು ಕರೆದುಕೊಂಡಾಗ recursion ಸಂಭವಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_014",
+    "domain": "Physics",
+    "source_en": "Power is the rate at which work is done.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "शक्ति वह दर है जिस पर काम किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "शक्ति वह दर है जिस पर काम किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "शक्ति वह दर है जिस पर काम किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಅಧಿಕಾರವು ಕೆಲಸವನ್ನು ಮಾಡುವ ದರವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "power ಎಂಬುದು ಕೆಲಸವನ್ನು ಮಾಡುವ ದರವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "power ಎಂಬುದು ಕೆಲಸವನ್ನು ಮಾಡುವ ದರವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_009",
+    "domain": "Mathematics",
+    "source_en": "In a right-angled triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक समकोण त्रिभुज में, एक कोण का साइन हाइपोटेन्यूज के विपरीत पक्ष का अनुपात है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "एक समकोण त्रिभुज में, एक कोण का ज्या, कर्ण के विपरीत पक्ष का अनुपात है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "एक समकोण त्रिभुज में, एक कोण का ज्या, कर्ण के विपरीत पक्ष का अनुपात है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಬಲ-ಕೋನದ ತ್ರಿಕೋನದಲ್ಲಿ, ಕೋನದ ಸೈನ್ ಎಂಬುದು ಹೈಪೊಟೆನ್ಯೂಸ್ಗೆ ವಿರುದ್ಧ ಬದಿಯ ಅನುಪಾತವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಸಮಕೋಣೆಯ ತ್ರಿಕೋನದಲ್ಲಿ, ಒಂದು ಕೋನದ sine ಎಂಬುದು hypotenuse ಕ್ಕೆ ವಿರುದ್ಧ ಬದಿಯ ಅನುಪಾತವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಸಮಕೋಣೆಯ ತ್ರಿಕೋನದಲ್ಲಿ, ಒಂದು ಕೋನದ sine ಎಂಬುದು hypotenuseಕ್ಕೆ ವಿರುದ್ಧ ಬದಿಯ ಅನುಪಾತವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_011",
+    "domain": "Chemistry",
+    "source_en": "Endothermic reactions absorb energy from their surroundings.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एंडोथर्मिक प्रतिक्रियाएँ अपने आसपास की ऊर्जा को अवशोषित करती हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ऊष्माशोषी अभिक्रियाएँ अपने आसपास की ऊर्जा को अवशोषित करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऊष्माशोषी अभिक्रियाएँ अपने आसपास की ऊर्जा को अवशोषित करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಎಂಡೋಥರ್ಮಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ತಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಶಕ್ತಿಯನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "endothermic reactions ತಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಪ್ರದೇಶಗಳಿಂದ ಶಕ್ತಿಯನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "endothermic reactions ತಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಪ್ರದೇಶಗಳಿಂದ ಶಕ್ತಿಯನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_008",
+    "domain": "Biology",
+    "source_en": "Mitosis is a part of the cell cycle in which replicated chromosomes are separated into two new nuclei.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "माइटोसिस कोशिका चक्र का एक हिस्सा है जिसमें प्रतिकृति गुणसूत्रों को दो नए नाभिकों में अलग किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "समसूत्री विभाजन कोशिका चक्र का एक हिस्सा है जिसमें प्रतिकृति गुणसूत्रों को दो नए नाभिकों में विभाजित किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "समसूत्री विभाजन कोशिका चक्र का एक हिस्सा है जिसमें प्रतिकृति गुणसूत्रों को दो नए नाभिकों में विभाजित किया जाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಮಿಟೋಸಿಸ್ ಜೀವಕೋಶದ ಚಕ್ರದ ಒಂದು ಭಾಗವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಪುನರಾವರ್ತಿತ ವರ್ಣತಂತುಗಳನ್ನು ಎರಡು ಹೊಸ ನ್ಯೂಕ್ಲಿಯಸ್ಗಳಾಗಿ ಬೇರ್ಪಡಿಸಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "mitosis ಜೀವಕೋಶದ ಚಕ್ರದ ಒಂದು ಭಾಗವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಪುನರಾವರ್ತಿತ ವರ್ಣತಂತುಗಳನ್ನು ಎರಡು ಹೊಸ ನ್ಯೂಕ್ಲಿಯಸ್ಗಳಾಗಿ ಬೇರ್ಪಡಿಸಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "mitosis ಜೀವಕೋಶದ ಚಕ್ರದ ಒಂದು ಭಾಗವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಪುನರಾವರ್ತಿತ ವರ್ಣತಂತುಗಳನ್ನು ಎರಡು ಹೊಸ ನ್ಯೂಕ್ಲಿಯಸ್ಗಳಾಗಿ ಬೇರ್ಪಡಿಸಲಾಗುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_011",
+    "domain": "Computer Science",
+    "source_en": "A compiler is a computer program that translates computer code written in one programming language into another language.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "संकलक एक कंप्यूटर प्रोग्राम है जो एक प्रोग्रामिंग भाषा में लिखे गए कंप्यूटर कोड का दूसरी भाषा में अनुवाद करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "कंपाइलर एक कंप्यूटर प्रोग्राम है जो एक प्रोग्रामिंग भाषा में लिखे गए कंप्यूटर कोड का दूसरी भाषा में अनुवाद करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "कंपाइलर एक कंप्यूटर प्रोग्राम है जो एक प्रोग्रामिंग भाषा में लिखे गए कंप्यूटर कोड का दूसरी भाषा में अनुवाद करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಕಂಪೈಲರ್ ಎಂಬುದು ಒಂದು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಬರೆಯಲಾದ ಕಂಪ್ಯೂಟರ್ ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಂದು ಭಾಷೆಗೆ ಭಾಷಾಂತರಿಸುವ ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂ ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "compiler ಎಂಬುದು ಒಂದು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಬರೆಯಲಾದ ಕಂಪ್ಯೂಟರ್ ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಂದು ಭಾಷೆಗೆ ಅನುವಾದಿಸುವ ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂ ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "compiler ಎಂಬುದು ಒಂದು ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಬರೆಯಲಾದ ಕಂಪ್ಯೂಟರ್ ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಂದು ಭಾಷೆಗೆ ಅನುವಾದಿಸುವ ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂ ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_016",
+    "domain": "Physics",
+    "source_en": "Thermodynamics is the branch of physics that deals with heat, work, and temperature, and their relation to energy, radiation, and properties of matter.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऊष्मागतिकी भौतिकी की वह शाखा है जो ऊष्मा, कार्य और तापमान, और ऊर्जा, विकिरण और पदार्थ के गुणों के साथ उनके संबंध से संबंधित है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "ऊष्मागतिकी भौतिकी की वह शाखा है जो ऊष्मा, कार्य और तापमान, और ऊर्जा, विकिरण और पदार्थ के गुणों के साथ उनके संबंध से संबंधित है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऊष्मागतिकी भौतिकी की वह शाखा है जो ऊष्मा, कार्य और तापमान, और ऊर्जा, विकिरण और पदार्थ के गुणों के साथ उनके संबंध से संबंधित है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಉಷ್ಣಬಲವಿಜ್ಞಾನವು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "thermodynamics ಎಂಬುದು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "thermodynamics ಎಂಬುದು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_010",
+    "domain": "Mathematics",
+    "source_en": "The probability of an impossible event is 0, and the probability of a certain event is 1.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक असंभव घटना की संभावना 0 है, और एक निश्चित घटना की संभावना 1 है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "एक असंभव घटना का प्रायिकता 0 है, और एक निश्चित घटना का प्रायिकता 1 है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "एक असंभव घटना का प्रायिकता 0 है, और एक निश्चित घटना का प्रायिकता 1 है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಒಂದು ಅಸಾಧ್ಯ ಘಟನೆಯ ಸಂಭವನೀಯತೆಯು 0 ಆಗಿರುತ್ತದೆ ಮತ್ತು ಒಂದು ನಿರ್ದಿಷ್ಟ ಘಟನೆಯ ಸಂಭವನೀಯತೆಯು 1 ಆಗಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಒಂದು ಅಸಾಧ್ಯ ಘಟನೆಯ probability ಎಂಬುದು 0, ಮತ್ತು ಒಂದು ನಿರ್ದಿಷ್ಟ ಘಟನೆಯ probability ಎಂಬುದು 1 ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಒಂದು ಅಸಾಧ್ಯ ಘಟನೆಯ probability ಎಂಬುದು 0, ಮತ್ತು ಒಂದು ನಿರ್ದಿಷ್ಟ ಘಟನೆಯ probability ಎಂಬುದು 1 ಆಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_013",
+    "domain": "Chemistry",
+    "source_en": "Isotopes are variants of a particular chemical element which differ in neutron number.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "समस्थानिक एक विशेष रासायनिक तत्व के रूप हैं जो न्यूट्रॉन संख्या में भिन्न होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "समस्थानिक एक विशेष रासायनिक तत्व के प्रकार हैं जो न्यूट्रॉन संख्या में भिन्न होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "समस्थानिक एक विशेष रासायनिक तत्व के प्रकार हैं जो न्यूट्रॉन संख्या में भिन्न होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಐಸೋಟೋಪ್ಗಳು ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುವ ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "isotopes ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಅವು neutron ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "isotopes ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಅವು neutron ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_009",
+    "domain": "Biology",
+    "source_en": "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "अर्धसूत्री विच्छेदन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "अर्धसूत्री विभाजन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "अर्धसूत्री विभाजन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಅರೆವಿದಳನವು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "meiosis ಎಂಬುದು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "meiosis ಎಂಬುದು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_012",
+    "domain": "Computer Science",
+    "source_en": "Binary search runs in O(log n) time.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "द्विआधारी खोज ओ (लॉग एन) समय में चलती है।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "O(log n) समय में बाइनरी सर्च रन बनाए।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "O(log n) समय में बाइनरी सर्च रन बनाए।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಬೈನರಿ ಹುಡುಕಾಟವು ಓ (ಲಾಗ್ ಎನ್) ಸಮಯದಲ್ಲಿ ನಡೆಯುತ್ತದೆ.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "O(log n) ರಲ್ಲಿ Binary search ರನ್ ಗಳಿಸಿದರು.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "O(log n) ರಲ್ಲಿ Binary search ರನ್ ಗಳಿಸಿದರು.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_017",
+    "domain": "Physics",
+    "source_en": "A vector quantity has both magnitude and direction, whereas a scalar quantity has only magnitude.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक सदिश मात्रा में परिमाण और दिशा दोनों होते हैं, जबकि एक स्केलर मात्रा में केवल परिमाण होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "सदिश मात्रा का परिमाण और दिशा दोनों होते हैं, जबकि अदिश मात्रा का केवल परिमाण होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "सदिश मात्रा का परिमाण और दिशा दोनों होते हैं, जबकि अदिश मात्रा का केवल परिमाण होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ವಾಹಕದ ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿರುತ್ತದೆ, ಆದರೆ ಸ್ಕೇಲಾರ್ ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "vector ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿದ್ದರೆ, scalar ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "vector ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿದ್ದರೆ, scalar ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_011",
+    "domain": "Mathematics",
+    "source_en": "A linear equation in two variables describes a line on a Cartesian coordinate plane. The standard form is Ax + By = C, where A, B, and C are constants, and x and y are variables.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "दो चरों में एक रैखिक समीकरण एक कार्टेशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + by = C है, जहाँ A, B और C स्थिरांक हैं, और x और y चर हैं।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "दो चर में A रैखिक समीकरण एक C आर्टीशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + By = C है, जहां A,B और C स्थिरांक हैं, और x और y चर हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "दो चर में A रैखिक समीकरण एक C आर्टीशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + By = C है, जहां A,B और C स्थिरांक हैं, और x और y चर हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಎರಡು ಅಸ್ಥಿರಗಳಲ್ಲಿನ ರೇಖೀಯ ಸಮೀಕರಣವು ಕಾರ್ಟೇಶಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + by = C ಆಗಿದೆ, ಅಲ್ಲಿ A, B, ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y ಅಸ್ಥಿರಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಎರಡು variables ರಲ್ಲಿ A ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ ಒಂದು C ಆರ್ಟೀಷಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇದರಲ್ಲಿ A,B ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y variables ಆಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "ಎರಡು variables ರಲ್ಲಿ A ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ ಒಂದು C ಆರ್ಟೀಷಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇದರಲ್ಲಿ A,B ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y variables ಆಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_014",
+    "domain": "Chemistry",
+    "source_en": "A catalyst is a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "उत्प्रेरक एक ऐसा पदार्थ है जो बिना किसी स्थायी रासायनिक परिवर्तन के रासायनिक प्रतिक्रिया की दर को बढ़ाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "उत्प्रेरक एक ऐसा पदार्थ है जो बिना किसी स्थायी रासायनिक परिवर्तन के रासायनिक प्रतिक्रिया की दर को बढ़ाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "उत्प्रेरक एक ऐसा पदार्थ है जो बिना किसी स्थायी रासायनिक परिवर्तन के रासायनिक प्रतिक्रिया की दर को बढ़ाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ವೇಗವರ್ಧಕವು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "catalyst ಎಂಬುದು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "catalyst ಎಂಬುದು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    }
+  },
+  {
+    "id": "BIO_010",
+    "domain": "Biology",
+    "source_en": "A gene is a sequence of nucleotides in DNA or RNA that encodes the synthesis of a gene product, either RNA or protein.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक जीन डी. एन. ए. या आर. एन. ए. में न्यूक्लियोटाइड्स का एक अनुक्रम है जो एक जीन उत्पाद, या तो आर. एन. ए. या प्रोटीन के संश्लेषण को कूटबद्ध करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "जीन DNA या RNA में न्यूक्लियोटाइड्स का एक अनुक्रम है जो जीन उत्पाद, या तो RNA या प्रोटीन के संश्लेषण को कूटबद्ध करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "जीन DNA या RNA में न्यूक्लियोटाइड्स का एक अनुक्रम है जो जीन उत्पाद, या तो RNA या प्रोटीन के संश्लेषण को कूटबद्ध करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಜೀನ್ ಎಂದರೆ ಡಿಎನ್ಎ ಅಥವಾ ಆರ್ಎನ್ಎಯಲ್ಲಿನ ನ್ಯೂಕ್ಲಿಯೋಟೈಡ್ಗಳ ಅನುಕ್ರಮವಾಗಿದ್ದು, ಇದು ಆರ್ಎನ್ಎ ಅಥವಾ ಪ್ರೋಟೀನ್ನ ಜೀನ್ ಉತ್ಪನ್ನದ ಸಂಶ್ಲೇಷಣೆಯನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "gene ಎಂಬುದು DNA ಅಥವಾ RNA ರಲ್ಲಿರುವ ನ್ಯೂಕ್ಲಿಯೋಟೈಡ್ಗಳ ಒಂದು ಅನುಕ್ರಮವಾಗಿದ್ದು, ಇದು gene ಉತ್ಪನ್ನದ, RNA ಅಥವಾ ಪ್ರೋಟೀನ್ನ ಸಂಶ್ಲೇಷಣೆಯನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "gene ಎಂಬುದು DNA ಅಥವಾ RNA ರಲ್ಲಿರುವ ನ್ಯೂಕ್ಲಿಯೋಟೈಡ್ಗಳ ಒಂದು ಅನುಕ್ರಮವಾಗಿದ್ದು, ಇದು gene ಉತ್ಪನ್ನದ, RNA ಅಥವಾ ಪ್ರೋಟೀನ್ನ ಸಂಶ್ಲೇಷಣೆಯನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CS_013",
+    "domain": "Computer Science",
+    "source_en": "An operating system manages computer hardware, software resources, and provides common services for computer programs.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक ऑपरेटिंग सिस्टम कंप्यूटर हार्डवेयर, सॉफ्टवेयर संसाधनों का प्रबंधन करता है और कंप्यूटर प्रोग्रामों के लिए सामान्य सेवाएं प्रदान करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "ऑपरेटिंग सिस्टम कंप्यूटर हार्डवेयर, सॉफ्टवेयर संसाधनों का प्रबंधन करता है और कंप्यूटर प्रोग्रामों के लिए सामान्य सेवाएं प्रदान करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऑपरेटिंग सिस्टम कंप्यूटर हार्डवेयर, सॉफ्टवेयर संसाधनों का प्रबंधन करता है और कंप्यूटर प्रोग्रामों के लिए सामान्य सेवाएं प्रदान करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್ ಕಂಪ್ಯೂಟರ್ ಹಾರ್ಡ್ವೇರ್, ಸಾಫ್ಟ್ವೇರ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂಗಳಿಗೆ ಸಾಮಾನ್ಯ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "operating system ಕಂಪ್ಯೂಟರ್ ಹಾರ್ಡ್ವೇರ್, ಸಾಫ್ಟ್ವೇರ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂಗಳಿಗೆ ಸಾಮಾನ್ಯ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "operating system ಕಂಪ್ಯೂಟರ್ ಹಾರ್ಡ್ವೇರ್, ಸಾಫ್ಟ್ವೇರ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂಗಳಿಗೆ ಸಾಮಾನ್ಯ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "PHY_018",
+    "domain": "Physics",
+    "source_en": "Voltage is the difference in electric potential between two points.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "वोल्टेज दो बिंदुओं के बीच विद्युत क्षमता में अंतर है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "वोल्टेज दो बिंदुओं के बीच विद्युत क्षमता में अंतर है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "वोल्टेज दो बिंदुओं के बीच विद्युत क्षमता में अंतर है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ವೋಲ್ಟೇಜ್ ಎಂದರೆ ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ವಿದ್ಯುತ್ ಸಾಮರ್ಥ್ಯದಲ್ಲಿನ ವ್ಯತ್ಯಾಸ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "voltage ಎಂಬುದು ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ವಿದ್ಯುತ್ ಸಾಮರ್ಥ್ಯದ ವ್ಯತ್ಯಾಸವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "voltage ಎಂಬುದು ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ವಿದ್ಯುತ್ ಸಾಮರ್ಥ್ಯದ ವ್ಯತ್ಯಾಸವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "MAT_013",
+    "domain": "Mathematics",
+    "source_en": "Two lines are parallel if their slopes are equal, meaning m₁ = m₂.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "दो रेखाएँ समानांतर हैं यदि उनकी ढलानें बराबर हैं, जिसका अर्थ है m1 = m2।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "दो पंक्तियाँ समानांतर हैं यदि उनकी ढलान बराबर हैं, जिसका अर्थ है m₁ = m₂ ।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "दो पंक्तियाँ समानांतर हैं यदि उनकी ढलान बराबर हैं, जिसका अर्थ है m₁ = m₂ ।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಎರಡು ರೇಖೆಗಳು ಅವುಗಳ ಇಳಿಜಾರುಗಳು ಸಮಾನವಾಗಿದ್ದರೆ ಸಮಾನಾಂತರವಾಗಿರುತ್ತವೆ, ಅಂದರೆ m1 = m2.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಎರಡು ಸಾಲುಗಳು parallel ಆಗಿದ್ದರೆ ಅವುಗಳ slopes ಸಮಾನವಾಗಿದ್ದರೆ, ಅಂದರೆ m₁ = m₂ ಎಂದರ್ಥ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ಎರಡು ಸಾಲುಗಳು parallel ಆಗಿದ್ದರೆ ಅವುಗಳ slopes ಸಮಾನವಾಗಿದ್ದರೆ, ಅಂದರೆ m₁ = m₂ ಎಂದರ್ಥ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  },
+  {
+    "id": "CHE_015",
+    "domain": "Chemistry",
+    "source_en": "The periodic table organizes elements based on their atomic number.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "आवर्त सारणी तत्वों को उनकी परमाणु संख्या के आधार पर व्यवस्थित करती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "आवर्त सारणी तत्वों को उनके परमाणु क्रमांक के आधार पर व्यवस्थित करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "आवर्त सारणी तत्वों को उनके परमाणु क्रमांक के आधार पर व्यवस्थित करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆವರ್ತಕ ಕೋಷ್ಟಕವು ಅಂಶಗಳನ್ನು ಅವುಗಳ ಪರಮಾಣು ಸಂಖ್ಯೆಯ ಆಧಾರದ ಮೇಲೆ ಸಂಘಟಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "periodic table ಅಂಶಗಳನ್ನು ಅವುಗಳ atomic number ರ ಆಧಾರದ ಮೇಲೆ ಸಂಘಟಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "periodic table ಅಂಶಗಳನ್ನು ಅವುಗಳ atomic numberದ ಆಧಾರದ ಮೇಲೆ ಸಂಘಟಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    }
+  }
+]

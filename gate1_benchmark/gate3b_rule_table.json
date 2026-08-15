@@ -1,0 +1,69 @@
+{
+  "accusative": {
+    "suffixes": [
+      "ಅನ್ನು",
+      "ವನ್ನು",
+      "ಯನ್ನು"
+    ],
+    "rules": {
+      "ends_with_i_e": "ಯನ್ನು",
+      "ends_with_m": "ಮನ್ನು",
+      "default": "ವನ್ನು"
+    }
+  },
+  "genitive": {
+    "suffixes": [
+      "ರ",
+      "ದ"
+    ],
+    "rules": {
+      "ends_with_i_e": "ಯ",
+      "default": "ದ"
+    }
+  },
+  "dative": {
+    "suffixes": [
+      "ಗೆ",
+      "ಕ್ಕೆ",
+      "ಯಿಗೆ"
+    ],
+    "rules": {
+      "ends_with_i_e": "ಗೆ",
+      "default": "ಕ್ಕೆ"
+    }
+  },
+  "instrumental_ablative": {
+    "suffixes": [
+      "ಇಂದ",
+      "ದಿಂದ",
+      "ಯಿಂದ"
+    ],
+    "rules": {
+      "ends_with_i_e": "ಯಿಂದ",
+      "default": "ದಿಂದ"
+    }
+  },
+  "locative": {
+    "suffixes": [
+      "ಲ್ಲಿ",
+      "ದಲ್ಲಿ",
+      "ಯಲ್ಲಿ"
+    ],
+    "rules": {
+      "ends_with_i_e": "ಯಲ್ಲಿ",
+      "default": "ದಲ್ಲಿ"
+    }
+  },
+  "purposive": {
+    "suffixes": [
+      "ಗಾಗಿ",
+      "ರಿಗಾಗಿ",
+      "ದಿಗಾಗಿ",
+      "ಯಿಗಾಗಿ"
+    ],
+    "rules": {
+      "ends_with_i_e": "ಯಿಗಾಗಿ",
+      "default": "ಕ್ಕಾಗಿ"
+    }
+  }
+}

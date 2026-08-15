@@ -1,0 +1,1360 @@
+{
+  "environment": {
+    "timestamp": "2026-08-13T11:17:48.236059+00:00",
+    "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "torch_version": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_vram_total_mb": 4095.5,
+    "transformers_version": "4.41.2",
+    "indictranstoolkit_version": "installed (version unknown)",
+    "sentencepiece_version": "0.2.2",
+    "sacrebleu_version": "2.6.0",
+    "nvidia_driver": "610.64"
+  },
+  "cuda_test": {
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "torch_version": "2.6.0+cu124",
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_vram_mb": 4095.5,
+    "gpu_compute_capability": "8.6",
+    "computation_test": "PASS",
+    "status": "PASS"
+  },
+  "generation_config": {
+    "num_beams": 5,
+    "max_length": 256,
+    "do_sample": false
+  },
+  "candidates": {
+    "A_200M_GPU": {
+      "candidate": "Candidate_A_200M_GPU",
+      "model_name": "ai4bharat/indictrans2-en-indic-dist-200M",
+      "device": "cuda",
+      "dtype": "torch.float16",
+      "generation_config": {
+        "num_beams": 5,
+        "max_length": 256,
+        "do_sample": false
+      },
+      "status": "PASS",
+      "translations": {
+        "kan_Knda": [
+          {
+            "id": "PHY-001",
+            "source": "Acceleration is the rate of change of velocity with respect to time.",
+            "translation": "ವೇಗವರ್ಧನೆಯು ಸಮಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ವೇಗದ ಬದಲಾವಣೆಯ ದರವಾಗಿದೆ.",
+            "latency_s": 25.1413,
+            "status": "OK",
+            "peak_vram_mb": 431.4052734375
+          },
+          {
+            "id": "PHY-002",
+            "source": "Newton's second law of motion states that the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+            "translation": "ನ್ಯೂಟನ್ನ ಎರಡನೇ ಚಲನೆಯ ನಿಯಮವು ಒಂದು ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲವು ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿಯನ್ನು ಅದರ ವೇಗವರ್ಧನೆಯಿಂದ ಗುಣಿಸುವುದಕ್ಕೆ ಸಮಾನವಾಗಿರುತ್ತದೆ ಎಂದು ಹೇಳುತ್ತದೆ.",
+            "latency_s": 1.1618,
+            "status": "OK",
+            "peak_vram_mb": 448.525390625
+          },
+          {
+            "id": "PHY-003",
+            "source": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another.",
+            "translation": "ಶಕ್ತಿಯ ಸಂರಕ್ಷಣೆಯ ನಿಯಮವು ಶಕ್ತಿಯನ್ನು ಸೃಷ್ಟಿಸಲಾಗುವುದಿಲ್ಲ ಅಥವಾ ನಾಶಪಡಿಸಲಾಗುವುದಿಲ್ಲ ಎಂದು ಹೇಳುತ್ತದೆ; ಅದನ್ನು ಕೇವಲ ಒಂದು ರೂಪದಿಂದ ಮತ್ತೊಂದು ರೂಪಕ್ಕೆ ಮಾತ್ರ ಪರಿವರ್ತಿಸಬಹುದು.",
+            "latency_s": 1.0852,
+            "status": "OK",
+            "peak_vram_mb": 445.17578125
+          },
+          {
+            "id": "PHY-004",
+            "source": "In an electric circuit, the current flowing through a conductor is directly proportional to the voltage applied across its ends, provided the temperature remains constant. This relationship is known as Ohm's law.",
+            "translation": "ವಿದ್ಯುತ್ ಸರ್ಕ್ಯೂಟ್ನಲ್ಲಿ, ವಾಹಕದ ಮೂಲಕ ಹರಿಯುವ ಪ್ರವಾಹವು ಅದರ ತುದಿಗಳಲ್ಲಿ ಅನ್ವಯವಾಗುವ ವೋಲ್ಟೇಜ್ಗೆ ನೇರವಾಗಿ ಅನುಪಾತದಲ್ಲಿರುತ್ತದೆ, ತಾಪಮಾನವು ಸ್ಥಿರವಾಗಿದ್ದರೆ. ಈ ಸಂಬಂಧವನ್ನು ಓಮ್ನ ನಿಯಮ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+            "latency_s": 1.1829,
+            "status": "OK",
+            "peak_vram_mb": 454.7275390625
+          },
+          {
+            "id": "PHY-005",
+            "source": "The refractive index of a medium determines how much light bends when it passes from one medium to another.",
+            "translation": "ಒಂದು ಮಾಧ್ಯಮದ ವಕ್ರೀಕಾರಕ ಸೂಚ್ಯಂಕವು ಒಂದು ಮಾಧ್ಯಮದಿಂದ ಇನ್ನೊಂದು ಮಾಧ್ಯಮಕ್ಕೆ ಹಾದುಹೋದಾಗ ಬೆಳಕು ಎಷ್ಟು ಬಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ.",
+            "latency_s": 1.3285,
+            "status": "OK",
+            "peak_vram_mb": 442.6953125
+          },
+          {
+            "id": "PHY-006",
+            "source": "Electromagnetic waves are transverse waves that consist of oscillating electric and magnetic fields perpendicular to each other and to the direction of wave propagation.",
+            "translation": "ವಿದ್ಯುತ್ಕಾಂತೀಯ ತರಂಗಗಳು ಅಡ್ಡ ಅಲೆಗಳಾಗಿದ್ದು, ಅವು ಪರಸ್ಪರ ಲಂಬವಾಗಿ ಮತ್ತು ತರಂಗ ಪ್ರಸರಣದ ದಿಕ್ಕಿನಲ್ಲಿ ಆಂದೋಲನಗೊಳ್ಳುವ ವಿದ್ಯುತ್ ಮತ್ತು ಕಾಂತೀಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+            "latency_s": 1.011,
+            "status": "OK",
+            "peak_vram_mb": 449.2529296875
+          },
+          {
+            "id": "MAT-001",
+            "source": "The quadratic formula is used to find the roots of a quadratic equation of the form ax squared plus bx plus c equals zero.",
+            "translation": "ಚತುರ್ಭುಜ ಸೂತ್ರವನ್ನು ಅಕ್ಷದ ವರ್ಗ ಮತ್ತು bx ಪ್ಲಸ್ c ಶೂನ್ಯಕ್ಕೆ ಸಮನಾದ ಚತುರ್ಭುಜ ಸಮೀಕರಣದ ಮೂಲಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 1.2696,
+            "status": "OK",
+            "peak_vram_mb": 445.1904296875
+          },
+          {
+            "id": "MAT-002",
+            "source": "A function is said to be continuous at a point if the limit of the function as x approaches that point equals the value of the function at that point.",
+            "translation": "x ಆ ಬಿಂದುವನ್ನು ಸಮೀಪಿಸುತ್ತಿದ್ದಂತೆ ಕಾರ್ಯದ ಮಿತಿಯು ಆ ಹಂತದಲ್ಲಿ ಕಾರ್ಯದ ಮೌಲ್ಯಕ್ಕೆ ಸಮನಾಗಿದ್ದರೆ ಒಂದು ಹಂತದಲ್ಲಿ ಕಾರ್ಯವು ನಿರಂತರವಾಗಿರುತ್ತದೆ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ.",
+            "latency_s": 1.0295,
+            "status": "OK",
+            "peak_vram_mb": 447.4853515625
+          },
+          {
+            "id": "MAT-003",
+            "source": "The derivative of a function represents the instantaneous rate of change of the function with respect to its independent variable.",
+            "translation": "ಒಂದು ಕಾರ್ಯದ ವ್ಯುತ್ಪನ್ನವು ಅದರ ಸ್ವತಂತ್ರ ವೇರಿಯೇಬಲ್ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಕಾರ್ಯದ ತಕ್ಷಣದ ಬದಲಾವಣೆಯ ದರವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+            "latency_s": 0.5334,
+            "status": "OK",
+            "peak_vram_mb": 440.22900390625
+          },
+          {
+            "id": "MAT-004",
+            "source": "In probability theory, the expected value of a discrete random variable is the sum of each possible value multiplied by its probability of occurrence.",
+            "translation": "ಸಂಭವನೀಯತೆ ಸಿದ್ಧಾಂತದಲ್ಲಿ, ಪ್ರತ್ಯೇಕ ಯಾದೃಚ್ಛಿಕ ವೇರಿಯೇಬಲ್ನ ನಿರೀಕ್ಷಿತ ಮೌಲ್ಯವು ಪ್ರತಿ ಸಂಭವನೀಯ ಮೌಲ್ಯದ ಮೊತ್ತವನ್ನು ಅದರ ಸಂಭವನೀಯತೆಯಿಂದ ಗುಣಿಸುತ್ತದೆ.",
+            "latency_s": 0.8706,
+            "status": "OK",
+            "peak_vram_mb": 445.0048828125
+          },
+          {
+            "id": "MAT-005",
+            "source": "A matrix is a rectangular array of numbers arranged in rows and columns that can be used to represent linear transformations.",
+            "translation": "ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಎಂಬುದು ಸಾಲುಗಳು ಮತ್ತು ಕಾಲಮ್ಗಳಲ್ಲಿ ಜೋಡಿಸಲಾದ ಆಯತಾಕಾರದ ಸಂಖ್ಯೆಗಳ ಶ್ರೇಣಿಯಾಗಿದ್ದು, ಇದನ್ನು ರೇಖೀಯ ರೂಪಾಂತರಗಳನ್ನು ಪ್ರತಿನಿಧಿಸಲು ಬಳಸಬಹುದು.",
+            "latency_s": 0.7328,
+            "status": "OK",
+            "peak_vram_mb": 442.16748046875
+          },
+          {
+            "id": "MAT-006",
+            "source": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+            "translation": "ಪೈಥಾಗರಿಯನ್ ಪ್ರಮೇಯವು ಬಲ-ಕೋನೀಯ ತ್ರಿಕೋನದಲ್ಲಿ, ಹೈಪೊಟೆನ್ಯೂಸ್ನ ವರ್ಗವು ಇತರ ಎರಡು ಬದಿಗಳ ವರ್ಗಗಳ ಮೊತ್ತಕ್ಕೆ ಸಮಾನವಾಗಿರುತ್ತದೆ ಎಂದು ಹೇಳುತ್ತದೆ.",
+            "latency_s": 1.0969,
+            "status": "OK",
+            "peak_vram_mb": 453.501953125
+          },
+          {
+            "id": "BIO-001",
+            "source": "Photosynthesis is the process by which green plants convert carbon dioxide and water into glucose and oxygen in the presence of sunlight.",
+            "translation": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯು ಹಸಿರು ಸಸ್ಯಗಳು ಸೂರ್ಯನ ಬೆಳಕಿನಲ್ಲಿ ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು ನೀರನ್ನು ಗ್ಲುಕೋಸ್ ಮತ್ತು ಆಮ್ಲಜನಕವಾಗಿ ಪರಿವರ್ತಿಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ.",
+            "latency_s": 0.8501,
+            "status": "OK",
+            "peak_vram_mb": 446.9287109375
+          },
+          {
+            "id": "BIO-002",
+            "source": "DNA replication is a semi-conservative process in which each strand of the original double helix serves as a template for the synthesis of a new complementary strand.",
+            "translation": "ಡಿಎನ್ಎ ಪ್ರತಿಕೃತಿಯು ಅರೆ-ಸಂರಕ್ಷಣಾ ಪ್ರಕ್ರಿಯೆಯಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಮೂಲ ಡಬಲ್ ಹೆಲಿಕ್ಸ್ನ ಪ್ರತಿಯೊಂದು ಸ್ಟ್ರಾಂಡ್ ಹೊಸ ಪೂರಕ ಸ್ಟ್ರಾಂಡ್ನ ಸಂಶ್ಲೇಷಣೆಗೆ ಟೆಂಪ್ಲೇಟ್ ಆಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+            "latency_s": 1.4771,
+            "status": "OK",
+            "peak_vram_mb": 454.35595703125
+          },
+          {
+            "id": "BIO-003",
+            "source": "Mitosis is a type of cell division that results in two daughter cells, each having the same number and kind of chromosomes as the parent cell.",
+            "translation": "ಮಿಟೋಸಿಸ್ ಒಂದು ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದ್ದು, ಇದು ಎರಡು ಮಗಳು ಜೀವಕೋಶಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ, ಪ್ರತಿಯೊಂದೂ ಮೂಲ ಜೀವಕೋಶದಂತೆಯೇ ಒಂದೇ ಸಂಖ್ಯೆಯ ಮತ್ತು ರೀತಿಯ ವರ್ಣತಂತುಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+            "latency_s": 1.1083,
+            "status": "OK",
+            "peak_vram_mb": 450.46435546875
+          },
+          {
+            "id": "BIO-004",
+            "source": "The human respiratory system consists of the nose, pharynx, larynx, trachea, bronchi, and lungs, which work together to facilitate the exchange of oxygen and carbon dioxide.",
+            "translation": "ಮಾನವನ ಉಸಿರಾಟದ ವ್ಯವಸ್ಥೆಯು ಮೂಗು, ಫರಿಂಕ್ಸ್, ಲ್ಯಾರಿಂಕ್ಸ್, ಶ್ವಾಸನಾಳ, ಶ್ವಾಸನಾಳ ಮತ್ತು ಶ್ವಾಸಕೋಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ, ಇದು ಆಮ್ಲಜನಕ ಮತ್ತು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ನ ವಿನಿಮಯಕ್ಕೆ ಅನುಕೂಲವಾಗುವಂತೆ ಒಟ್ಟಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+            "latency_s": 1.5017,
+            "status": "OK",
+            "peak_vram_mb": 460.89990234375
+          },
+          {
+            "id": "BIO-005",
+            "source": "Enzymes are biological catalysts that speed up chemical reactions in living organisms without being consumed in the process.",
+            "translation": "ಕಿಣ್ವಗಳು ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿದ್ದು, ಈ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ಸೇವಿಸದೆ ಜೀವಿಗಳಲ್ಲಿ ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುತ್ತವೆ.",
+            "latency_s": 0.9312,
+            "status": "OK",
+            "peak_vram_mb": 439.70166015625
+          },
+          {
+            "id": "BIO-006",
+            "source": "Natural selection is the process through which organisms with favorable traits are more likely to survive and reproduce in a given environment.",
+            "translation": "ನೈಸರ್ಗಿಕ ಆಯ್ಕೆಯು ಅನುಕೂಲಕರ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿರುವ ಜೀವಿಗಳು ನಿರ್ದಿಷ್ಟ ಪರಿಸರದಲ್ಲಿ ಬದುಕುಳಿಯುವ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ.",
+            "latency_s": 1.5023,
+            "status": "OK",
+            "peak_vram_mb": 443.0517578125
+          },
+          {
+            "id": "CHE-001",
+            "source": "An atom consists of a nucleus containing protons and neutrons, surrounded by electrons that orbit in specific energy levels.",
+            "translation": "ಪರಮಾಣು ಪ್ರೋಟಾನ್ಗಳು ಮತ್ತು ನ್ಯೂಟ್ರಾನ್ಗಳನ್ನು ಹೊಂದಿರುವ ನ್ಯೂಕ್ಲಿಯಸ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ, ಇದು ನಿರ್ದಿಷ್ಟ ಶಕ್ತಿಯ ಮಟ್ಟದಲ್ಲಿ ಪರಿಭ್ರಮಿಸುವ ಎಲೆಕ್ಟ್ರಾನ್ಗಳಿಂದ ಆವೃತವಾಗಿದೆ.",
+            "latency_s": 1.8275,
+            "status": "OK",
+            "peak_vram_mb": 444.462890625
+          },
+          {
+            "id": "CHE-002",
+            "source": "The periodic table arranges chemical elements in order of increasing atomic number and groups them according to their chemical properties.",
+            "translation": "ಆವರ್ತಕ ಕೋಷ್ಟಕವು ರಾಸಾಯನಿಕ ಅಂಶಗಳನ್ನು ಪರಮಾಣು ಸಂಖ್ಯೆಯನ್ನು ಹೆಚ್ಚಿಸುವ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸುತ್ತದೆ ಮತ್ತು ಅವುಗಳ ರಾಸಾಯನಿಕ ಗುಣಲಕ್ಷಣಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಅವುಗಳನ್ನು ಗುಂಪು ಮಾಡುತ್ತದೆ.",
+            "latency_s": 0.7933,
+            "status": "OK",
+            "peak_vram_mb": 442.33837890625
+          },
+          {
+            "id": "CHE-003",
+            "source": "In a chemical reaction, the total mass of the reactants is always equal to the total mass of the products. This is known as the law of conservation of mass.",
+            "translation": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯಲ್ಲಿ, ಪ್ರತಿಕ್ರಿಯಾಕಾರಿಗಳ ಒಟ್ಟು ದ್ರವ್ಯರಾಶಿಯು ಯಾವಾಗಲೂ ಉತ್ಪನ್ನಗಳ ಒಟ್ಟು ದ್ರವ್ಯರಾಶಿಗೆ ಸಮನಾಗಿರುತ್ತದೆ. ಇದನ್ನು ದ್ರವ್ಯರಾಶಿಯ ಸಂರಕ್ಷಣೆಯ ನಿಯಮ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+            "latency_s": 1.3567,
+            "status": "OK",
+            "peak_vram_mb": 449.2529296875
+          },
+          {
+            "id": "CHE-004",
+            "source": "Covalent bonds are formed when two atoms share one or more pairs of electrons to achieve a stable electron configuration.",
+            "translation": "ಸ್ಥಿರವಾದ ಎಲೆಕ್ಟ್ರಾನ್ ಸಂರಚನೆಯನ್ನು ಸಾಧಿಸಲು ಎರಡು ಪರಮಾಣುಗಳು ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ ಜೋಡಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳನ್ನು ಹಂಚಿಕೊಂಡಾಗ ಕೋವೆಲೆಂಟ್ ಬಂಧಗಳು ರೂಪುಗೊಳ್ಳುತ್ತವೆ.",
+            "latency_s": 0.8669,
+            "status": "OK",
+            "peak_vram_mb": 444.6337890625
+          },
+          {
+            "id": "CHE-005",
+            "source": "The pH scale measures the concentration of hydrogen ions in a solution, ranging from 0 for strongly acidic to 14 for strongly alkaline, with 7 being neutral.",
+            "translation": "pH ಮಾಪಕವು ದ್ರಾವಣದಲ್ಲಿ ಹೈಡ್ರೋಜನ್ ಅಯಾನುಗಳ ಸಾಂದ್ರತೆಯನ್ನು ಅಳೆಯುತ್ತದೆ, ಬಲವಾದ ಆಮ್ಲೀಯಕ್ಕೆ 0 ರಿಂದ ಬಲವಾದ ಕ್ಷಾರೀಯಕ್ಕೆ 14 ರವರೆಗೆ, 7 ತಟಸ್ಥವಾಗಿರುತ್ತದೆ.",
+            "latency_s": 1.601,
+            "status": "OK",
+            "peak_vram_mb": 454.88330078125
+          },
+          {
+            "id": "CHE-006",
+            "source": "Oxidation is the loss of electrons by a substance, while reduction is the gain of electrons. Together, these processes are called redox reactions.",
+            "translation": "ಆಕ್ಸಿಡೀಕರಣವು ಒಂದು ವಸ್ತುವಿನಿಂದ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ನಷ್ಟವಾಗಿದೆ, ಆದರೆ ಕಡಿತವು ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಲಾಭವಾಗಿದೆ. ಒಟ್ಟಾಗಿ, ಈ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ರೆಡಾಕ್ಸ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+            "latency_s": 1.0842,
+            "status": "OK",
+            "peak_vram_mb": 450.64990234375
+          },
+          {
+            "id": "CSC-001",
+            "source": "An algorithm is a step-by-step procedure for solving a problem or performing a computation.",
+            "translation": "ಅಲ್ಗಾರಿದಮ್ ಎನ್ನುವುದು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಅಥವಾ ಲೆಕ್ಕಾಚಾರವನ್ನು ನಿರ್ವಹಿಸಲು ಹಂತ-ಹಂತದ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ.",
+            "latency_s": 0.6808,
+            "status": "OK",
+            "peak_vram_mb": 436.87890625
+          },
+          {
+            "id": "CSC-002",
+            "source": "A binary search algorithm works by repeatedly dividing the search interval in half to efficiently locate a target value in a sorted array.",
+            "translation": "ವಿಂಗಡಿಸಲಾದ ಶ್ರೇಣಿಯಲ್ಲಿ ಗುರಿ ಮೌಲ್ಯವನ್ನು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಪತ್ತೆಹಚ್ಚಲು ಬೈನರಿ ಸರ್ಚ್ ಅಲ್ಗಾರಿದಮ್ ಹುಡುಕಾಟದ ಮಧ್ಯಂತರವನ್ನು ಪದೇ ಪದೇ ಅರ್ಧವಾಗಿ ವಿಭಜಿಸುವ ಮೂಲಕ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+            "latency_s": 0.9735,
+            "status": "OK",
+            "peak_vram_mb": 446.7431640625
+          },
+          {
+            "id": "CSC-003",
+            "source": "Object-oriented programming is a paradigm that organizes software design around objects, which contain both data and the methods that operate on that data.",
+            "translation": "ಆಬ್ಜೆಕ್ಟ್-ಓರಿಯೆಂಟೆಡ್ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಎನ್ನುವುದು ವಸ್ತುಗಳ ಸುತ್ತಲೂ ಸಾಫ್ಟ್ವೇರ್ ವಿನ್ಯಾಸವನ್ನು ಆಯೋಜಿಸುವ ಒಂದು ಮಾದರಿಯಾಗಿದೆ, ಇದು ಡೇಟಾ ಮತ್ತು ಆ ಡೇಟಾದ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ವಿಧಾನಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ.",
+            "latency_s": 1.3763,
+            "status": "OK",
+            "peak_vram_mb": 449.93701171875
+          },
+          {
+            "id": "CSC-004",
+            "source": "A database management system is software that provides an interface for storing, retrieving, and managing data in a structured and efficient manner.",
+            "translation": "ದತ್ತಸಂಚಯ ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆಯು ದತ್ತಾಂಶವನ್ನು ರಚನಾತ್ಮಕ ಮತ್ತು ಪರಿಣಾಮಕಾರಿ ರೀತಿಯಲ್ಲಿ ಸಂಗ್ರಹಿಸಲು, ಮರುಪಡೆಯಲು ಮತ್ತು ನಿರ್ವಹಿಸಲು ಇಂಟರ್ಫೇಸ್ ಅನ್ನು ಒದಗಿಸುವ ಸಾಫ್ಟ್ವೇರ್ ಆಗಿದೆ.",
+            "latency_s": 1.1891,
+            "status": "OK",
+            "peak_vram_mb": 446.23046875
+          },
+          {
+            "id": "CSC-005",
+            "source": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.",
+            "translation": "ಯಂತ್ರ ಕಲಿಕೆ ಎಂಬುದು ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆಯ ಒಂದು ಉಪವಿಭಾಗವಾಗಿದ್ದು, ಇದು ಸ್ಪಷ್ಟವಾಗಿ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡದೆಯೇ ಅನುಭವದಿಂದ ಕಲಿಯಲು ಮತ್ತು ಸುಧಾರಿಸಲು ವ್ಯವಸ್ಥೆಗಳಿಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ.",
+            "latency_s": 1.1167,
+            "status": "OK",
+            "peak_vram_mb": 446.2158203125
+          },
+          {
+            "id": "CSC-006",
+            "source": "The time complexity of an algorithm describes how the execution time grows as a function of the input size, commonly expressed using Big O notation.",
+            "translation": "ಅಲ್ಗಾರಿದಮ್ನ ಸಮಯದ ಸಂಕೀರ್ಣತೆಯು ಕಾರ್ಯಗತಗೊಳಿಸುವ ಸಮಯವು ಇನ್ಪುಟ್ ಗಾತ್ರದ ಕಾರ್ಯವಾಗಿ ಹೇಗೆ ಬೆಳೆಯುತ್ತದೆ ಎಂಬುದನ್ನು ವಿವರಿಸುತ್ತದೆ, ಇದನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಬಿಗ್ ಓ ಸಂಕೇತವನ್ನು ಬಳಸಿ ವ್ಯಕ್ತಪಡಿಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 1.3057,
+            "status": "OK",
+            "peak_vram_mb": 449.22412109375
+          },
+          {
+            "id": "STR-001",
+            "source": "Students should install Python and NumPy before starting the machine learning course.",
+            "translation": "ಮೆಷಿನ್ ಲರ್ನಿಂಗ್ ಕೋರ್ಸ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ವಿದ್ಯಾರ್ಥಿಗಳು ಪೈಥಾನ್ ಮತ್ತು ನಮ್ಪೈ ಅನ್ನು ಅಳವಡಿಸಬೇಕು.",
+            "latency_s": 0.6832,
+            "status": "OK",
+            "peak_vram_mb": 436.5078125
+          },
+          {
+            "id": "STR-002",
+            "source": "The TensorFlow library is commonly used for building neural network models in deep learning applications.",
+            "translation": "ಟೆನ್ಸರ್ಫ್ಲೋ ಗ್ರಂಥಾಲಯವನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಆಳವಾದ ಕಲಿಕೆಯ ಅನ್ವಯಗಳಲ್ಲಿ ನರ ಜಾಲದ ಮಾದರಿಗಳನ್ನು ನಿರ್ಮಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 0.7924,
+            "status": "OK",
+            "peak_vram_mb": 438.4609375
+          },
+          {
+            "id": "STR-003",
+            "source": "Water has the chemical formula H2O and carbon dioxide is represented as CO2.",
+            "translation": "ನೀರು H2O ಎಂಬ ರಾಸಾಯನಿಕ ಸೂತ್ರವನ್ನು ಹೊಂದಿದೆ ಮತ್ತು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಅನ್ನು CO2 ಎಂದು ಪ್ರತಿನಿಧಿಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 0.6621,
+            "status": "OK",
+            "peak_vram_mb": 437.9189453125
+          },
+          {
+            "id": "STR-004",
+            "source": "According to Einstein's famous equation E equals mc squared, energy and mass are interchangeable.",
+            "translation": "ಐನ್ಸ್ಟೈನ್ನ ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣದ ಪ್ರಕಾರ E ಯು mc ವರ್ಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ, ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯನ್ನು ಪರಸ್ಪರ ಬದಲಾಯಿಸಬಹುದು.",
+            "latency_s": 0.8954,
+            "status": "OK",
+            "peak_vram_mb": 444.27734375
+          },
+          {
+            "id": "STR-005",
+            "source": "The acceleration due to gravity on Earth is approximately 9.8 metres per second squared.",
+            "translation": "ಭೂಮಿಯ ಮೇಲಿನ ಗುರುತ್ವಾಕರ್ಷಣೆಯ ವೇಗವರ್ಧನೆಯು ಸೆಕೆಂಡಿಗೆ ಸುಮಾರು 9.8 ಮೀಟರ್ ಆಗಿದೆ.",
+            "latency_s": 0.9329,
+            "status": "OK",
+            "peak_vram_mb": 435.2822265625
+          },
+          {
+            "id": "STR-006",
+            "source": "Water boils at 100 degrees Celsius at standard atmospheric pressure of 1 atm.",
+            "translation": "1 ಎಟಿಎಂನ ಪ್ರಮಾಣಿತ ವಾತಾವರಣದ ಒತ್ತಡದಲ್ಲಿ ನೀರು 100 ಡಿಗ್ರಿ ಸೆಲ್ಸಿಯಸ್ನಲ್ಲಿ ಕುದಿಯುತ್ತದೆ.",
+            "latency_s": 0.972,
+            "status": "OK",
+            "peak_vram_mb": 435.453125
+          },
+          {
+            "id": "STR-007",
+            "source": "In Java and C++, variables must be declared with a data type before they can be used in the program.",
+            "translation": "ಜಾವಾ ಮತ್ತು ಸಿ + + ನಲ್ಲಿ, ವೇರಿಯೇಬಲ್ಗಳನ್ನು ಪ್ರೋಗ್ರಾಂನಲ್ಲಿ ಬಳಸುವ ಮೊದಲು ಡೇಟಾ ಪ್ರಕಾರದೊಂದಿಗೆ ಘೋಷಿಸಬೇಕು.",
+            "latency_s": 1.0757,
+            "status": "OK",
+            "peak_vram_mb": 439.88720703125
+          },
+          {
+            "id": "STR-008",
+            "source": "The HTML document structure includes elements like head, body, and div tags styled using CSS properties.",
+            "translation": "ಎಚ್. ಟಿ. ಎಂ. ಎಲ್. ಡಾಕ್ಯುಮೆಂಟ್ ರಚನೆಯು ಸಿ. ಎಸ್. ಎಸ್. ಗುಣಲಕ್ಷಣಗಳನ್ನು ಬಳಸಿಕೊಂಡು ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಹೆಡ್, ಬಾಡಿ ಮತ್ತು ಡಿವಿ ಟ್ಯಾಗ್ಗಳಂತಹ ಅಂಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.",
+            "latency_s": 1.3674,
+            "status": "OK",
+            "peak_vram_mb": 448.1396484375
+          },
+          {
+            "id": "STR-009",
+            "source": "Photosynthesis is a complex biological process that occurs in the chloroplasts of green plants. During this process, light energy from the sun is absorbed by chlorophyll and used to convert carbon dioxide and water into glucose and oxygen. The overall chemical equation for photosynthesis can be written as six molecules of carbon dioxide plus six molecules of water producing one molecule of glucose and six molecules of oxygen. This process is essential for life on Earth as it provides the primary source of organic compounds and oxygen for most living organisms. The rate of photosynthesis is influenced by several factors including light intensity, carbon dioxide concentration, and temperature.",
+            "translation": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯು ಹಸಿರು ಸಸ್ಯಗಳ ಕ್ಲೋರೋಪ್ಲಾಸ್ಟ್ಗಳಲ್ಲಿ ಸಂಭವಿಸುವ ಒಂದು ಸಂಕೀರ್ಣ ಜೈವಿಕ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಈ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ, ಸೂರ್ಯನ ಬೆಳಕಿನ ಶಕ್ತಿಯನ್ನು ಕ್ಲೋರೊಫಿಲ್ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು ನೀರನ್ನು ಗ್ಲುಕೋಸ್ ಮತ್ತು ಆಮ್ಲಜನಕವಾಗಿ ಪರಿವರ್ತಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ. ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ಒಟ್ಟಾರೆ ರಾಸಾಯನಿಕ ಸಮೀಕರಣವನ್ನು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ನ ಆರು ಅಣುಗಳು ಮತ್ತು ಗ್ಲುಕೋಸ್ನ ಒಂದು ಅಣು ಮತ್ತು ಆಮ್ಲಜನಕದ ಆರು ಅಣುಗಳನ್ನು ಉತ್ಪಾದಿಸುವ ಆರು ನೀರಿನ ಅಣುಗಳು ಎಂದು ಬರೆಯಬಹುದು. ಈ ಪ್ರಕ್ರಿಯೆಯು ಭೂಮಿಯ ಮೇಲಿನ ಜೀವನಕ್ಕೆ ಅತ್ಯಗತ್ಯವಾಗಿದೆ ಏಕೆಂದರೆ ಇದು ಹೆಚ್ಚಿನ ಜೀವಿಗಳಿಗೆ ಸಾವಯವ ಸಂಯುಕ್ತಗಳು ಮತ್ತು ಆಮ್ಲಜನಕದ ಪ್ರಾಥಮಿಕ ಮೂಲವನ್ನು ಒದಗಿಸುತ್ತದೆ. ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ದರವು ಬೆಳಕಿನ ತೀವ್ರತೆ, ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಸಾಂದ್ರತೆ ಮತ್ತು ತಾಪಮಾನ ಸೇರಿದಂತೆ ಹಲವಾರು ಅಂಶಗಳಿಂದ ಪ್ರಭಾವಿತವಾಗಿರುತ್ತದೆ.",
+            "latency_s": 4.8227,
+            "status": "OK",
+            "peak_vram_mb": 552.74072265625
+          },
+          {
+            "id": "STR-010",
+            "source": "The central processing unit, commonly known as the CPU, is the primary component of a computer that performs most of the processing inside the computer. It executes instructions from programs by performing basic arithmetic, logic, controlling, and input/output operations. Modern CPUs contain multiple cores, allowing them to process several instructions simultaneously. The performance of a CPU is measured in gigahertz, which indicates the number of clock cycles it can execute per second. A CPU with a clock speed of 3.2 gigahertz can perform approximately 3.2 billion cycles per second.",
+            "translation": "ಸಾಮಾನ್ಯವಾಗಿ ಸಿ. ಪಿ. ಯು. ಎಂದು ಕರೆಯಲಾಗುವ ಕೇಂದ್ರೀಯ ಸಂಸ್ಕರಣಾ ಘಟಕವು ಗಣಕಯಂತ್ರದೊಳಗೆ ಹೆಚ್ಚಿನ ಸಂಸ್ಕರಣೆಯನ್ನು ನಿರ್ವಹಿಸುವ ಗಣಕಯಂತ್ರದ ಪ್ರಾಥಮಿಕ ಘಟಕವಾಗಿದೆ. ಇದು ಮೂಲಭೂತ ಅಂಕಗಣಿತ, ತರ್ಕ, ನಿಯಂತ್ರಣ ಮತ್ತು ಇನ್ಪುಟ್/ಔಟ್ಪುಟ್ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ನಿರ್ವಹಿಸುವ ಮೂಲಕ ಪ್ರೋಗ್ರಾಂಗಳಿಂದ ಸೂಚನೆಗಳನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸುತ್ತದೆ. ಆಧುನಿಕ ಸಿ. ಪಿ. ಯುಗಳು ಅನೇಕ ಕೋರ್ಗಳನ್ನು ಹೊಂದಿರುತ್ತವೆ, ಅವು ಏಕಕಾಲದಲ್ಲಿ ಹಲವಾರು ಸೂಚನೆಗಳನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತವೆ. ಸಿ. ಪಿ. ಯು. ಯ ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಗಿಗಾಹರ್ಟ್ಜ್ನಲ್ಲಿ ಅಳೆಯಲಾಗುತ್ತದೆ, ಇದು ಪ್ರತಿ ಸೆಕೆಂಡಿಗೆ ಕಾರ್ಯಗತಗೊಳಿಸಬಹುದಾದ ಗಡಿಯಾರದ ಚಕ್ರಗಳ ಸಂಖ್ಯೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ. 3.2 ಗಿಗಾಹರ್ಟ್ಜ್ ಗಡಿಯಾರದ ವೇಗವನ್ನು ಹೊಂದಿರುವ ಸಿ. ಪಿ. ಯು. ಸೆಕೆಂಡಿಗೆ ಸುಮಾರು 3.2 ಶತಕೋಟಿ ಚಕ್ರಗಳನ್ನು ನಿರ್ವಹಿಸಬಲ್ಲದು.",
+            "latency_s": 4.8563,
+            "status": "OK",
+            "peak_vram_mb": 545.28271484375
+          }
+        ],
+        "hin_Deva": [
+          {
+            "id": "PHY-001",
+            "source": "Acceleration is the rate of change of velocity with respect to time.",
+            "translation": "त्वरण समय के संबंध में वेग के परिवर्तन की दर है।",
+            "latency_s": 0.4092,
+            "status": "OK",
+            "peak_vram_mb": 431.40478515625
+          },
+          {
+            "id": "PHY-002",
+            "source": "Newton's second law of motion states that the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+            "translation": "न्यूटन के गति के दूसरे नियम में कहा गया है कि किसी वस्तु पर कार्य करने वाला बल उस वस्तु के द्रव्यमान के बराबर होता है जिसे उसके त्वरण से गुणा किया जाता है।",
+            "latency_s": 1.3178,
+            "status": "OK",
+            "peak_vram_mb": 449.05322265625
+          },
+          {
+            "id": "PHY-003",
+            "source": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another.",
+            "translation": "ऊर्जा संरक्षण का नियम कहता है कि ऊर्जा को न तो बनाया जा सकता है और न ही नष्ट किया जा सकता है; इसे केवल एक रूप से दूसरे रूप में बदला जा सकता है।",
+            "latency_s": 1.0094,
+            "status": "OK",
+            "peak_vram_mb": 449.39501953125
+          },
+          {
+            "id": "PHY-004",
+            "source": "In an electric circuit, the current flowing through a conductor is directly proportional to the voltage applied across its ends, provided the temperature remains constant. This relationship is known as Ohm's law.",
+            "translation": "एक विद्युत परिपथ में, एक चालक के माध्यम से बहने वाली धारा उसके सिरों पर लागू वोल्टेज के सीधे आनुपातिक होती है, बशर्ते कि तापमान स्थिर रहे। इस संबंध को ओम के नियम के रूप में जाना जाता है।",
+            "latency_s": 1.3312,
+            "status": "OK",
+            "peak_vram_mb": 458.9462890625
+          },
+          {
+            "id": "PHY-005",
+            "source": "The refractive index of a medium determines how much light bends when it passes from one medium to another.",
+            "translation": "एक माध्यम का अपवर्तक सूचकांक यह निर्धारित करता है कि जब प्रकाश एक माध्यम से दूसरे माध्यम में जाता है तो वह कितना झुकता है।",
+            "latency_s": 1.0346,
+            "status": "OK",
+            "peak_vram_mb": 442.6953125
+          },
+          {
+            "id": "PHY-006",
+            "source": "Electromagnetic waves are transverse waves that consist of oscillating electric and magnetic fields perpendicular to each other and to the direction of wave propagation.",
+            "translation": "विद्युत चुम्बकीय तरंगें अनुप्रस्थ तरंगें हैं जिनमें एक दूसरे के लंबवत और तरंग प्रसार की दिशा में दोलन करने वाले विद्युत और चुंबकीय क्षेत्र होते हैं।",
+            "latency_s": 0.9174,
+            "status": "OK",
+            "peak_vram_mb": 449.7802734375
+          },
+          {
+            "id": "MAT-001",
+            "source": "The quadratic formula is used to find the roots of a quadratic equation of the form ax squared plus bx plus c equals zero.",
+            "translation": "द्विघात सूत्र का उपयोग अक्ष वर्ग प्लस bx प्लस c बराबर शून्य के रूप में एक द्विघात समीकरण के मूल का पता लगाने के लिए किया जाता है।",
+            "latency_s": 1.1235,
+            "status": "OK",
+            "peak_vram_mb": 447.8271484375
+          },
+          {
+            "id": "MAT-002",
+            "source": "A function is said to be continuous at a point if the limit of the function as x approaches that point equals the value of the function at that point.",
+            "translation": "एक फलन को एक बिंदु पर निरंतर कहा जाता है यदि x के रूप में फलन की सीमा उस बिंदु पर फलन के मूल्य के बराबर होती है।",
+            "latency_s": 1.3522,
+            "status": "OK",
+            "peak_vram_mb": 446.4306640625
+          },
+          {
+            "id": "MAT-003",
+            "source": "The derivative of a function represents the instantaneous rate of change of the function with respect to its independent variable.",
+            "translation": "किसी फलन का व्युत्पन्न उसके स्वतंत्र चर के संबंध में फलन के परिवर्तन की तात्कालिक दर का प्रतिनिधित्व करता है।",
+            "latency_s": 0.701,
+            "status": "OK",
+            "peak_vram_mb": 438.646484375
+          },
+          {
+            "id": "MAT-004",
+            "source": "In probability theory, the expected value of a discrete random variable is the sum of each possible value multiplied by its probability of occurrence.",
+            "translation": "संभाव्यता सिद्धांत में, एक असतत यादृच्छिक चर का अपेक्षित मूल्य प्रत्येक संभावित मूल्य का योग है जिसे इसकी घटना की संभावना से गुणा किया जाता है।",
+            "latency_s": 0.7522,
+            "status": "OK",
+            "peak_vram_mb": 445.53173828125
+          },
+          {
+            "id": "MAT-005",
+            "source": "A matrix is a rectangular array of numbers arranged in rows and columns that can be used to represent linear transformations.",
+            "translation": "एक मैट्रिक्स पंक्तियों और स्तंभों में व्यवस्थित संख्याओं की एक आयताकार सरणी है जिसका उपयोग रैखिक परिवर्तनों का प्रतिनिधित्व करने के लिए किया जा सकता है।",
+            "latency_s": 0.9902,
+            "status": "OK",
+            "peak_vram_mb": 445.33203125
+          },
+          {
+            "id": "MAT-006",
+            "source": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+            "translation": "पायथागोरियन प्रमेय में कहा गया है कि एक समकोण त्रिभुज में, हाइपोटिन्यूज का वर्ग अन्य दो भुजाओं के वर्गों के योग के बराबर होता है।",
+            "latency_s": 0.9862,
+            "status": "OK",
+            "peak_vram_mb": 453.501953125
+          },
+          {
+            "id": "BIO-001",
+            "source": "Photosynthesis is the process by which green plants convert carbon dioxide and water into glucose and oxygen in the presence of sunlight.",
+            "translation": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे सूर्य के प्रकाश की उपस्थिति में कार्बन डाइऑक्साइड और पानी को ग्लूकोज और ऑक्सीजन में परिवर्तित करते हैं।",
+            "latency_s": 0.9267,
+            "status": "OK",
+            "peak_vram_mb": 445.3466796875
+          },
+          {
+            "id": "BIO-002",
+            "source": "DNA replication is a semi-conservative process in which each strand of the original double helix serves as a template for the synthesis of a new complementary strand.",
+            "translation": "डी. एन. ए. प्रतिकृति एक अर्ध-संरक्षक प्रक्रिया है जिसमें मूल डबल हेलिक्स का प्रत्येक स्ट्रैंड एक नए पूरक स्ट्रैंड के संश्लेषण के लिए एक टेम्पलेट के रूप में कार्य करता है।",
+            "latency_s": 1.2476,
+            "status": "OK",
+            "peak_vram_mb": 454.88330078125
+          },
+          {
+            "id": "BIO-003",
+            "source": "Mitosis is a type of cell division that results in two daughter cells, each having the same number and kind of chromosomes as the parent cell.",
+            "translation": "माइटोसिस एक प्रकार का कोशिका विभाजन है जिसके परिणामस्वरूप दो बेटी कोशिकाएँ होती हैं, जिनमें से प्रत्येक में मूल कोशिका के समान संख्या और प्रकार के गुणसूत्र होते हैं।",
+            "latency_s": 0.9466,
+            "status": "OK",
+            "peak_vram_mb": 448.3544921875
+          },
+          {
+            "id": "BIO-004",
+            "source": "The human respiratory system consists of the nose, pharynx, larynx, trachea, bronchi, and lungs, which work together to facilitate the exchange of oxygen and carbon dioxide.",
+            "translation": "मानव श्वसन प्रणाली में नाक, ग्रसनी, स्वरयंत्र, श्वासनली, ब्रोंकी और फेफड़े होते हैं, जो ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान को सुविधाजनक बनाने के लिए एक साथ काम करते हैं।",
+            "latency_s": 1.4711,
+            "status": "OK",
+            "peak_vram_mb": 459.3173828125
+          },
+          {
+            "id": "BIO-005",
+            "source": "Enzymes are biological catalysts that speed up chemical reactions in living organisms without being consumed in the process.",
+            "translation": "एंजाइम जैविक उत्प्रेरक हैं जो इस प्रक्रिया में उपभोग किए बिना जीवित जीवों में रासायनिक प्रतिक्रियाओं को तेज करते हैं।",
+            "latency_s": 0.8649,
+            "status": "OK",
+            "peak_vram_mb": 440.75634765625
+          },
+          {
+            "id": "BIO-006",
+            "source": "Natural selection is the process through which organisms with favorable traits are more likely to survive and reproduce in a given environment.",
+            "translation": "प्राकृतिक चयन वह प्रक्रिया है जिसके माध्यम से अनुकूल लक्षणों वाले जीवों के किसी दिए गए वातावरण में जीवित रहने और प्रजनन करने की अधिक संभावना होती है।",
+            "latency_s": 1.0135,
+            "status": "OK",
+            "peak_vram_mb": 444.1064453125
+          },
+          {
+            "id": "CHE-001",
+            "source": "An atom consists of a nucleus containing protons and neutrons, surrounded by electrons that orbit in specific energy levels.",
+            "translation": "एक परमाणु में एक नाभिक होता है जिसमें प्रोटॉन और न्यूट्रॉन होते हैं, जो इलेक्ट्रॉनों से घिरा होता है जो विशिष्ट ऊर्जा स्तरों में परिक्रमा करते हैं।",
+            "latency_s": 1.2651,
+            "status": "OK",
+            "peak_vram_mb": 446.572265625
+          },
+          {
+            "id": "CHE-002",
+            "source": "The periodic table arranges chemical elements in order of increasing atomic number and groups them according to their chemical properties.",
+            "translation": "आवर्त सारणी रासायनिक तत्वों को परमाणु संख्या बढ़ाने के क्रम में व्यवस्थित करती है और उन्हें उनके रासायनिक गुणों के अनुसार समूहित करती है।",
+            "latency_s": 0.6884,
+            "status": "OK",
+            "peak_vram_mb": 442.33837890625
+          },
+          {
+            "id": "CHE-003",
+            "source": "In a chemical reaction, the total mass of the reactants is always equal to the total mass of the products. This is known as the law of conservation of mass.",
+            "translation": "रासायनिक अभिक्रिया में अभिकारकों का कुल द्रव्यमान हमेशा उत्पादों के कुल द्रव्यमान के बराबर होता है। इसे द्रव्यमान संरक्षण के नियम के रूप में जाना जाता है।",
+            "latency_s": 0.8106,
+            "status": "OK",
+            "peak_vram_mb": 450.83544921875
+          },
+          {
+            "id": "CHE-004",
+            "source": "Covalent bonds are formed when two atoms share one or more pairs of electrons to achieve a stable electron configuration.",
+            "translation": "सहसंयोजक बंधन तब बनते हैं जब दो परमाणु एक स्थिर इलेक्ट्रॉन विन्यास प्राप्त करने के लिए इलेक्ट्रॉनों के एक या अधिक जोड़े साझा करते हैं।",
+            "latency_s": 0.9327,
+            "status": "OK",
+            "peak_vram_mb": 443.5791015625
+          },
+          {
+            "id": "CHE-005",
+            "source": "The pH scale measures the concentration of hydrogen ions in a solution, ranging from 0 for strongly acidic to 14 for strongly alkaline, with 7 being neutral.",
+            "translation": "पी. एच. पैमाना एक विलयन में हाइड्रोजन आयनों की सांद्रता को मापता है, जो मजबूत अम्लीय के लिए 0 से लेकर मजबूत क्षारीय के लिए 14 तक होता है, जिसमें 7 तटस्थ होते हैं।",
+            "latency_s": 1.6764,
+            "status": "OK",
+            "peak_vram_mb": 457.52001953125
+          },
+          {
+            "id": "CHE-006",
+            "source": "Oxidation is the loss of electrons by a substance, while reduction is the gain of electrons. Together, these processes are called redox reactions.",
+            "translation": "ऑक्सीकरण एक पदार्थ द्वारा इलेक्ट्रॉनों का नुकसान है, जबकि कमी इलेक्ट्रॉनों का लाभ है। इन प्रक्रियाओं को एक साथ रेडॉक्स प्रतिक्रिया कहा जाता है।",
+            "latency_s": 0.9746,
+            "status": "OK",
+            "peak_vram_mb": 448.5400390625
+          },
+          {
+            "id": "CSC-001",
+            "source": "An algorithm is a step-by-step procedure for solving a problem or performing a computation.",
+            "translation": "एक एल्गोरिथ्म एक समस्या को हल करने या गणना करने के लिए एक चरण-दर-चरण प्रक्रिया है।",
+            "latency_s": 0.7238,
+            "status": "OK",
+            "peak_vram_mb": 438.98876953125
+          },
+          {
+            "id": "CSC-002",
+            "source": "A binary search algorithm works by repeatedly dividing the search interval in half to efficiently locate a target value in a sorted array.",
+            "translation": "एक द्विआधारी खोज एल्गोरिथ्म बार-बार खोज अंतराल को आधे में विभाजित करके एक क्रमबद्ध सरणी में एक लक्ष्य मूल्य का कुशलता से पता लगाने के लिए काम करता है।",
+            "latency_s": 0.9184,
+            "status": "OK",
+            "peak_vram_mb": 449.38037109375
+          },
+          {
+            "id": "CSC-003",
+            "source": "Object-oriented programming is a paradigm that organizes software design around objects, which contain both data and the methods that operate on that data.",
+            "translation": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग एक प्रतिमान है जो वस्तुओं के आसपास सॉफ्टवेयर डिजाइन को व्यवस्थित करता है, जिसमें डेटा और उस डेटा पर काम करने वाले तरीके दोनों होते हैं।",
+            "latency_s": 1.3037,
+            "status": "OK",
+            "peak_vram_mb": 449.40966796875
+          },
+          {
+            "id": "CSC-004",
+            "source": "A database management system is software that provides an interface for storing, retrieving, and managing data in a structured and efficient manner.",
+            "translation": "एक डेटाबेस प्रबंधन प्रणाली एक सॉफ्टवेयर है जो एक संरचित और कुशल तरीके से डेटा को संग्रहीत करने, पुनर्प्राप्त करने और प्रबंधित करने के लिए एक इंटरफेस प्रदान करता है।",
+            "latency_s": 0.8749,
+            "status": "OK",
+            "peak_vram_mb": 447.8125
+          },
+          {
+            "id": "CSC-005",
+            "source": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.",
+            "translation": "मशीन लर्निंग कृत्रिम बुद्धिमत्ता का एक उपसमुच्चय है जो प्रणालियों को स्पष्ट रूप से क्रमादेशित किए बिना अनुभव से सीखने और सुधार करने में सक्षम बनाता है।",
+            "latency_s": 1.2668,
+            "status": "OK",
+            "peak_vram_mb": 445.1611328125
+          },
+          {
+            "id": "CSC-006",
+            "source": "The time complexity of an algorithm describes how the execution time grows as a function of the input size, commonly expressed using Big O notation.",
+            "translation": "एक एल्गोरिथ्म की समय जटिलता बताती है कि निष्पादन समय कैसे इनपुट आकार के एक कार्य के रूप में बढ़ता है, जिसे आमतौर पर बिग ओ संकेतन का उपयोग करके व्यक्त किया जाता है।",
+            "latency_s": 1.3311,
+            "status": "OK",
+            "peak_vram_mb": 451.86083984375
+          },
+          {
+            "id": "STR-001",
+            "source": "Students should install Python and NumPy before starting the machine learning course.",
+            "translation": "छात्रों को मशीन लर्निंग पाठ्यक्रम शुरू करने से पहले पायथन और नुमपाई स्थापित करना चाहिए।",
+            "latency_s": 0.6833,
+            "status": "OK",
+            "peak_vram_mb": 434.92529296875
+          },
+          {
+            "id": "STR-002",
+            "source": "The TensorFlow library is commonly used for building neural network models in deep learning applications.",
+            "translation": "टेंसरफ्लो पुस्तकालय का उपयोग आमतौर पर गहन शिक्षण अनुप्रयोगों में तंत्रिका नेटवर्क मॉडल बनाने के लिए किया जाता है।",
+            "latency_s": 0.8213,
+            "status": "OK",
+            "peak_vram_mb": 438.98876953125
+          },
+          {
+            "id": "STR-003",
+            "source": "Water has the chemical formula H2O and carbon dioxide is represented as CO2.",
+            "translation": "पानी का रासायनिक सूत्र H2O है और कार्बन डाइऑक्साइड को CO2 के रूप में दर्शाया जाता है।",
+            "latency_s": 0.6547,
+            "status": "OK",
+            "peak_vram_mb": 437.3916015625
+          },
+          {
+            "id": "STR-004",
+            "source": "According to Einstein's famous equation E equals mc squared, energy and mass are interchangeable.",
+            "translation": "आइंस्टीन के प्रसिद्ध समीकरण के अनुसार E बराबर mc वर्ग है, ऊर्जा और द्रव्यमान विनिमेय हैं।",
+            "latency_s": 0.8314,
+            "status": "OK",
+            "peak_vram_mb": 440.05859375
+          },
+          {
+            "id": "STR-005",
+            "source": "The acceleration due to gravity on Earth is approximately 9.8 metres per second squared.",
+            "translation": "पृथ्वी पर गुरुत्वाकर्षण के कारण त्वरण लगभग 9.8 मीटर प्रति सेकंड वर्ग है।",
+            "latency_s": 0.6045,
+            "status": "OK",
+            "peak_vram_mb": 435.2822265625
+          },
+          {
+            "id": "STR-006",
+            "source": "Water boils at 100 degrees Celsius at standard atmospheric pressure of 1 atm.",
+            "translation": "1 एटीएम के मानक वायुमंडलीय दबाव पर पानी 100 डिग्री सेल्सियस पर उबलता है।",
+            "latency_s": 0.8925,
+            "status": "OK",
+            "peak_vram_mb": 437.56298828125
+          },
+          {
+            "id": "STR-007",
+            "source": "In Java and C++, variables must be declared with a data type before they can be used in the program.",
+            "translation": "जावा और सी + + में, चर को कार्यक्रम में उपयोग करने से पहले डेटा प्रकार के साथ घोषित किया जाना चाहिए।",
+            "latency_s": 0.8743,
+            "status": "OK",
+            "peak_vram_mb": 441.4697265625
+          },
+          {
+            "id": "STR-008",
+            "source": "The HTML document structure includes elements like head, body, and div tags styled using CSS properties.",
+            "translation": "एच. टी. एम. एल. दस्तावेज़ संरचना में सी. एस. एस. गुणों का उपयोग करके शैलीबद्ध हेड, बॉडी और डिव टैग जैसे तत्व शामिल हैं।",
+            "latency_s": 0.9941,
+            "status": "OK",
+            "peak_vram_mb": 446.02978515625
+          },
+          {
+            "id": "STR-009",
+            "source": "Photosynthesis is a complex biological process that occurs in the chloroplasts of green plants. During this process, light energy from the sun is absorbed by chlorophyll and used to convert carbon dioxide and water into glucose and oxygen. The overall chemical equation for photosynthesis can be written as six molecules of carbon dioxide plus six molecules of water producing one molecule of glucose and six molecules of oxygen. This process is essential for life on Earth as it provides the primary source of organic compounds and oxygen for most living organisms. The rate of photosynthesis is influenced by several factors including light intensity, carbon dioxide concentration, and temperature.",
+            "translation": "प्रकाश संश्लेषण एक जटिल जैविक प्रक्रिया है जो हरे पौधों के क्लोरोप्लास्ट में होती है। इस प्रक्रिया के दौरान, सूर्य से प्रकाश ऊर्जा क्लोरोफिल द्वारा अवशोषित होती है और कार्बन डाइऑक्साइड और पानी को ग्लूकोज और ऑक्सीजन में बदलने के लिए उपयोग की जाती है। प्रकाश संश्लेषण के लिए समग्र रासायनिक समीकरण को कार्बन डाइऑक्साइड के छह अणुओं के साथ-साथ पानी के छह अणुओं के रूप में लिखा जा सकता है जो ग्लूकोज के एक अणु और ऑक्सीजन के छह अणुओं का उत्पादन करते हैं। यह प्रक्रिया पृथ्वी पर जीवन के लिए आवश्यक है क्योंकि यह अधिकांश जीवित जीवों के लिए कार्बनिक यौगिकों और ऑक्सीजन का प्राथमिक स्रोत प्रदान करती है। प्रकाश संश्लेषण की दर प्रकाश की तीव्रता, कार्बन डाइऑक्साइड सांद्रता और तापमान सहित कई कारकों से प्रभावित होती है।",
+            "latency_s": 4.0245,
+            "status": "OK",
+            "peak_vram_mb": 552.74072265625
+          },
+          {
+            "id": "STR-010",
+            "source": "The central processing unit, commonly known as the CPU, is the primary component of a computer that performs most of the processing inside the computer. It executes instructions from programs by performing basic arithmetic, logic, controlling, and input/output operations. Modern CPUs contain multiple cores, allowing them to process several instructions simultaneously. The performance of a CPU is measured in gigahertz, which indicates the number of clock cycles it can execute per second. A CPU with a clock speed of 3.2 gigahertz can perform approximately 3.2 billion cycles per second.",
+            "translation": "केंद्रीय प्रसंस्करण इकाई, जिसे आमतौर पर सीपीयू के रूप में जाना जाता है, एक कंप्यूटर का प्राथमिक घटक है जो कंप्यूटर के अंदर अधिकांश प्रसंस्करण करता है। यह बुनियादी अंकगणित, तर्क, नियंत्रण और इनपुट/आउटपुट संचालन करके प्रोग्रामों से निर्देशों को निष्पादित करता है। आधुनिक सीपीयू में कई कोर होते हैं, जिससे वे एक साथ कई निर्देशों को संसाधित कर सकते हैं। सीपीयू के प्रदर्शन को गीगाहर्ट्ज़ में मापा जाता है, जो प्रति सेकंड घड़ी चक्रों की संख्या को इंगित करता है। 3.2 गीगाहर्ट्ज़ की घड़ी की गति वाला सीपीयू प्रति सेकंड लगभग 3.2 करोड़ चक्र कर सकता है।",
+            "latency_s": 3.9712,
+            "status": "OK",
+            "peak_vram_mb": 530.51416015625
+          }
+        ]
+      },
+      "latency": {
+        "kan_Knda": {
+          "count": 40,
+          "mean_s": 1.8762,
+          "median_s": 1.0969,
+          "min_s": 0.5334,
+          "max_s": 25.1413,
+          "p95_s": 4.8563,
+          "first_inference_s": 25.1413
+        },
+        "hin_Deva": {
+          "count": 40,
+          "mean_s": 1.1378,
+          "median_s": 0.9746,
+          "min_s": 0.4092,
+          "max_s": 4.0245,
+          "p95_s": 3.9712,
+          "first_inference_s": 0.4092
+        }
+      },
+      "memory": {
+        "ram_before_mb": 1007.61328125,
+        "gpu_after_load": {
+          "allocated_mb": 413.62939453125,
+          "reserved_mb": 422.0,
+          "max_allocated_mb": 413.62939453125,
+          "max_reserved_mb": 422.0
+        },
+        "ram_after_mb": 1942.01953125,
+        "ram_increase_mb": 934.40625,
+        "gpu_final": {
+          "allocated_mb": 413.62939453125,
+          "reserved_mb": 616.0,
+          "max_allocated_mb": 530.51416015625,
+          "max_reserved_mb": 616.0
+        }
+      },
+      "errors": [],
+      "load_time_s": 10.138447046279907
+    },
+    "B_200M_CPU": {
+      "candidate": "Candidate_B_200M_CPU",
+      "model_name": "ai4bharat/indictrans2-en-indic-dist-200M",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "generation_config": {
+        "num_beams": 5,
+        "max_length": 256,
+        "do_sample": false
+      },
+      "status": "PASS",
+      "translations": {
+        "kan_Knda": [
+          {
+            "id": "PHY-001",
+            "source": "Acceleration is the rate of change of velocity with respect to time.",
+            "translation": "ವೇಗವರ್ಧನೆಯು ಸಮಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ವೇಗದ ಬದಲಾವಣೆಯ ದರವಾಗಿದೆ.",
+            "latency_s": 1.5182,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-002",
+            "source": "Newton's second law of motion states that the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+            "translation": "ನ್ಯೂಟನ್ನ ಎರಡನೇ ಚಲನೆಯ ನಿಯಮವು ಒಂದು ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲವು ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿಯನ್ನು ಅದರ ವೇಗವರ್ಧನೆಯಿಂದ ಗುಣಿಸುವುದಕ್ಕೆ ಸಮಾನವಾಗಿರುತ್ತದೆ ಎಂದು ಹೇಳುತ್ತದೆ.",
+            "latency_s": 3.6683,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-003",
+            "source": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another.",
+            "translation": "ಶಕ್ತಿಯ ಸಂರಕ್ಷಣೆಯ ನಿಯಮವು ಶಕ್ತಿಯನ್ನು ಸೃಷ್ಟಿಸಲಾಗುವುದಿಲ್ಲ ಅಥವಾ ನಾಶಪಡಿಸಲಾಗುವುದಿಲ್ಲ ಎಂದು ಹೇಳುತ್ತದೆ; ಅದನ್ನು ಕೇವಲ ಒಂದು ರೂಪದಿಂದ ಮತ್ತೊಂದು ರೂಪಕ್ಕೆ ಮಾತ್ರ ಪರಿವರ್ತಿಸಬಹುದು.",
+            "latency_s": 3.73,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-004",
+            "source": "In an electric circuit, the current flowing through a conductor is directly proportional to the voltage applied across its ends, provided the temperature remains constant. This relationship is known as Ohm's law.",
+            "translation": "ವಿದ್ಯುತ್ ಸರ್ಕ್ಯೂಟ್ನಲ್ಲಿ, ವಾಹಕದ ಮೂಲಕ ಹರಿಯುವ ಪ್ರವಾಹವು ಅದರ ತುದಿಗಳಲ್ಲಿ ಅನ್ವಯವಾಗುವ ವೋಲ್ಟೇಜ್ಗೆ ನೇರವಾಗಿ ಅನುಪಾತದಲ್ಲಿರುತ್ತದೆ, ತಾಪಮಾನವು ಸ್ಥಿರವಾಗಿದ್ದರೆ. ಈ ಸಂಬಂಧವನ್ನು ಓಮ್ನ ನಿಯಮ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+            "latency_s": 4.6391,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-005",
+            "source": "The refractive index of a medium determines how much light bends when it passes from one medium to another.",
+            "translation": "ಒಂದು ಮಾಧ್ಯಮದ ವಕ್ರೀಕಾರಕ ಸೂಚ್ಯಂಕವು ಒಂದು ಮಾಧ್ಯಮದಿಂದ ಇನ್ನೊಂದು ಮಾಧ್ಯಮಕ್ಕೆ ಹಾದುಹೋದಾಗ ಬೆಳಕು ಎಷ್ಟು ಬಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ.",
+            "latency_s": 3.3874,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-006",
+            "source": "Electromagnetic waves are transverse waves that consist of oscillating electric and magnetic fields perpendicular to each other and to the direction of wave propagation.",
+            "translation": "ವಿದ್ಯುತ್ಕಾಂತೀಯ ತರಂಗಗಳು ಅಡ್ಡ ಅಲೆಗಳಾಗಿದ್ದು, ಅವು ಪರಸ್ಪರ ಲಂಬವಾಗಿ ಮತ್ತು ತರಂಗ ಪ್ರಸರಣದ ದಿಕ್ಕಿನಲ್ಲಿ ಆಂದೋಲನಗೊಳ್ಳುವ ವಿದ್ಯುತ್ ಮತ್ತು ಕಾಂತೀಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+            "latency_s": 4.1774,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-001",
+            "source": "The quadratic formula is used to find the roots of a quadratic equation of the form ax squared plus bx plus c equals zero.",
+            "translation": "ಚತುರ್ಭುಜ ಸೂತ್ರವನ್ನು ಅಕ್ಷದ ವರ್ಗ ಮತ್ತು bx ಪ್ಲಸ್ c ಶೂನ್ಯಕ್ಕೆ ಸಮನಾದ ಚತುರ್ಭುಜ ಸಮೀಕರಣದ ಮೂಲಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 3.5318,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-002",
+            "source": "A function is said to be continuous at a point if the limit of the function as x approaches that point equals the value of the function at that point.",
+            "translation": "x ಆ ಬಿಂದುವನ್ನು ಸಮೀಪಿಸುತ್ತಿದ್ದಂತೆ ಕಾರ್ಯದ ಮಿತಿಯು ಆ ಹಂತದಲ್ಲಿ ಕಾರ್ಯದ ಮೌಲ್ಯಕ್ಕೆ ಸಮನಾಗಿದ್ದರೆ ಒಂದು ಹಂತದಲ್ಲಿ ಕಾರ್ಯವು ನಿರಂತರವಾಗಿರುತ್ತದೆ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ.",
+            "latency_s": 4.1453,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-003",
+            "source": "The derivative of a function represents the instantaneous rate of change of the function with respect to its independent variable.",
+            "translation": "ಒಂದು ಕಾರ್ಯದ ವ್ಯುತ್ಪನ್ನವು ಅದರ ಸ್ವತಂತ್ರ ವೇರಿಯೇಬಲ್ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಕಾರ್ಯದ ತಕ್ಷಣದ ಬದಲಾವಣೆಯ ದರವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
+            "latency_s": 2.8935,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-004",
+            "source": "In probability theory, the expected value of a discrete random variable is the sum of each possible value multiplied by its probability of occurrence.",
+            "translation": "ಸಂಭವನೀಯತೆ ಸಿದ್ಧಾಂತದಲ್ಲಿ, ಪ್ರತ್ಯೇಕ ಯಾದೃಚ್ಛಿಕ ವೇರಿಯೇಬಲ್ನ ನಿರೀಕ್ಷಿತ ಮೌಲ್ಯವು ಪ್ರತಿ ಸಂಭವನೀಯ ಮೌಲ್ಯದ ಮೊತ್ತವನ್ನು ಅದರ ಸಂಭವನೀಯತೆಯಿಂದ ಗುಣಿಸುತ್ತದೆ.",
+            "latency_s": 3.4144,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-005",
+            "source": "A matrix is a rectangular array of numbers arranged in rows and columns that can be used to represent linear transformations.",
+            "translation": "ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಎಂಬುದು ಸಾಲುಗಳು ಮತ್ತು ಕಾಲಮ್ಗಳಲ್ಲಿ ಜೋಡಿಸಲಾದ ಆಯತಾಕಾರದ ಸಂಖ್ಯೆಗಳ ಶ್ರೇಣಿಯಾಗಿದ್ದು, ಇದನ್ನು ರೇಖೀಯ ರೂಪಾಂತರಗಳನ್ನು ಪ್ರತಿನಿಧಿಸಲು ಬಳಸಬಹುದು.",
+            "latency_s": 3.1601,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-006",
+            "source": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+            "translation": "ಪೈಥಾಗರಿಯನ್ ಪ್ರಮೇಯವು ಬಲ-ಕೋನೀಯ ತ್ರಿಕೋನದಲ್ಲಿ, ಹೈಪೊಟೆನ್ಯೂಸ್ನ ವರ್ಗವು ಇತರ ಎರಡು ಬದಿಗಳ ವರ್ಗಗಳ ಮೊತ್ತಕ್ಕೆ ಸಮಾನವಾಗಿರುತ್ತದೆ ಎಂದು ಹೇಳುತ್ತದೆ.",
+            "latency_s": 4.4597,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-001",
+            "source": "Photosynthesis is the process by which green plants convert carbon dioxide and water into glucose and oxygen in the presence of sunlight.",
+            "translation": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯು ಹಸಿರು ಸಸ್ಯಗಳು ಸೂರ್ಯನ ಬೆಳಕಿನಲ್ಲಿ ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು ನೀರನ್ನು ಗ್ಲುಕೋಸ್ ಮತ್ತು ಆಮ್ಲಜನಕವಾಗಿ ಪರಿವರ್ತಿಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ.",
+            "latency_s": 3.964,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-002",
+            "source": "DNA replication is a semi-conservative process in which each strand of the original double helix serves as a template for the synthesis of a new complementary strand.",
+            "translation": "ಡಿ. ಎನ್. ಎ. ಪ್ರತಿಕೃತಿಯು ಅರೆ-ಸಂರಕ್ಷಣಾ ಪ್ರಕ್ರಿಯೆಯಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಮೂಲ ಡಬಲ್ ಹೆಲಿಕ್ಸ್ನ ಪ್ರತಿಯೊಂದು ಸ್ಟ್ರಾಂಡ್ ಹೊಸ ಪೂರಕ ಸ್ಟ್ರಾಂಡ್ನ ಸಂಶ್ಲೇಷಣೆಗೆ ಟೆಂಪ್ಲೇಟ್ ಆಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+            "latency_s": 5.1159,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-003",
+            "source": "Mitosis is a type of cell division that results in two daughter cells, each having the same number and kind of chromosomes as the parent cell.",
+            "translation": "ಮಿಟೋಸಿಸ್ ಒಂದು ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದ್ದು, ಇದು ಎರಡು ಮಗಳು ಜೀವಕೋಶಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ, ಪ್ರತಿಯೊಂದೂ ಮೂಲ ಜೀವಕೋಶದಂತೆಯೇ ಒಂದೇ ಸಂಖ್ಯೆಯ ಮತ್ತು ರೀತಿಯ ವರ್ಣತಂತುಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+            "latency_s": 4.7911,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-004",
+            "source": "The human respiratory system consists of the nose, pharynx, larynx, trachea, bronchi, and lungs, which work together to facilitate the exchange of oxygen and carbon dioxide.",
+            "translation": "ಮಾನವನ ಉಸಿರಾಟದ ವ್ಯವಸ್ಥೆಯು ಮೂಗು, ಫರಿಂಕ್ಸ್, ಲ್ಯಾರಿಂಕ್ಸ್, ಶ್ವಾಸನಾಳ, ಶ್ವಾಸನಾಳ ಮತ್ತು ಶ್ವಾಸಕೋಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ, ಇದು ಆಮ್ಲಜನಕ ಮತ್ತು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ನ ವಿನಿಮಯಕ್ಕೆ ಅನುಕೂಲವಾಗುವಂತೆ ಒಟ್ಟಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+            "latency_s": 6.3824,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-005",
+            "source": "Enzymes are biological catalysts that speed up chemical reactions in living organisms without being consumed in the process.",
+            "translation": "ಕಿಣ್ವಗಳು ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿದ್ದು, ಈ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ಸೇವಿಸದೆ ಜೀವಿಗಳಲ್ಲಿ ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುತ್ತವೆ.",
+            "latency_s": 2.9551,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-006",
+            "source": "Natural selection is the process through which organisms with favorable traits are more likely to survive and reproduce in a given environment.",
+            "translation": "ನೈಸರ್ಗಿಕ ಆಯ್ಕೆಯು ಅನುಕೂಲಕರ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿರುವ ಜೀವಿಗಳು ನಿರ್ದಿಷ್ಟ ಪರಿಸರದಲ್ಲಿ ಬದುಕುಳಿಯುವ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುವ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ.",
+            "latency_s": 2.9332,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-001",
+            "source": "An atom consists of a nucleus containing protons and neutrons, surrounded by electrons that orbit in specific energy levels.",
+            "translation": "ಪರಮಾಣು ಪ್ರೋಟಾನ್ಗಳು ಮತ್ತು ನ್ಯೂಟ್ರಾನ್ಗಳನ್ನು ಹೊಂದಿರುವ ನ್ಯೂಕ್ಲಿಯಸ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ, ಇದು ನಿರ್ದಿಷ್ಟ ಶಕ್ತಿಯ ಮಟ್ಟದಲ್ಲಿ ಪರಿಭ್ರಮಿಸುವ ಎಲೆಕ್ಟ್ರಾನ್ಗಳಿಂದ ಆವೃತವಾಗಿದೆ.",
+            "latency_s": 3.4084,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-002",
+            "source": "The periodic table arranges chemical elements in order of increasing atomic number and groups them according to their chemical properties.",
+            "translation": "ಆವರ್ತಕ ಕೋಷ್ಟಕವು ರಾಸಾಯನಿಕ ಅಂಶಗಳನ್ನು ಪರಮಾಣು ಸಂಖ್ಯೆಯನ್ನು ಹೆಚ್ಚಿಸುವ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸುತ್ತದೆ ಮತ್ತು ಅವುಗಳ ರಾಸಾಯನಿಕ ಗುಣಲಕ್ಷಣಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಅವುಗಳನ್ನು ಗುಂಪು ಮಾಡುತ್ತದೆ.",
+            "latency_s": 3.8402,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-003",
+            "source": "In a chemical reaction, the total mass of the reactants is always equal to the total mass of the products. This is known as the law of conservation of mass.",
+            "translation": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯಲ್ಲಿ, ಪ್ರತಿಕ್ರಿಯಾಕಾರಿಗಳ ಒಟ್ಟು ದ್ರವ್ಯರಾಶಿಯು ಯಾವಾಗಲೂ ಉತ್ಪನ್ನಗಳ ಒಟ್ಟು ದ್ರವ್ಯರಾಶಿಗೆ ಸಮನಾಗಿರುತ್ತದೆ. ಇದನ್ನು ದ್ರವ್ಯರಾಶಿಯ ಸಂರಕ್ಷಣೆಯ ನಿಯಮ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+            "latency_s": 3.7655,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-004",
+            "source": "Covalent bonds are formed when two atoms share one or more pairs of electrons to achieve a stable electron configuration.",
+            "translation": "ಸ್ಥಿರವಾದ ಎಲೆಕ್ಟ್ರಾನ್ ಸಂರಚನೆಯನ್ನು ಸಾಧಿಸಲು ಎರಡು ಪರಮಾಣುಗಳು ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ ಜೋಡಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳನ್ನು ಹಂಚಿಕೊಂಡಾಗ ಕೋವೆಲೆಂಟ್ ಬಂಧಗಳು ರೂಪುಗೊಳ್ಳುತ್ತವೆ.",
+            "latency_s": 3.4249,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-005",
+            "source": "The pH scale measures the concentration of hydrogen ions in a solution, ranging from 0 for strongly acidic to 14 for strongly alkaline, with 7 being neutral.",
+            "translation": "pH ಮಾಪಕವು ದ್ರಾವಣದಲ್ಲಿ ಹೈಡ್ರೋಜನ್ ಅಯಾನುಗಳ ಸಾಂದ್ರತೆಯನ್ನು ಅಳೆಯುತ್ತದೆ, ಬಲವಾದ ಆಮ್ಲೀಯಕ್ಕೆ 0 ರಿಂದ ಬಲವಾದ ಕ್ಷಾರೀಯಕ್ಕೆ 14 ರವರೆಗೆ, 7 ತಟಸ್ಥವಾಗಿರುತ್ತದೆ.",
+            "latency_s": 4.4115,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-006",
+            "source": "Oxidation is the loss of electrons by a substance, while reduction is the gain of electrons. Together, these processes are called redox reactions.",
+            "translation": "ಆಕ್ಸಿಡೀಕರಣವು ಒಂದು ವಸ್ತುವಿನಿಂದ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ನಷ್ಟವಾಗಿದೆ, ಆದರೆ ಕಡಿತವು ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಲಾಭವಾಗಿದೆ. ಒಟ್ಟಾಗಿ, ಈ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ರೆಡಾಕ್ಸ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.",
+            "latency_s": 3.9747,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-001",
+            "source": "An algorithm is a step-by-step procedure for solving a problem or performing a computation.",
+            "translation": "ಅಲ್ಗಾರಿದಮ್ ಎನ್ನುವುದು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಅಥವಾ ಲೆಕ್ಕಾಚಾರವನ್ನು ನಿರ್ವಹಿಸಲು ಹಂತ-ಹಂತದ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ.",
+            "latency_s": 2.4184,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-002",
+            "source": "A binary search algorithm works by repeatedly dividing the search interval in half to efficiently locate a target value in a sorted array.",
+            "translation": "ವಿಂಗಡಿಸಲಾದ ಶ್ರೇಣಿಯಲ್ಲಿ ಗುರಿ ಮೌಲ್ಯವನ್ನು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಪತ್ತೆಹಚ್ಚಲು ಬೈನರಿ ಸರ್ಚ್ ಅಲ್ಗಾರಿದಮ್ ಹುಡುಕಾಟದ ಮಧ್ಯಂತರವನ್ನು ಪದೇ ಪದೇ ಅರ್ಧವಾಗಿ ವಿಭಜಿಸುವ ಮೂಲಕ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.",
+            "latency_s": 3.8644,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-003",
+            "source": "Object-oriented programming is a paradigm that organizes software design around objects, which contain both data and the methods that operate on that data.",
+            "translation": "ಆಬ್ಜೆಕ್ಟ್-ಓರಿಯೆಂಟೆಡ್ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಎನ್ನುವುದು ವಸ್ತುಗಳ ಸುತ್ತಲೂ ಸಾಫ್ಟ್ವೇರ್ ವಿನ್ಯಾಸವನ್ನು ಆಯೋಜಿಸುವ ಒಂದು ಮಾದರಿಯಾಗಿದೆ, ಇದು ಡೇಟಾ ಮತ್ತು ಆ ಡೇಟಾದ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ವಿಧಾನಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ.",
+            "latency_s": 3.8344,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-004",
+            "source": "A database management system is software that provides an interface for storing, retrieving, and managing data in a structured and efficient manner.",
+            "translation": "ದತ್ತಸಂಚಯ ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆಯು ದತ್ತಾಂಶವನ್ನು ರಚನಾತ್ಮಕ ಮತ್ತು ಪರಿಣಾಮಕಾರಿ ರೀತಿಯಲ್ಲಿ ಸಂಗ್ರಹಿಸಲು, ಮರುಪಡೆಯಲು ಮತ್ತು ನಿರ್ವಹಿಸಲು ಇಂಟರ್ಫೇಸ್ ಅನ್ನು ಒದಗಿಸುವ ಸಾಫ್ಟ್ವೇರ್ ಆಗಿದೆ.",
+            "latency_s": 3.4369,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-005",
+            "source": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.",
+            "translation": "ಯಂತ್ರ ಕಲಿಕೆ ಎಂಬುದು ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆಯ ಒಂದು ಉಪವಿಭಾಗವಾಗಿದ್ದು, ಇದು ಸ್ಪಷ್ಟವಾಗಿ ಪ್ರೋಗ್ರಾಮ್ ಮಾಡದೆಯೇ ಅನುಭವದಿಂದ ಕಲಿಯಲು ಮತ್ತು ಸುಧಾರಿಸಲು ವ್ಯವಸ್ಥೆಗಳಿಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ.",
+            "latency_s": 3.43,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-006",
+            "source": "The time complexity of an algorithm describes how the execution time grows as a function of the input size, commonly expressed using Big O notation.",
+            "translation": "ಅಲ್ಗಾರಿದಮ್ನ ಸಮಯದ ಸಂಕೀರ್ಣತೆಯು ಕಾರ್ಯಗತಗೊಳಿಸುವ ಸಮಯವು ಇನ್ಪುಟ್ ಗಾತ್ರದ ಕಾರ್ಯವಾಗಿ ಹೇಗೆ ಬೆಳೆಯುತ್ತದೆ ಎಂಬುದನ್ನು ವಿವರಿಸುತ್ತದೆ, ಇದನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಬಿಗ್ ಓ ಸಂಕೇತವನ್ನು ಬಳಸಿ ವ್ಯಕ್ತಪಡಿಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 3.7398,
+            "status": "OK"
+          },
+          {
+            "id": "STR-001",
+            "source": "Students should install Python and NumPy before starting the machine learning course.",
+            "translation": "ಮೆಷಿನ್ ಲರ್ನಿಂಗ್ ಕೋರ್ಸ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ವಿದ್ಯಾರ್ಥಿಗಳು ಪೈಥಾನ್ ಮತ್ತು ನಮ್ಪೈ ಅನ್ನು ಅಳವಡಿಸಬೇಕು.",
+            "latency_s": 2.3254,
+            "status": "OK"
+          },
+          {
+            "id": "STR-002",
+            "source": "The TensorFlow library is commonly used for building neural network models in deep learning applications.",
+            "translation": "ಟೆನ್ಸರ್ಫ್ಲೋ ಗ್ರಂಥಾಲಯವನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಆಳವಾದ ಕಲಿಕೆಯ ಅನ್ವಯಗಳಲ್ಲಿ ನರ ಜಾಲದ ಮಾದರಿಗಳನ್ನು ನಿರ್ಮಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 2.6106,
+            "status": "OK"
+          },
+          {
+            "id": "STR-003",
+            "source": "Water has the chemical formula H2O and carbon dioxide is represented as CO2.",
+            "translation": "ನೀರು H2O ಎಂಬ ರಾಸಾಯನಿಕ ಸೂತ್ರವನ್ನು ಹೊಂದಿದೆ ಮತ್ತು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಅನ್ನು CO2 ಎಂದು ಪ್ರತಿನಿಧಿಸಲಾಗುತ್ತದೆ.",
+            "latency_s": 2.535,
+            "status": "OK"
+          },
+          {
+            "id": "STR-004",
+            "source": "According to Einstein's famous equation E equals mc squared, energy and mass are interchangeable.",
+            "translation": "ಐನ್ಸ್ಟೈನ್ನ ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣದ ಪ್ರಕಾರ E ಯು mc ವರ್ಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ, ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯನ್ನು ಪರಸ್ಪರ ಬದಲಾಯಿಸಬಹುದು.",
+            "latency_s": 3.3751,
+            "status": "OK"
+          },
+          {
+            "id": "STR-005",
+            "source": "The acceleration due to gravity on Earth is approximately 9.8 metres per second squared.",
+            "translation": "ಭೂಮಿಯ ಮೇಲಿನ ಗುರುತ್ವಾಕರ್ಷಣೆಯ ವೇಗವರ್ಧನೆಯು ಸೆಕೆಂಡಿಗೆ ಸುಮಾರು 9.8 ಮೀಟರ್ ಆಗಿದೆ.",
+            "latency_s": 2.0361,
+            "status": "OK"
+          },
+          {
+            "id": "STR-006",
+            "source": "Water boils at 100 degrees Celsius at standard atmospheric pressure of 1 atm.",
+            "translation": "1 ಎಟಿಎಂನ ಪ್ರಮಾಣಿತ ವಾತಾವರಣದ ಒತ್ತಡದಲ್ಲಿ ನೀರು 100 ಡಿಗ್ರಿ ಸೆಲ್ಸಿಯಸ್ನಲ್ಲಿ ಕುದಿಯುತ್ತದೆ.",
+            "latency_s": 2.2343,
+            "status": "OK"
+          },
+          {
+            "id": "STR-007",
+            "source": "In Java and C++, variables must be declared with a data type before they can be used in the program.",
+            "translation": "ಜಾವಾ ಮತ್ತು ಸಿ + + ನಲ್ಲಿ, ವೇರಿಯೇಬಲ್ಗಳನ್ನು ಪ್ರೋಗ್ರಾಂನಲ್ಲಿ ಬಳಸುವ ಮೊದಲು ಡೇಟಾ ಪ್ರಕಾರದೊಂದಿಗೆ ಘೋಷಿಸಬೇಕು.",
+            "latency_s": 2.5271,
+            "status": "OK"
+          },
+          {
+            "id": "STR-008",
+            "source": "The HTML document structure includes elements like head, body, and div tags styled using CSS properties.",
+            "translation": "ಎಚ್. ಟಿ. ಎಂ. ಎಲ್. ಡಾಕ್ಯುಮೆಂಟ್ ರಚನೆಯು ಸಿ. ಎಸ್. ಎಸ್. ಗುಣಲಕ್ಷಣಗಳನ್ನು ಬಳಸಿಕೊಂಡು ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಹೆಡ್, ಬಾಡಿ ಮತ್ತು ಡಿವಿ ಟ್ಯಾಗ್ಗಳಂತಹ ಅಂಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.",
+            "latency_s": 4.4208,
+            "status": "OK"
+          },
+          {
+            "id": "STR-009",
+            "source": "Photosynthesis is a complex biological process that occurs in the chloroplasts of green plants. During this process, light energy from the sun is absorbed by chlorophyll and used to convert carbon dioxide and water into glucose and oxygen. The overall chemical equation for photosynthesis can be written as six molecules of carbon dioxide plus six molecules of water producing one molecule of glucose and six molecules of oxygen. This process is essential for life on Earth as it provides the primary source of organic compounds and oxygen for most living organisms. The rate of photosynthesis is influenced by several factors including light intensity, carbon dioxide concentration, and temperature.",
+            "translation": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯು ಹಸಿರು ಸಸ್ಯಗಳ ಕ್ಲೋರೋಪ್ಲಾಸ್ಟ್ಗಳಲ್ಲಿ ಸಂಭವಿಸುವ ಒಂದು ಸಂಕೀರ್ಣ ಜೈವಿಕ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಈ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ, ಸೂರ್ಯನ ಬೆಳಕಿನ ಶಕ್ತಿಯನ್ನು ಕ್ಲೋರೊಫಿಲ್ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು ನೀರನ್ನು ಗ್ಲುಕೋಸ್ ಮತ್ತು ಆಮ್ಲಜನಕವಾಗಿ ಪರಿವರ್ತಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ. ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ಒಟ್ಟಾರೆ ರಾಸಾಯನಿಕ ಸಮೀಕರಣವನ್ನು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ನ ಆರು ಅಣುಗಳು ಮತ್ತು ಗ್ಲುಕೋಸ್ನ ಒಂದು ಅಣು ಮತ್ತು ಆಮ್ಲಜನಕದ ಆರು ಅಣುಗಳನ್ನು ಉತ್ಪಾದಿಸುವ ಆರು ನೀರಿನ ಅಣುಗಳು ಎಂದು ಬರೆಯಬಹುದು. ಈ ಪ್ರಕ್ರಿಯೆಯು ಭೂಮಿಯ ಮೇಲಿನ ಜೀವನಕ್ಕೆ ಅತ್ಯಗತ್ಯವಾಗಿದೆ ಏಕೆಂದರೆ ಇದು ಹೆಚ್ಚಿನ ಜೀವಿಗಳಿಗೆ ಸಾವಯವ ಸಂಯುಕ್ತಗಳು ಮತ್ತು ಆಮ್ಲಜನಕದ ಪ್ರಾಥಮಿಕ ಮೂಲವನ್ನು ಒದಗಿಸುತ್ತದೆ. ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ದರವು ಬೆಳಕಿನ ತೀವ್ರತೆ, ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಸಾಂದ್ರತೆ ಮತ್ತು ತಾಪಮಾನ ಸೇರಿದಂತೆ ಹಲವಾರು ಅಂಶಗಳಿಂದ ಪ್ರಭಾವಿತವಾಗಿರುತ್ತದೆ.",
+            "latency_s": 20.6246,
+            "status": "OK"
+          },
+          {
+            "id": "STR-010",
+            "source": "The central processing unit, commonly known as the CPU, is the primary component of a computer that performs most of the processing inside the computer. It executes instructions from programs by performing basic arithmetic, logic, controlling, and input/output operations. Modern CPUs contain multiple cores, allowing them to process several instructions simultaneously. The performance of a CPU is measured in gigahertz, which indicates the number of clock cycles it can execute per second. A CPU with a clock speed of 3.2 gigahertz can perform approximately 3.2 billion cycles per second.",
+            "translation": "ಸಾಮಾನ್ಯವಾಗಿ ಸಿ. ಪಿ. ಯು. ಎಂದು ಕರೆಯಲಾಗುವ ಕೇಂದ್ರೀಯ ಸಂಸ್ಕರಣಾ ಘಟಕವು ಗಣಕಯಂತ್ರದೊಳಗೆ ಹೆಚ್ಚಿನ ಸಂಸ್ಕರಣೆಯನ್ನು ನಿರ್ವಹಿಸುವ ಗಣಕಯಂತ್ರದ ಪ್ರಾಥಮಿಕ ಘಟಕವಾಗಿದೆ. ಇದು ಮೂಲಭೂತ ಅಂಕಗಣಿತ, ತರ್ಕ, ನಿಯಂತ್ರಣ ಮತ್ತು ಇನ್ಪುಟ್/ಔಟ್ಪುಟ್ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ನಿರ್ವಹಿಸುವ ಮೂಲಕ ಪ್ರೋಗ್ರಾಂಗಳಿಂದ ಸೂಚನೆಗಳನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸುತ್ತದೆ. ಆಧುನಿಕ ಸಿ. ಪಿ. ಯುಗಳು ಅನೇಕ ಕೋರ್ಗಳನ್ನು ಹೊಂದಿರುತ್ತವೆ, ಅವು ಏಕಕಾಲದಲ್ಲಿ ಹಲವಾರು ಸೂಚನೆಗಳನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತವೆ. ಸಿ. ಪಿ. ಯು. ಯ ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಗಿಗಾಹರ್ಟ್ಜ್ನಲ್ಲಿ ಅಳೆಯಲಾಗುತ್ತದೆ, ಇದು ಪ್ರತಿ ಸೆಕೆಂಡಿಗೆ ಕಾರ್ಯಗತಗೊಳಿಸಬಹುದಾದ ಗಡಿಯಾರದ ಚಕ್ರಗಳ ಸಂಖ್ಯೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ. 3.2 ಗಿಗಾಹರ್ಟ್ಜ್ ಗಡಿಯಾರದ ವೇಗವನ್ನು ಹೊಂದಿರುವ ಸಿ. ಪಿ. ಯು. ಸೆಕೆಂಡಿಗೆ ಸುಮಾರು 3.2 ಶತಕೋಟಿ ಚಕ್ರಗಳನ್ನು ನಿರ್ವಹಿಸಬಲ್ಲದು.",
+            "latency_s": 19.0926,
+            "status": "OK"
+          }
+        ],
+        "hin_Deva": [
+          {
+            "id": "PHY-001",
+            "source": "Acceleration is the rate of change of velocity with respect to time.",
+            "translation": "त्वरण समय के संबंध में वेग के परिवर्तन की दर है।",
+            "latency_s": 1.4572,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-002",
+            "source": "Newton's second law of motion states that the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+            "translation": "न्यूटन के गति के दूसरे नियम में कहा गया है कि किसी वस्तु पर कार्य करने वाला बल उस वस्तु के द्रव्यमान के बराबर होता है जिसे उसके त्वरण से गुणा किया जाता है।",
+            "latency_s": 3.8664,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-003",
+            "source": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another.",
+            "translation": "ऊर्जा संरक्षण का नियम कहता है कि ऊर्जा को न तो बनाया जा सकता है और न ही नष्ट किया जा सकता है; इसे केवल एक रूप से दूसरे रूप में बदला जा सकता है।",
+            "latency_s": 4.8529,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-004",
+            "source": "In an electric circuit, the current flowing through a conductor is directly proportional to the voltage applied across its ends, provided the temperature remains constant. This relationship is known as Ohm's law.",
+            "translation": "एक विद्युत परिपथ में, एक चालक के माध्यम से बहने वाली धारा उसके सिरों पर लागू वोल्टेज के सीधे आनुपातिक होती है, बशर्ते कि तापमान स्थिर रहे। इस संबंध को ओम के नियम के रूप में जाना जाता है।",
+            "latency_s": 5.4302,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-005",
+            "source": "The refractive index of a medium determines how much light bends when it passes from one medium to another.",
+            "translation": "एक माध्यम का अपवर्तक सूचकांक यह निर्धारित करता है कि जब प्रकाश एक माध्यम से दूसरे माध्यम में जाता है तो वह कितना झुकता है।",
+            "latency_s": 3.1102,
+            "status": "OK"
+          },
+          {
+            "id": "PHY-006",
+            "source": "Electromagnetic waves are transverse waves that consist of oscillating electric and magnetic fields perpendicular to each other and to the direction of wave propagation.",
+            "translation": "विद्युत चुम्बकीय तरंगें अनुप्रस्थ तरंगें हैं जिनमें एक दूसरे के लंबवत और तरंग प्रसार की दिशा में दोलन करने वाले विद्युत और चुंबकीय क्षेत्र होते हैं।",
+            "latency_s": 3.6,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-001",
+            "source": "The quadratic formula is used to find the roots of a quadratic equation of the form ax squared plus bx plus c equals zero.",
+            "translation": "द्विघात सूत्र का उपयोग अक्ष वर्ग प्लस bx प्लस c बराबर शून्य के रूप में एक द्विघात समीकरण के मूल का पता लगाने के लिए किया जाता है।",
+            "latency_s": 3.5551,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-002",
+            "source": "A function is said to be continuous at a point if the limit of the function as x approaches that point equals the value of the function at that point.",
+            "translation": "एक फलन को एक बिंदु पर निरंतर कहा जाता है यदि x के रूप में फलन की सीमा उस बिंदु पर फलन के मूल्य के बराबर होती है।",
+            "latency_s": 3.7267,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-003",
+            "source": "The derivative of a function represents the instantaneous rate of change of the function with respect to its independent variable.",
+            "translation": "किसी फलन का व्युत्पन्न उसके स्वतंत्र चर के संबंध में फलन के परिवर्तन की तात्कालिक दर का प्रतिनिधित्व करता है।",
+            "latency_s": 2.8487,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-004",
+            "source": "In probability theory, the expected value of a discrete random variable is the sum of each possible value multiplied by its probability of occurrence.",
+            "translation": "संभाव्यता सिद्धांत में, एक असतत यादृच्छिक चर का अपेक्षित मूल्य प्रत्येक संभावित मूल्य का योग है जिसे इसकी घटना की संभावना से गुणा किया जाता है।",
+            "latency_s": 3.859,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-005",
+            "source": "A matrix is a rectangular array of numbers arranged in rows and columns that can be used to represent linear transformations.",
+            "translation": "एक मैट्रिक्स पंक्तियों और स्तंभों में व्यवस्थित संख्याओं की एक आयताकार सरणी है जिसका उपयोग रैखिक परिवर्तनों का प्रतिनिधित्व करने के लिए किया जा सकता है।",
+            "latency_s": 4.0355,
+            "status": "OK"
+          },
+          {
+            "id": "MAT-006",
+            "source": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+            "translation": "पायथागोरियन प्रमेय में कहा गया है कि एक समकोण त्रिभुज में, हाइपोटिन्यूज का वर्ग अन्य दो भुजाओं के वर्गों के योग के बराबर होता है।",
+            "latency_s": 4.2345,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-001",
+            "source": "Photosynthesis is the process by which green plants convert carbon dioxide and water into glucose and oxygen in the presence of sunlight.",
+            "translation": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे सूर्य के प्रकाश की उपस्थिति में कार्बन डाइऑक्साइड और पानी को ग्लूकोज और ऑक्सीजन में परिवर्तित करते हैं।",
+            "latency_s": 3.3798,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-002",
+            "source": "DNA replication is a semi-conservative process in which each strand of the original double helix serves as a template for the synthesis of a new complementary strand.",
+            "translation": "डी. एन. ए. प्रतिकृति एक अर्ध-संरक्षक प्रक्रिया है जिसमें मूल डबल हेलिक्स का प्रत्येक स्ट्रैंड एक नए पूरक स्ट्रैंड के संश्लेषण के लिए एक टेम्पलेट के रूप में कार्य करता है।",
+            "latency_s": 4.3309,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-003",
+            "source": "Mitosis is a type of cell division that results in two daughter cells, each having the same number and kind of chromosomes as the parent cell.",
+            "translation": "माइटोसिस एक प्रकार का कोशिका विभाजन है जिसके परिणामस्वरूप दो बेटी कोशिकाएँ होती हैं, जिनमें से प्रत्येक में मूल कोशिका के समान संख्या और प्रकार के गुणसूत्र होते हैं।",
+            "latency_s": 3.4176,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-004",
+            "source": "The human respiratory system consists of the nose, pharynx, larynx, trachea, bronchi, and lungs, which work together to facilitate the exchange of oxygen and carbon dioxide.",
+            "translation": "मानव श्वसन प्रणाली में नाक, ग्रसनी, स्वरयंत्र, श्वासनली, ब्रोंकी और फेफड़े होते हैं, जो ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान को सुविधाजनक बनाने के लिए एक साथ काम करते हैं।",
+            "latency_s": 5.2267,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-005",
+            "source": "Enzymes are biological catalysts that speed up chemical reactions in living organisms without being consumed in the process.",
+            "translation": "एंजाइम जैविक उत्प्रेरक हैं जो इस प्रक्रिया में उपभोग किए बिना जीवित जीवों में रासायनिक प्रतिक्रियाओं को तेज करते हैं।",
+            "latency_s": 2.8947,
+            "status": "OK"
+          },
+          {
+            "id": "BIO-006",
+            "source": "Natural selection is the process through which organisms with favorable traits are more likely to survive and reproduce in a given environment.",
+            "translation": "प्राकृतिक चयन वह प्रक्रिया है जिसके माध्यम से अनुकूल लक्षणों वाले जीवों के किसी दिए गए वातावरण में जीवित रहने और प्रजनन करने की अधिक संभावना होती है।",
+            "latency_s": 3.1304,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-001",
+            "source": "An atom consists of a nucleus containing protons and neutrons, surrounded by electrons that orbit in specific energy levels.",
+            "translation": "एक परमाणु में एक नाभिक होता है जिसमें प्रोटॉन और न्यूट्रॉन होते हैं, जो इलेक्ट्रॉनों से घिरा होता है जो विशिष्ट ऊर्जा स्तरों में परिक्रमा करते हैं।",
+            "latency_s": 3.6407,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-002",
+            "source": "The periodic table arranges chemical elements in order of increasing atomic number and groups them according to their chemical properties.",
+            "translation": "आवर्त सारणी रासायनिक तत्वों को परमाणु संख्या बढ़ाने के क्रम में व्यवस्थित करती है और उन्हें उनके रासायनिक गुणों के अनुसार समूहित करती है।",
+            "latency_s": 2.9531,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-003",
+            "source": "In a chemical reaction, the total mass of the reactants is always equal to the total mass of the products. This is known as the law of conservation of mass.",
+            "translation": "रासायनिक अभिक्रिया में अभिकारकों का कुल द्रव्यमान हमेशा उत्पादों के कुल द्रव्यमान के बराबर होता है। इसे द्रव्यमान संरक्षण के नियम के रूप में जाना जाता है।",
+            "latency_s": 3.7462,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-004",
+            "source": "Covalent bonds are formed when two atoms share one or more pairs of electrons to achieve a stable electron configuration.",
+            "translation": "सहसंयोजक बंधन तब बनते हैं जब दो परमाणु एक स्थिर इलेक्ट्रॉन विन्यास प्राप्त करने के लिए इलेक्ट्रॉनों के एक या अधिक जोड़े साझा करते हैं।",
+            "latency_s": 3.017,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-005",
+            "source": "The pH scale measures the concentration of hydrogen ions in a solution, ranging from 0 for strongly acidic to 14 for strongly alkaline, with 7 being neutral.",
+            "translation": "पी. एच. पैमाना एक विलयन में हाइड्रोजन आयनों की सांद्रता को मापता है, जो मजबूत अम्लीय के लिए 0 से लेकर मजबूत क्षारीय के लिए 14 तक होता है, जिसमें 7 तटस्थ होते हैं।",
+            "latency_s": 4.8035,
+            "status": "OK"
+          },
+          {
+            "id": "CHE-006",
+            "source": "Oxidation is the loss of electrons by a substance, while reduction is the gain of electrons. Together, these processes are called redox reactions.",
+            "translation": "ऑक्सीकरण एक पदार्थ द्वारा इलेक्ट्रॉनों का नुकसान है, जबकि कमी इलेक्ट्रॉनों का लाभ है। इन प्रक्रियाओं को एक साथ रेडॉक्स प्रतिक्रिया कहा जाता है।",
+            "latency_s": 3.3955,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-001",
+            "source": "An algorithm is a step-by-step procedure for solving a problem or performing a computation.",
+            "translation": "एक एल्गोरिथ्म एक समस्या को हल करने या गणना करने के लिए एक चरण-दर-चरण प्रक्रिया है।",
+            "latency_s": 2.4035,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-002",
+            "source": "A binary search algorithm works by repeatedly dividing the search interval in half to efficiently locate a target value in a sorted array.",
+            "translation": "एक द्विआधारी खोज एल्गोरिथ्म बार-बार खोज अंतराल को आधे में विभाजित करके एक क्रमबद्ध सरणी में एक लक्ष्य मूल्य का कुशलता से पता लगाने के लिए काम करता है।",
+            "latency_s": 4.0379,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-003",
+            "source": "Object-oriented programming is a paradigm that organizes software design around objects, which contain both data and the methods that operate on that data.",
+            "translation": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग एक प्रतिमान है जो वस्तुओं के आसपास सॉफ्टवेयर डिजाइन को व्यवस्थित करता है, जिसमें डेटा और उस डेटा पर काम करने वाले तरीके दोनों होते हैं।",
+            "latency_s": 3.6728,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-004",
+            "source": "A database management system is software that provides an interface for storing, retrieving, and managing data in a structured and efficient manner.",
+            "translation": "एक डेटाबेस प्रबंधन प्रणाली एक सॉफ्टवेयर है जो एक संरचित और कुशल तरीके से डेटा को संग्रहीत करने, पुनर्प्राप्त करने और प्रबंधित करने के लिए एक इंटरफेस प्रदान करता है।",
+            "latency_s": 3.5842,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-005",
+            "source": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.",
+            "translation": "मशीन लर्निंग कृत्रिम बुद्धिमत्ता का एक उपसमुच्चय है जो प्रणालियों को स्पष्ट रूप से क्रमादेशित किए बिना अनुभव से सीखने और सुधार करने में सक्षम बनाता है।",
+            "latency_s": 3.3836,
+            "status": "OK"
+          },
+          {
+            "id": "CSC-006",
+            "source": "The time complexity of an algorithm describes how the execution time grows as a function of the input size, commonly expressed using Big O notation.",
+            "translation": "एक एल्गोरिथ्म की समय जटिलता बताती है कि निष्पादन समय कैसे इनपुट आकार के एक कार्य के रूप में बढ़ता है, जिसे आमतौर पर बिग ओ संकेतन का उपयोग करके व्यक्त किया जाता है।",
+            "latency_s": 4.2422,
+            "status": "OK"
+          },
+          {
+            "id": "STR-001",
+            "source": "Students should install Python and NumPy before starting the machine learning course.",
+            "translation": "छात्रों को मशीन लर्निंग पाठ्यक्रम शुरू करने से पहले पायथन और नुमपाई स्थापित करना चाहिए।",
+            "latency_s": 2.1314,
+            "status": "OK"
+          },
+          {
+            "id": "STR-002",
+            "source": "The TensorFlow library is commonly used for building neural network models in deep learning applications.",
+            "translation": "टेंसरफ्लो पुस्तकालय का उपयोग आमतौर पर गहन शिक्षण अनुप्रयोगों में तंत्रिका नेटवर्क मॉडल बनाने के लिए किया जाता है।",
+            "latency_s": 2.6611,
+            "status": "OK"
+          },
+          {
+            "id": "STR-003",
+            "source": "Water has the chemical formula H2O and carbon dioxide is represented as CO2.",
+            "translation": "पानी का रासायनिक सूत्र H2O है और कार्बन डाइऑक्साइड को CO2 के रूप में दर्शाया जाता है।",
+            "latency_s": 2.5074,
+            "status": "OK"
+          },
+          {
+            "id": "STR-004",
+            "source": "According to Einstein's famous equation E equals mc squared, energy and mass are interchangeable.",
+            "translation": "आइंस्टीन के प्रसिद्ध समीकरण के अनुसार E बराबर mc वर्ग है, ऊर्जा और द्रव्यमान विनिमेय हैं।",
+            "latency_s": 3.0069,
+            "status": "OK"
+          },
+          {
+            "id": "STR-005",
+            "source": "The acceleration due to gravity on Earth is approximately 9.8 metres per second squared.",
+            "translation": "पृथ्वी पर गुरुत्वाकर्षण के कारण त्वरण लगभग 9.8 मीटर प्रति सेकंड वर्ग है।",
+            "latency_s": 2.3397,
+            "status": "OK"
+          },
+          {
+            "id": "STR-006",
+            "source": "Water boils at 100 degrees Celsius at standard atmospheric pressure of 1 atm.",
+            "translation": "1 एटीएम के मानक वायुमंडलीय दबाव पर पानी 100 डिग्री सेल्सियस पर उबलता है।",
+            "latency_s": 2.4787,
+            "status": "OK"
+          },
+          {
+            "id": "STR-007",
+            "source": "In Java and C++, variables must be declared with a data type before they can be used in the program.",
+            "translation": "जावा और सी + + में, चर को कार्यक्रम में उपयोग करने से पहले डेटा प्रकार के साथ घोषित किया जाना चाहिए।",
+            "latency_s": 2.7411,
+            "status": "OK"
+          },
+          {
+            "id": "STR-008",
+            "source": "The HTML document structure includes elements like head, body, and div tags styled using CSS properties.",
+            "translation": "एच. टी. एम. एल. दस्तावेज़ संरचना में सी. एस. एस. गुणों का उपयोग करके शैलीबद्ध हेड, बॉडी और डिव टैग जैसे तत्व शामिल हैं।",
+            "latency_s": 3.7248,
+            "status": "OK"
+          },
+          {
+            "id": "STR-009",
+            "source": "Photosynthesis is a complex biological process that occurs in the chloroplasts of green plants. During this process, light energy from the sun is absorbed by chlorophyll and used to convert carbon dioxide and water into glucose and oxygen. The overall chemical equation for photosynthesis can be written as six molecules of carbon dioxide plus six molecules of water producing one molecule of glucose and six molecules of oxygen. This process is essential for life on Earth as it provides the primary source of organic compounds and oxygen for most living organisms. The rate of photosynthesis is influenced by several factors including light intensity, carbon dioxide concentration, and temperature.",
+            "translation": "प्रकाश संश्लेषण एक जटिल जैविक प्रक्रिया है जो हरे पौधों के क्लोरोप्लास्ट में होती है। इस प्रक्रिया के दौरान, सूर्य से प्रकाश ऊर्जा क्लोरोफिल द्वारा अवशोषित होती है और कार्बन डाइऑक्साइड और पानी को ग्लूकोज और ऑक्सीजन में बदलने के लिए उपयोग की जाती है। प्रकाश संश्लेषण के लिए समग्र रासायनिक समीकरण को कार्बन डाइऑक्साइड के छह अणुओं के साथ-साथ पानी के छह अणुओं के रूप में लिखा जा सकता है जो ग्लूकोज के एक अणु और ऑक्सीजन के छह अणुओं का उत्पादन करते हैं। यह प्रक्रिया पृथ्वी पर जीवन के लिए आवश्यक है क्योंकि यह अधिकांश जीवित जीवों के लिए कार्बनिक यौगिकों और ऑक्सीजन का प्राथमिक स्रोत प्रदान करती है। प्रकाश संश्लेषण की दर प्रकाश की तीव्रता, कार्बन डाइऑक्साइड सांद्रता और तापमान सहित कई कारकों से प्रभावित होती है।",
+            "latency_s": 19.1265,
+            "status": "OK"
+          },
+          {
+            "id": "STR-010",
+            "source": "The central processing unit, commonly known as the CPU, is the primary component of a computer that performs most of the processing inside the computer. It executes instructions from programs by performing basic arithmetic, logic, controlling, and input/output operations. Modern CPUs contain multiple cores, allowing them to process several instructions simultaneously. The performance of a CPU is measured in gigahertz, which indicates the number of clock cycles it can execute per second. A CPU with a clock speed of 3.2 gigahertz can perform approximately 3.2 billion cycles per second.",
+            "translation": "केंद्रीय प्रसंस्करण इकाई, जिसे आमतौर पर सीपीयू के रूप में जाना जाता है, एक कंप्यूटर का प्राथमिक घटक है जो कंप्यूटर के अंदर अधिकांश प्रसंस्करण करता है। यह बुनियादी अंकगणित, तर्क, नियंत्रण और इनपुट/आउटपुट संचालन करके प्रोग्रामों से निर्देशों को निष्पादित करता है। आधुनिक सीपीयू में कई कोर होते हैं, जिससे वे एक साथ कई निर्देशों को संसाधित कर सकते हैं। सीपीयू के प्रदर्शन को गीगाहर्ट्ज़ में मापा जाता है, जो प्रति सेकंड घड़ी चक्रों की संख्या को इंगित करता है। 3.2 गीगाहर्ट्ज़ की घड़ी की गति वाला सीपीयू प्रति सेकंड लगभग 3.2 करोड़ चक्र कर सकता है।",
+            "latency_s": 15.2614,
+            "status": "OK"
+          }
+        ]
+      },
+      "latency": {
+        "kan_Knda": {
+          "count": 40,
+          "mean_s": 4.3549,
+          "median_s": 3.6683,
+          "min_s": 1.5182,
+          "max_s": 20.6246,
+          "p95_s": 19.0926,
+          "first_inference_s": 1.5182
+        },
+        "hin_Deva": {
+          "count": 40,
+          "mean_s": 4.1454,
+          "median_s": 3.5842,
+          "min_s": 1.4572,
+          "max_s": 19.1265,
+          "p95_s": 15.2614,
+          "first_inference_s": 1.4572
+        }
+      },
+      "memory": {
+        "ram_before_mb": 1931.3515625,
+        "gpu_after_load": {
+          "allocated_mb": 0
+        },
+        "ram_after_mb": 2846.98046875,
+        "ram_increase_mb": 915.62890625
+      },
+      "errors": [],
+      "load_time_s": 0.7065746784210205
+    },
+    "C_1B_GPU": {
+      "candidate": "Candidate_C_1B_GPU",
+      "model_name": "ai4bharat/indictrans2-en-indic-1B",
+      "device": "cuda",
+      "dtype": "torch.float16",
+      "generation_config": {
+        "num_beams": 5,
+        "max_length": 256,
+        "do_sample": false
+      },
+      "status": "FAIL_LOAD",
+      "translations": {},
+      "latency": {},
+      "memory": {
+        "ram_before_mb": 2535.60546875
+      },
+      "errors": [
+        "Load error: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like ai4bharat/indictrans2-en-indic-1B is not the path to a directory containing a file named config.json.\nCheckout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'."
+      ]
+    }
+  }
+}

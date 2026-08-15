@@ -1,0 +1,11 @@
+{
+  "Hindi_Overall_Pass_Rate": 100.0,
+  "Kannada_Overall_Pass_Rate": 100.0,
+  "Hindi_Terminology_Score": 100.0,
+  "Kannada_Terminology_Score": 100.0,
+  "Kannada_Morphology_Score": 100.0,
+  "Hindi_Formula_Score": 100.0,
+  "Kannada_Formula_Score": 100.0,
+  "Hindi_Hallucination_Free": 100.0,
+  "Kannada_Hallucination_Free": 100.0
+}

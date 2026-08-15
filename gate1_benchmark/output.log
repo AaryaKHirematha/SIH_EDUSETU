@@ -1,0 +1,17 @@
+=== IndicTrans2 200M Minimal Smoke Test ===
+Device: cuda
+dtype: torch.float16
+
+--- Initializing Tokenizer & Processor ---
+--- Loading Model directly to GPU ---
+Load time: 12.16 s
+RAM before/after load: 888.37 MB -> 1293.06 MB
+VRAM before/after load: 0.00 MB -> 405.07 MB
+
+--- Inference Latency Test (English -> Hindi) ---
+Latency: 26.36 s
+RAM before/after inference: 1293.06 MB -> 1853.29 MB
+VRAM before/after inference: 405.07 MB -> 413.20 MB
+
+EN: Force is equal to mass times acceleration.
+HI: बल द्रव्यमान गुणा त्वरण के बराबर होता है।

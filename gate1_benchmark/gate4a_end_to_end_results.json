@@ -1,0 +1,182 @@
+[
+  {
+    "id": "GATE4_SPECIFIC_01",
+    "source": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "lang": "hi",
+    "raw_output": "प्रसिद्ध समीकरण E = mc2 ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+    "protected_output": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+    "final_morphology_output": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [],
+      "hallucination_detected": false,
+      "latency_sec": 0.543161153793335,
+      "ram_mb_before": 1256.828125,
+      "ram_mb_after": 1805.87890625,
+      "vram_mb_before": 405.07421875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  },
+  {
+    "id": "GATE4_SPECIFIC_02",
+    "source": "Water has the chemical formula H₂O.",
+    "lang": "kn",
+    "raw_output": "ನೀರು H2O ಎಂಬ ರಾಸಾಯನಿಕ ಸೂತ್ರವನ್ನು ಹೊಂದಿದೆ.",
+    "protected_output": "ನೀರು ರಾಸಾಯನಿಕ ಸೂತ್ರ H₂O ಅನ್ನು ಹೊಂದಿದೆ.",
+    "final_morphology_output": "ನೀರು ರಾಸಾಯನಿಕ ಸೂತ್ರ H₂Oವನ್ನು ಹೊಂದಿದೆ.",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [
+        "FIXED_DETACHED_SUFFIX"
+      ],
+      "hallucination_detected": false,
+      "latency_sec": 0.26592183113098145,
+      "ram_mb_before": 1805.87890625,
+      "ram_mb_after": 1806.02734375,
+      "vram_mb_before": 413.19921875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  },
+  {
+    "id": "GATE4_SPECIFIC_03",
+    "source": "The acceleration is 9.8 m/s².",
+    "lang": "hi",
+    "raw_output": "त्वरण 9.8 मीटर/सेकंड है।",
+    "protected_output": "त्वरण 9.8 m/s² है।",
+    "final_morphology_output": "त्वरण 9.8 m/s² है।",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [],
+      "hallucination_detected": false,
+      "latency_sec": 0.2693326473236084,
+      "ram_mb_before": 1806.02734375,
+      "ram_mb_after": 1806.02734375,
+      "vram_mb_before": 413.19921875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  },
+  {
+    "id": "GATE4_SPECIFIC_04",
+    "source": "The quadratic equation has two roots.",
+    "lang": "kn",
+    "raw_output": "ಚತುರ್ಭುಜ ಸಮೀಕರಣವು ಎರಡು ಮೂಲಗಳನ್ನು ಹೊಂದಿದೆ.",
+    "protected_output": "ವರ್ಗ ಸಮೀಕರಣ ಎರಡು ಮೂಲಗಳು ಅನ್ನು ಹೊಂದಿದೆ.",
+    "final_morphology_output": "ವರ್ಗ ಸಮೀಕರಣ ಎರಡು ಮೂಲಗಳುವನ್ನು ಹೊಂದಿದೆ.",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [
+        "FIXED_DETACHED_SUFFIX"
+      ],
+      "hallucination_detected": false,
+      "latency_sec": 0.2738227844238281,
+      "ram_mb_before": 1806.02734375,
+      "ram_mb_after": 1806.02734375,
+      "vram_mb_before": 413.19921875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  },
+  {
+    "id": "GATE4_SPECIFIC_05",
+    "source": "Python and NumPy are widely used in data science.",
+    "lang": "hi",
+    "raw_output": "पायथन और नुमपाई का व्यापक रूप से डेटा विज्ञान में उपयोग किया जाता है।",
+    "protected_output": "Python और NumPy का व्यापक रूप से डेटा साइंस में उपयोग किया जाता है।",
+    "final_morphology_output": "Python और NumPy का व्यापक रूप से डेटा साइंस में उपयोग किया जाता है।",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [],
+      "hallucination_detected": false,
+      "latency_sec": 0.44226670265197754,
+      "ram_mb_before": 1806.02734375,
+      "ram_mb_after": 1806.2734375,
+      "vram_mb_before": 413.19921875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  },
+  {
+    "id": "PHY_003",
+    "source": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "lang": "kn",
+    "raw_output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc2 ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "protected_output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿ ರ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "final_morphology_output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [],
+      "hallucination_detected": false,
+      "latency_sec": 0.46650171279907227,
+      "ram_mb_before": 1806.140625,
+      "ram_mb_after": 1806.140625,
+      "vram_mb_before": 413.19921875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  },
+  {
+    "id": "CHE_001",
+    "source": "The chemical formula for water is H₂O.",
+    "lang": "hi",
+    "raw_output": "जल का रासायनिक सूत्र H2O है।",
+    "protected_output": "पानी के लिए रासायनिक सूत्र H₂O है।",
+    "final_morphology_output": "पानी के लिए रासायनिक सूत्र H₂O है।",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [],
+      "hallucination_detected": false,
+      "latency_sec": 0.30356311798095703,
+      "ram_mb_before": 1806.140625,
+      "ram_mb_after": 1806.140625,
+      "vram_mb_before": 413.19921875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  },
+  {
+    "id": "MAT_005",
+    "source": "A matrix is a rectangular arrangement of numbers.",
+    "lang": "kn",
+    "raw_output": "ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+    "protected_output": "ಮಾತೃಕೆ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+    "final_morphology_output": "ಮಾತೃಕೆ ಎಂಬುದು ಸಂಖ್ಯೆಗಳ ಆಯತಾಕಾರದ ಜೋಡಣೆಯಾಗಿದೆ.",
+    "metrics": {
+      "formula_preserved": true,
+      "technical_preserved": true,
+      "terminology_preserved": true,
+      "morphology_flags": [],
+      "hallucination_detected": false,
+      "latency_sec": 0.3249061107635498,
+      "ram_mb_before": 1806.140625,
+      "ram_mb_after": 1806.140625,
+      "vram_mb_before": 413.19921875,
+      "vram_mb_after": 413.19921875
+    },
+    "pass": true,
+    "failure_reasons": []
+  }
+]

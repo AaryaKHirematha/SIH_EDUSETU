@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "PHY_003",
+    "domain": "Physics",
+    "source_en": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "प्रसिद्ध समीकरण E = mc2 ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc2 ಶಕ್ತಿ ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿ ರ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "ಪ್ರಸಿದ್ಧ ಸಮೀಕರಣ E = mc², energy ಮತ್ತು ದ್ರವ್ಯರಾಶಿಯ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಮತ್ತು ದ",
+        "suffix": "ದ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಮತ್ತುದ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "PHY_005",
+    "domain": "Physics",
+    "source_en": "Momentum is equal to mass times velocity.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "गति द्रव्यमान गुणा वेग के बराबर होती है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "संवेग द्रव्यमान गुना वेग के बराबर है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "संवेग द्रव्यमान गुना वेग के बराबर है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆವೇಗವು ದ್ರವ್ಯರಾಶಿಯ ವೇಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಆವೇಗ ಎಂಬುದು ದ್ರವ್ಯರಾಶಿಯ ವೇಗ ಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "ಆವೇಗ ಎಂಬುದು ದ್ರವ್ಯರಾಶಿಯ ವೇಗಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಎಂಬುದು ದ",
+        "suffix": "ದ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಎಂಬುದುದ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "CHE_007",
+    "domain": "Chemistry",
+    "source_en": "A chemical reaction is a process that leads to the chemical transformation of one set of chemical substances to another. Classically, chemical reactions encompass changes that only involve the positions of electrons in the forming and breaking of chemical bonds between atoms.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक रासायनिक प्रतिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "रासायनिक अभिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "रासायनिक अभिक्रिया एक ऐसी प्रक्रिया है जो रासायनिक पदार्थों के एक समूह को दूसरे में रासायनिक परिवर्तन की ओर ले जाती है। शास्त्रीय रूप से, रासायनिक प्रतिक्रियाओं में ऐसे परिवर्तन शामिल होते हैं जो केवल परमाणुओं के बीच रासायनिक बंधन के निर्माण और टूटने में इलेक्ट्रॉनों की स्थिति को शामिल करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಯು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಿಕೆಯಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "chemical reaction ಎಂಬುದು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "chemical reaction ಎಂಬುದು ರಾಸಾಯನಿಕ ಪದಾರ್ಥಗಳ ಒಂದು ಗುಂಪಿನ ರಾಸಾಯನಿಕ ರೂಪಾಂತರಕ್ಕೆ ಕಾರಣವಾಗುವ ಒಂದು ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ. ಶಾಸ್ತ್ರೀಯವಾಗಿ, ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಪರಮಾಣುಗಳ ನಡುವಿನ ರಾಸಾಯನಿಕ ಬಂಧಗಳ ರಚನೆ ಮತ್ತು ಒಡೆಯುವಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ಗಳ ಸ್ಥಾನಗಳನ್ನು ಮಾತ್ರ ಒಳಗೊಂಡಿರುವ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಎಂಬುದು ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಎಂಬುದುರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ಗುಂಪಿನ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಗುಂಪಿನರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ಾಸಾಯನಿಕ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಾಸಾಯನಿಕರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ನಡುವಿನ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ನಡುವಿನರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "CHE_008",
+    "domain": "Chemistry",
+    "source_en": "Acids are substances that can donate a proton (H⁺) to another substance.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एसिड वे पदार्थ हैं जो एक प्रोटॉन (एच +) को दूसरे पदार्थ में दान कर सकते हैं।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "अम्ल ऐसे पदार्थ हैं जो प्रोटॉन (H⁺) को किसी अन्य पदार्थ को दान कर सकते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "अम्ल ऐसे पदार्थ हैं जो प्रोटॉन (H⁺) को किसी अन्य पदार्थ को दान कर सकते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆಮ್ಲಗಳು ಪ್ರೋಟಾನ್ (ಎಚ್ +) ಅನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡುವ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "acids ಎಂಬುದು proton (H⁺) ಅನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡಬಲ್ಲ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "acids ಎಂಬುದು proton (H⁺)ವನ್ನು ಮತ್ತೊಂದು ಪದಾರ್ಥಕ್ಕೆ ದಾನ ಮಾಡಬಲ್ಲ ಪದಾರ್ಥಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಪದಾರ್ಥಕ್ಕೆ ದ",
+        "suffix": "ದ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಪದಾರ್ಥಕ್ಕೆದ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "BIO_005",
+    "domain": "Biology",
+    "source_en": "Osmosis is the spontaneous net movement of solvent molecules through a selectively permeable membrane.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऑस्मोसिस एक चुनिंदा पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "परासरण एक चयनात्मक पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "परासरण एक चयनात्मक पारगम्य झिल्ली के माध्यम से विलायक अणुओं की सहज शुद्ध गति है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಓಸ್ಮೋಸಿಸ್ ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "osmosis ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "osmosis ಎಂಬುದು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆಯ ಮೂಲಕ ದ್ರಾವಕ ಅಣುಗಳ ಸ್ವಯಂಪ್ರೇರಿತ ನಿವ್ವಳ ಚಲನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಮೂಲಕ ದ",
+        "suffix": "ದ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಮೂಲಕದ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "CHE_009",
+    "domain": "Chemistry",
+    "source_en": "The pH scale ranges from 0 to 14.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "पी. एच. पैमाना 0 से 14 तक होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "पीएच पैमाना की सीमा 0 से 14 तक है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "पीएच पैमाना की सीमा 0 से 14 तक है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಪಿ. ಎಚ್ ಪ್ರಮಾಣವು 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "pH scale 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "pH scale 0 ರಿಂದ 14 ರವರೆಗೆ ಇರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "0 ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. 0ರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "BIO_006",
+    "domain": "Biology",
+    "source_en": "Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (एटीपी) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (ATP ) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "कोशिकीय श्वसन चयापचय प्रतिक्रियाओं और प्रक्रियाओं का एक समूह है जो जीवों की कोशिकाओं में पोषक तत्वों से जैव रासायनिक ऊर्जा को एडेनोसिन ट्राइफॉस्फेट (ATP ) में बदलने के लिए होता है, और फिर अपशिष्ट उत्पादों को छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಜೀವಕೋಶದ ಉಸಿರಾಟವು ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದ್ದು, ಪೋಷಕಾಂಶಗಳಿಂದ ಜೀವರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ಎಟಿಪಿ) ಆಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "cellular respiration ಎಂಬುದು ಜೈವಿಕ ರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಪೋಷಕಾಂಶಗಳಿಂದ ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP ) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "cellular respiration ಎಂಬುದು ಜೈವಿಕ ರಾಸಾಯನಿಕ ಶಕ್ತಿಯನ್ನು ಪೋಷಕಾಂಶಗಳಿಂದ ಅಡೆನೊಸಿನ್ ಟ್ರೈಫಾಸ್ಫೇಟ್ (ATP ) ಆಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ನಂತರ ತ್ಯಾಜ್ಯ ಉತ್ಪನ್ನಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ಜೀವಿಗಳ ಜೀವಕೋಶಗಳಲ್ಲಿ ನಡೆಯುವ ಚಯಾಪಚಯ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರಕ್ರಿಯೆಗಳ ಒಂದು ಗುಂಪಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಜೈವಿಕ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಜೈವಿಕರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "CS_009",
+    "domain": "Computer Science",
+    "source_en": "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (ओ. ओ. पी.) \"ऑब्जेक्ट्स\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (OOP ) \"ऑब्जेक्ट\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (OOP ) \"ऑब्जेक्ट\" की अवधारणा पर आधारित एक प्रोग्रामिंग प्रतिमान है, जिसमें डेटा और कोड हो सकते हैंः क्षेत्रों के रूप में डेटा (अक्सर विशेषताओं या गुणों के रूप में जाना जाता है), और कोड, प्रक्रियाओं के रूप में (अक्सर तरीकों के रूप में जाना जाता है)।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಆಬ್ಜೆಕ್ಟ್-ಓರಿಯೆಂಟೆಡ್ ಪ್ರೋಗ್ರಾಮಿಂಗ್ (ಒಒಪಿ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ಡೇಟಾ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ಡೇಟಾ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+        "scores": {
+          "formula": "PASS",
+          "technical": "FAIL",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "Object-oriented programming (OOP ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ದತ್ತಾಂಶ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ದತ್ತಾಂಶ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "Object-oriented programming (OOP ) ಎಂಬುದು \"ಆಬ್ಜೆಕ್ಟ್ಸ್\" ಪರಿಕಲ್ಪನೆಯನ್ನು ಆಧರಿಸಿದ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಮಾದರಿಯಾಗಿದೆ, ಇದು ದತ್ತಾಂಶ ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದುಃ ಕ್ಷೇತ್ರಗಳ ರೂಪದಲ್ಲಿ ದತ್ತಾಂಶ (ಸಾಮಾನ್ಯವಾಗಿ ಗುಣಲಕ್ಷಣಗಳು ಅಥವಾ ಗುಣಲಕ್ಷಣಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ), ಮತ್ತು ಕೋಡ್, ಕಾರ್ಯವಿಧಾನಗಳ ರೂಪದಲ್ಲಿ (ಸಾಮಾನ್ಯವಾಗಿ ವಿಧಾನಗಳು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ).",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಕ್ಷೇತ್ರಗಳ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಕ್ಷೇತ್ರಗಳರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ಕಾರ್ಯವಿಧಾನಗಳ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಕಾರ್ಯವಿಧಾನಗಳರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "CHE_010",
+    "domain": "Chemistry",
+    "source_en": "Exothermic reactions release energy in the form of heat or light.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऊष्मीय प्रतिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ती हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ऊष्माक्षेपी अभिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऊष्माक्षेपी अभिक्रियाएँ ऊष्मा या प्रकाश के रूप में ऊर्जा छोड़ता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಎಕ್ಸೋಥರ್ಮಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಗಳು ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "exothermic reactions ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "exothermic reactions ಶಾಖ ಅಥವಾ ಬೆಳಕಿನ ರೂಪದಲ್ಲಿ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಬೆಳಕಿನ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಬೆಳಕಿನರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "BIO_007",
+    "domain": "Biology",
+    "source_en": "Enzymes are proteins that act as biological catalysts by accelerating chemical reactions.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एंजाइम प्रोटीन होते हैं जो रासायनिक प्रतिक्रियाओं को तेज करके जैविक उत्प्रेरक के रूप में कार्य करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "एंजाइम प्रोटीन हैं जो रासायनिक प्रतिक्रियाओं को तेज करके जैविक उत्प्रेरक के रूप में कार्य करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "एंजाइम प्रोटीन हैं जो रासायनिक प्रतिक्रियाओं को तेज करके जैविक उत्प्रेरक के रूप में कार्य करते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಕಿಣ್ವಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಪ್ರೋಟೀನ್ಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "enzymes ಪ್ರೋಟೀನ್ಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "enzymes ಪ್ರೋಟೀನ್ಗಳು ರಾಸಾಯನಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಮೂಲಕ ಜೈವಿಕ ವೇಗವರ್ಧಕಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಪ್ರೋಟೀನ್ಗಳು ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಪ್ರೋಟೀನ್ಗಳುರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "PHY_016",
+    "domain": "Physics",
+    "source_en": "Thermodynamics is the branch of physics that deals with heat, work, and temperature, and their relation to energy, radiation, and properties of matter.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "ऊष्मागतिकी भौतिकी की वह शाखा है जो ऊष्मा, कार्य और तापमान, और ऊर्जा, विकिरण और पदार्थ के गुणों के साथ उनके संबंध से संबंधित है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "ऊष्मागतिकी भौतिकी की वह शाखा है जो ऊष्मा, कार्य और तापमान, और ऊर्जा, विकिरण और पदार्थ के गुणों के साथ उनके संबंध से संबंधित है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "ऊष्मागतिकी भौतिकी की वह शाखा है जो ऊष्मा, कार्य और तापमान, और ऊर्जा, विकिरण और पदार्थ के गुणों के साथ उनके संबंध से संबंधित है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಉಷ್ಣಬಲವಿಜ್ಞಾನವು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "thermodynamics ಎಂಬುದು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "thermodynamics ಎಂಬುದು ಶಾಖ, ಕೆಲಸ ಮತ್ತು ತಾಪಮಾನ ಮತ್ತು ಶಕ್ತಿ, ವಿಕಿರಣ ಮತ್ತು ದ್ರವ್ಯದ ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗಿನ ಅವುಗಳ ಸಂಬಂಧದ ಬಗ್ಗೆ ವ್ಯವಹರಿಸುವ ಭೌತಶಾಸ್ತ್ರದ ಶಾಖೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಮತ್ತು ದ",
+        "suffix": "ದ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಮತ್ತುದ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "CHE_013",
+    "domain": "Chemistry",
+    "source_en": "Isotopes are variants of a particular chemical element which differ in neutron number.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "समस्थानिक एक विशेष रासायनिक तत्व के रूप हैं जो न्यूट्रॉन संख्या में भिन्न होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "समस्थानिक एक विशेष रासायनिक तत्व के प्रकार हैं जो न्यूट्रॉन संख्या में भिन्न होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "समस्थानिक एक विशेष रासायनिक तत्व के प्रकार हैं जो न्यूट्रॉन संख्या में भिन्न होते हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಐಸೋಟೋಪ್ಗಳು ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುವ ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "isotopes ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಅವು neutron ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "isotopes ಒಂದು ನಿರ್ದಿಷ್ಟ ರಾಸಾಯನಿಕ ಅಂಶದ ರೂಪಾಂತರಗಳಾಗಿದ್ದು, ಅವು neutron ಸಂಖ್ಯೆಯಲ್ಲಿ ಭಿನ್ನವಾಗಿರುತ್ತವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ನಿರ್ದಿಷ್ಟ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ನಿರ್ದಿಷ್ಟರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ಅಂಶದ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಅಂಶದರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "BIO_009",
+    "domain": "Biology",
+    "source_en": "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "अर्धसूत्री विच्छेदन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "अर्धसूत्री विभाजन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "अर्धसूत्री विभाजन यौन-प्रजनन करने वाले जीवों में रोगाणु कोशिकाओं का एक विशेष प्रकार का कोशिका विभाजन है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಅರೆವಿದಳನವು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "meiosis ಎಂಬುದು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "meiosis ಎಂಬುದು ಲೈಂಗಿಕವಾಗಿ ಪುನರುತ್ಪಾದಿಸುವ ಜೀವಿಗಳಲ್ಲಿ ಸೂಕ್ಷ್ಮಾಣು ಕೋಶಗಳ ವಿಶೇಷ ರೀತಿಯ ಜೀವಕೋಶ ವಿಭಜನೆಯಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ವಿಶೇಷ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ವಿಶೇಷರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "PHY_017",
+    "domain": "Physics",
+    "source_en": "A vector quantity has both magnitude and direction, whereas a scalar quantity has only magnitude.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "एक सदिश मात्रा में परिमाण और दिशा दोनों होते हैं, जबकि एक स्केलर मात्रा में केवल परिमाण होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "सदिश मात्रा का परिमाण और दिशा दोनों होते हैं, जबकि अदिश मात्रा का केवल परिमाण होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "सदिश मात्रा का परिमाण और दिशा दोनों होते हैं, जबकि अदिश मात्रा का केवल परिमाण होता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ವಾಹಕದ ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿರುತ್ತದೆ, ಆದರೆ ಸ್ಕೇಲಾರ್ ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "vector ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿದ್ದರೆ, scalar ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "vector ಪ್ರಮಾಣವು ಪರಿಮಾಣ ಮತ್ತು ದಿಕ್ಕು ಎರಡನ್ನೂ ಹೊಂದಿದ್ದರೆ, scalar ಪ್ರಮಾಣವು ಕೇವಲ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿರುತ್ತದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಮತ್ತು ದ",
+        "suffix": "ದ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಮತ್ತುದ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "MAT_011",
+    "domain": "Mathematics",
+    "source_en": "A linear equation in two variables describes a line on a Cartesian coordinate plane. The standard form is Ax + By = C, where A, B, and C are constants, and x and y are variables.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "दो चरों में एक रैखिक समीकरण एक कार्टेशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + by = C है, जहाँ A, B और C स्थिरांक हैं, और x और y चर हैं।",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "दो चर में A रैखिक समीकरण एक C आर्टीशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + By = C है, जहां A,B और C स्थिरांक हैं, और x और y चर हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "दो चर में A रैखिक समीकरण एक C आर्टीशियन निर्देशांक तल पर एक रेखा का वर्णन करता है। मानक रूप Ax + By = C है, जहां A,B और C स्थिरांक हैं, और x और y चर हैं।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ಎರಡು ಅಸ್ಥಿರಗಳಲ್ಲಿನ ರೇಖೀಯ ಸಮೀಕರಣವು ಕಾರ್ಟೇಶಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + by = C ಆಗಿದೆ, ಅಲ್ಲಿ A, B, ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y ಅಸ್ಥಿರಗಳಾಗಿವೆ.",
+        "scores": {
+          "formula": "FAIL",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "FAIL",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "ಎರಡು variables ರಲ್ಲಿ A ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ ಒಂದು C ಆರ್ಟೀಷಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇದರಲ್ಲಿ A,B ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y variables ಆಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "ಎರಡು variables ರಲ್ಲಿ A ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ ಒಂದು C ಆರ್ಟೀಷಿಯನ್ ನಿರ್ದೇಶಾಂಕ ಸಮತಲದ ಮೇಲಿನ ರೇಖೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಮಾಣಿತ ರೂಪವು Ax + By = C ಆಗಿದೆ, ಇದರಲ್ಲಿ A,B ಮತ್ತು C ಸ್ಥಿರಾಂಕಗಳು, ಮತ್ತು x ಮತ್ತು y variables ಆಗಿವೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "A ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. Aರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ಮೇಲಿನ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಮೇಲಿನರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ಪ್ರಮಾಣಿತ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಪ್ರಮಾಣಿತರ...). The translation is genuinely correct."
+      }
+    ]
+  },
+  {
+    "id": "CHE_014",
+    "domain": "Chemistry",
+    "source_en": "A catalyst is a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "evaluation_type": "AI_REVIEW",
+    "hindi": {
+      "A": {
+        "output": "उत्प्रेरक एक ऐसा पदार्थ है जो बिना किसी स्थायी रासायनिक परिवर्तन के रासायनिक प्रतिक्रिया की दर को बढ़ाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "B": {
+        "output": "उत्प्रेरक एक ऐसा पदार्थ है जो बिना किसी स्थायी रासायनिक परिवर्तन के रासायनिक प्रतिक्रिया की दर को बढ़ाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      },
+      "C": {
+        "output": "उत्प्रेरक एक ऐसा पदार्थ है जो बिना किसी स्थायी रासायनिक परिवर्तन के रासायनिक प्रतिक्रिया की दर को बढ़ाता है।",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "PASS",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "PASS",
+          "fluency": "PASS",
+          "semantic": "PASS",
+          "overall": "PASS"
+        }
+      }
+    },
+    "kannada": {
+      "A": {
+        "output": "ವೇಗವರ್ಧಕವು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "FAIL",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "FAIL",
+          "overall": "FAIL"
+        }
+      },
+      "B": {
+        "output": "catalyst ಎಂಬುದು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      },
+      "C": {
+        "output": "catalyst ಎಂಬುದು ಯಾವುದೇ ಶಾಶ್ವತ ರಾಸಾಯನಿಕ ಬದಲಾವಣೆಗೆ ಒಳಗಾಗದೆ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವ ಪದಾರ್ಥವಾಗಿದೆ.",
+        "scores": {
+          "formula": "PASS",
+          "technical": "PASS",
+          "terminology": "PASS",
+          "morphology": "FAIL",
+          "omission": "PASS",
+          "addition": "PASS",
+          "hallucination": "PASS",
+          "grammar": "FAIL",
+          "fluency": "FAIL",
+          "semantic": "PASS",
+          "overall": "FAIL"
+        }
+      }
+    },
+    "morphology_error_analysis": [
+      {
+        "matched_context": "ಶಾಶ್ವತ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಶಾಶ್ವತರ...). The translation is genuinely correct."
+      },
+      {
+        "matched_context": "ಒಳಗಾಗದೆ ರ",
+        "suffix": "ರ",
+        "classification": "false positive evaluation artifact",
+        "transformation": "Regex \\b artifact. Matched the virama/vowel boundary inside a valid word (e.g. ಒಳಗಾಗದೆರ...). The translation is genuinely correct."
+      }
+    ]
+  }
+]

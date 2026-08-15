@@ -1,0 +1,2434 @@
+[
+  {
+    "id": "PHY_001",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Force is equal to mass times acceleration.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "force",
+        "hi": "बल",
+        "kn": "ಬಲ"
+      },
+      {
+        "en": "mass",
+        "hi": "द्रव्यमान",
+        "kn": "ದ್ರವ್ಯರಾಶಿ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_002",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The mass of the object is exactly 5 kg.",
+    "risk_tags": [
+      "units"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "mass",
+        "hi": "द्रव्यमान",
+        "kn": "ದ್ರವ್ಯರಾಶಿ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_003",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The famous equation E = mc² describes the relationship between energy and mass.",
+    "risk_tags": [
+      "formula",
+      "morphology"
+    ],
+    "formula_tokens": [
+      "E = mc²"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "energy",
+        "hi": "ऊर्जा"
+      },
+      {
+        "en": "mass",
+        "hi": "द्रव्यमान",
+        "kn": "ದ್ರವ್ಯರಾಶಿ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_004",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Gravity on Earth is approximately 9.8 m/s².",
+    "risk_tags": [
+      "formula",
+      "units"
+    ],
+    "formula_tokens": [
+      "9.8 m/s²"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "gravity",
+        "hi": "गुरुत्वाकर्षण",
+        "kn": "ಗುರುತ್ವಾಕರ್ಷಣೆ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_005",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "definition",
+    "source_en": "Momentum is equal to mass times velocity.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "momentum",
+        "hi": "संवेग",
+        "kn": "ಆವೇಗ"
+      },
+      {
+        "en": "velocity",
+        "hi": "वेग",
+        "kn": "ವೇಗ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_006",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "According to Newton's second law, F = ma.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "F = ma"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_007",
+    "domain": "Physics",
+    "difficulty": "long",
+    "content_type": "paragraph",
+    "source_en": "Work is done when a force that is applied to an object moves that object. The work is calculated by multiplying the force by the amount of movement of an object (W = F * d).",
+    "risk_tags": [
+      "formula",
+      "terminology"
+    ],
+    "formula_tokens": [
+      "W = F * d"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "force",
+        "hi": "बल",
+        "kn": "ಬಲ"
+      },
+      {
+        "en": "work",
+        "hi": "कार्य"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_008",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The unit of force is the Newton (N).",
+    "risk_tags": [
+      "units"
+    ],
+    "formula_tokens": [
+      "(N)"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "force",
+        "hi": "बल",
+        "kn": "ಬಲ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_009",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Kinetic energy is the energy that an object possesses due to its motion.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "kinetic energy",
+        "hi": "गतिज ऊर्जा",
+        "kn": "ಚಲನ ಶಕ್ತಿ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_010",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Potential energy is stored energy that depends upon the relative position of various parts of a system.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "potential energy",
+        "hi": "स्थितिज ऊर्जा",
+        "kn": "ಸ್ಥಿತಿ ಶಕ್ತಿ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_011",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source_en": "When a car accelerates, its velocity increases over time.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "velocity",
+        "hi": "वेग"
+      },
+      {
+        "en": "accelerates",
+        "hi": "त्वरित"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_012",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The speed of light in a vacuum is 3 × 10⁸ m/s.",
+    "risk_tags": [
+      "formula",
+      "units"
+    ],
+    "formula_tokens": [
+      "3 × 10⁸ m/s"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_013",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "friction",
+        "hi": "घर्षण"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_014",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Power is the rate at which work is done.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "power",
+        "hi": "शक्ति"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_015",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The formula for power is P = W / t, where W is work and t is time.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "P = W / t",
+      "W",
+      "t"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_016",
+    "domain": "Physics",
+    "difficulty": "long",
+    "content_type": "paragraph",
+    "source_en": "Thermodynamics is the branch of physics that deals with heat, work, and temperature, and their relation to energy, radiation, and properties of matter.",
+    "risk_tags": [
+      "definition",
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "thermodynamics",
+        "hi": "ऊष्मागतिकी"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_017",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source_en": "A vector quantity has both magnitude and direction, whereas a scalar quantity has only magnitude.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "vector",
+        "hi": "सदिश"
+      },
+      {
+        "en": "scalar",
+        "hi": "अदिश"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_018",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Voltage is the difference in electric potential between two points.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "voltage",
+        "hi": "वोल्टेज"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_019",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Ohm's law states that V = IR.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "V = IR"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_020",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Magnetic fields are produced by moving electric charges and the intrinsic magnetic moments of elementary particles.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "magnetic fields",
+        "hi": "चुंबकीय क्षेत्र"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_021",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The standard unit of electrical resistance is the ohm (Ω).",
+    "risk_tags": [
+      "units",
+      "formula"
+    ],
+    "formula_tokens": [
+      "(Ω)"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "resistance",
+        "hi": "प्रतिरोध"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_022",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Density is defined as mass per unit volume.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "density",
+        "hi": "घनत्व"
+      },
+      {
+        "en": "volume",
+        "hi": "आयतन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_023",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source_en": "If the net force on an object is zero, its acceleration is also zero.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "net force",
+        "hi": "शुद्ध बल"
+      },
+      {
+        "en": "acceleration",
+        "hi": "त्वरण",
+        "kn": "ವೇಗವರ್ಧನೆ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_024",
+    "domain": "Physics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The wavelength of the wave is inversely proportional to its frequency.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "wavelength",
+        "hi": "तरंगदैर्ध्य"
+      },
+      {
+        "en": "frequency",
+        "hi": "आवृत्ति"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "PHY_025",
+    "domain": "Physics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "An object in free fall experiences an acceleration of 9.8 m/s².",
+    "risk_tags": [
+      "formula",
+      "units"
+    ],
+    "formula_tokens": [
+      "9.8 m/s²"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_001",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The quadratic equation can be solved using the quadratic formula.",
+    "risk_tags": [
+      "terminology",
+      "hallucination_risk"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "quadratic equation",
+        "hi": "द्विघात समीकरण",
+        "kn": "ವರ್ಗ ಸಮೀಕರಣ"
+      },
+      {
+        "en": "quadratic formula",
+        "hi": "द्विघात सूत्र",
+        "kn": "ವರ್ಗ ಸೂತ್ರ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_002",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "definition",
+    "source_en": "A polynomial is an algebraic expression consisting of variables and coefficients.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "polynomial",
+        "hi": "बहुपद",
+        "kn": "ಬಹುಪದ"
+      },
+      {
+        "en": "algebraic expression",
+        "hi": "बीजगणितीय व्यंजक",
+        "kn": "ಬೀಜಗಣಿತದ ಅಭಿವ್ಯಕ್ತಿ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_003",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The derivative of a function represents its rate of change.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "derivative",
+        "hi": "अवकलज",
+        "kn": "ವ್ಯುತ್ಪನ್ನ"
+      },
+      {
+        "en": "function",
+        "hi": "फलन",
+        "kn": "ಕಾರ್ಯ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_004",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Integration is used to calculate area under a curve.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "integration",
+        "hi": "समाकलन",
+        "kn": "ಅನುಕಲನ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_005",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "definition",
+    "source_en": "A matrix is a rectangular arrangement of numbers.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "matrix",
+        "hi": "आव्यूह",
+        "kn": "ಮಾತೃಕೆ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_006",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The coefficient of x in the equation is 5.",
+    "risk_tags": [
+      "terminology",
+      "formula"
+    ],
+    "formula_tokens": [
+      "x"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "coefficient",
+        "hi": "गुणांक",
+        "kn": "ಗುಣಾಂಕ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_007",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source_en": "To find the roots of the equation x² - 5x + 6 = 0, we can factorize it.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "x² - 5x + 6 = 0"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "roots",
+        "hi": "मूल"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_008",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The Pythagorean theorem states that a² + b² = c².",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "a² + b² = c²"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_009",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "In a right-angled triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "sine",
+        "hi": "ज्या"
+      },
+      {
+        "en": "hypotenuse",
+        "hi": "कर्ण"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_010",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The probability of an impossible event is 0, and the probability of a certain event is 1.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "probability",
+        "hi": "प्रायिकता"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_011",
+    "domain": "Mathematics",
+    "difficulty": "long",
+    "content_type": "paragraph",
+    "source_en": "A linear equation in two variables describes a line on a Cartesian coordinate plane. The standard form is Ax + By = C, where A, B, and C are constants, and x and y are variables.",
+    "risk_tags": [
+      "terminology",
+      "formula"
+    ],
+    "formula_tokens": [
+      "Ax + By = C",
+      "A",
+      "B",
+      "C",
+      "x",
+      "y"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "linear equation",
+        "hi": "रैखिक समीकरण",
+        "kn": "ರೇಖಾತ್ಮಕ ಸಮೀಕರಣ"
+      },
+      {
+        "en": "variables",
+        "hi": "चर"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_012",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The sum of the interior angles of a triangle is always 180°.",
+    "risk_tags": [
+      "formula",
+      "units"
+    ],
+    "formula_tokens": [
+      "180°"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_013",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Two lines are parallel if their slopes are equal, meaning m₁ = m₂.",
+    "risk_tags": [
+      "formula",
+      "terminology"
+    ],
+    "formula_tokens": [
+      "m₁ = m₂"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "parallel",
+        "hi": "समानांतर"
+      },
+      {
+        "en": "slopes",
+        "hi": "ढलान"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_014",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A logarithm answers the question: to what power must the base be raised to produce a given number?",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "logarithm",
+        "hi": "लघुगणक"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_015",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The area of a circle is given by A = πr².",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "A = πr²"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_016",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The perimeter of a rectangle is P = 2(l + w).",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "P = 2(l + w)"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_017",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "An integer is a whole number that can be positive, negative, or zero.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "integer",
+        "hi": "पूर्णांक"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_018",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Prime numbers are numbers that have only two distinct positive divisors: 1 and themselves.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "prime numbers",
+        "hi": "अभाज्य संख्याएँ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_019",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The sequence 2, 4, 6, 8 is an arithmetic progression.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "arithmetic progression",
+        "hi": "समांतर श्रेढ़ी"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_020",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The union of two sets A and B is denoted by A ∪ B.",
+    "risk_tags": [
+      "formula",
+      "terminology"
+    ],
+    "formula_tokens": [
+      "A ∪ B"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "union",
+        "hi": "सम्मिलन"
+      },
+      {
+        "en": "sets",
+        "hi": "समुच्चय"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_021",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A geometric progression is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "geometric progression",
+        "hi": "गुणोत्तर श्रेढ़ी"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_022",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The volume of a sphere is (4/3)πr³.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "(4/3)πr³"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "volume",
+        "hi": "आयतन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_023",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "In statistics, the median is the middle value in a given list of numbers when they are ordered.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "median",
+        "hi": "माध्यिका"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_024",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Standard deviation measures the amount of variation or dispersion of a set of values.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "standard deviation",
+        "hi": "मानक विचलन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_025",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source_en": "If f(x) = x², then the first derivative f'(x) is 2x.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "f(x) = x²",
+      "f'(x)",
+      "2x"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_026",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "An acute angle is an angle that measures less than 90 degrees.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "acute angle",
+        "hi": "न्यून कोण"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_027",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A vector space is a set that is closed under finite vector addition and scalar multiplication.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "vector space",
+        "hi": "सदिश समष्टि"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_028",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The limits of integration are from a to b.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "a",
+      "b"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "limits of integration",
+        "hi": "समाकलन की सीमाएँ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_029",
+    "domain": "Mathematics",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Let x and y be real numbers.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "x",
+      "y"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "real numbers",
+        "hi": "वास्तविक संख्याएँ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "MAT_030",
+    "domain": "Mathematics",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The determinant of a 2x2 matrix can be calculated as ad - bc.",
+    "risk_tags": [
+      "formula",
+      "terminology"
+    ],
+    "formula_tokens": [
+      "2x2",
+      "ad - bc"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "determinant",
+        "hi": "सारणिक"
+      },
+      {
+        "en": "matrix",
+        "hi": "आव्यूह",
+        "kn": "ಮಾತೃಕೆ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_001",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The chemical formula for water is H₂O.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "H₂O"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "chemical formula",
+        "hi": "रासायनिक सूत्र",
+        "kn": "ರಾಸಾಯನಿಕ ಸೂತ್ರ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_002",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Carbon dioxide is represented by CO₂.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "CO₂"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_003",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A molecule of water is formed by two hydrogen atoms and one oxygen atom.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "molecule",
+        "hi": "अणु",
+        "kn": "ಅಣು"
+      },
+      {
+        "en": "atoms",
+        "hi": "परमाणु",
+        "kn": "ಪರಮಾಣುಗಳು"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_004",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "definition",
+    "source_en": "An atom consists of a nucleus surrounded by electrons.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "atom",
+        "hi": "परमाणु",
+        "kn": "ಪರಮಾಣು"
+      },
+      {
+        "en": "nucleus",
+        "hi": "नाभिक"
+      },
+      {
+        "en": "electrons",
+        "hi": "इलेक्ट्रॉन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_005",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "In a covalent bond, pairs of electrons are shared between atoms.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "covalent bond",
+        "hi": "सहसंयोजक बंधन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_006",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Sodium chloride is commonly known as table salt (NaCl).",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "(NaCl)"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_007",
+    "domain": "Chemistry",
+    "difficulty": "long",
+    "content_type": "paragraph",
+    "source_en": "A chemical reaction is a process that leads to the chemical transformation of one set of chemical substances to another. Classically, chemical reactions encompass changes that only involve the positions of electrons in the forming and breaking of chemical bonds between atoms.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "chemical reaction",
+        "hi": "रासायनिक अभिक्रिया"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_008",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Acids are substances that can donate a proton (H⁺) to another substance.",
+    "risk_tags": [
+      "formula",
+      "terminology"
+    ],
+    "formula_tokens": [
+      "(H⁺)"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "acids",
+        "hi": "अम्ल"
+      },
+      {
+        "en": "proton",
+        "hi": "प्रोटॉन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_009",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The pH scale ranges from 0 to 14.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "pH scale",
+        "hi": "पीएच पैमाना"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_010",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Exothermic reactions release energy in the form of heat or light.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "exothermic reactions",
+        "hi": "ऊष्माक्षेपी अभिक्रियाएँ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_011",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Endothermic reactions absorb energy from their surroundings.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "endothermic reactions",
+        "hi": "ऊष्माशोषी अभिक्रियाएँ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_012",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Avogadro's number is approximately 6.022 × 10²³.",
+    "risk_tags": [
+      "formula"
+    ],
+    "formula_tokens": [
+      "6.022 × 10²³"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_013",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Isotopes are variants of a particular chemical element which differ in neutron number.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "isotopes",
+        "hi": "समस्थानिक"
+      },
+      {
+        "en": "neutron",
+        "hi": "न्यूट्रॉन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_014",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A catalyst is a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "catalyst",
+        "hi": "उत्प्रेरक"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_015",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The periodic table organizes elements based on their atomic number.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "periodic table",
+        "hi": "आवर्त सारणी"
+      },
+      {
+        "en": "atomic number",
+        "hi": "परमाणु क्रमांक"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_016",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Oxidation is the loss of electrons during a reaction by a molecule, atom or ion.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "oxidation",
+        "hi": "ऑक्सीकरण"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_017",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Reduction is the gain of electrons.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "reduction",
+        "hi": "अपचयन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_018",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A mole is defined as the amount of substance that contains as many elementary entities as there are atoms in 12 grams of carbon-12.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "mole",
+        "hi": "मोल"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_019",
+    "domain": "Chemistry",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation of carbon-containing compounds.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "organic chemistry",
+        "hi": "कार्बनिक रसायन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CHE_020",
+    "domain": "Chemistry",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The molar mass of water is approximately 18.015 g/mol.",
+    "risk_tags": [
+      "units"
+    ],
+    "formula_tokens": [
+      "g/mol"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "molar mass",
+        "hi": "मोलर द्रव्यमान"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_001",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "definition",
+    "source_en": "Photosynthesis is the process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "photosynthesis",
+        "hi": "प्रकाश संश्लेषण",
+        "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_002",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The cell is the basic structural and functional unit of all living organisms.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "cell",
+        "hi": "कोशिका"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_003",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "DNA (Deoxyribonucleic acid) carries the genetic instructions used in growth, development, functioning, and reproduction.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "DNA"
+    ],
+    "terminology_tokens": [
+      {
+        "en": "genetic",
+        "hi": "आनुवंशिक"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_004",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Mitochondria are known as the powerhouses of the cell because they generate most of the cell's supply of ATP.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "ATP"
+    ],
+    "terminology_tokens": [
+      {
+        "en": "mitochondria",
+        "hi": "माइटोकॉन्ड्रिया"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_005",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Osmosis is the spontaneous net movement of solvent molecules through a selectively permeable membrane.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "osmosis",
+        "hi": "परासरण"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_006",
+    "domain": "Biology",
+    "difficulty": "long",
+    "content_type": "paragraph",
+    "source_en": "Cellular respiration is a set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",
+    "risk_tags": [
+      "definition",
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "ATP"
+    ],
+    "terminology_tokens": [
+      {
+        "en": "cellular respiration",
+        "hi": "कोशिकीय श्वसन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_007",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Enzymes are proteins that act as biological catalysts by accelerating chemical reactions.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "enzymes",
+        "hi": "एंजाइम"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_008",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Mitosis is a part of the cell cycle in which replicated chromosomes are separated into two new nuclei.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "mitosis",
+        "hi": "समसूत्री विभाजन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_009",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "meiosis",
+        "hi": "अर्धसूत्री विभाजन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_010",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A gene is a sequence of nucleotides in DNA or RNA that encodes the synthesis of a gene product, either RNA or protein.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "DNA",
+      "RNA"
+    ],
+    "terminology_tokens": [
+      {
+        "en": "gene",
+        "hi": "जीन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_011",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "explanation",
+    "source_en": "Natural selection is the differential survival and reproduction of individuals due to differences in phenotype.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "natural selection",
+        "hi": "प्राकृतिक चयन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_012",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Ecology is the scientific study of interactions among organisms and their biophysical environment.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "ecology",
+        "hi": "पारिस्थितिकी"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_013",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Pathogens are infectious agents such as viruses, bacteria, prions, or fungi that can cause disease in their host.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "pathogens",
+        "hi": "रोगजनक"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_014",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The nervous system coordinates the actions of an animal and transmits signals to and from different parts of its body.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "nervous system",
+        "hi": "तंत्रिका तंत्र"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_015",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Hemoglobin is the iron-containing oxygen-transport metalloprotein in the red blood cells.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "hemoglobin",
+        "hi": "हीमोग्लोबिन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_016",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Antibodies are large, Y-shaped proteins used by the immune system to identify and neutralize foreign objects like pathogenic bacteria and viruses.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "antibodies",
+        "hi": "एंटीबॉडी"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_017",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Homeostasis is the state of steady internal, physical, and chemical conditions maintained by living systems.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "homeostasis",
+        "hi": "समस्थिति"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_018",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Chloroplasts are organelles that conduct photosynthesis.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "chloroplasts",
+        "hi": "हरितलवक"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_019",
+    "domain": "Biology",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Mutations are changes in the genetic sequence, and they are a main cause of diversity among organisms.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "mutations",
+        "hi": "उत्परिवर्तन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "BIO_020",
+    "domain": "Biology",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The food chain describes the linear sequence of organisms through which nutrients and energy pass as one organism eats another.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "food chain",
+        "hi": "खाद्य श्रृंखला"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_001",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "definition",
+    "source_en": "An algorithm is a step-by-step procedure for solving a problem.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "algorithm",
+        "hi": "एल्गोरिदम",
+        "kn": "ಅಲ್ಗಾರಿದಮ್"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_002",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Python and NumPy are used for matrix multiplication.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "Python",
+      "NumPy"
+    ],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_003",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "TensorFlow is an open-source machine learning framework.",
+    "risk_tags": [
+      "technical_term",
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "TensorFlow"
+    ],
+    "terminology_tokens": [
+      {
+        "en": "framework",
+        "hi": "फ्रेमवर्क",
+        "kn": "ಚೌಕಟ್ಟು"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_004",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "The web page is styled using HTML and CSS.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "HTML",
+      "CSS"
+    ],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_005",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "definition",
+    "source_en": "A database stores and retrieves structured information.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "database",
+        "hi": "डेटाबेस",
+        "kn": "ದತ್ತಸಂಚಯ"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_006",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "An API acts as an intermediary between two software applications.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "API"
+    ],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_007",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A variable is a storage location paired with an associated symbolic name, which contains some known or unknown quantity of information.",
+    "risk_tags": [
+      "terminology",
+      "morphology_risk"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "variable",
+        "hi": "चर"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_008",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A function is a sequence of program instructions that performs a specific task, packaged as a unit.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "function",
+        "hi": "फ़ंक्शन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_009",
+    "domain": "Computer Science",
+    "difficulty": "long",
+    "content_type": "paragraph",
+    "source_en": "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+    "risk_tags": [
+      "terminology",
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "OOP"
+    ],
+    "terminology_tokens": [
+      {
+        "en": "Object-oriented programming",
+        "hi": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_010",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Recursion occurs when a function calls itself directly or indirectly in its definition.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "recursion",
+        "hi": "पुनरावर्तन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_011",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A compiler is a computer program that translates computer code written in one programming language into another language.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "compiler",
+        "hi": "कंपाइलर"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_012",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Binary search runs in O(log n) time.",
+    "risk_tags": [
+      "formula",
+      "technical_term"
+    ],
+    "formula_tokens": [
+      "O(log n)"
+    ],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "Binary search",
+        "hi": "बाइनरी सर्च"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_013",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "An operating system manages computer hardware, software resources, and provides common services for computer programs.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "operating system",
+        "hi": "ऑपरेटिंग सिस्टम"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_014",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Machine learning is a subset of artificial intelligence that focuses on building systems that learn based on the data they consume.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "Machine learning",
+        "hi": "मशीन लर्निंग"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_015",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "linked list",
+        "hi": "लिंक्ड लिस्ट"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_016",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "The CPU (Central Processing Unit) is the primary component of a computer that acts as its brain.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "CPU"
+    ],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_017",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "Cryptography",
+        "hi": "क्रिप्टोग्राफी"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_018",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "hash table",
+        "hi": "हैश टेबल"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_019",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "Cloud computing",
+        "hi": "क्लाउड कंप्यूटिंग"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_020",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "A boolean data type can only take one of two possible values: true or false.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "true",
+      "false"
+    ],
+    "terminology_tokens": [
+      {
+        "en": "boolean",
+        "hi": "बूलियन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_021",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Garbage collection is a form of automatic memory management used by some programming languages.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "Garbage collection",
+        "hi": "गार्बेज कलेक्शन"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_022",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Polymorphism is the provision of a single interface to entities of different types.",
+    "risk_tags": [
+      "definition"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "Polymorphism",
+        "hi": "बहुरूपता"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_023",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "IP"
+    ],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_024",
+    "domain": "Computer Science",
+    "difficulty": "medium",
+    "content_type": "sentence",
+    "source_en": "Deep learning architectures such as deep neural networks have been applied to fields including computer vision and natural language processing.",
+    "risk_tags": [
+      "terminology"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [],
+    "terminology_tokens": [
+      {
+        "en": "Deep learning",
+        "hi": "डीप लर्निंग"
+      }
+    ],
+    "reference_status": "requires_human_validation"
+  },
+  {
+    "id": "CS_025",
+    "domain": "Computer Science",
+    "difficulty": "short",
+    "content_type": "sentence",
+    "source_en": "Git is a distributed version-control system for tracking changes in source code.",
+    "risk_tags": [
+      "technical_term"
+    ],
+    "formula_tokens": [],
+    "technical_tokens": [
+      "Git"
+    ],
+    "terminology_tokens": [],
+    "reference_status": "requires_human_validation"
+  }
+]
