@@ -4,7 +4,8 @@ import { useState } from 'react';
 export default function Header() {
   const navigate = useNavigate();
   const [mobileOpen, setMobileOpen] = useState(false);
-  const isAuthenticated = localStorage.getItem('stembridge_auth') === 'true';
+  const authToken = localStorage.getItem('stembridge_auth');
+  const isAuthenticated = authToken && authToken.length > 0 && authToken !== 'null' && authToken !== 'undefined';
 
   const handleLogout = () => {
     localStorage.removeItem('stembridge_auth');

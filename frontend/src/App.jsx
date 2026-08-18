@@ -9,7 +9,8 @@ import Help from './pages/Help';
 import './index.css';
 
 const ProtectedRoute = ({ children }) => {
-  const isAuthenticated = localStorage.getItem('stembridge_auth') === 'true';
+  const token = localStorage.getItem('stembridge_auth');
+  const isAuthenticated = token && token.length > 0 && token !== 'null' && token !== 'undefined';
   return isAuthenticated ? children : <Navigate to="/login" replace />;
 };
 

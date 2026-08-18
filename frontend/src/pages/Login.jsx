@@ -4,15 +4,55 @@ import Header from '../components/Header';
 
 export default function Login() {
   const navigate = useNavigate();
+  const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (email && password) {
-      localStorage.setItem('stembridge_auth', 'true');
-      navigate('/translate');
+      setLoading(true);
+      setError('');
+      try {
+        const endpoint = isLogin ? '/auth/login' : '/auth/signup';
+        const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'}${endpoint}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password })
+        });
+        
+        const data = await response.json();
+        
+        if (!response.ok) {
+          throw new Error(data.detail || 'Authentication failed');
+        }
+        
+        if (isLogin) {
+          localStorage.setItem('stembridge_auth', data.access_token);
+          navigate('/translate');
+        } else {
+          // Auto login after signup
+          const loginResp = await fetch(`${import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'}/auth/login`, {
+             method: 'POST',
+             headers: { 'Content-Type': 'application/json' },
+             body: JSON.stringify({ email, password })
+          });
+          const loginData = await loginResp.json();
+          if (loginResp.ok) {
+            localStorage.setItem('stembridge_auth', loginData.access_token);
+            navigate('/translate');
+          } else {
+             setIsLogin(true);
+             setError('Account created. Please log in.');
+          }
+        }
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
     } else {
       setError('Please enter both email and password.');
     }
@@ -29,8 +69,8 @@ export default function Login() {
         
         <div className="login-right">
           <div className="login-card">
-            <h2>Welcome back</h2>
-            <p>Sign in to your EduSetu workspace</p>
+            <h2>{isLogin ? 'Welcome back' : 'Create an account'}</h2>
+            <p>{isLogin ? 'Sign in to your EduSetu workspace' : 'Join EduSetu to start translating'}</p>
             
             <form onSubmit={handleSubmit}>
               <div className="form-group">
@@ -57,13 +97,19 @@ export default function Login() {
               
               {error && <div style={{ color: 'var(--orange-600)', fontSize: '0.875rem', marginBottom: '1rem', fontWeight: 600 }}>{error}</div>}
               
-              <button type="submit" className="button-primary" style={{ width: '100%', marginTop: '0.5rem' }}>
-                Sign In →
+              <button type="submit" className="button-primary" style={{ width: '100%', marginTop: '0.5rem' }} disabled={loading}>
+                {loading ? 'Processing...' : (isLogin ? 'Sign In →' : 'Sign Up →')}
               </button>
             </form>
             
-            <p style={{ marginTop: '1.5rem', textAlign: 'center', color: 'var(--muted)', fontSize: '0.75rem' }}>
-              For demonstration purposes, any email and password will work.
+            <p style={{ marginTop: '1.5rem', textAlign: 'center', color: 'var(--muted)', fontSize: '0.875rem' }}>
+              {isLogin ? "Don't have an account? " : "Already have an account? "}
+              <button 
+                onClick={() => { setIsLogin(!isLogin); setError(''); }}
+                style={{ background: 'none', border: 'none', color: 'var(--orange-500)', fontWeight: 600, cursor: 'pointer', padding: 0 }}
+              >
+                {isLogin ? 'Sign Up' : 'Sign In'}
+              </button>
             </p>
           </div>
         </div>

@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
     "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "wsl -e bash -c \"cd /mnt/d/SIH/backend && /mnt/d/SIH/gate1_venv/bin/python -m uvicorn api:app --reload --port 8000\""
+    "dev:backend": "wsl -e bash -c \"cd /mnt/d/SIH/backend && /mnt/d/SIH/gate1_venv/bin/python -m uvicorn api:app --reload --host 0.0.0.0 --port 8000\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

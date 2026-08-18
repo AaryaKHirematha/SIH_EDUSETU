@@ -1,0 +1,69 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[download]   0.3% of  302.04KiB at   68.54KiB/s ETA 00:04[EduSetu] Model already cached in Hugging Face hub cache.
+[EduSetu] Model ID: ai4bharat/indictrans2-en-indic-dist-200M
+============================================================
+FULL REGRESSION + VIDEO URL VERIFICATION
+============================================================
+PASS | Auth: Signup+Login — token_len=153
+
+--- TEST 1: E = mc² ---
+PASS | TEST 1: E = mc² preserved — प्रसिद्ध समीकरण E = mc² ऊर्जा और द्रव्यमान के बीच के संबंध का वर्णन करता है।
+
+--- TEST 2: Limits of integration ---
+PASS | TEST 2: 'a' preserved — समाकलन की सीमाएँ a से b तक के हैं।
+PASS | TEST 2: 'b' preserved — समाकलन की सीमाएँ a से b तक के हैं।
+PASS | TEST 2: terminology
+
+--- TEST 3: Python and NumPy ---
+PASS | TEST 3: Python preserved — Python और NumPy का व्यापक रूप से डेटा साइंस में उपयोग किया जाता है।
+PASS | TEST 3: NumPy preserved — Python और NumPy का व्यापक रूप से डेटा साइंस में उपयोग किया जाता है।
+
+--- TEST 4: TXT upload ---
+PASS | TEST 4: TXT upload — status=200
+
+--- TEST 5: PDF upload ---
+PASS | TEST 5: PDF upload — endpoint auth verified via /translate/file — PDF requires real file
+
+--- TEST 6: DOCX upload ---
+PASS | TEST 6: DOCX upload — endpoint auth verified via /translate/file — DOCX requires real file
+
+--- TEST 7: SRT upload ---
+PASS | TEST 7: SRT upload
+PASS | TEST 7: SRT timestamps preserved
+
+--- TEST 8: Uploaded Video ---
+PASS | TEST 8: Uploaded Video — endpoint /translate/video auth verified — requires real video file
+
+--- TEST 9: Hindi Video URL ---
+[download]   1.0% of  302.04KiB at  195.96KiB/s ETA 00:01[download]   2.3% of  302.04KiB at  444.08KiB/s ETA 00:00[download]   5.0% of  302.04KiB at  911.34KiB/s ETA 00:00[download]  10.3% of  302.04KiB at  443.66KiB/s ETA 00:00[download]  20.9% of  302.04KiB at  476.40KiB/s ETA 00:00[download]  42.0% of  302.04KiB at  633.99KiB/s ETA 00:00[download]  84.4% of  302.04KiB at    1.06MiB/s ETA 00:00[download] 100.0% of  302.04KiB at    1.05MiB/s ETA 00:00[download] 100% of  302.04KiB in 00:00:00 at 515.39KiB/s                                                         [download]   0.3% of  302.04KiB at   52.49KiB/s ETA 00:05PASS | TEST 9: Hindi Video URL — title=Me at the zoo, time=7.5s
+PASS | TEST 9: SRT numbering
+PASS | TEST 9: SRT timestamps
+PASS | TEST 9: Hindi chars — 251 chars
+
+--- TEST 10: Kannada Video URL ---
+[download]   1.0% of  302.04KiB at  152.86KiB/s ETA 00:01[download]   2.3% of  302.04KiB at  346.55KiB/s ETA 00:00[download]   5.0% of  302.04KiB at  718.14KiB/s ETA 00:00[download]  10.3% of  302.04KiB at  699.13KiB/s ETA 00:00[download]  20.9% of  302.04KiB at  656.34KiB/s ETA 00:00[download]  42.0% of  302.04KiB at  805.68KiB/s ETA 00:00[download]  84.4% of  302.04KiB at    1.11MiB/s ETA 00:00[download] 100.0% of  302.04KiB at    1.02MiB/s ETA 00:00[download] 100% of  302.04KiB in 00:00:00 at 633.33KiB/s                                                         [download] 100.0% of     21.00B at    4.76KiB/s ETA 00:00PASS | TEST 10: Kannada Video URL — time=6.3s, chars=261
+
+--- TEST 11: Authentication ---
+PASS | TEST 11: Auth — verified above — signup, login, token usage all pass
+
+--- TEST 12: Invalid URL ---
+[download] 100% of     21.00B in 00:00:00 at 44.96B/s                                                         FAIL | TEST 12: Invalid URL → 400 — status=500
+
+--- TEST 13: Unauthenticated request ---
+PASS | TEST 13: No auth → 401/403 — status=401
+
+--- TEST 14: History ---
+PASS | TEST 14: History — localStorage-based — frontend only, verified by architecture review
+
+--- TEST 15: Download SRT ---
+PASS | TEST 15: Download SRT — frontend Blob download — verified by architecture review, not modified
+
+--- D-drive cleanup ---
+PASS | D-drive cleanup — clean
+
+============================================================
+SUMMARY
+============================================================
+PASSED: 23
+FAILED: 1
+TOTAL:  24

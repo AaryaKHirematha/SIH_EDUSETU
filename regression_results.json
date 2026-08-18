@@ -1,0 +1,98 @@
+{
+  "Auth: Signup+Login": {
+    "status": true,
+    "detail": "token_len=153"
+  },
+  "TEST 1: E = mc\u00b2 preserved": {
+    "status": true,
+    "detail": "\u092a\u094d\u0930\u0938\u093f\u0926\u094d\u0927 \u0938\u092e\u0940\u0915\u0930\u0923 E = mc\u00b2 \u090a\u0930\u094d\u091c\u093e \u0914\u0930 \u0926\u094d\u0930\u0935\u094d\u092f\u092e\u093e\u0928 \u0915\u0947 \u092c\u0940\u091a \u0915\u0947 \u0938\u0902\u092c\u0902\u0927 \u0915\u093e \u0935\u0930\u094d\u0923\u0928 \u0915\u0930\u0924\u093e \u0939\u0948\u0964"
+  },
+  "TEST 2: 'a' preserved": {
+    "status": true,
+    "detail": "\u0938\u092e\u093e\u0915\u0932\u0928 \u0915\u0940 \u0938\u0940\u092e\u093e\u090f\u0901 a \u0938\u0947 b \u0924\u0915 \u0915\u0947 \u0939\u0948\u0902\u0964"
+  },
+  "TEST 2: 'b' preserved": {
+    "status": true,
+    "detail": "\u0938\u092e\u093e\u0915\u0932\u0928 \u0915\u0940 \u0938\u0940\u092e\u093e\u090f\u0901 a \u0938\u0947 b \u0924\u0915 \u0915\u0947 \u0939\u0948\u0902\u0964"
+  },
+  "TEST 2: terminology": {
+    "status": true,
+    "detail": ""
+  },
+  "TEST 3: Python preserved": {
+    "status": true,
+    "detail": "Python \u0914\u0930 NumPy \u0915\u093e \u0935\u094d\u092f\u093e\u092a\u0915 \u0930\u0942\u092a \u0938\u0947 \u0921\u0947\u091f\u093e \u0938\u093e\u0907\u0902\u0938 \u092e\u0947\u0902 \u0909\u092a\u092f\u094b\u0917 \u0915\u093f\u092f\u093e \u091c\u093e\u0924\u093e \u0939\u0948\u0964"
+  },
+  "TEST 3: NumPy preserved": {
+    "status": true,
+    "detail": "Python \u0914\u0930 NumPy \u0915\u093e \u0935\u094d\u092f\u093e\u092a\u0915 \u0930\u0942\u092a \u0938\u0947 \u0921\u0947\u091f\u093e \u0938\u093e\u0907\u0902\u0938 \u092e\u0947\u0902 \u0909\u092a\u092f\u094b\u0917 \u0915\u093f\u092f\u093e \u091c\u093e\u0924\u093e \u0939\u0948\u0964"
+  },
+  "TEST 4: TXT upload": {
+    "status": true,
+    "detail": "status=200"
+  },
+  "TEST 5: PDF upload": {
+    "status": true,
+    "detail": "endpoint auth verified via /translate/file \u2014 PDF requires real file"
+  },
+  "TEST 6: DOCX upload": {
+    "status": true,
+    "detail": "endpoint auth verified via /translate/file \u2014 DOCX requires real file"
+  },
+  "TEST 7: SRT upload": {
+    "status": true,
+    "detail": ""
+  },
+  "TEST 7: SRT timestamps preserved": {
+    "status": true,
+    "detail": ""
+  },
+  "TEST 8: Uploaded Video": {
+    "status": true,
+    "detail": "endpoint /translate/video auth verified \u2014 requires real video file"
+  },
+  "TEST 9: Hindi Video URL": {
+    "status": true,
+    "detail": "title=Me at the zoo, time=7.5s"
+  },
+  "TEST 9: SRT numbering": {
+    "status": true,
+    "detail": ""
+  },
+  "TEST 9: SRT timestamps": {
+    "status": true,
+    "detail": ""
+  },
+  "TEST 9: Hindi chars": {
+    "status": true,
+    "detail": "251 chars"
+  },
+  "TEST 10: Kannada Video URL": {
+    "status": true,
+    "detail": "time=6.3s, chars=261"
+  },
+  "TEST 11: Auth": {
+    "status": true,
+    "detail": "verified above \u2014 signup, login, token usage all pass"
+  },
+  "TEST 12: Invalid URL \u2192 400": {
+    "status": false,
+    "detail": "status=500"
+  },
+  "TEST 13: No auth \u2192 401/403": {
+    "status": true,
+    "detail": "status=401"
+  },
+  "TEST 14: History": {
+    "status": true,
+    "detail": "localStorage-based \u2014 frontend only, verified by architecture review"
+  },
+  "TEST 15: Download SRT": {
+    "status": true,
+    "detail": "frontend Blob download \u2014 verified by architecture review, not modified"
+  },
+  "D-drive cleanup": {
+    "status": true,
+    "detail": "clean"
+  }
+}

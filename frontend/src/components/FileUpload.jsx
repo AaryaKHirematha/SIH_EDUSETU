@@ -1,12 +1,9 @@
 import React, { useState, useRef } from 'react';
 
-export default function FileUpload({ onFileSelect }) {
+export default function FileUpload({ onFileSelect, supportedExtensions = ['txt', 'pdf', 'docx', 'srt', 'vtt', 'md'], maxSize = 10 * 1024 * 1024, accept = ".txt,.pdf,.docx,.srt,.vtt,.md" }) {
   const [dragActive, setDragActive] = useState(false);
   const [error, setError] = useState('');
   const inputRef = useRef(null);
-
-  const supportedExtensions = ['txt', 'pdf', 'docx', 'srt', 'vtt', 'md'];
-  const maxSize = 10 * 1024 * 1024; // 10MB
 
   const handleDrag = (e) => {
     e.preventDefault();
@@ -28,7 +25,7 @@ export default function FileUpload({ onFileSelect }) {
       return false;
     }
     if (file.size > maxSize) {
-      setError(`File is too large. Maximum supported size is 10 MB.`);
+      setError(`File is too large. Maximum supported size is ${maxSize / (1024 * 1024)} MB.`);
       return false;
     }
     return true;
@@ -71,7 +68,7 @@ export default function FileUpload({ onFileSelect }) {
           type="file" 
           ref={inputRef}
           onChange={handleChange}
-          accept=".txt,.pdf,.docx,.srt,.vtt,.md"
+          accept={accept}
           style={{ display: 'none' }}
         />
         
@@ -81,15 +78,15 @@ export default function FileUpload({ onFileSelect }) {
               <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </div>
-          <h3 className="upload-title">Upload English Content</h3>
+          <h3 className="upload-title">Upload File</h3>
           <p className="upload-subtitle">Drag & drop your file here</p>
           <div className="upload-or">or</div>
           <button className="button-secondary upload-browse-btn" onClick={(e) => { e.stopPropagation(); inputRef.current.click(); }}>
             Browse Files
           </button>
           <div className="upload-meta">
-            TXT · PDF · DOCX · SRT · VTT · MD<br/>
-            Max 10 MB
+            {supportedExtensions.map(e => e.toUpperCase()).join(' · ')}<br/>
+            Max {maxSize / (1024 * 1024)} MB
           </div>
         </div>
       </div>

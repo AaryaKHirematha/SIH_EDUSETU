@@ -1,0 +1,132 @@
+{
+  "results": {
+    "A: No auth \u2192 401/403": {
+      "status": true,
+      "detail": "status=401"
+    },
+    "B: Invalid token \u2192 401/403": {
+      "status": true,
+      "detail": "status=401"
+    },
+    "Signup": {
+      "status": true,
+      "detail": "email=urltest_1787061795@test.com"
+    },
+    "Login": {
+      "status": true,
+      "detail": "token_len=153"
+    },
+    "D: Text translation auth": {
+      "status": true,
+      "detail": "formula_preserved=True"
+    },
+    "D: E = mc\u00b2 preserved": {
+      "status": true,
+      "detail": "\u092a\u094d\u0930\u0938\u093f\u0926\u094d\u0927 \u0938\u092e\u0940\u0915\u0930\u0923 E = mc\u00b2 \u090a\u0930\u094d\u091c\u093e \u0914\u0930 \u0926\u094d\u0930\u0935\u094d\u092f\u092e\u093e\u0928 \u0915\u0947 \u092c\u0940\u091a \u0915\u0947 \u0938\u0902\u092c\u0902\u0927 \u0915\u093e \u0935\u0930\u094d\u0923\u0928 \u0915\u0930\u0924\u093e \u0939\u0948\u0964"
+    },
+    "E: MAT_028 auth": {
+      "status": true,
+      "detail": ""
+    },
+    "E: 'a' preserved": {
+      "status": true,
+      "detail": "\u0938\u092e\u093e\u0915\u0932\u0928 \u0915\u0940 \u0938\u0940\u092e\u093e\u090f\u0901 a \u0938\u0947 b \u0924\u0915 \u0915\u0947 \u0939\u0948\u0902\u0964"
+    },
+    "E: 'b' preserved": {
+      "status": true,
+      "detail": "\u0938\u092e\u093e\u0915\u0932\u0928 \u0915\u0940 \u0938\u0940\u092e\u093e\u090f\u0901 a \u0938\u0947 b \u0924\u0915 \u0915\u0947 \u0939\u0948\u0902\u0964"
+    },
+    "F: Python preserved": {
+      "status": true,
+      "detail": "Python \u0914\u0930 NumPy \u0915\u093e \u0935\u094d\u092f\u093e\u092a\u0915 \u0930\u0942\u092a \u0938\u0947 \u0921\u0947\u091f\u093e \u0938\u093e\u0907\u0902\u0938 \u092e\u0947\u0902 \u0909\u092a\u092f\u094b\u0917 \u0915\u093f\u092f\u093e \u091c\u093e\u0924\u093e \u0939\u0948\u0964"
+    },
+    "F: NumPy preserved": {
+      "status": true,
+      "detail": "Python \u0914\u0930 NumPy \u0915\u093e \u0935\u094d\u092f\u093e\u092a\u0915 \u0930\u0942\u092a \u0938\u0947 \u0921\u0947\u091f\u093e \u0938\u093e\u0907\u0902\u0938 \u092e\u0947\u0902 \u0909\u092a\u092f\u094b\u0917 \u0915\u093f\u092f\u093e \u091c\u093e\u0924\u093e \u0939\u0948\u0964"
+    },
+    "File translation auth": {
+      "status": true,
+      "detail": "status=200"
+    },
+    "C: Video URL Hindi auth": {
+      "status": true,
+      "detail": ""
+    },
+    "C: Hindi title": {
+      "status": true,
+      "detail": "Me at the zoo"
+    },
+    "C: Hindi provider": {
+      "status": true,
+      "detail": "Youtube"
+    },
+    "C: Hindi duration": {
+      "status": true,
+      "detail": "19s"
+    },
+    "C: Hindi transcript": {
+      "status": true,
+      "detail": "253 chars"
+    },
+    "C: Hindi translation": {
+      "status": true,
+      "detail": "251 chars"
+    },
+    "C: SRT numbering": {
+      "status": true,
+      "detail": ""
+    },
+    "C: SRT timestamps": {
+      "status": true,
+      "detail": ""
+    },
+    "C: Hindi total time": {
+      "status": true,
+      "detail": "17.20s"
+    },
+    "Kannada Video URL auth": {
+      "status": true,
+      "detail": ""
+    },
+    "Kannada translation": {
+      "status": true,
+      "detail": "261 chars"
+    },
+    "Kannada total time": {
+      "status": true,
+      "detail": "6.36s"
+    },
+    "D-drive temp cleanup": {
+      "status": true,
+      "detail": "clean"
+    }
+  },
+  "hi_time": 17.200037240982056,
+  "kn_time": 6.363910913467407,
+  "hi_result": {
+    "title": "Me at the zoo",
+    "provider": "Youtube",
+    "duration": 19,
+    "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+    "extracted_text": "1\n00:00:00,000 --> 00:00:14,000\nAlright, so here we are, one of the elephants, cool things about these guys is that they have really, really, really long thumbs, and that's cool.\n\n2\n00:00:17,000 --> 00:00:19,000\nAnd that's pretty much all I used to say.",
+    "translated_text": "1\n00:00:00,000 --> 00:00:14,000\n\u0920\u0940\u0915 \u0939\u0948, \u0924\u094b \u0939\u092e \u092f\u0939\u093e\u0901 \u0939\u0948\u0902, \u0939\u093e\u0925\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u0938\u0947 \u090f\u0915, \u0907\u0928 \u0932\u094b\u0917\u094b\u0902 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0905\u091a\u094d\u091b\u0940 \u092c\u093e\u0924 \u092f\u0939 \u0939\u0948 \u0915\u093f \u0909\u0928\u0915\u0947 \u092a\u093e\u0938 \u0935\u093e\u0938\u094d\u0924\u0935 \u092e\u0947\u0902, \u0935\u093e\u0938\u094d\u0924\u0935 \u092e\u0947\u0902, \u0935\u093e\u0938\u094d\u0924\u0935 \u092e\u0947\u0902 \u0932\u0902\u092c\u0947 \u0905\u0902\u0917\u0942\u0920\u0947 \u0939\u0948\u0902, \u0914\u0930 \u092f\u0939 \u0905\u091a\u094d\u091b\u093e \u0939\u0948\u0964\n\n2\n00:00:17,000 --> 00:00:19,000\n\u0914\u0930 \u092e\u0948\u0902 \u092c\u0938 \u0907\u0924\u0928\u093e \u0939\u0940 \u0915\u0939\u0924\u093e \u0925\u093e\u0964",
+    "language": "hi",
+    "formula_preserved": true,
+    "terminology_preserved": true,
+    "technical_identifiers_preserved": true,
+    "morphology_preserved": true
+  },
+  "kn_result": {
+    "title": "Me at the zoo",
+    "provider": "Youtube",
+    "duration": 19,
+    "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+    "extracted_text": "1\n00:00:00,000 --> 00:00:14,000\nAlright, so here we are, one of the elephants, cool things about these guys is that they have really, really, really long thumbs, and that's cool.\n\n2\n00:00:17,000 --> 00:00:19,000\nAnd that's pretty much all I used to say.",
+    "translated_text": "1\n00:00:00,000 --> 00:00:14,000\n\u0cb8\u0cb0\u0cbf, \u0c86\u0ca6\u0ccd\u0ca6\u0cb0\u0cbf\u0c82\u0ca6 \u0c87\u0cb2\u0ccd\u0cb2\u0cbf \u0ca8\u0cbe\u0cb5\u0cc1, \u0c86\u0ca8\u0cc6\u0c97\u0cb3\u0cb2\u0ccd\u0cb2\u0cbf \u0c92\u0cac\u0ccd\u0cac\u0cb0\u0cc1, \u0c88 \u0cb9\u0cc1\u0ca1\u0cc1\u0c97\u0cb0 \u0cac\u0c97\u0ccd\u0c97\u0cc6 \u0ca4\u0c82\u0caa\u0cbe\u0ca6 \u0cb5\u0cbf\u0cb7\u0caf\u0cb5\u0cc6\u0c82\u0ca6\u0cb0\u0cc6 \u0c85\u0cb5\u0cb0\u0cc1 \u0ca8\u0cbf\u0c9c\u0cb5\u0cbe\u0c97\u0cbf\u0caf\u0cc2, \u0ca8\u0cbf\u0c9c\u0cb5\u0cbe\u0c97\u0cbf\u0caf\u0cc2, \u0ca8\u0cbf\u0c9c\u0cb5\u0cbe\u0c97\u0cbf\u0caf\u0cc2 \u0c89\u0ca6\u0ccd\u0ca6\u0cb5\u0cbe\u0ca6 \u0cb9\u0cc6\u0cac\u0ccd\u0cac\u0cc6\u0cb0\u0cb3\u0cc1\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0cb0\u0cc6, \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0c85\u0ca6\u0cc1 \u0ca4\u0c82\u0caa\u0cbe\u0c97\u0cbf\u0ca6\u0cc6.\n\n2\n00:00:17,000 --> 00:00:19,000\n\u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0ca8\u0cbe\u0ca8\u0cc1 \u0cb9\u0cc7\u0cb3\u0cc1\u0cb5\u0cc1\u0ca6\u0cc1 \u0c87\u0cb7\u0ccd\u0c9f\u0cc7.",
+    "language": "kn",
+    "formula_preserved": true,
+    "terminology_preserved": true,
+    "technical_identifiers_preserved": true,
+    "morphology_preserved": true
+  }
+}

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+sqlalchemy
+PyJWT
+argon2-cffi
+pymupdf
+python-docx
+imageio-ffmpeg
+faster-whisper
+yt-dlp
