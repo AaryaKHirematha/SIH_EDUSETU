@@ -58,9 +58,10 @@ export default function History() {
                 
                 <div className="history-content">
                   <div className="history-col">
-                    <h4>{item.sourceType === 'file' ? 'Source File' : 'Source'}</h4>
+                    <h4>{item.sourceType === 'file' ? 'Source File' : item.sourceType === 'video' ? 'Source Video' : 'Source'}</h4>
                     <p>
                       {item.sourceType === 'file' && <span style={{display:'inline-block', marginRight:'0.25rem'}}>📄</span>}
+                      {item.sourceType === 'video' && <span style={{display:'inline-block', marginRight:'0.25rem'}}>🎬</span>}
                       {item.source}
                     </p>
                   </div>
@@ -78,6 +79,17 @@ export default function History() {
                   </div>
                   <div className="history-actions">
                     <button className="output-action" onClick={() => navigator.clipboard.writeText(item.translated)}>Copy</button>
+                    {item.sourceType === 'video' && (
+                      <button className="output-action" onClick={() => {
+                        const blob = new Blob([item.translated], { type: 'text/plain;charset=utf-8' });
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `translated_${item.lang}.srt`;
+                        a.click();
+                        URL.revokeObjectURL(url);
+                      }}>Download SRT</button>
+                    )}
                     <button className="output-action" style={{ color: '#ef4444' }} onClick={() => handleDelete(item.id)}>Delete</button>
                   </div>
                 </div>

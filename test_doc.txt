@@ -1,0 +1,5 @@
+The famous equation E = mc² describes the relationship between energy and mass.
+
+The limits of integration are from a to b.
+
+Python and NumPy are widely used in data science.

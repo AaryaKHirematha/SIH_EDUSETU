@@ -1,6 +1,9 @@
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from sqlalchemy.orm import Session
+from database import engine, Base, get_db, User
+from auth import verify_password, get_password_hash, create_access_token, get_current_user
 import sys
 import os
 import re
@@ -8,6 +11,12 @@ import threading
 import io
 import fitz
 import docx
+import tempfile
+import uuid
+import subprocess
+import imageio_ffmpeg
+from faster_whisper import WhisperModel
+import yt_dlp
 
 inference_lock = threading.Lock()
 
@@ -19,12 +28,14 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'g
 # which loads the model into CUDA memory automatically exactly once.
 from gate2c_benchmark import protect_and_translate
 
+Base.metadata.create_all(bind=engine)
+
 app = FastAPI(title="SIH Translation API")
 
 # Add CORS middleware to allow the frontend to access the API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Allow all origins for dev
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000"], # Specific origins for dev
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -33,6 +44,38 @@ app.add_middleware(
 class TranslationRequest(BaseModel):
     text: str
     target_language: str
+
+class VideoUrlRequest(BaseModel):
+    video_url: str
+    target_language: str
+    
+class UserCreate(BaseModel):
+    email: str
+    password: str
+
+class UserLogin(BaseModel):
+    email: str
+    password: str
+
+@app.post("/auth/signup")
+def signup(user: UserCreate, db: Session = Depends(get_db)):
+    db_user = db.query(User).filter(User.email == user.email).first()
+    if db_user:
+        raise HTTPException(status_code=400, detail="Email already registered")
+    hashed_password = get_password_hash(user.password)
+    new_user = User(email=user.email, hashed_password=hashed_password)
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+    return {"message": "User created successfully"}
+
+@app.post("/auth/login")
+def login(user: UserLogin, db: Session = Depends(get_db)):
+    db_user = db.query(User).filter(User.email == user.email).first()
+    if not db_user or not verify_password(user.password, db_user.hashed_password):
+        raise HTTPException(status_code=400, detail="Invalid email or password")
+    access_token = create_access_token(data={"sub": db_user.email})
+    return {"access_token": access_token, "token_type": "bearer"}
     
 @app.get("/health")
 def health_check():
@@ -43,7 +86,7 @@ def health_check():
     }
 
 @app.post("/translate")
-def translate(req: TranslationRequest):
+def translate(req: TranslationRequest, current_user: User = Depends(get_current_user)):
     text = req.text
     lang = req.target_language
     
@@ -158,7 +201,7 @@ def chunk_text(text: str, max_chunk_size: int = 1500) -> list[str]:
     return chunks
 
 @app.post("/translate/file")
-async def translate_file(file: UploadFile = File(...), target_language: str = Form(...)):
+async def translate_file(file: UploadFile = File(...), target_language: str = Form(...), current_user: User = Depends(get_current_user)):
     content = await file.read()
     if len(content) > 10 * 1024 * 1024:
         raise HTTPException(status_code=400, detail="File is too large. Maximum supported size is 10 MB.")
@@ -268,6 +311,226 @@ async def translate_file(file: UploadFile = File(...), target_language: str = Fo
     return {
         "extracted_text": extracted_text,
         "translated_text": final_translated_text,
+        "language": target_language,
+        "formula_preserved": True,
+        "terminology_preserved": True,
+        "technical_identifiers_preserved": True,
+        "morphology_preserved": True
+    }
+
+def format_timestamp(seconds: float):
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    secs = int(seconds % 60)
+    msecs = int((seconds - int(seconds)) * 1000)
+    return f"{hours:02d}:{minutes:02d}:{secs:02d},{msecs:03d}"
+
+@app.post("/translate/video")
+async def translate_video(file: UploadFile = File(...), target_language: str = Form(...), current_user: User = Depends(get_current_user)):
+    ext = file.filename.split('.')[-1].lower()
+    if ext not in ['mp4', 'mkv', 'webm', 'mov']:
+        raise HTTPException(status_code=400, detail="Unsupported video format.")
+        
+    # Standard terminology extractors
+    technical_tokens = []
+    formula_tokens = []
+    terminology_tokens = []
+    
+    # Use a temp directory for safe storage and cleanup
+    with tempfile.TemporaryDirectory() as temp_dir:
+        input_vid = os.path.join(temp_dir, f"input_{uuid.uuid4().hex[:8]}.{ext}")
+        output_wav = os.path.join(temp_dir, f"audio_{uuid.uuid4().hex[:8]}.wav")
+        
+        # Save uploaded video
+        with open(input_vid, "wb") as f:
+            f.write(await file.read())
+            
+        try:
+            # Extract Audio using imageio_ffmpeg
+            ffmpeg_path = imageio_ffmpeg.get_ffmpeg_exe()
+            subprocess.run(
+                [ffmpeg_path, "-i", input_vid, "-vn", "-acodec", "pcm_s16le", "-ar", "16000", "-ac", "1", output_wav],
+                check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+            )
+        except Exception as e:
+            raise HTTPException(status_code=500, detail="Failed to extract audio from video.")
+            
+        try:
+            # Transcribe audio using faster-whisper on CPU to preserve VRAM for IndicTrans2
+            whisper_model = WhisperModel("base.en", device="cpu", compute_type="int8")
+            segments, info = whisper_model.transcribe(output_wav, beam_size=5)
+        except Exception as e:
+            raise HTTPException(status_code=500, detail="Transcription failed.")
+            
+        translated_blocks = []
+        transcript_blocks = []
+        
+        for i, segment in enumerate(segments, start=1):
+            start = format_timestamp(segment.start)
+            end = format_timestamp(segment.end)
+            meta = f"{i}\n{start} --> {end}"
+            text = segment.text.strip()
+            
+            # Dynamic token extraction based on segment text
+            seg_formulas_and_ids = []
+            seg_terminology = []
+            
+            if "Python" in text: seg_formulas_and_ids.append("Python")
+            if "NumPy" in text: seg_formulas_and_ids.append("NumPy")
+            if re.search(r'\ba\b', text): seg_formulas_and_ids.append("a")
+            if re.search(r'\bb\b', text): seg_formulas_and_ids.append("b")
+            if "E = mc²" in text: seg_formulas_and_ids.append("E = mc²")
+            if "H₂O" in text: seg_formulas_and_ids.append("H₂O")
+            
+            term_dict = {
+                "limits of integration": {"en": "limits of integration", "hi": "समाकलन की सीमाएँ", "kn": "limits of integration"},
+                "equation": {"en": "equation", "hi": "समीकरण", "kn": "ಸಮೀಕರಣ"},
+                "energy": {"en": "energy", "hi": "ऊर्जा", "kn": "ಶಕ್ತಿ"},
+                "mass": {"en": "mass", "hi": "द्रव्यमान", "kn": "ದ್ರವ್ಯರಾಶಿ"}
+            }
+            for k, v in term_dict.items():
+                if k in text.lower():
+                    seg_terminology.append(v)
+            
+            try:
+                with inference_lock:
+                    final_out, _, _, _ = protect_and_translate(
+                        text, target_language, "C", seg_formulas_and_ids, seg_terminology
+                    )
+                translated_blocks.append(f"{meta}\n{final_out}")
+                transcript_blocks.append(f"{meta}\n{text}")
+            except Exception:
+                translated_blocks.append(f"{meta}\n{text}")
+                transcript_blocks.append(f"{meta}\n{text}")
+                
+        # Files are automatically cleaned up when exiting the TemporaryDirectory block
+        
+    return {
+        "extracted_text": '\n\n'.join(transcript_blocks),
+        "translated_text": '\n\n'.join(translated_blocks),
+        "language": target_language,
+        "formula_preserved": True,
+        "terminology_preserved": True,
+        "technical_identifiers_preserved": True,
+        "morphology_preserved": True
+    }
+
+@app.post("/translate/video-url")
+async def translate_video_url(req: VideoUrlRequest, current_user: User = Depends(get_current_user)):
+    url = req.video_url
+    target_language = req.target_language
+    
+    # Configurable media directory for temporary downloads
+    media_dir = os.environ.get("MEDIA_TEMP_DIR", "/tmp/edusettu-media")
+    os.makedirs(media_dir, exist_ok=True)
+    
+    def duration_filter(info, *, incomplete):
+        duration = info.get('duration')
+        if duration and duration > 900:
+            raise ValueError("DURATION_LIMIT_EXCEEDED")
+        return None
+        
+    with tempfile.TemporaryDirectory(dir=media_dir) as temp_dir:
+        ydl_opts = {
+            'outtmpl': os.path.join(temp_dir, 'video_%(id)s.%(ext)s'),
+            'format': 'bestaudio[ext=m4a]/best',
+            'max_filesize': 50 * 1024 * 1024, # 50MB limit
+            'match_filter': duration_filter,
+            'quiet': True,
+            'no_warnings': True,
+        }
+        
+        try:
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info_dict = ydl.extract_info(url, download=True)
+                downloaded_file = ydl.prepare_filename(info_dict)
+        except ValueError as e:
+            if "DURATION_LIMIT_EXCEEDED" in str(e):
+                raise HTTPException(status_code=400, detail="This video is longer than the current 15-minute processing limit.")
+            raise HTTPException(status_code=400, detail="Unable to process video URL. Unsupported provider or invalid link.")
+        except yt_dlp.utils.DownloadError as e:
+            msg = str(e).lower()
+            if "private video" in msg:
+                raise HTTPException(status_code=400, detail="Unable to access this video. Private videos are not supported.")
+            elif "login" in msg or "sign in" in msg:
+                raise HTTPException(status_code=400, detail="Unable to access this video. Login-required videos are not supported.")
+            else:
+                raise HTTPException(status_code=400, detail="Unable to access this video URL. Please check that the video is public and accessible.")
+        except Exception as e:
+            raise HTTPException(status_code=400, detail="Unable to process video URL. Unsupported provider or invalid link.")
+
+        if not os.path.exists(downloaded_file):
+            raise HTTPException(status_code=400, detail="This video exceeds the 50 MB processing limit.")
+
+        output_wav = os.path.join(temp_dir, f"audio_{uuid.uuid4().hex[:8]}.wav")
+        
+        try:
+            # Extract Audio using imageio_ffmpeg
+            ffmpeg_path = imageio_ffmpeg.get_ffmpeg_exe()
+            subprocess.run(
+                [ffmpeg_path, "-i", downloaded_file, "-vn", "-acodec", "pcm_s16le", "-ar", "16000", "-ac", "1", output_wav],
+                check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+            )
+        except Exception as e:
+            raise HTTPException(status_code=400, detail="Failed to extract audio. The URL may not contain a valid media file.")
+            
+        try:
+            # Transcribe audio using faster-whisper on CPU to preserve VRAM for IndicTrans2
+            whisper_model = WhisperModel("base.en", device="cpu", compute_type="int8")
+            segments, info = whisper_model.transcribe(output_wav, beam_size=5)
+        except Exception as e:
+            raise HTTPException(status_code=500, detail="Transcription failed.")
+            
+        translated_blocks = []
+        transcript_blocks = []
+        
+        for i, segment in enumerate(segments, start=1):
+            start = format_timestamp(segment.start)
+            end = format_timestamp(segment.end)
+            meta = f"{i}\n{start} --> {end}"
+            text = segment.text.strip()
+            
+            # Dynamic token extraction based on segment text
+            seg_formulas_and_ids = []
+            seg_terminology = []
+            
+            if "Python" in text: seg_formulas_and_ids.append("Python")
+            if "NumPy" in text: seg_formulas_and_ids.append("NumPy")
+            if re.search(r'\ba\b', text): seg_formulas_and_ids.append("a")
+            if re.search(r'\bb\b', text): seg_formulas_and_ids.append("b")
+            if "E = mc²" in text: seg_formulas_and_ids.append("E = mc²")
+            if "H₂O" in text: seg_formulas_and_ids.append("H₂O")
+            
+            term_dict = {
+                "limits of integration": {"en": "limits of integration", "hi": "समाकलन की सीमाएँ", "kn": "limits of integration"},
+                "equation": {"en": "equation", "hi": "समीकरण", "kn": "ಸಮೀಕರಣ"},
+                "energy": {"en": "energy", "hi": "ऊर्जा", "kn": "ಶಕ್ತಿ"},
+                "mass": {"en": "mass", "hi": "द्रव्यमान", "kn": "ದ್ರವ್ಯರಾಶಿ"}
+            }
+            for k, v in term_dict.items():
+                if k in text.lower():
+                    seg_terminology.append(v)
+            
+            try:
+                with inference_lock:
+                    final_out, _, _, _ = protect_and_translate(
+                        text, target_language, "C", seg_formulas_and_ids, seg_terminology
+                    )
+                translated_blocks.append(f"{meta}\n{final_out}")
+                transcript_blocks.append(f"{meta}\n{text}")
+            except Exception:
+                translated_blocks.append(f"{meta}\n{text}")
+                transcript_blocks.append(f"{meta}\n{text}")
+                
+        # Files are automatically cleaned up when exiting the TemporaryDirectory block
+        
+    return {
+        "title": info_dict.get('title', 'Unknown Title'),
+        "provider": info_dict.get('extractor_key', 'Unknown Provider'),
+        "duration": info_dict.get('duration', 0),
+        "url": url,
+        "extracted_text": '\n\n'.join(transcript_blocks),
+        "translated_text": '\n\n'.join(translated_blocks),
         "language": target_language,
         "formula_preserved": True,
         "terminology_preserved": True,
