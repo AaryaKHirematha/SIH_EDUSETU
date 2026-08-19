@@ -64,3 +64,6 @@ model_cache/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+!gate1_benchmark/model_cache/
+!gate1_benchmark/model_cache/pytorch_model.bin
